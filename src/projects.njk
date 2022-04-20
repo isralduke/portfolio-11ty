@@ -1,0 +1,15 @@
+---
+layout: base.njk
+title: Projects
+---
+<header>
+  <h1>{{ title }}</h1>
+</header>
+<main>
+  Yo
+  {% for project in collections.projects %}
+  <p>
+    <a href="{{ project.url }}">{{ project.data.title }}</a>
+  </p>
+  {% endfor %}
+</main>
