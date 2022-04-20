@@ -1,3 +1,43 @@
 ---
 title: Budget App
 ---
+
+### Project Role & Goal
+
+During the budget starter app project I was the User Researcher and the UX Designer. It’s a mobile application to teach time first-time budgeters about creating and sticking to a budget. It is not a financial management application such as Quicken or Mint. Its scope is purposely limited in features.
+
+### Target Audience
+
+The primary audience is young adults and young professionals. These users have never used a budget before and want to easily learn how to apply budget concepts.
+
+![Budget app personas, John and Lucy, representing two user groups.](/images/projects/budget-app/budget-app-personas-isral-duke.png)
+
+### Key Challenges
+
+The key challenges were to limit the features to just those features which will educate first-time budgeters about budget concepts. Features were often requested which fall outside of the simple scope. Such features will be considered for later addition.
+
+### Research
+
+I conducted remote and in-person interviews for a wide range of ages. Participants ranged from early twenties to late fifties. I asked the participants to use the think aloud method as they completed key tasks and explained what they thought to be each screen’s purpose.
+
+### Initial Design Concepts
+
+Paper sketches were used to capture initial design ideas, using crazy 8 methodology. Some cues were taken from existing budget apps’ features, reducing complexity.
+
+![Initial design concept sketches for the budget app.](/images/projects/budget-app/budget-app-initial-concepts-designed-isral-duke.png)
+
+### Digital Wireframes
+
+The best ideas from initial design concepts were translated into digital wireframes.
+
+![Digital wireframes created from the best hand sketches.](/images/projects/budget-app/budget-app-wireframes-designed-isral-duke.png)
+
+### Usability Testing
+
+Usability testing data was recorded in a spreadsheet for each of the participants and in affinity diagrams. Two of the users were self-reported as dyslexic readers. The dyslexic users found the application easy to scan and read. All participants’ feedback were taken into consideration for a second round of wireframes.
+
+![Affinity diagrams distilled from usability testing insights.](/images/projects/art-gallery-app/art-gallery-app-usability-testing-performed-isral-duke.png)
+
+### Conclusion
+
+Budget Buddy’s future depends on the signups using its service. Future feature releases will be considered from the perspective of learning about budget concepts. Features which align more closely to financial management apps will probably be ignored as that doesn’t align with Budget Buddy’s mission.
