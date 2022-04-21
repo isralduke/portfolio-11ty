@@ -1,0 +1,25 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://isralduke.com/</loc>
+    <lastmod>2022-04-14T14:05:00.024Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isralduke.com/about</loc>
+    <lastmod>2022-04-14T14:05:00.024Z</lastmod>
+  </url>
+  <url>
+    <loc>https://isralduke.com/projects</loc>
+    <lastmod>2022-04-14T14:05:00.024Z</lastmod>
+  </url>
+  {% for project in collections.projects %}
+  <url>
+      <loc>https://isralduke.com{{ project.url | url }}</loc>
+      <lastmod>{{ page.date.toISOString() }}</lastmod>
+  </url>
+  {% endfor %}
+</urlset>
