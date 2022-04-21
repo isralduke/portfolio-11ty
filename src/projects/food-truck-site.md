@@ -2,7 +2,7 @@
 title: ' | Food Truck Site'
 projectName: Food Truck Site
 projectLeadSentence: A responsive website for a food truck allows visitors to find its daily location and pay ahead.
-projectImgSrc1: /images/projects/food-truck-site/food-truck-site-canvas-designed-isral-duke.jpg
+projectImgSrc1: /images/projects/food-truck-site/food-truck-site-designed-isral-duke.jpg
 projectImageAlt1: Food truck responsive web site being presented on iPads and iPhones.
 projectImgSrc2: /images/projects/food-truck-site/food-truck-site-mockups-designed-isral-duke-set-2.png
 projectImageAlt2: Two phone screens, one with the home page of the food truck site, and the other phone with the food detail screen.
@@ -13,6 +13,7 @@ projectImageAlt4: A view of some of design screens which comprise the food truck
 projectPrototypeLink: https://www.figma.com/proto/pPlHakn8QYDpx2taE25BGE/Street-Food-Vendor?page-id=418%3A151920&node-id=67%3A1184&viewport=241%2C48%2C0.5&scaling=scale-down&starting-point-node-id=67%3A1184
 projectDesignFile: https://www.figma.com/file/pPlHakn8QYDpx2taE25BGE/Street-Food-Vendor?node-id=418%3A129636
 socialImage: https://isralduke.com/images/projects/food-truck-site/food-truck-site-designed-isral-duke.jpg
+date: 2021-11-27
 ---
 
 ### Project Role & Goal

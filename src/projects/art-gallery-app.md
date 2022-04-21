@@ -13,6 +13,7 @@ projectImageAlt4: A view of some of design screens which comprise the art galler
 projectPrototypeLink: https://www.figma.com/proto/Hh5HjU7yPB3WbHwYxFKIDj/Art-Gallery-Tour?page-id=138%3A932&node-id=138%3A940&viewport=241%2C48%2C0.11&scaling=scale-down&
 projectDesignFile: https://www.figma.com/file/Hh5HjU7yPB3WbHwYxFKIDj/gallerWeMe-art-gallery?node-id=138%3A932
 socialImage: https://isralduke.com/images/projects/art-gallery-app/art-gallery-app-designed-isral-duke.jpg
+date: 2021-11-20
 ---
 
 ### Project Role & Goal

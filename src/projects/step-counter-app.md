@@ -13,6 +13,7 @@ projectImageAlt4: A view of the screen designs screens which comprise the step c
 projectPrototypeLink: https://apps.apple.com/us/app/duffy-steps-complication/id1207581673
 projectDesignFile: https://www.figma.com/file/Qx7rW9DLGHgGCmEcFkFwL0/Duffy?node-id=67%3A254
 socialImage: https://isralduke.com/images/projects/step-counter-app/step-counter-app-designed-patrick-rills-isral-duke.jpg
+date: 2021-11-21
 ---
 
 ### Overview

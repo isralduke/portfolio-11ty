@@ -13,6 +13,7 @@ projectImageAlt4: A view of some of design screens which comprise the budget app
 projectPrototypeLink: https://www.figma.com/proto/he8ruRik6mfojjhDm53qgv/Budget-Buddy?node-id=135%3A1593&scaling=scale-down&page-id=115%3A1649&starting-point-node-id=135%3A1592
 projectDesignFile: https://www.figma.com/file/he8ruRik6mfojjhDm53qgv/Budget-Buddy?node-id=115%3A1649
 socialImage: https://isralduke.com/images/projects/budget-app/budget-app-designed-isral-duke.jpg
+date: 2021-11-22
 ---
 
 ### Project Role & Goal

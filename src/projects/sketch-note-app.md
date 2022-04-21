@@ -13,6 +13,7 @@ projectImageAlt4: A view of some of design screens which comprise the sketch not
 projectPrototypeLink: https://www.figma.com/proto/9QpaowpepugdTBfLypuW3i/Squiddle?page-id=0%3A1&node-id=3%3A6&viewport=241%2C48%2C0.34&scaling=scale-down&starting-point-node-id=6%3A338
 projectDesignFile: https://www.figma.com/file/9QpaowpepugdTBfLypuW3i/Squiddle?node-id=0%3A1
 socialImage: https://isralduke.com/images/projects/sketch-note-app/sketch-note-app-designed-patrick-rills-isral-duke.jpg 
+date: 2021-11-25
 ---
 
 ### Overview

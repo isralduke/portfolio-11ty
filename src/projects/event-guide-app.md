@@ -13,6 +13,7 @@ projectImageAlt4: A view of some of design screens which comprise the event guid
 projectPrototypeLink: https://www.figma.com/proto/4EtTiMKTB2q2TOmenmbnJM/SQL-Sat-Guidebook?page-id=0%3A1&node-id=4%3A1383&viewport=241%2C48%2C0.25&scaling=scale-down&starting-point-node-id=0%3A76
 projectDesignFile: https://www.figma.com/file/4EtTiMKTB2q2TOmenmbnJM/?node-id=0%3A1
 socialImage: https://isralduke.com/images/projects/event-guide-app/event-guide-app-designed-isral-duke.jpg
+date: 2021-11-26
 ---
 
 Mobile app provides conference attendees quick access to relevant details and schedule information.
