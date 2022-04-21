@@ -1,0 +1,22 @@
+$azure: #0082BB;
+$violet: #952D98;
+$crimson: #E00034;
+$black: fade-out(#000000, .04);
+$grey-dark: fade-out(#000000, .25);
+$grey-medium: fade-out(#000000, .50);
+$grey-light: fade-out(#000000, .75);
+$white: fade-out(#ffffff, .04);
+$light: $white;
+$dark: $violet;
+
+$navbar-dark-brand-color: $white;
+$navbar-dark-brand-hover-color: $navbar-dark-brand-color;
+$navbar-dark-color: $white;
+$navbar-dark-hover-color: $navbar-dark-color;
+
+$btn-border-radius: 20px;
+$input-btn-border-width: 2px;
+$input-bg: fade-out($white, .25);
+$input-border-color: transparent;
+
+$font-family-sans-serif:      ratio, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;

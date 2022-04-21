@@ -1,7 +1,4 @@
 @import 'vars';
+@import 'texture-bgs';
 @import 'bootstrap/bootstrap.scss';
-
-body {
-  font-family: sans-serif;
-  background-color: #f9f9f9;
-}
+@import 'custom';
