@@ -31,4 +31,4 @@ The driver needs fast, a fews taps as possible access to present their license t
 
 ### Conclusion
 
-The digital driver’s license is called La Wallet. It’s designed, developed, and owned by Envoc, a software agency in Louisiana, where I worked on La Wallet as the UX Designer while I was an employee.
+The digital driver’s license is called <a href="https://lawallet.com" target="_blank">La Wallet</a>. It’s designed, developed, and owned by <a href="https://envoc.com" target="_blank">Envoc</a>, a software agency in Louisiana, where I worked on La Wallet as the UX Designer while I was an employee.

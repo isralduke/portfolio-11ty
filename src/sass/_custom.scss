@@ -222,7 +222,6 @@ background-attachment: fixed;
   background-attachment: fixed;
 }
 .projects-block {
-  
   color: $white;
 }
 .project-item {
@@ -272,6 +271,7 @@ background-attachment: fixed;
   }
   img {
     @extend .img-fluid;
+    transform: scale(1.05);
   }
   h4, h5, h6 {
     color: $black;
@@ -279,6 +279,18 @@ background-attachment: fixed;
   }
   p {
     color: $grey-dark;
+    a {
+      text-decoration: none;
+      border-bottom: 1px solid lighten($azure, 25%);
+      transition: $transition-base;
+      background-color: transparent;
+      &:hover {
+        background-color: fade-out($azure, .85);
+      }
+      &:active {
+        background-color: fade-out($violet, .85);
+      }
+    }
   }
 }
 .tryit-block {
@@ -320,7 +332,6 @@ background-color: $grey-dark;
     }
   }
 }
-
 .form-group {
   @extend .position-relative;
   .fas {
@@ -345,23 +356,10 @@ background-color: $grey-dark;
     }
   }
 }
-figcaption {
-  @extend .small;
-  @extend .text-center;
-  margin: 4px 0 2rem;
-  color: $grey-medium;
-}
-figure {
-  transform: scale(1.1);
-  img {
-    margin: 1rem 0 0;
-  }
-}
 .thumbnail-link, .project-prototype {
   @extend .d-block;
 }
 // focus styles
-
 .navbar-dark .navbar-brand:focus, 
 .navbar-dark .navbar-nav .nav-link:focus {
   outline: none;

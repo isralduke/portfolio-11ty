@@ -19,7 +19,7 @@ Mobile app provides conference attendees quick access to relevant details and sc
 
 ### Overview
 
-SQL Saturday is an annual developer-focused event which hosts talks and presentations on various .NET, SQL, and other technical topics.
+<a href="https://sqlsaturday.com/2022-08-06-sqlsaturday1026/" target="_blank">SQL Saturday Baton Rouge, LA</a> is an annual developer-focused event which hosts talks and presentations on various .NET, SQL, and other technical topics.
 
 ### Target Audience
 
