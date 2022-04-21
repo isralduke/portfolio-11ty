@@ -1,14 +1,27 @@
 ---
-layout: base.njk
-title: Projects
-bodyClass: projects
+title: isral Duke | Projects
+layout: base
+bodyclass: projects
+socialImage: https://isralduke.com/images/photos/isral-crop-1024.jpg
 projectLeadSentence: Mobile app and site projects completed by isral Duke. He is a Google, Adobe, and W3C certified UX Designer.
 ---
-<main>
-  Yo
+
+<div class="blck projects-block">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-10 offset-1">
+        <h2 class="h2 text-uppercase">
+          <img src="/images/svg/icon-projects.svg" alt="" aria-hidden="true">
+          Projects
+        </h2>
+      </div>
+    </div>
+  </div>
   {% for project in collections.projects %}
   <p>
     <a href="{{ project.url }}">{{ project.data.title }}</a>
   </p>
   {% endfor %}
-</main>
+</div>
+{% include 'certifications-block.njk' %}
+{% include 'skills-block.njk' %}
