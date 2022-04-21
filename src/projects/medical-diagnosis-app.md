@@ -1,5 +1,6 @@
 ---
-title: Medical Diagnosis App
+title: ' | Medical Diagnosis App'
+projectName: Medical Diagnosis App
 projectLeadSentence: Web application allows licensed medical personnel to remotely diagnose patients. 
 projectImgSrc1: /images/projects/medical-diagnosis-app/medical-diagnosis-app-user-interface-designed-isral-duke.jpg
 projectImageAlt1: App screen designs for the medical diagnosis app.

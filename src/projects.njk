@@ -1,18 +1,18 @@
 ---
-title: isral Duke | Projects
+title: ' | Projects'
 layout: base
 bodyclass: projects
 socialImage: https://isralduke.com/images/photos/isral-crop-1024.jpg
 projectLeadSentence: Mobile app and site projects completed by isral Duke. He is a Google, Adobe, and W3C certified UX Designer.
 ---
 
-<div class="blck projects-block">
+<div class="block projects-block">
   <div class="container-fluid">
     <div class="row">
       <div class="col-10 offset-1">
         <h2 class="h2 text-uppercase">
           <img src="/images/svg/icon-projects.svg" alt="" aria-hidden="true">
-          Projects
+          Projects <span class="visually-hidden">Completed</span>
         </h2>
       </div>
     </div>
@@ -27,7 +27,7 @@ projectLeadSentence: Mobile app and site projects completed by isral Duke. He is
           </a>
         </div>
         <div class="col-10 offset-1 col-md-4">
-          <h3 class="h2">{{ project.data.title }}</h3>
+          <h3 class="h2">{{ project.data.projectName }}</h3>
           <p class="opacity-85">{{ project.data.projectLeadSentence }}</p>
           <a href="{{ project.url }}" class="btn btn-outline-light">
             See Project

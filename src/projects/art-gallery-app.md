@@ -1,5 +1,6 @@
 ---
-title: Art Gallery App
+title: ' | Art Gallery App'
+projectName: Art Gallery App
 projectLeadSentence: Mobile app allows art gallery visitors to plan trips, see current artwork collections and buy tickets.
 projectImgSrc1: /images/projects/art-gallery-app/art-gallery-app-designed-isral-duke.jpg
 projectImageAlt1: iPhones on a table with the art gallery app on their screens. 

@@ -1,5 +1,6 @@
 ---
-title: Step Counter App
+title: ' | Step Counter App'
+projectName: Step Counter App
 projectLeadSentence: An Apple watchOS and iOS step counter app which gives users a quick glance at their steps.
 projectImgSrc1: /images/projects/step-counter-app/step-counter-app-designed-patrick-rills-isral-duke.jpg
 projectImageAlt1: App screen designs on iPhone and Apple Watch for the step counter app.

@@ -1,5 +1,5 @@
 ---
-title: About
+title: ' | About'
 layout: about
 projectLeadSentence: Isral Duke is a Google, Adobe, and W3C certified UX Designer. He has a decade of experience doing User Experience, User Interface, and Interaction Design in software.
 projectImgSrc1: /images/photos/isral-sketch-in-situ.jpg
