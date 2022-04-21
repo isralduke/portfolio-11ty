@@ -1,5 +1,17 @@
 ---
 title: Art Gallery App
+projectLeadSentence: Mobile app allows art gallery visitors to plan trips, see current artwork collections and buy tickets.
+projectImgSrc1: /images/projects/art-gallery-app/art-gallery-app-designed-isral-duke.jpg
+projectImageAlt1: iPhones on a table with the art gallery app on their screens. 
+projectImgSrc2: /images/projects/art-gallery-app/art-gallery-app-mockups-designed-isral-duke-set-2.png
+projectImageAlt2: Two phones, one with the home screen of the art gallery app, the other with an art collections screen of the app.
+projectImgSrc3: /images/projects/art-gallery-app/art-gallery-app-mockups-designed-isral-duke-set-3.png
+projectImageAlt3: Two phones, one with the ticket purchase process started and the other with the ticket purchase confirmation.
+projectImgSrc4: /images/projects/art-gallery-app/art-gallery-app-canvas-designed-isral-duke.png
+projectImageAlt4: A view of some of design screens which comprise the art gallery app.
+projectPrototypeLink: https://www.figma.com/proto/Hh5HjU7yPB3WbHwYxFKIDj/Art-Gallery-Tour?page-id=138%3A932&node-id=138%3A940&viewport=241%2C48%2C0.11&scaling=scale-down&
+projectDesignFile: https://www.figma.com/file/Hh5HjU7yPB3WbHwYxFKIDj/gallerWeMe-art-gallery?node-id=138%3A932
+socialImage: https://isralduke.com/images/projects/art-gallery-app/art-gallery-app-designed-isral-duke.jpg
 ---
 
 ### Project Role & Goal

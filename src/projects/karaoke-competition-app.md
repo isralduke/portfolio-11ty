@@ -1,5 +1,17 @@
 ---
 title: Karaoke Competition App
+projectLeadSentence: iOS application allows patrons to create and participate in ad hoc karaoke competitions.
+projectImgSrc1: /images/projects/karaoke-competition-app/karaoke-competition-app-adobe-creative-jam-winner-michael-alford-isral-duke.jpg
+projectImageAlt1: iPhones showing the screen designs for the karaoke competiton app.
+projectImgSrc2: /images/projects/karaoke-competition-app/karaoke-competition-app-designed-michael-alford-isral-duke-set-2.png
+projectImageAlt2: Two iPhones, one with the home page of the karaoke competition app, and the other phone with the screen to set team name.
+projectImgSrc3: /images/projects/karaoke-competition-app/karaoke-competition-app-designed-michael-alford-isral-duke-set-3.png
+projectImageAlt3: Two iPhones, one showing the music genre selection screen, and other showing the song selection screen.
+projectImgSrc4: /images/projects/karaoke-competition-app/karaoke-competition-app-canvas-designed-isral-duke-michael-alford.jpg
+projectImageAlt4:
+projectPrototypeLink: https://www.figma.com/proto/tPBiKe1NLVwLuJcD0875Ko/Karaoke-Competition?page-id=0%3A1&node-id=1%3A2&viewport=241%2C48%2C0.25&scaling=scale-down&starting-point-node-id=1%3A2
+projectDesignFile: https://www.figma.com/file/tPBiKe1NLVwLuJcD0875Ko/Karaoke-Competition?node-id=0%3A1
+socialImage: https://isralduke.com/images/projects/karaoke-competition-app/karaoke-competition-app-adobe-creative-jam-winner-michael-alford-isral-duke.jpg
 ---
 ### User & Audience
 

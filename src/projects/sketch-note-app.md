@@ -1,5 +1,17 @@
 ---
 title: Sketch Note App
+projectLeadSentence: Sketch note app allows users to create quick sticky notes on their phones.
+projectImgSrc1: /images/projects/sketch-note-app/sketch-note-app-designed-patrick-rills-isral-duke.jpg
+projectImageAlt1: App screen designs for the sketch note app.
+projectImgSrc2: /images/projects/sketch-note-app/sketch-note-app-mockups-designed-isral-duke-set-2.jpg
+projectImageAlt2: An iPhone 8 held in front of a computer screen. The screen of the iPhone has the home screen of Squiddle.
+projectImgSrc3: /images/projects/sketch-note-app/sketch-note-app-mockups-designed-isral-duke-set-3.jpg
+projectImageAlt3: An iPhone 8 with showing the screen for an individual note. A happy face is drawn on the note.
+projectImgSrc4: /images/projects/sketch-note-app/sketch-note-app-canvas-designed-isral-duke.png
+projectImageAlt4: A view of some of design screens which comprise the sketch note app.
+projectPrototypeLink: https://www.figma.com/proto/9QpaowpepugdTBfLypuW3i/Squiddle?page-id=0%3A1&node-id=3%3A6&viewport=241%2C48%2C0.34&scaling=scale-down&starting-point-node-id=6%3A338
+projectDesignFile: https://www.figma.com/file/9QpaowpepugdTBfLypuW3i/Squiddle?node-id=0%3A1
+socialImage: https://isralduke.com/images/projects/sketch-note-app/sketch-note-app-designed-patrick-rills-isral-duke.jpg 
 ---
 
 ### Overview

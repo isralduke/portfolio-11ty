@@ -16,4 +16,4 @@ With <a href="https://courses.edx.org/certificates/42dc6997e0c4460f885d0763411de
 
 ### Personal
 
-In my free time, when I am not doing grad school, I like to draw, read, and ride my bike, get coffee with friends, and enjoy warm weather.
+In my free time, when I am not doing grad school work, I like to draw, read, and ride my bike with my wife, get coffee with friends, and enjoy warm weather.

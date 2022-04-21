@@ -1,5 +1,17 @@
 ---
 title: Medical Diagnosis App
+projectLeadSentence: Web application allows licensed medical personnel to remotely diagnose patients. 
+projectImgSrc1: /images/projects/medical-diagnosis-app/medical-diagnosis-app-user-interface-designed-isral-duke.jpg
+projectImageAlt1: App screen designs for the medical diagnosis app.
+projectImgSrc2: /images/projects/medical-diagnosis-app/medical-diagnosis-app-designed-isral-duke-set-2.jpg
+projectImageAlt2: A laptop showing the dashboard screen of the medical diagnosis app.
+projectImgSrc3: /images/projects/medical-diagnosis-app/medical-diagnosis-app-designed-isral-duke-set-3.jpg
+projectImageAlt3: A laptop showing the patient queue screen of the medical diagnosis app.
+projectImgSrc4: /images/projects/medical-diagnosis-app/medical-diagnosis-app-canvas-designed-isral-duke.jpg
+projectImageAlt4: A view of some of design screens which comprise the medical diagnosis app.
+projectPrototypeLink: https://www.figma.com/proto/3eZwSoXFfOuMdku5Vi9tfC/Telemedicine-Design?page-id=5%3A11973&node-id=0%3A122&viewport=241%2C48%2C0.12&scaling=scale-down&starting-point-node-id=0%3A122
+projectDesignFile: https://www.figma.com/file/3eZwSoXFfOuMdku5Vi9tfC/Telemedicine-Design?node-id=5%3A11973
+socialImage: https://isralduke.com/images/projects/medical-diagnosis-app/medical-diagnosis-app-user-interface-designed-isral-duke.jpg
 ---
 
 ### Overview

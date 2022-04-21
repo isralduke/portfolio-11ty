@@ -1,5 +1,17 @@
 ---
 title: Digital Driver’s License App
+projectLeadSentence: Mobile app allows drivers to substitute their phones for a physical license for traffic purposes.
+projectImgSrc1: /images/projects/digital-drivers-license-app/digital-drivers-license-app-designed-envoc-isral-duke.jpg
+projectImageAlt1: App screen designs for the digital driver’s license app.
+projectImgSrc2: /images/projects/digital-drivers-license-app/digital-drivers-license-app-designed-isral-duke-set-2.jpg
+projectImageAlt2: An iPhone 8 showing the home screen of the digital driver’s license app.
+projectImgSrc3: /images/projects/digital-drivers-license-app/digital-drivers-license-app-designed-isral-duke-set-3.jpg
+projectImageAlt3: An iPhone 8 showing the license preview screen of the digital driver’s license app.
+projectImgSrc4: /images/projects/digital-drivers-license-app/digital-drivers-license-app-canvas-designed-isral-duke.jpg
+projectImageAlt4: A view of some of design screens which comprise the digital driver’s license app.
+projectPrototypeLink: https://apps.apple.com/us/app/la-wallet/id1386930269
+projectDesignFile: https://www.figma.com/file/ij8qjFQ387MBGRYDJWOWAw/Digital-Driver%E2%80%99s-License?node-id=0%3A1
+socialImage: https://isralduke.com/images/projects/digital-drivers-license-app/digital-drivers-license-app-designed-envoc-isral-duke.jpg
 ---
 
 ### Project Role & Goal

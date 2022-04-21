@@ -1,5 +1,17 @@
 ---
 title: Event Guide App
+projectLeadSentence: Mobile app provides conference attendees quick access to relevant presentation details and schedule information.
+projectImgSrc1: /images/projects/event-guide-app/event-guide-app-designed-isral-duke.jpg
+projectImageAlt1: App screen designs for the event guide app.
+projectImgSrc2: /images/projects/event-guide-app/event-guide-app-mockups-designed-isral-duke-set-2.png
+projectImageAlt2: Two phone screens, one with the home screen design, the other with speaker session information.
+projectImgSrc3: /images/projects/event-guide-app/event-guide-app-mockups-designed-isral-duke-set-3.png
+projectImageAlt3: Two phone screens, one showing the presentation categories, and the other showing a speaker’s biography.
+projectImgSrc4: /images/projects/event-guide-app/event-guide-app-canvas-designed-isral-duke.jpg
+projectImageAlt4: A view of some of design screens which comprise the event guide app.
+projectPrototypeLink: https://www.figma.com/proto/4EtTiMKTB2q2TOmenmbnJM/SQL-Sat-Guidebook?page-id=0%3A1&node-id=4%3A1383&viewport=241%2C48%2C0.25&scaling=scale-down&starting-point-node-id=0%3A76
+projectDesignFile: https://www.figma.com/file/4EtTiMKTB2q2TOmenmbnJM/?node-id=0%3A1
+socialImage: https://isralduke.com/images/projects/event-guide-app/event-guide-app-designed-isral-duke.jpg
 ---
 
 Mobile app provides conference attendees quick access to relevant details and schedule information.

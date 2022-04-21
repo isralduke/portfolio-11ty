@@ -1,5 +1,17 @@
 ---
 title: Step Counter App
+projectLeadSentence: An Apple watchOS and iOS step counter app which gives users a quick glance at their steps.
+projectImgSrc1: /images/projects/step-counter-app/step-counter-app-designed-patrick-rills-isral-duke.jpg
+projectImageAlt1: App screen designs on iPhone and Apple Watch for the step counter app.
+projectImgSrc2: /images/projects/step-counter-app/step-counter-app-mockups-designed-patrick-rills-isral-duke-set-2.png
+projectImageAlt2: Apple watch showing the screen which presents the steps walked.
+projectImgSrc3: /images/projects/step-counter-app/step-counter-app-mockups-designed-patrick-rills-isral-duke-set-3.png
+projectImageAlt3: Two phone screens are presented. One screen shows the home screen of the step counter app. The other screen shows the trophies screen for exceeding step goals.
+projectImgSrc4: /images/projects/step-counter-app/step-counter-app-canvas-designed-isral-duke.jpg
+projectImageAlt4: A view of the screen designs screens which comprise the step counter app. Both Apple Watch and iPhone screens are shown.
+projectPrototypeLink: https://apps.apple.com/us/app/duffy-steps-complication/id1207581673
+projectDesignFile: https://www.figma.com/file/Qx7rW9DLGHgGCmEcFkFwL0/Duffy?node-id=67%3A254
+socialImage: https://isralduke.com/images/projects/step-counter-app/step-counter-app-designed-patrick-rills-isral-duke.jpg
 ---
 
 ### Overview

@@ -1,5 +1,17 @@
 ---
 title: Budget App
+projectLeadSentence: Budget app which helps first-time budgeters easily learn how to think in terms of a budget.
+projectImgSrc1: /images/projects/budget-app/budget-app-designed-isral-duke.jpg
+projectImageAlt1: App screen designs for the budget app.
+projectImgSrc2: /images/projects/budget-app/budget-app-mockups-designed-isral-duke-set-2.png
+projectImageAlt2: Two phone screens, one with the budget categories, the other with budget category spend limits.
+projectImgSrc3: /images/projects/budget-app/budget-app-mockups-designed-isral-duke-set-3.png
+projectImageAlt3: Two phone screens, one showing the home screen and a high spend category, and the other showing a detail of a transaction.
+projectImgSrc4: /images/projects/budget-app/budget-app-canvas-designed-isral-duke.jpg
+projectImageAlt4: A view of some of design screens which comprise the budget app.
+projectPrototypeLink: https://www.figma.com/proto/he8ruRik6mfojjhDm53qgv/Budget-Buddy?node-id=135%3A1593&scaling=scale-down&page-id=115%3A1649&starting-point-node-id=135%3A1592
+projectDesignFile: https://www.figma.com/file/he8ruRik6mfojjhDm53qgv/Budget-Buddy?node-id=115%3A1649
+socialImage: https://isralduke.com/images/projects/budget-app/budget-app-designed-isral-duke.jpg
 ---
 
 ### Project Role & Goal
