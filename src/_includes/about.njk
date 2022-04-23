@@ -2,8 +2,11 @@
 layout: base
 ---
 
-<div class="">
-  <img src="{{ projectImgSrc1 }}" alt="{{ projectImgageAltText1 }}" class="img-fluid">
+<div class="position-relative">
+  <picture>
+    <source srcset="{{ projectImgSrc1 }}" media="(min-width: 992px)" />
+    <img src="{{ projectImgSrc2 }}" alt="{{ projectImgageAltText1 }}" class="img-fluid" />
+  </picture>
 </div>
 <main class="block about reading-background" id="main">
   <div class="container-fluid">
@@ -28,17 +31,17 @@ layout: base
           </div>
           <div class="col-10 offset-1 col-lg-4">
               <div class="row">
-                  <div class="col-6 mb-4">
-                      <img src="/images/photos/isral-work-1.jpg" alt="isral Duke working at a software agency. He is sitting at his desk, stylus in hand, thinking." class="img-fluid">
+                  <div class="col-12 col-md-6 mb-4">
+                      <img src="/images/photos/isral-work-1.jpg" alt="isral Duke working at a software agency. He is sitting at his desk, stylus in hand, thinking." class="img-fluid rounded">
                   </div>
-                  <div class="col-6 mb-4">
-                      <img src="/images/photos/isral-work-2.jpg" alt="isral Duke working at a hardware and software engineering organization. He is editing photos of small electronic components." class="img-fluid">
+                  <div class="col-12 col-md-6 mb-4">
+                    <img src="/images/photos/isral-work-4.jpg" alt="isral Duke working at a software agency. He is also using his ipad to preview how designs will look to tablet users." class="img-fluid rounded">
+                    </div>
+                  <div class="col-12 col-md-6 mb-4">
+                      <img src="/images/photos/isral-work-2.jpg" alt="isral Duke working at a hardware and software engineering organization. He is editing photos of small electronic components." class="img-fluid rounded">
                   </div>
-                  <div class="col-6 mb-4">
-                      <img src="/images/photos/isral-work-3.jpg" alt="isral Duke working in front of a Wacom Cintiq, sketching ideations of a desk concept." class="img-fluid">
-                  </div>
-                  <div class="col-6 mb-4">
-                      <img src="/images/photos/isral-work-4.jpg" alt="isral Duke working at a software agency. He is also using his ipad to preview how designs will look to tablet users." class="img-fluid">
+                  <div class="col-12 col-md-6 mb-4">
+                      <img src="/images/photos/isral-work-3.jpg" alt="isral Duke working in front of a Wacom Cintiq, sketching ideations of a desk concept." class="img-fluid rounded">
                   </div>
               </div>
           </div>
