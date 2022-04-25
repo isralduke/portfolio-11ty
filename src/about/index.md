@@ -14,11 +14,11 @@ socialImage: https://isralduke.com/images/photos/isral-sketch-in-situ.jpg
 
 ### What I Do
 
-I am a designer who can do some coding. My background and initial education is in graphic design, but I taught myself HTML and SCSS/CSS. This means I can make websites and have meaningful production discussions with frontend developers as I focus on the users’ needs. But let me clarify, I am not a frontend developer or any other kind of developer. I am a designer who can do some frontend coding using CSS frameworks. To illustrate, here’s the <a href="https://www.figma.com/community/file/1080971993134221445/Pelican-Mockups-1" target="_blank">Figma Community file</a> and <a href="https://pelican.ots.la.gov/" target="_blank">documentation site</a> for Pelican, a design I am building for Louisiana’s state government.
+I am a designer who can do some coding. My background and initial education is in graphic design, but I taught myself HTML and SCSS/CSS. This means I can make websites and have meaningful production discussions with frontend developers as I focus on the users’ needs. But let me clarify, I am not a frontend developer or any other kind of developer. I am a designer who can do some frontend coding using CSS frameworks. <!-- To illustrate, here’s the <a href="https://www.figma.com/community/file/1080971993134221445/Pelican-Mockups-1" target="_blank">Figma Community file</a> and <a href="https://pelican.ots.la.gov/" target="_blank">documentation site</a> for Pelican, a design I am building for Louisiana’s state government. -->
 
 ### Accessibility is Important
 
-With <a href="https://courses.edx.org/certificates/42dc6997e0c4460f885d0763411dee0c" target="_blank">my W3C-certified knowledge</a> of semantic markup and accessibility, I can meaningfully contribute to creating accessible experiences for all users.
+With <a href="https://courses.edx.org/certificates/42dc6997e0c4460f885d0763411dee0c" target="_blank">my W3C-certified knowledge</a> of semantic markup and accessibility, I can meaningfully contribute to creating accessible experiences for all users. It’s immoral to lock out users. It’s bad business to reduce your potential customers.
 
 ### Personal
 
