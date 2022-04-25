@@ -15,7 +15,7 @@ bodyclass: about
 
 ### What I Do
 
-I am a designer who can do some coding. My background and initial education is in graphic design, but I taught myself HTML and SCSS/CSS. This means I can make websites and have meaningful production discussions with frontend developers as I focus on the users’ needs. But let me clarify, I am not a frontend developer or any other kind of developer. I am a designer who can do some frontend coding using CSS frameworks.
+I am a designer who can do some coding. My background and initial education is in graphic design, but I taught myself HTML and SCSS/CSS. This means I can make websites and have meaningful production discussions with frontend developers as I focus on the users’ needs. But let me clarify, I am not a frontend developer or any other kind of developer. I am a designer who can do some frontend coding using CSS frameworks. To illustrate, here’s the <a href="https://www.figma.com/community/file/1080971993134221445/Pelican-Mockups-1" target="_blank">Figma Community file</a> and <a href="https://pelican.ots.la.gov/" target="_blank">documentation site</a> for Pelican, a design I am building for Louisiana’s state government.
 
 ### Accessibility is Important
 
