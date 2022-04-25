@@ -6,7 +6,6 @@ projectImgSrc1: /images/photos/isral-sketch-in-situ.jpg
 projectImgageAltText1: isral Duke on user location sketching solutions. Several ink pens surround him. He has his sketchbook in his hands and his laptop, open, on his lap.
 projectImgSrc2: /images/photos/isral-sketch-in-situ-tall.jpg
 socialImage: https://isralduke.com/images/photos/isral-sketch-in-situ.jpg
-bodyclass: about
 ---
 
 ### Introduction

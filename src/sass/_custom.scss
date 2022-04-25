@@ -77,7 +77,7 @@ body {
 h2 {
   font-weight: 900;
 }
-.hero-home-block {
+.hero-home-block, .about-hero {
   background-image: url('../images/photos/isral-crop-tall.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,9 +99,9 @@ h2 {
   li {
     @extend .list-inline-item;
     @extend .py-1;
-    @extend .px-2;
-    @extend .px-md-3;
     @extend .m-0;
+    @extend .text-center;
+    flex: 1 0 auto;
     border: 2px solid fade-out($white, .65);
     &:not(:nth-of-type(1)){
       border-left: none;
@@ -109,6 +109,34 @@ h2 {
   }
   @media screen and (min-width: 767px) {
     background-image: url('../images/photos/isral-sketch-observe.jpg');
+    min-height: 50vh;
+    background-position: center;
+  }
+}
+.block {
+  @extend .position-relative;
+  padding: 3rem 0 6rem;
+}
+.about {
+  @extend .reading-background;
+  padding-bottom: 6rem;
+}
+.about-hero {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .justify-content-center;
+  background-image: url('../images/photos/isral-sketch-in-situ-tall.jpg');
+  margin-bottom: 3rem;
+  h2 {
+    @extend .d-flex;
+    // filter: drop-shadow(4px 4px 4px black);
+  }
+  .card {
+    @extend .rounded-0;
+    @extend .border-0;
+  }
+  @media screen and (min-width: 767px) {
+    background-image: url('../images/photos/isral-sketch-in-situ.jpg');
     min-height: 50vh;
     background-position: center;
   }
@@ -126,10 +154,6 @@ h2 {
   .fas {
     opacity: .65;
   }
-}
-.block {
-  @extend .position-relative;
-  padding: 48px 0 96px;
 }
 .gradient-line {
   transform: translateY(-52px);

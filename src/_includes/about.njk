@@ -2,50 +2,60 @@
 layout: base
 ---
 
-<div class="position-relative">
-  <picture>
-    <source srcset="{{ projectImgSrc1 }}" media="(min-width: 992px)" />
-    <img src="{{ projectImgSrc2 }}" alt="{{ projectImgageAltText1 }}" class="img-fluid" />
-  </picture>
-</div>
-<main class="block about reading-background" id="main">
-  <div class="container-fluid">
-      <div class="gradient-line"></div>
+<!-- <img src="{{ projectImgSrc2 }}" alt="{{ projectImgageAltText1 }}" class="img-fluid" /> -->
+
+<main class="about" id="main">
+  <div class="about-hero">
+    <div class="container-fluid">
       <div class="row align-items-center">
-          <div class="col-10 offset-1 col-lg-5">
-              <h2 class="h2 text-uppercase">
-                  <img src="/images/svg/icon-isral-black.svg" alt="" aria-hidden="true">
-                  About Me
+        <div class="col-10 offset-1 col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <h2 class="h2 text-uppercase mb-0">
+                <img src="/images/svg/icon-isral-white.svg" alt="" aria-hidden="true">
+                About Me
               </h2>
+            </div>
           </div>
+        </div>
       </div>
-      <div class="row">
-          <div class="col-10 offset-1 col-lg-5">
-              <div class="content">
-                  {{ content | safe }}
-                  <a href="https://www.dropbox.com/s/8b9d8dssh1q01rd/isral-duke-resume.pdf?dl=0" class="btn btn-dark mb-4" target="_blank">
-                      Read my résumé 
-                      <span class="fas fa-angle-double-right" aria-hidden="true"></span>
-                  </a>
-              </div>
-          </div>
-          <div class="col-10 offset-1 col-lg-4">
-              <div class="row">
-                  <div class="col-12 col-md-6 mb-4">
-                      <img src="/images/photos/isral-work-1.jpg" alt="isral Duke working at a software agency. He is sitting at his desk, stylus in hand, thinking." class="img-fluid rounded">
-                  </div>
-                  <div class="col-12 col-md-6 mb-4">
-                    <img src="/images/photos/isral-work-4.jpg" alt="isral Duke working at a software agency. He is also using his ipad to preview how designs will look to tablet users." class="img-fluid rounded">
-                    </div>
-                  <div class="col-12 col-md-6 mb-4">
-                      <img src="/images/photos/isral-work-2.jpg" alt="isral Duke working at a hardware and software engineering organization. He is editing photos of small electronic components." class="img-fluid rounded">
-                  </div>
-                  <div class="col-12 col-md-6 mb-4">
-                      <img src="/images/photos/isral-work-3.jpg" alt="isral Duke working in front of a Wacom Cintiq, sketching ideations of a desk concept." class="img-fluid rounded">
-                  </div>
-              </div>
-          </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="gradient-line"></div>
+    <div class="row">
+      <div class="col-10 offset-1 col-lg-5">
+        <div class="content">
+          {{ content | safe }}
+          <a href="https://www.dropbox.com/s/8b9d8dssh1q01rd/isral-duke-resume.pdf?dl=0" class="btn btn-dark mb-4" target="_blank">
+            Read my résumé 
+            <span class="fas fa-angle-double-right" aria-hidden="true"></span>
+          </a>
+        </div>
       </div>
+      <div class="col-10 offset-1 col-lg-4">
+        <div class="row">
+          <div class="col-12 col-md-6 mb-4">
+            <img src="/images/photos/isral-couch-envoc.jpg" alt="isral Duke sitting on a couch on an office, smiling at the camera. There is a conference room nehind him." class="img-fluid rounded">
+          </div>
+          <div class="col-12 col-md-6 mb-4">
+            <img src="/images/photos/isral-work-1.jpg" alt="isral Duke working at a software agency. He is sitting at his desk, stylus in hand, thinking." class="img-fluid rounded">
+          </div>
+          <div class="col-12 col-md-6 mb-4">
+          <img src="/images/photos/isral-work-4.jpg" alt="isral Duke working at a software agency. He is also using his ipad to preview how designs will look to tablet users." class="img-fluid rounded">
+          </div>
+          <div class="col-12 col-md-6 mb-4">
+            <img src="/images/photos/isral-work-2.jpg" alt="isral Duke working at a hardware and software engineering organization. He is editing photos of small electronic components." class="img-fluid rounded">
+          </div>
+          <div class="col-12 col-md-6 mb-4">
+            <img src="/images/photos/isral-work-3.jpg" alt="isral Duke working in front of a Wacom Cintiq, sketching ideations of a desk concept." class="img-fluid rounded">
+          </div>
+          <div class="col-12 col-md-6 mb-4">
+            <img src="/images/photos/isral-legos.jpg" alt="isral Duke leaning over a pile of Legos. He has a large smile and excited facial expression." class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </main>
 {% include 'certifications-block.njk' %}
