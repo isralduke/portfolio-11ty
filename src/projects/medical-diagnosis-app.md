@@ -13,7 +13,7 @@ projectImageAlt4: A view of some of design screens which comprise the medical di
 projectPrototypeLink: https://www.figma.com/proto/3eZwSoXFfOuMdku5Vi9tfC/Telemedicine-Design?page-id=5%3A11973&node-id=0%3A122&viewport=241%2C48%2C0.12&scaling=scale-down&starting-point-node-id=0%3A122
 projectDesignFile: https://www.figma.com/file/3eZwSoXFfOuMdku5Vi9tfC/Telemedicine-Design?node-id=5%3A11973
 socialImage: https://isralduke.com/images/projects/medical-diagnosis-app/medical-diagnosis-app-user-interface-designed-isral-duke.jpg
-date: 2021-11-24
+date: 2021-11-25
 ---
 
 ### Overview

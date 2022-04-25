@@ -13,7 +13,7 @@ projectImageAlt4: A view of some of design screens which comprise the food truck
 projectPrototypeLink: https://www.figma.com/proto/pPlHakn8QYDpx2taE25BGE/Street-Food-Vendor?page-id=418%3A151920&node-id=67%3A1184&viewport=241%2C48%2C0.5&scaling=scale-down&starting-point-node-id=67%3A1184
 projectDesignFile: https://www.figma.com/file/pPlHakn8QYDpx2taE25BGE/Street-Food-Vendor?node-id=418%3A129636
 socialImage: https://isralduke.com/images/projects/food-truck-site/food-truck-site-designed-isral-duke.jpg
-date: 2021-11-27
+date: 2021-11-28
 ---
 
 ### Project Role & Goal
