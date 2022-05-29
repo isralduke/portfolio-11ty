@@ -5,7 +5,7 @@ bodyclass: project-detail
 
 <main class="project-detail" id="main">
   <div class="project-hero d-flex flex-column" style="background-image: url('{{ projectImgSrc1 }}');">
-    <img src="{{ projectImgSrc1 }}" alt="{{ projectImageAlt1 }}" class="img-fluid img-feature">
+      <img src="{{ projectImgSrc1 }}" alt="{{ projectImageAlt1 }}" class="img-fluid">
     <div class="container-fluid mt-auto mx-0 mb-4 mb-lg-auto">
       <div class="row">
         <div class="col-12 col-md-6 col-lg-4">
@@ -25,10 +25,14 @@ bodyclass: project-detail
         <div class="col-10 offset-1 col-lg-4">
           <div class="row">
             <div class="col-6 col-lg-12 mb-lg-4">
-              <img src="{{ projectImgSrc2 }}" alt="{{ projectImageAlt2 }}" class="img-fluid rounded">
+              <a data-fslightbox href="{{ projectImgSrc2 }}">
+                <img src="{{ projectImgSrc2 }}" alt="{{ projectImageAlt2 }}" class="img-fluid rounded">
+              </a>
             </div>
             <div class="col-6 col-lg-12">
-              <img src="{{ projectImgSrc3 }}" alt="{{ projectImageAlt3 }}" class="img-fluid rounded">
+              <a data-fslightbox href="{{ projectImgSrc3 }}">
+                <img src="{{ projectImgSrc3 }}" alt="{{ projectImageAlt3 }}" class="img-fluid rounded">
+              </a>
             </div>
           </div>
         </div>

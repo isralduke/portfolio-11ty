@@ -298,6 +298,9 @@ background-attachment: fixed;
   }
   img {
     @extend .img-fluid;
+    @extend .d-block;
+    @extend .mt-4;
+    @extend .mb-4;
     transform: scale(1.05);
   }
   h4, h5, h6 {
