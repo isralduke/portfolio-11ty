@@ -41,7 +41,7 @@ I conducted remote and in-person interviews for a wide range of ages. Participan
 Paper sketches were used to capture initial design ideas, using crazy 8 methodology. Some cues were taken from existing budget apps’ features, reducing complexity.
 
 <a data-fslightbox href="/images/projects/budget-app/budget-app-initial-concepts-designed-isral-duke.png">
-    <img alt=Initial design concept sketches for the budget app."" src="/images/projects/budget-app/budget-app-initial-concepts-designed-isral-duke.png">
+    <img alt="Initial design concept sketches for the budget app." src="/images/projects/budget-app/budget-app-initial-concepts-designed-isral-duke.png">
 </a>
 
 ### Digital Wireframes
