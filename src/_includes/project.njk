@@ -25,12 +25,12 @@ bodyclass: project-detail
         <div class="col-10 offset-1 col-lg-4">
           <div class="row">
             <div class="col-6 col-lg-12 mb-lg-4">
-              <a data-fslightbox href="{{ projectImgSrc2 }}">
+              <a href="{{ projectImgSrc2 }}" target="_blank">
                 <img src="{{ projectImgSrc2 }}" alt="{{ projectImageAlt2 }}" class="img-fluid rounded">
               </a>
             </div>
             <div class="col-6 col-lg-12">
-              <a data-fslightbox href="{{ projectImgSrc3 }}">
+              <a href="{{ projectImgSrc3 }}" target="_blank">
                 <img src="{{ projectImgSrc3 }}" alt="{{ projectImageAlt3 }}" class="img-fluid rounded">
               </a>
             </div>
@@ -39,7 +39,8 @@ bodyclass: project-detail
         <div class="col-10 offset-1 col-lg-5">
           <p class="lead mt-4 mb-0 text-black fs-4">{{ projectLeadSentence }}</p>
           <a href="{{ projectPrototypeLink }}" class="btn btn-dark btn-lg my-5" target="_blank">
-            Try it yourself
+            <span class="visually-hidden">Try {{ projectName }} yourself</span>
+            <span aria-hidden="true">Try it yourself</span> 
             <span class="fas fa-angle-double-right" aria-hidden="true"></span>
           </a>
           <div class="content">

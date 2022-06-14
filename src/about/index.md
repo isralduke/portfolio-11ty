@@ -18,7 +18,7 @@ I am a designer who can do some coding. My background and initial education is i
 
 ### Accessibility is Important
 
-With <a href="https://courses.edx.org/certificates/42dc6997e0c4460f885d0763411dee0c" target="_blank">my W3C-certified knowledge</a> of semantic markup and accessibility, I can meaningfully contribute to creating accessible experiences for all users. It’s immoral to lock out users. It’s bad business to reduce your potential customers.
+It’s immoral to lock out users. It’s also bad business to deflate your potential customer base. My <a href="https://courses.edx.org/certificates/42dc6997e0c4460f885d0763411dee0c" target="_blank">W3C-certified knowledge of semantic markup and accessibility</a> empowers me to meaningfully contribute to team efforts. At any stage of planning and design, from research to information architecture to development, I can contribute to a meaningful experience. 
 
 ### Personal
 

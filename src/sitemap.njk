@@ -6,20 +6,20 @@ eleventyExcludeFromCollections: true
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://isralduke.com/</loc>
-    <lastmod>2022-04-14T14:05:00.024Z</lastmod>
+    <lastmod>2022-06-14</lastmod>
   </url>
   <url>
     <loc>https://isralduke.com/about</loc>
-    <lastmod>2022-04-14T14:05:00.024Z</lastmod>
+    <lastmod>2022-06-14</lastmod>
   </url>
   <url>
     <loc>https://isralduke.com/projects</loc>
-    <lastmod>2022-04-14T14:05:00.024Z</lastmod>
+    <lastmod>2022-06-14</lastmod>
   </url>
   {% for project in collections.projects %}
   <url>
       <loc>https://isralduke.com{{ project.url | url }}</loc>
-      <lastmod>{{ page.date.toISOString() }}</lastmod>
+      <lastmod>2022-06-14</lastmod>
   </url>
   {% endfor %}
 </urlset>

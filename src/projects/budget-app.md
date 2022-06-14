@@ -24,7 +24,7 @@ During the budget starter app project I was the User Researcher and the UX Desig
 
 The primary audience is young adults and young professionals. These users have never used a budget before and want to easily learn how to apply budget concepts.
 
-<a data-fslightbox href="/images/projects/budget-app/budget-app-personas-isral-duke.png">
+<a target="_blank" href="/images/projects/budget-app/budget-app-personas-isral-duke.png">
     <img alt="Budget app personas, John and Lucy, representing two user groups." src="/images/projects/budget-app/budget-app-personas-isral-duke.png">
 </a>
 
@@ -40,7 +40,7 @@ I conducted remote and in-person interviews for a wide range of ages. Participan
 
 Paper sketches were used to capture initial design ideas, using crazy 8 methodology. Some cues were taken from existing budget apps’ features, reducing complexity.
 
-<a data-fslightbox href="/images/projects/budget-app/budget-app-initial-concepts-designed-isral-duke.png">
+<a target="_blank" href="/images/projects/budget-app/budget-app-initial-concepts-designed-isral-duke.png">
     <img alt="Initial design concept sketches for the budget app." src="/images/projects/budget-app/budget-app-initial-concepts-designed-isral-duke.png">
 </a>
 
@@ -48,7 +48,7 @@ Paper sketches were used to capture initial design ideas, using crazy 8 methodol
 
 The best ideas from initial design concepts were translated into digital wireframes.
 
-<a data-fslightbox href="/images/projects/budget-app/budget-app-wireframes-designed-isral-duke.png">
+<a target="_blank" href="/images/projects/budget-app/budget-app-wireframes-designed-isral-duke.png">
     <img alt="Digital wireframes created from the best hand sketches." src="/images/projects/budget-app/budget-app-wireframes-designed-isral-duke.png">
 </a>
 
@@ -56,7 +56,7 @@ The best ideas from initial design concepts were translated into digital wirefra
 
 Usability testing data was recorded in a spreadsheet for each of the participants and in affinity diagrams. Two of the users were self-reported as dyslexic readers. The dyslexic users found the application easy to scan and read. All participants’ feedback were taken into consideration for a second round of wireframes.
 
-<a data-fslightbox href="/images/projects/art-gallery-app/art-gallery-app-usability-testing-performed-isral-duke.png">
+<a target="_blank" href="/images/projects/art-gallery-app/art-gallery-app-usability-testing-performed-isral-duke.png">
     <img alt="Affinity diagrams distilled from usability testing insights." src="/images/projects/art-gallery-app/art-gallery-app-usability-testing-performed-isral-duke.png">
 </a>
 

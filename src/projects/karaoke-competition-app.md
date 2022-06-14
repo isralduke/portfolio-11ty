@@ -19,7 +19,7 @@ date: 2021-11-29
 
 The audience for the karaoke compeition app, called “Let’s Duet Again” are bar patrons who want to compete as teams of two against other patrons. Oh, it’s not uncommon for these users to experience temporary use challenges, such as **decreased cognitive capacities**.
 
-<a data-fslightbox href="/images/projects/karaoke-competition-app/karaoke-competition-app-personas-isral-duke.png">
+<a target="_blank" href="/images/projects/karaoke-competition-app/karaoke-competition-app-personas-isral-duke.png">
     <img alt="Karaoke competition app personas, Karina and Blake, representing two user groups." src="/images/projects/karaoke-competition-app/karaoke-competition-app-personas-isral-duke.png">
 </a>
 
@@ -35,6 +35,6 @@ No research was done for this app. We had three hours to concept an app, design 
 
 The team designing this app, “The Pun-o-matics,” of which I was a part with <a href="https://www.michaelalford.com/" target="_blank">Michael Alford</a>, won 1st Place People’s Choice and 2nd Place Professionals’ Choice awards. The app isn’t actually built but I’d love to collaborate with interested parties in actually building it. It was conceived and designed at Adobe Creative Jam, New Orleans.
 
-<a data-fslightbox href="/images/projects/karaoke-competition-app/karaoke-competition-app-adobe-creative-jam-winner-isral-duke-michael-alford.png">
+<a target="_blank" href="/images/projects/karaoke-competition-app/karaoke-competition-app-adobe-creative-jam-winner-isral-duke-michael-alford.png">
     <img alt="Karaoke competition app Adobe Creative Jam awards, won by Michael Alford and isral Duke." src="/images/projects/karaoke-competition-app/karaoke-competition-app-adobe-creative-jam-winner-isral-duke-michael-alford.png">
 </a>

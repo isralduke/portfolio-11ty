@@ -148,9 +148,16 @@ h2 {
   @extend .rounded-pill;
 }
 .btn-outline-light {
+  transition: $transition-base;
   border-color: fade-out($white, .5);
   .fas {
     color: fade-out($white, .25);
+  }
+  &:hover, &:active {
+    color: $black;
+    .fas {
+      color: fade-out($black, 0);
+    }
   }
 }
 .btn-light {
