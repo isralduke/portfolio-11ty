@@ -14,7 +14,7 @@ socialImage: https://isralduke.com/images/photos/isral-sketch-in-situ.jpg
 
 ### What I Do
 
-I am a designer who can do some coding. My background and initial education is in graphic design, but I taught myself HTML and SCSS/CSS. This means I can have meaningful production discussions to bridge the gap with frontend developers while I focus on the users’ needs. <!-- To illustrate, here’s the <a href="https://www.figma.com/community/file/1080971993134221445/Pelican-Mockups-1" target="_blank">Figma Community file</a> and <a href="https://pelican.ots.la.gov/" target="_blank">documentation site</a> for Pelican, a design I am currently building for Louisiana’s state government. -->
+I am a full stack designer. This means I do Interaction Design, User Interface Design, User Experience Design, and User Research. As a plus, I can even do some coding. (But I am not a frontend developer.) This means I can have meaningful production discussions to bridge the gap with frontend developers while I focus on the users’ needs. <!-- To illustrate, here’s the <a href="https://www.figma.com/community/file/1080971993134221445/Pelican-Mockups-1" target="_blank">Figma Community file</a> and <a href="https://pelican.ots.la.gov/" target="_blank">documentation site</a> for Pelican, a design I am currently building for Louisiana’s state government. -->
 
 ### Accessibility is Important
 
