@@ -24,9 +24,6 @@ body {
     top: 0;
   }
 }
-.opacity-85 {
-  opacity: .85;
-}
 .navbar-brand {
   @extend .position-relative;
   background-color: $grey-medium;
@@ -218,8 +215,9 @@ h2 {
       margin: 0 auto;
     }
   }
-  h3 {
+  h3, .h5 {
     margin-top: 32px;
+    font-weight: 700;
   }
   .btn-outline-light {
     transition: $transition-base;
@@ -236,6 +234,9 @@ background-attachment: fixed;
   color: $white;
   h2 {
     margin: 0 0 48px!important;
+  }
+  h3, .h5 {
+    font-weight: 700;
   }
   ul {
     @include media-breakpoint-up(lg){
@@ -262,7 +263,7 @@ background-attachment: fixed;
 .project-item {
   padding-top: 40px;
   h3 {
-    font-weight: 500;
+    font-weight: 700;
   }
   img {
     transition: $transition-base;
@@ -310,6 +311,9 @@ background-attachment: fixed;
     @extend .mt-4;
     @extend .mb-4;
     transform: scale(1.05);
+  }
+  h3 {
+    font-weight: 700!important;
   }
   h4, h5, h6 {
     color: $black;
