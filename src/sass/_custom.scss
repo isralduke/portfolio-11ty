@@ -2,6 +2,7 @@ body {
   background-color: $grey-dark;
   background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj4KPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9IiMyNjI2MjYiPjwvcmVjdD4KPGcgZmlsbD0iIzMxMzEzMSI+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMSIgeT0iMjAiPjwvcmVjdD4KPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxIiB5PSI0MCI+PC9yZWN0Pgo8cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEiIHk9IjYwIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMSIgeT0iODAiPjwvcmVjdD4KPHJlY3Qgd2lkdGg9IjEiIGhlaWdodD0iMTAwIiB4PSIyMCI+PC9yZWN0Pgo8cmVjdCB3aWR0aD0iMSIgaGVpZ2h0PSIxMDAiIHg9IjQwIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEwMCIgeD0iNjAiPjwvcmVjdD4KPHJlY3Qgd2lkdGg9IjEiIGhlaWdodD0iMTAwIiB4PSI4MCI+PC9yZWN0Pgo8L2c+CjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBmaWxsPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZT0iIzM5MzkzOSI+PC9yZWN0Pgo8L3N2Zz4=");
   background-attachment: fixed;
+  font-feature-settings: "ss06" on;
   &.projects {
     padding-top: 7rem;
   }
@@ -22,9 +23,6 @@ body {
     outline: none;
     top: 0;
   }
-}
-.opacity-85 {
-  opacity: .85;
 }
 .navbar-brand {
   @extend .position-relative;
@@ -217,8 +215,9 @@ h2 {
       margin: 0 auto;
     }
   }
-  h3 {
+  h3, .h5 {
     margin-top: 32px;
+    font-weight: 700;
   }
   .btn-outline-light {
     transition: $transition-base;
@@ -235,6 +234,9 @@ background-attachment: fixed;
   color: $white;
   h2 {
     margin: 0 0 48px!important;
+  }
+  h3, .h5 {
+    font-weight: 700;
   }
   ul {
     @include media-breakpoint-up(lg){
@@ -261,7 +263,7 @@ background-attachment: fixed;
 .project-item {
   padding-top: 40px;
   h3 {
-    font-weight: 500;
+    font-weight: 700;
   }
   img {
     transition: $transition-base;
@@ -287,6 +289,9 @@ background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   height: 62vh;
+  h2 {
+    font-weight: 900!important;
+  }
   .card {
     background-color: fade-out($black, .15);
     color: $white;
@@ -309,6 +314,9 @@ background-attachment: fixed;
     @extend .mt-4;
     @extend .mb-4;
     transform: scale(1.05);
+  }
+  h3 {
+    font-weight: 700!important;
   }
   h4, h5, h6 {
     color: $black;
