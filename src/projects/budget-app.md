@@ -1,5 +1,5 @@
 ---
-title: ' | Budget App'
+title: 'Budget App | '
 projectName: Budget App 
 projectLeadSentence: Budget app which helps first-time budgeters easily learn how to think in terms of a budget.
 projectImgSrc1: /images/projects/budget-app/budget-app-designed-isral-duke.jpg

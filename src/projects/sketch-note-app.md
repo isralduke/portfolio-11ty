@@ -1,5 +1,5 @@
 ---
-title: ' | Sketch Note App'
+title: 'Sketch Note App | '
 projectName: Sketch Note App
 projectLeadSentence: Sketch note app allows users to create quick sticky notes on their phones.
 projectImgSrc1: /images/projects/sketch-note-app/sketch-note-app-designed-patrick-rills-isral-duke.jpg

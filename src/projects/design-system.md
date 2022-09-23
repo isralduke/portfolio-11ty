@@ -1,5 +1,5 @@
 ---
-title: ' | Design System'
+title: 'Design System | '
 projectName: Design System
 projectLeadSentence: Design System allows team members to access a single source of truth and quickly produce value.
 projectImgSrc1: /images/projects/design-system/design-system-designed-isral-duke.jpg

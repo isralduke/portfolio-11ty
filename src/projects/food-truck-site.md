@@ -1,5 +1,5 @@
 ---
-title: ' | Food Truck Site'
+title: 'Food Truck Site | '
 projectName: Food Truck Site
 projectLeadSentence: A responsive website for a food truck allows visitors to find its daily location and pay ahead.
 projectImgSrc1: /images/projects/food-truck-site/food-truck-site-designed-isral-duke.jpg

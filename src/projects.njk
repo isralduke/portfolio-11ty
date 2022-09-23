@@ -1,5 +1,5 @@
 ---
-title: ' | Projects'
+title: 'Projects | '
 layout: base
 bodyclass: projects
 socialImage: https://isralduke.com/images/photos/isral-crop-1024.jpg
@@ -22,17 +22,15 @@ projectLeadSentence: Mobile app and site projects completed by isral Duke. He is
     <div class="container-fluid">
       <div class="row align-items-center">
         <div class="col-12 col-md-5 offset-md-1">
-          <a href="{{ project.url }}" class="thumbnail-link">
-            <img src="{{ project.data.projectImgSrc1}}" class="img-fluid rounded mb-4 mb-md-0" alt="{{ projectImageAltText1 }}">
+          <a href="{{ project.url }}" class="thumbnail-link" aria-label="Project Details about {{ project.data.projectName }}">
+            <img src="{{ project.data.projectImgSrc1}}" width="100%" class="img-fluid rounded mb-4 mb-md-0" alt="{{ projectImageAltText1 }}">
           </a>
         </div>
         <div class="col-10 offset-1 col-md-4">
           <h3 class="h2">{{ project.data.projectName }}</h3>
           <p class="opacity-85">{{ project.data.projectLeadSentence }}</p>
-          <a href="{{ project.url }}" class="btn btn-outline-light">
-            <span class="visually-hidden">Access project details</span>
-            <span aria-hidden="true">See Project</span>
-            <span class="icon fas fa-angle-double-right" aria-hidden="true"></span>
+          <a href="{{ project.url }}" class="btn btn-outline-light" aria-label="Project Details about {{ project.data.projectName }}">
+            <span aria-hidden="true">See Project &rarr;</span>
           </a>
         </div>
       </div>
