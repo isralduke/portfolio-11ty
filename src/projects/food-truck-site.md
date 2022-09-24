@@ -24,9 +24,8 @@ During the BzzTruck responsive website project I acted as the UX Designer and Vi
 
 BzzTruck’s audience is primarily onsite employees and workers in the cities where it has a presence. These are mostly office workers in a variety of sectors. The target audience is familiar and comfortable with mobile ordering.
 
-<a target="_blank" href="/images/projects/food-truck-site/food-truck-site-personas-isral-duke.png">
-    <img alt="Food truck site personas, Tina and Tucker, representing two user groups." src="/images/projects/food-truck-site/food-truck-site-personas-isral-duke.png">
-</a>
+<img src="/images/projects/food-truck-site/food-truck-site-personas-isral-duke-1.jpg" alt="Persona for Tina, one of the imaginary users to guide design decisions.">
+<img src="/images/projects/food-truck-site/food-truck-site-personas-isral-duke-2.jpg" alt="Persona for Ricky, one of the imaginary users to guide design decisions.">
 
 ### Key Challenges
 

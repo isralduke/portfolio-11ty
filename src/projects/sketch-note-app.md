@@ -24,9 +24,8 @@ Squiddle is a free, note-creating iOS app inspired by sticky notes. Squiddle not
 
 The user for Squiddle likes to scribble notes because they’re easier to make and it feels more natural than starting a text editing experience. The act of scribbling a note is a natural, more organic experience.
 
-<a target="_blank" href="/images/projects/sketch-note-app/sketch-note-app-personas-isral-duke.png">
-    <img alt="Sketch note app persona, Lora and Simone, representing two user groups." src="/images/projects/sketch-note-app/sketch-note-app-personas-isral-duke.png">
-</a>
+<img src="/images/projects/sketch-note-app/sketch-note-app-personas-isral-duke-1.jpg" alt="Persona for Lora, one of the imaginary users to guide design decisions.">
+<img src="/images/projects/sketch-note-app/sketch-note-app-personas-isral-duke-2.jpg" alt="Persona for Simone, one of the imaginary users to guide design decisions.">
 
 ### Initial Design Concepts
 

@@ -24,9 +24,8 @@ During the budget starter app project I was the User Researcher and the UX Desig
 
 The primary audience is young adults and young professionals. These users have never used a budget before and want to easily learn how to apply budget concepts.
 
-<a target="_blank" href="/images/projects/budget-app/budget-app-personas-isral-duke.png">
-    <img alt="Budget app personas, John and Lucy, representing two user groups." src="/images/projects/budget-app/budget-app-personas-isral-duke.png">
-</a>
+<img src="/images/projects/budget-app/budget-app-personas-isral-duke-1.jpg" alt="Persona for John, one of the imaginary users to guide design decisions.">
+<img src="/images/projects/budget-app/budget-app-personas-isral-duke-2.jpg" alt="Persona for Lucy, one of the imaginary users to guide design decisions.">
 
 ### Key Challenges
 

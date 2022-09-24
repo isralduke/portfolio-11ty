@@ -24,9 +24,8 @@ date: 2021-11-27
 
 The audience for SQL Saturday Guidebook are developers, database administrators, and other information technology workers such as designers, projects managers, business analysts, and other I.T. employees. Dark mode was chosen for the theme from an ad-hoc survey of would-be attendees. Many developers seem to prefer the dark mode of Visual Studio. A light mode is planned to be incorporated as a choice for subsequent years.
 
-<a target="_blank" href="/images/projects/event-guide-app/event-guide-app-personas-isral-duke.png">
-    <img alt="Event guide app personas, William and Gwenly, representing two user groups." src="/images/projects/event-guide-app/event-guide-app-personas-isral-duke.png">
-</a>
+<img src="/images/projects/event-guide-app/event-guide-app-personas-isral-duke-1.jpg" alt="Persona for Gwenly, one of the imaginary users to guide design decisions.">
+<img src="/images/projects/event-guide-app/event-guide-app-personas-isral-duke-2.jpg" alt="Persona for William, one of the imaginary users to guide design decisions.">
 
 ### Initial Design Concepts
 

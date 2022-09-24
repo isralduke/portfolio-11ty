@@ -19,9 +19,8 @@ date: 2021-11-29
 
 The audience for the karaoke compeition app, called “Let’s Duet Again” are bar patrons who want to compete as teams of two against other patrons. Oh, it’s not uncommon for these users to experience temporary use challenges, such as **decreased cognitive capacities**.
 
-<a target="_blank" href="/images/projects/karaoke-competition-app/karaoke-competition-app-personas-isral-duke.png">
-    <img alt="Karaoke competition app personas, Karina and Blake, representing two user groups." src="/images/projects/karaoke-competition-app/karaoke-competition-app-personas-isral-duke.png">
-</a>
+<img src="/images/projects/karaoke-competition-app/karaoke-competition-app-personas-isral-duke-1.jpg" alt="Persona for XX, one of the imaginary users to guide design decisions.">
+<img src="/images/projects/karaoke-competition-app/karaoke-competition-app-personas-isral-duke-2.jpg" alt="Persona for XX, one of the imaginary users to guide design decisions.">
 
 ### Key Challenges
 

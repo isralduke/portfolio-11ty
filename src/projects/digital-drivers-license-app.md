@@ -23,9 +23,9 @@ During the La Wallet app project I was the UX Designer, the Stakeholder Intervie
 ### Target Audience
 
 There are two primary users for the digital driver’s license: the driver and the public safety officer who needs to see the driver’s license.
-<a target="_blank" href="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke.png">
-    <img alt="Digital driver’s license app personas, Melissa and Gerald, representing two user groups. The user groups are the police officer and driver at the traffic stop." src="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke.png">
-</a>
+
+<img src="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-1.jpg" alt="Persona for Gerald, one of the imaginary users to guide design decisions.">
+<img src="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-2.jpg" alt="Persona for Melissa, one of the imaginary users to guide design decisions.">
 
 ### Key Challenges
 

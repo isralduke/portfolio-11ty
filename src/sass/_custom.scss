@@ -313,6 +313,7 @@ background-attachment: fixed;
     @extend .d-block;
     @extend .mt-4;
     @extend .mb-4;
+    border-radius: .25rem;
     transform: scale(1.05);
   }
   h3 {

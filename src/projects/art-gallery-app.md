@@ -24,9 +24,8 @@ During the art gallery mobile application design process I acted as the UX Desig
 
 The target audience is composed of two primary segments. The first segment is made up retired, senior visitors who often rely on third parties for transportation to the gallery. They need accommodation and accessibility information for their visits. The second segment is made up of young professionals who can visit the gallery in the evenings and weekends. The second segment is most likely to buy tickets in the application. Both segments expressed a desire to attend weekend events at the gallery.
 
-<a target="_blank" href="/images/projects/art-gallery-app/art-gallery-app-personas-isral-duke.png">
-    <img alt="Art Gallery App personas, Bao and Dottie, representing two age groups." src="/images/projects/art-gallery-app/art-gallery-app-personas-isral-duke.png">
-</a>
+<img src="/images/projects/art-gallery-app/art-gallery-app-personas-isral-duke-1.jpg" alt="Persona for Dotty, one of the imaginary users to guide design decisions.">
+<img src="/images/projects/art-gallery-app/art-gallery-app-personas-isral-duke-2.jpg" alt="Persona for Bao, one of the imaginary users to guide design decisions.">
 
 ### Key Challenges
 

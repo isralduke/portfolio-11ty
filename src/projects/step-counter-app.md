@@ -32,9 +32,8 @@ Duffy is a free app and you can <a href="https://apps.apple.com/us/app/duffy-ste
 
 The user for Duffy is a health-conscious user, but they’re probably best described as lay persons of the fitness world. They may not be gym members or calorie counters, but they’re aware that they need to walk during the day. They need to know how much to walk, and steps are a simple metric for these users.
 
-<a target="_blank" href="/images/projects/step-counter-app/step-counter-app-personas-isral-duke.png">
-    <img alt="Step counter app personas, Bruce and Tonya, representing two user groups." src="/images/projects/step-counter-app/step-counter-app-personas-isral-duke.png">
-</a>
+<img src="/images/projects/step-counter-app/step-counter-app-personas-isral-duke-2.jpg" alt="Persona for Tonya, one of the imaginary users to guide design decisions.">
+<img src="/images/projects/step-counter-app/step-counter-app-personas-isral-duke-1.jpg" alt="Persona for Bruce, one of the imaginary users to guide design decisions.">
 
 ### Key Challenges
 
