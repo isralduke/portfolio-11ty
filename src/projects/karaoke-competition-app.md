@@ -9,7 +9,7 @@ projectImageAlt2: Two iPhones, one with the home page of the karaoke competition
 projectImgSrc3: /images/projects/karaoke-competition-app/karaoke-competition-app-designed-michael-alford-isral-duke-set-3.png
 projectImageAlt3: Two iPhones, one showing the music genre selection screen, and other showing the song selection screen.
 projectImgSrc4: /images/projects/karaoke-competition-app/karaoke-competition-app-canvas-designed-isral-duke-michael-alford.jpg
-projectImageAlt4:
+projectImageAlt4: A view of some of design screens which comprise karaoke competition app.
 projectPrototypeLink: https://www.figma.com/proto/tPBiKe1NLVwLuJcD0875Ko/Karaoke-Competition?page-id=0%3A1&node-id=1%3A2&viewport=241%2C48%2C0.25&scaling=scale-down&starting-point-node-id=1%3A2
 projectDesignFile: https://www.figma.com/file/tPBiKe1NLVwLuJcD0875Ko/Karaoke-Competition?node-id=0%3A1
 socialImage: https://isralduke.com/images/projects/karaoke-competition-app/karaoke-competition-app-adobe-creative-jam-winner-michael-alford-isral-duke.jpg
