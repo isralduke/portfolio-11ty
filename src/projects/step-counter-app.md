@@ -26,14 +26,18 @@ Duffy is fully usable from just the watchOS app. The user doesn’t really have 
 
 ### Additional Info
 
-Duffy is a free app and you can <a href="https://apps.apple.com/us/app/duffy-steps-complication/id1207581673" target="_blank">get Duffy at the App Store</a> for your Apple Watch and iPhone. I worked with <a target="_blank" href="http://www.bigbluefly.com/duffy">Patrick Rills, the developer of Duffy</a>, as we iteratively update the app.
+Duffy is a free app and you can <a href="https://apps.apple.com/us/app/duffy-steps-complication/id1207581673" >get Duffy at the App Store</a> for your Apple Watch and iPhone. I worked with <a  href="http://www.bigbluefly.com/duffy">Patrick Rills, the developer of Duffy</a>, as we iteratively update the app.
 
 ### Target Audience
 
 The user for Duffy is a health-conscious user, but they’re probably best described as lay persons of the fitness world. They may not be gym members or calorie counters, but they’re aware that they need to walk during the day. They need to know how much to walk, and steps are a simple metric for these users.
 
-<img src="/images/projects/step-counter-app/step-counter-app-personas-isral-duke-2.jpg" alt="Persona for Tonya, one of the imaginary users to guide design decisions.">
-<img src="/images/projects/step-counter-app/step-counter-app-personas-isral-duke-1.jpg" alt="Persona for Bruce, one of the imaginary users to guide design decisions.">
+<a href="/images/projects/step-counter-app/step-counter-app-personas-isral-duke-2.jpg">
+  <img src="/images/projects/step-counter-app/step-counter-app-personas-isral-duke-2.jpg" alt="Persona for Tonya, one of the imaginary users to guide design decisions.">
+</a>
+<a href="/images/projects/step-counter-app/step-counter-app-personas-isral-duke-1.jpg">
+  <img src="/images/projects/step-counter-app/step-counter-app-personas-isral-duke-1.jpg" alt="Persona for Bruce, one of the imaginary users to guide design decisions.">
+</a>
 
 ### Key Challenges
 

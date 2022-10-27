@@ -24,8 +24,12 @@ During the La Wallet app project I was the UX Designer, the Stakeholder Intervie
 
 There are two primary users for the digital driver’s license: the driver and the public safety officer who needs to see the driver’s license.
 
-<img src="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-1.jpg" alt="Persona for Gerald, one of the imaginary users to guide design decisions.">
-<img src="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-2.jpg" alt="Persona for Melissa, one of the imaginary users to guide design decisions.">
+<a href="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-1.jpg">
+  <img src="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-1.jpg" alt="Persona for Gerald, one of the imaginary users to guide design decisions.">
+</a>
+<a href="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-2.jpg">
+  <img src="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-2.jpg" alt="Persona for Melissa, one of the imaginary users to guide design decisions.">
+</a>
 
 ### Key Challenges
 
@@ -33,4 +37,4 @@ The driver needs fast, a fews taps as possible access to present their license t
 
 ### Conclusion
 
-The digital driver’s license is called <a href="https://lawallet.com" target="_blank">La Wallet</a>. It’s designed, developed, and owned by <a href="https://envoc.com" target="_blank">Envoc</a>, a software agency in Louisiana, where I worked on La Wallet as the UX Designer while I was an employee.
+The digital driver’s license is called <a href="https://lawallet.com" >La Wallet</a>. It’s designed, developed, and owned by <a href="https://envoc.com" >Envoc</a>, a software agency in Louisiana, where I worked on La Wallet as the UX Designer while I was an employee.

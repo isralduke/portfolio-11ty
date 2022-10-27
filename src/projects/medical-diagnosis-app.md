@@ -24,8 +24,12 @@ Relief Telemed created a mobile application and web application for healthcare p
 
 The user for this web application is an educated, trained, and licensed registered nurse. This is the highest rank of nurse and they are legally sanctioned for diagnosing patients and writing limited prescriptions.
 
-<img src="/images/projects/medical-diagnosis-app/medical-diagnosis-app-personas-isral-duke-1.jpg" alt="Persona for Nancy, one of the imaginary users to guide design decisions.">
-<img src="/images/projects/medical-diagnosis-app/medical-diagnosis-app-personas-isral-duke-2.jpg" alt="Persona for William, one of the imaginary users to guide design decisions.">
+<a href="/images/projects/medical-diagnosis-app/medical-diagnosis-app-personas-isral-duke-1.jpg">
+    <img src="/images/projects/medical-diagnosis-app/medical-diagnosis-app-personas-isral-duke-1.jpg" alt="Persona for Nancy, one of the imaginary users to guide design decisions.">
+</a>
+<a href="/images/projects/medical-diagnosis-app/medical-diagnosis-app-personas-isral-duke-2.jpg">
+    <img src="/images/projects/medical-diagnosis-app/medical-diagnosis-app-personas-isral-duke-2.jpg" alt="Persona for William, one of the imaginary users to guide design decisions.">
+</a>
 
 ### Key Challenges
 
@@ -35,6 +39,6 @@ This web application needs to fit and work on small laptops to ensure maximum ha
 
 The wireframes were collaboratively designed with the CIO and CEO, using their backgrounds in medicine and informatics, to guide the placement of “widget regions”. As the digital wireframes were simple rectangles denoting widget regions, we iteratively arranged the regions until the executive team was satisfied.
 
-<a target="_blank" href="/images/projects/medical-diagnosis-app/medical-diagnosis-app-wireframes-designed-isral-duke.png">
+<a href="/images/projects/medical-diagnosis-app/medical-diagnosis-app-wireframes-designed-isral-duke.png">
     <img alt="Digital wireframes collaboratively-created with the executive team." src="/images/projects/medical-diagnosis-app/medical-diagnosis-app-wireframes-designed-isral-duke.png">
 </a>
