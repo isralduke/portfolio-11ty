@@ -5,7 +5,19 @@ bodyclass: home
 projectLeadSentence: Isral Duke is a Google, Adobe, and W3C certified UX Designer. He has a decade of experience doing User Experience, User Interface, and Interaction Design in software.
 socialImage: https://isralduke.com/images/photos/isral-sketch-observe.jpg
 ---
-{% include 'home-hero-block.njk' %}
-{% include 'skills-block.njk' %}
-{% include 'certifications-block.njk' %}
 
+<section class="hero-home-block d-flex" role="region" aria-labelledby="designer">
+    <img class="visually-hidden" src="../images/photos/isral-sketch-observe.jpg" alt="isral Duke holding a skecthbook facing towards a light source." width="100%">
+    <div class="container-fluid mt-auto mx-0 mb-4 mb-lg-auto">
+        <div class="row">
+            <div class="col-10 offset-1 col-md-5 offset-md-6 col-lg-3 offset-lg-8">
+                <div class="card card-body border-0 rounded-0">
+                    <h2 class="h1 mb-0 text-uppercase" id="designer">Designer</h2>
+                    <p class="mb-0">I design inclusive and easy to use products.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% include 'skills-block.njk' %}
