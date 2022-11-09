@@ -1,6 +1,9 @@
 ---
 title: 'Karaoke Competition App | '
 projectName: Karaoke Competition App
+projectType: Competition
+projectPlatform: Xamarin
+projectStatus: Proposal
 projectLeadSentence: iOS application allows patrons to create and participate in ad hoc karaoke competitions.
 projectImgSrc1: /images/projects/karaoke-competition-app/karaoke-competition-app-adobe-creative-jam-winner-michael-alford-isral-duke.jpg
 projectImageAlt1: iPhones showing the screen designs for the karaoke competiton app.

@@ -1,6 +1,9 @@
 ---
 title: 'Design System | '
 projectName: Design System
+projectType: Employer
+projectPlatform: Web
+projectStatus: Released
 projectLeadSentence: Design System allows team members to access a single source of truth and quickly produce value.
 projectImgSrc1: /images/projects/design-system/design-system-designed-isral-duke.jpg
 projectImageAlt1: 

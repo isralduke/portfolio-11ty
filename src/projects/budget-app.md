@@ -1,6 +1,9 @@
 ---
 title: 'Budget App | '
 projectName: Budget App 
+projectType: Experiment
+projectPlatform: iOS
+projectStatus: Proposal
 projectLeadSentence: Budget app which helps first-time budgeters easily learn how to think in terms of a budget.
 projectImgSrc1: /images/projects/budget-app/budget-app-designed-isral-duke.jpg
 projectImageAlt1: App screen designs for the budget app.

@@ -1,6 +1,9 @@
 ---
 title: 'Digital Driver’s License App | '
 projectName: Digital Driver’s License App
+projectType: Employer
+projectPlatform: iOS
+projectStatus: Released
 projectLeadSentence: Mobile app allows drivers to substitute their phones for a physical license for traffic purposes.
 projectImgSrc1: /images/projects/digital-drivers-license-app/digital-drivers-license-app-designed-envoc-isral-duke.jpg
 projectImageAlt1: App screen designs for the digital driver’s license app.

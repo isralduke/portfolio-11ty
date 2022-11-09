@@ -1,6 +1,9 @@
 ---
 title: 'Event Guide App | '
 projectName: Event Guide App
+projectType: Experiment
+projectPlatform: Xamarin
+projectStatus: Proposal
 projectLeadSentence: Mobile app provides conference attendees quick access to relevant presentation details and schedule information.
 projectImgSrc1: /images/projects/event-guide-app/event-guide-app-designed-isral-duke.jpg
 projectImageAlt1: App screen designs for the event guide app.
