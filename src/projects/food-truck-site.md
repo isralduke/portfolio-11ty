@@ -27,10 +27,10 @@ During the BzzTruck responsive website project I acted as the UX Designer and Vi
 
 BzzTruck’s audience is primarily onsite employees and workers in the cities where it has a presence. These are mostly office workers in a variety of sectors. The target audience is familiar and comfortable with mobile ordering.
 
-<a href="/images/projects/food-truck-site/food-truck-site-personas-isral-duke-1.jpg">
+<a data-fslightbox href="/images/projects/food-truck-site/food-truck-site-personas-isral-duke-1.jpg">
     <img src="/images/projects/food-truck-site/food-truck-site-personas-isral-duke-1.jpg" alt="Persona for Tina, one of the imaginary users to guide design decisions.">
 </a>
-<a href="/images/projects/food-truck-site/food-truck-site-personas-isral-duke-2.jpg">
+<a data-fslightbox href="/images/projects/food-truck-site/food-truck-site-personas-isral-duke-2.jpg">
     <img src="/images/projects/food-truck-site/food-truck-site-personas-isral-duke-2.jpg" alt="Persona for Ricky, one of the imaginary users to guide design decisions.">
 </a>
 
@@ -44,7 +44,7 @@ Remote interviews uncovered popular food trucks in the regions where the partici
 
 ### Digital Wireframes
 
-<a href="/images/projects/food-truck-site/food-truck-site-wireframes-designed-isral-duke.png">
+<a data-fslightbox href="/images/projects/food-truck-site/food-truck-site-wireframes-designed-isral-duke.png">
     <img alt="Digital wireframes created from the best hand sketches." src="/images/projects/food-truck-site/food-truck-site-wireframes-designed-isral-duke.png">
 </a>
 
@@ -52,7 +52,7 @@ Remote interviews uncovered popular food trucks in the regions where the partici
 
 Usability testing data was recorded in a spreadsheet for each of the participants. Each participant was asked to perform key tasks in the wireframes. Moderated, remote testing enabled us to answer questions about the function about the testing apparatus verses the actual wireframe design.
 
-<a href="/images/projects/food-truck-site/food-truck-site-usability-testing-performed-isral-duke.png">
+<a data-fslightbox href="/images/projects/food-truck-site/food-truck-site-usability-testing-performed-isral-duke.png">
     <img alt="Affinity diagrams distilled from usability testing insights." src="/images/projects/food-truck-site/food-truck-site-usability-testing-performed-isral-duke.png">
 </a>
 

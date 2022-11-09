@@ -27,10 +27,10 @@ Squiddle is a free, note-creating iOS app inspired by sticky notes. Squiddle not
 
 The user for Squiddle likes to scribble notes because they’re easier to make and it feels more natural than starting a text editing experience. The act of scribbling a note is a natural, more organic experience.
 
-<a href="/images/projects/sketch-note-app/sketch-note-app-personas-isral-duke-1.jpg">
+<a data-fslightbox href="/images/projects/sketch-note-app/sketch-note-app-personas-isral-duke-1.jpg">
     <img src="/images/projects/sketch-note-app/sketch-note-app-personas-isral-duke-1.jpg" alt="Persona for Lora, one of the imaginary users to guide design decisions.">
 </a>
-<a href="/images/projects/sketch-note-app/sketch-note-app-personas-isral-duke-2.jpg">
+<a data-fslightbox href="/images/projects/sketch-note-app/sketch-note-app-personas-isral-duke-2.jpg">
     <img src="/images/projects/sketch-note-app/sketch-note-app-personas-isral-duke-2.jpg" alt="Persona for Simone, one of the imaginary users to guide design decisions.">
 </a>
 
@@ -38,6 +38,6 @@ The user for Squiddle likes to scribble notes because they’re easier to make a
 
 We started with real pencil and paper to immerse ourselves in the organic feel we wanted to preserve for the user. Squares are the shape of sticky notes and squares are simple, basic shapes, so we decided to stick to simple shapes for the user interface and icons as well.
 
-<a href="/images/projects/sketch-note-app/sketch-note-app-initial-concepts-designed-isral-duke.png">
+<a data-fslightbox href="/images/projects/sketch-note-app/sketch-note-app-initial-concepts-designed-isral-duke.png">
     <img alt="Initial hand-sketched concepts, drawn in a physical sketch book." src="/images/projects/sketch-note-app/sketch-note-app-initial-concepts-designed-isral-duke.png">
 </a>

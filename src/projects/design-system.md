@@ -31,10 +31,10 @@ I am the lead UI and UX designer and the primary frontend designer. I consult wi
 
 The primary users for this design system are senior developers, mid-level developers, junior developers, and user experience designers. Seondary users are the business analysts and product owners. Tertiary users are stakeholders who decide to adopt the design system for their products.
 
-<a href="/images/projects/design-system/design-system-personas-isral-duke-1.jpg">
+<a data-fslightbox href="/images/projects/design-system/design-system-personas-isral-duke-1.jpg">
   <img src="/images/projects/design-system/design-system-personas-isral-duke-1.jpg" alt="Persona for Lalana, one of the imaginary users to guide design decisions.">
 </a>
-<a href="/images/projects/design-system/design-system-personas-isral-duke-2.jpg">
+<a data-fslightbox href="/images/projects/design-system/design-system-personas-isral-duke-2.jpg">
   <img src="/images/projects/design-system/design-system-personas-isral-duke-2.jpg" alt="Persona for Umang, one of the imaginary users to guide design decisions.">
 </a>
 

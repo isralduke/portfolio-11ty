@@ -27,10 +27,10 @@ During the La Wallet app project I was the UX Designer, the Stakeholder Intervie
 
 There are two primary users for the digital driver’s license: the driver and the public safety officer who needs to see the driver’s license.
 
-<a href="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-1.jpg">
+<a data-fslightbox href="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-1.jpg">
   <img src="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-1.jpg" alt="Persona for Gerald, one of the imaginary users to guide design decisions.">
 </a>
-<a href="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-2.jpg">
+<a data-fslightbox href="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-2.jpg">
   <img src="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-2.jpg" alt="Persona for Melissa, one of the imaginary users to guide design decisions.">
 </a>
 
