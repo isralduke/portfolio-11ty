@@ -3,7 +3,7 @@ title: 'Sketch Note App | '
 projectName: Sketch Note App
 projectType: Personal
 projectPlatform: iOS
-projectStatus: Released
+projectStatus: Published
 projectLeadSentence: Sketch note app allows users to create quick sticky notes on their phones.
 projectImgSrc1: /images/projects/sketch-note-app/sketch-note-app-designed-patrick-rills-isral-duke.jpg
 projectImageAlt1: App screen designs for the sketch note app.

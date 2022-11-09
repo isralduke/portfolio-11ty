@@ -298,16 +298,15 @@ background-attachment: fixed;
   }
 }
 .project-content {
-  padding: 48px 0 96px;
+  padding: 48px 0;
+  color: $projectContentText;
 }
 .reading-background {
-  background-color: #FFFBF5;
+  background-color: $reading;
   color: $grey-dark;
 }
 .content {
-  strong, .fw-bold {
-    color: $black;
-  }
+  color: inherit;
   img {
     @extend .img-fluid;
     @extend .d-block;
@@ -317,14 +316,37 @@ background-attachment: fixed;
     transform: scale(1.05);
   }
   h3 {
+    color: inherit;
     font-weight: 700!important;
+    &:not(:first-of-type) {
+      margin-top: 2rem!important;
+    }
   }
   h4, h5, h6 {
-    color: $black;
+    color: inherit;
     font-weight: bolder;
   }
+  .card {
+    border-width: 2px!important;
+    border-color: fade-out($projectContentText,.95)!important;
+    span {
+      @extend .d-inline-block;
+      @extend .w-50;
+      @extend .p-1;
+      &:nth-of-type(1) {
+        @extend .text-uppercase;
+        border-right: 2px solid fade-out($projectContentText,.95);
+      }
+      &:nth-of-type(2) {
+        @extend .fw-bold;
+      }
+    }
+  }
+  small {
+    color: inherit;
+  }
   p {
-    color: $grey-dark;
+    color: inherit;
     a {
       text-decoration: none;
       border-bottom: 1px solid lighten($azure, 25%);

@@ -10,11 +10,11 @@ socialImage: https://isralduke.com/images/photos/isral-sketch-in-situ.jpg
 
 ### What I Do
 
-I am a full stack designer. This means I do Interaction Design, User Interface Design, User Experience Design, and User Research. As a plus, I can even do some coding. (But I am not a frontend developer.) This means I can have meaningful production discussions to bridge the gap with frontend developers while I focus on the users’ needs.
+I am a **full stack designer**. This means I do Interaction Design, User Interface Design, User Experience Design, and User Research. As a plus, I can even do some coding — but I am not a frontend developer. This means I can have meaningful production discussions to bridge the gap with frontend developers while I focus on the users’ needs and the business goals.
 
 ### Accessibility is Important
 
-It’s immoral to lock out users. It’s also bad business to deflate your potential customer base. My <a href="https://courses.edx.org/certificates/42dc6997e0c4460f885d0763411dee0c" target="_blank">W3C certification</a> for semantic markup and accessibility empowers me to meaningfully contribute to team efforts. At any stage of planning and design, from research to information architecture to development, I can contribute to a meaningful, accessible experience. 
+It’s immoral to lock out users. It’s also bad business to deflate your potential customer base. My <a href="https://courses.edx.org/certificates/42dc6997e0c4460f885d0763411dee0c" target="_blank">W3C certification</a> for semantic markup and accessibility empowers me to meaningfully contribute to team efforts. At any stage of planning and design, from research to information architecture to development, I can contribute to a meaningful, accessible experience. To this end, I recently gave a talk at a local Google Developer Groups chapter about creating [Accessible, Friendly Content](https://youtu.be/xm1gRpfmwkE).
 
 ### Personal
 

@@ -3,7 +3,7 @@ title: 'Design System | '
 projectName: Design System
 projectType: Employer
 projectPlatform: Web
-projectStatus: Released
+projectStatus: Published
 projectLeadSentence: Design System allows team members to access a single source of truth and quickly produce value.
 projectImgSrc1: /images/projects/design-system/design-system-designed-isral-duke.jpg
 projectImageAlt1: 
@@ -21,7 +21,7 @@ date: 2021-11-24
 
 ### Overview
 
-Design systems allow organizations to unify their products’ appearances, code base, and provide users with a consistent experience. Pelican is a design system which is being designed and developed for official web aplications.
+Design systems allow organizations to unify their products’ appearances, code base, and provide users with a consistent experience. Pelican Design System which is being actively designed and developed for official web aplications for the state of Louisiana.
 
 ### Project Role
 

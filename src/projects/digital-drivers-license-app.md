@@ -21,7 +21,7 @@ date: 2021-11-23
 
 ### Project Role & Goal
 
-During the La Wallet app project I was the UX Designer, the Stakeholder Interviewer, and the Icon Designer. La Wallet’s purpose is to allow Louisiana drivers to keep and use their driver’s license in their phones. The Louisiana Legislature enacted a law enabling drivers’ licenses to be digital.
+During the [La Wallet](https://lawallet.com) app project I was the UX Designer, the Stakeholder Interviewer, and the Icon Designer. La Wallet’s purpose is to allow Louisiana drivers to keep and use their driver’s license in their phones. The Louisiana Legislature enacted a law enabling drivers’ licenses to be digital.
 
 ### Target Audience
 
@@ -40,4 +40,4 @@ The driver needs fast, a fews taps as possible access to present their license t
 
 ### Conclusion
 
-The digital driver’s license is called <a href="https://lawallet.com" >La Wallet</a>. It’s designed, developed, and owned by <a href="https://envoc.com" >Envoc</a>, a software agency in Louisiana, where I worked on La Wallet as the UX Designer while I was an employee.
+The digital driver’s license is called [La Wallet](https://lawallet.com). It’s designed, developed, and owned by [Envoc](https://envoc.com), a software agency in Louisiana, where I worked on La Wallet as the UX Designer while I was an employee.

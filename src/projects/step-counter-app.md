@@ -3,7 +3,7 @@ title: 'Step Counter App | '
 projectName: Step Counter App
 projectType: Personal
 projectPlatform: iOS
-projectStatus: Released
+projectStatus: Published
 projectLeadSentence: An Apple watchOS and iOS step counter app which gives users a quick glance at their steps.
 projectImgSrc1: /images/projects/step-counter-app/step-counter-app-designed-patrick-rills-isral-duke.jpg
 projectImageAlt1: App screen designs on iPhone and Apple Watch for the step counter app.
@@ -21,7 +21,7 @@ date: 2021-11-21
 
 ### Overview
 
-Duffy is an iOS and Apple watchOS app which just shows your steps walked. Apple’s Activity and Health apps display your steps, but they’re hidden beneath a plethora of other data and sequential interactions. Users wanted a way to easily see just their steps walked, without navigating through the other data offered by Apple’s stock apps.
+Duffy is a free [iOS and Apple watchOS app](https://apps.apple.com/us/app/duffy-steps-complication/id1207581673) which just shows your steps walked. Apple’s Activity and Health apps display your steps, but they’re hidden beneath a plethora of other data and sequential interactions. Users wanted a way to easily see just their steps walked, without navigating through the other data offered by Apple’s stock apps.
 
 ### Scope and Constraints
 
@@ -29,7 +29,7 @@ Duffy is fully usable from just the watchOS app. The user doesn’t really have 
 
 ### Additional Info
 
-Duffy is a free app and you can <a href="https://apps.apple.com/us/app/duffy-steps-complication/id1207581673" >get Duffy at the App Store</a> for your Apple Watch and iPhone. I worked with <a  href="http://www.bigbluefly.com/duffy">Patrick Rills, the developer of Duffy</a>, as we iteratively update the app.
+Duffy is a free app and you can [get Duffy at the App Store](https://apps.apple.com/us/app/duffy-steps-complication/id1207581673) for your Apple Watch and iPhone. I worked with <a  href="http://www.bigbluefly.com/duffy">Patrick Rills, the developer of Duffy</a>, as we iteratively update the app.
 
 ### Target Audience
 

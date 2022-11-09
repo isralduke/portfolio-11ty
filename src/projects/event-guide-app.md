@@ -1,9 +1,9 @@
 ---
 title: 'Event Guide App | '
 projectName: Event Guide App
-projectType: Experiment
+projectType: Personal
 projectPlatform: Xamarin
-projectStatus: Proposal
+projectStatus: Proposed
 projectLeadSentence: Mobile app provides conference attendees quick access to relevant presentation details and schedule information.
 projectImgSrc1: /images/projects/event-guide-app/event-guide-app-designed-isral-duke.jpg
 projectImageAlt1: App screen designs for the event guide app.
@@ -21,7 +21,7 @@ date: 2021-11-27
 
 ### Overview
 
-<a href="https://sqlsaturday.com/2022-08-06-sqlsaturday1026/" >SQL Saturday Baton Rouge, LA</a> is an annual developer-focused event which hosts talks and presentations on various .NET, SQL, and other technical topics.
+[SQL Saturday Baton Rouge, LA](https://sqlsaturday.com/2022-08-06-sqlsaturday1026/) is an annual developer-focused event which hosts talks and presentations on various .NET, SQL, and other technical topics.
 
 ### Target Audience
 
