@@ -24,6 +24,10 @@ body {
     top: 0;
   }
 }
+.img-shadow {
+  -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,.25) );
+          filter: drop-shadow(5px 5px 5px rgba(0,0,0,.25));
+}
 .navbar-brand {
   @extend .position-relative;
   background-color: $grey-medium;
@@ -310,8 +314,10 @@ background-attachment: fixed;
   img {
     @extend .img-fluid;
     @extend .d-block;
+    @extend .rounded;
     @extend .mt-4;
-    @extend .mb-4;
+    @extend .mb-5;
+    @extend .img-shadow;
     border-radius: .25rem;
     transform: scale(1.05);
   }

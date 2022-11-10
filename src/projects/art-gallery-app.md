@@ -11,7 +11,7 @@ projectImgSrc2: /images/projects/art-gallery-app/art-gallery-app-mockups-designe
 projectImageAlt2: Two phones, one with the home screen of the art gallery app, the other with an art collections screen of the app.
 projectImgSrc3: /images/projects/art-gallery-app/art-gallery-app-mockups-designed-isral-duke-set-3.png
 projectImageAlt3: Two phones, one with the ticket purchase process started and the other with the ticket purchase confirmation.
-projectImgSrc4: /images/projects/art-gallery-app/art-gallery-app-canvas-designed-isral-duke.png
+projectImgSrc4: /images/projects/art-gallery-app/art-gallery-app-canvas-designed-isral-duke.jpg
 projectImageAlt4: A view of some of design screens which comprise the art gallery app.
 projectPrototypeLink: https://www.figma.com/proto/Hh5HjU7yPB3WbHwYxFKIDj/Art-Gallery-Tour?page-id=138%3A932&node-id=138%3A940&viewport=241%2C48%2C0.11&scaling=scale-down&
 projectDesignFile: https://www.figma.com/file/Hh5HjU7yPB3WbHwYxFKIDj/gallerWeMe-art-gallery?node-id=138%3A932
@@ -46,24 +46,24 @@ The research began with online surveys to determine the content in the mobile ap
 
 Paper sketches were used to capture initial design ideas, using crazy 8 methodology.
 
-<a data-fslightbox href="/images/projects/art-gallery-app/art-gallery-app-initial-concepts-designed-isral-duke.png">
-    <img alt="Initial design concept sketches for the art gallery app." src="/images/projects/art-gallery-app/art-gallery-app-initial-concepts-designed-isral-duke.png">
+<a data-fslightbox href="/images/projects/art-gallery-app/art-gallery-app-initial-concepts-designed-isral-duke.jpg">
+    <img alt="Initial design concept sketches for the art gallery app." src="/images/projects/art-gallery-app/art-gallery-app-initial-concepts-designed-isral-duke.jpg">
 </a>
 
 ### Digital Wireframes
 
 The best ideas from initial design concepts were translated into digital wireframes.
 
-<a data-fslightbox href="/images/projects/art-gallery-app/art-gallery-app-wireframes-designed-isral-duke.png">
-    <img alt="Digital wireframes created from the best hand sketches." src="/images/projects/art-gallery-app/art-gallery-app-wireframes-designed-isral-duke.png">
+<a data-fslightbox href="/images/projects/art-gallery-app/art-gallery-app-wireframes-designed-isral-duke.jpg">
+    <img alt="Digital wireframes created from the best hand sketches." src="/images/projects/art-gallery-app/art-gallery-app-wireframes-designed-isral-duke.jpg">
 </a>
 
 ### Usability Testing
 
 Usability testing data was recorded in a spreadsheet for each of the participants. Each participant was asked to perform key tasks in the wireframes. Moderated, remote testing enabled us to answer questions about the function about the wireframe setup verses the actual wireframe design. Testing occurred with digital wireframes with some follow up in the mockups.
 
-<a data-fslightbox href="/images/projects/art-gallery-app/art-gallery-app-usability-testing-performed-isral-duke.png">
-    <img alt="Affinity diagrams distilled from usability testing insights." src="/images/projects/art-gallery-app/art-gallery-app-usability-testing-performed-isral-duke.png">
+<a data-fslightbox href="/images/projects/art-gallery-app/art-gallery-app-usability-testing-performed-isral-duke.jpg">
+    <img alt="Affinity diagrams distilled from usability testing insights." src="/images/projects/art-gallery-app/art-gallery-app-usability-testing-performed-isral-duke.jpg">
 </a>
 
 ### Conclusion

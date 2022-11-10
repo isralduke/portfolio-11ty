@@ -7,7 +7,7 @@ projectStatus: Published
 projectLeadSentence: An Apple watchOS and iOS step counter app which gives users a quick glance at their steps.
 projectImgSrc1: /images/projects/step-counter-app/step-counter-app-designed-patrick-rills-isral-duke.jpg
 projectImageAlt1: App screen designs on iPhone and Apple Watch for the step counter app.
-projectImgSrc2: /images/projects/step-counter-app/step-counter-app-mockups-designed-patrick-rills-isral-duke-set-2.png
+projectImgSrc2: /images/projects/step-counter-app/step-counter-app-mockups-designed-patrick-rills-isral-duke-set-1.png
 projectImageAlt2: Apple watch showing the screen which presents the steps walked.
 projectImgSrc3: /images/projects/step-counter-app/step-counter-app-mockups-designed-patrick-rills-isral-duke-set-3.png
 projectImageAlt3: Two phone screens are presented. One screen shows the home screen of the step counter app. The other screen shows the trophies screen for exceeding step goals.

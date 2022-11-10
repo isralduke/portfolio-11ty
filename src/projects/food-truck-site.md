@@ -44,16 +44,16 @@ Remote interviews uncovered popular food trucks in the regions where the partici
 
 ### Digital Wireframes
 
-<a data-fslightbox href="/images/projects/food-truck-site/food-truck-site-wireframes-designed-isral-duke.png">
-    <img alt="Digital wireframes created from the best hand sketches." src="/images/projects/food-truck-site/food-truck-site-wireframes-designed-isral-duke.png">
+<a data-fslightbox href="/images/projects/food-truck-site/food-truck-site-wireframes-designed-isral-duke.jpg">
+    <img alt="Digital wireframes created from the best hand sketches." src="/images/projects/food-truck-site/food-truck-site-wireframes-designed-isral-duke.jpg">
 </a>
 
 ### Usability Testing
 
 Usability testing data was recorded in a spreadsheet for each of the participants. Each participant was asked to perform key tasks in the wireframes. Moderated, remote testing enabled us to answer questions about the function about the testing apparatus verses the actual wireframe design.
 
-<a data-fslightbox href="/images/projects/food-truck-site/food-truck-site-usability-testing-performed-isral-duke.png">
-    <img alt="Affinity diagrams distilled from usability testing insights." src="/images/projects/food-truck-site/food-truck-site-usability-testing-performed-isral-duke.png">
+<a data-fslightbox href="/images/projects/food-truck-site/food-truck-site-usability-testing-performed-isral-duke.jpg">
+    <img alt="Affinity diagrams distilled from usability testing insights." src="/images/projects/food-truck-site/food-truck-site-usability-testing-performed-isral-duke.jpg">
 </a>
 
 ### Conclusion

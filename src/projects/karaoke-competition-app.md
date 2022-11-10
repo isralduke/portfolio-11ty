@@ -41,6 +41,6 @@ No research was done for this app. We had three hours to concept an app, design 
 
 The team designing this app, “The Pun-o-matics,” of which I was a part with [Michael Alford](https://www.michaelalford.com/), won 1st Place People’s Choice and 2nd Place Professionals’ Choice awards. The app isn’t actually built but I’d love to collaborate with interested parties in actually building it. It was conceived and designed at [Adobe Creative Jam, New Orleans](https://www.behance.net/gallery/66242371/New-Orleans-Creative-Jam-2018).
 
-<a data-fslightbox href="/images/projects/karaoke-competition-app/karaoke-competition-app-adobe-creative-jam-winner-isral-duke-michael-alford.png">
-    <img alt="Karaoke competition app Adobe Creative Jam awards, won by Michael Alford and isral Duke." src="/images/projects/karaoke-competition-app/karaoke-competition-app-adobe-creative-jam-winner-isral-duke-michael-alford.png">
+<a data-fslightbox href="/images/projects/karaoke-competition-app/karaoke-competition-app-adobe-creative-jam-winner-isral-duke-michael-alford.jpg">
+    <img alt="Karaoke competition app Adobe Creative Jam awards, won by Michael Alford and isral Duke." src="/images/projects/karaoke-competition-app/karaoke-competition-app-adobe-creative-jam-winner-isral-duke-michael-alford.jpg">
 </a>
