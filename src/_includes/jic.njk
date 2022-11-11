@@ -1,0 +1,21 @@
+{% for project in collections.projects %}
+  <section class="project-item" aria-labelledby="{{ project.data.projectName | slugify }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <a href="{{ project.url }}" class="thumbnail-link text-decoration-none text-white">
+            <div class="row align-items-center">
+              <div class="col-12 col-md-5 offset-md-1">
+                <img src="{{ project.data.projectImgSrc1}}" width="100%" class="img-fluid rounded mb-4 mb-md-0" alt="">
+              </div>
+              <div class="col-10 offset-1 col-md-4">
+                <h3 class="h2 text-center text-md-start" id="{{ project.data.projectName | slugify }}">{{ project.data.projectName }}</h3>
+                <p class="text-center text-md-start mb-0" aria-hidden="true">{{project.data.projectPlatform}} | {{project.data.projectType}} | {{project.data.projectStatus}}</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>  
+    </div>
+  </section>
+  {% endfor %}

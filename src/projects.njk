@@ -3,12 +3,12 @@ title: 'Projects | '
 layout: base
 bodyclass: projects
 socialImage: https://isralduke.com/images/photos/isral-crop-1024.jpg
-projectLeadSentence: Mobile app and site projects completed by isral Duke. He is a Google, Adobe, and W3C certified UX Designer.
+projectLeadSentence: isral Duke designs inclusive and easy to use projects.
 ---
 
 <main class="block projects-block">
   <div class="container">
-    <div class="row">
+    <div class="row mb-5">
       <div class="col-10 offset-1">
         <h2 class="h2 text-uppercase">
           <img src="/images/svg/icon-projects.svg" alt="" aria-hidden="true">
@@ -17,25 +17,17 @@ projectLeadSentence: Mobile app and site projects completed by isral Duke. He is
       </div>
     </div>
   </div>
-  {% for project in collections.projects %}
-  <section class="project-item" aria-labelledby="{{ project.data.projectName | slugify }}">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <a href="{{ project.url }}" class="thumbnail-link text-decoration-none text-white">
-            <div class="row align-items-center">
-              <div class="col-12 col-md-5 offset-md-1">
-                <img src="{{ project.data.projectImgSrc1}}" width="100%" class="img-fluid rounded mb-4 mb-md-0" alt="">
-              </div>
-              <div class="col-10 offset-1 col-md-4">
-                <h3 class="h2 text-center text-md-start" id="{{ project.data.projectName | slugify }}">{{ project.data.projectName }}</h3>
-                <p class="text-center text-md-start mb-0" aria-hidden="true">{{project.data.projectPlatform}} | {{project.data.projectType}} | {{project.data.projectStatus}}</p>
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>  
+  <div class="container">
+    <div class="row g-5">
+      {% for project in collections.projects %}
+      <div class="col-lg-6">
+        <a href="{{ project.url }}" class="thumbnail-link text-decoration-none text-white d-flex flex-column">
+          <h3 class="fw-bold text-center order-1" id="{{ project.data.projectName | slugify }}">{{ project.data.projectName }}</h3>
+          <img src="{{ project.data.projectImgSrc1}}" width="100%" class="img-fluid rounded mb-3 order-0" alt="">
+          <p class="text-center mb-0 order-2 opacity-50" aria-hidden="true">{{project.data.projectPlatform}} &emsp;|&emsp; {{project.data.projectType}} &emsp;|&emsp; {{project.data.projectStatus}}</p>
+        </a>
+      </div>
+      {% endfor %}
     </div>
-  </section>
-  {% endfor %}
+  </div>
 </main>
