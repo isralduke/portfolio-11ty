@@ -10,7 +10,9 @@ socialImage: https://isralduke.com/images/photos/isral-sketch-in-situ.jpg
 
 ### What I Do
 
-I am a **full stack designer**. This means I do Interaction Design, User Interface Design, User Experience Design, and User Research. As a plus, I can even do some coding — but I am not a frontend developer. This means I can have meaningful production discussions to bridge the gap with frontend developers while I focus on the users’ needs and the business goals.
+I am a Product Designer. Some will say I’m a full stack designer. Whichever you call what I do in your organization, this means I do Interaction Design, User Interface Design, User Experience Design, and User Research. 
+
+As a plus, I can even do some coding — but I am not a frontend developer. This means I can have meaningful production discussions to bridge the gap with frontend developers while I focus on the users’ needs and the business goals.
 
 ### My Journey
 
@@ -31,4 +33,4 @@ I want to work fully remotely so I can spend time with family in the United Stat
 
 ### Personal
 
-In my free time, when I am not doing grad school work, I like to draw, read, and ride bikes with my wife, get coffee with friends, enjoy warm weather, and go to art museums and galleries. A perfect day for me is spending the whole day with friends at coffee shops and art galleries ( _preferably those with a mixture of classical and abstract art_ ).
+In my free time, when I am not doing grad school work, I like to draw, read, and ride bikes with my wife, get coffee with friends, enjoy warm weather, and go to art museums and galleries. A perfect day for me is spending the whole day with friends at coffee shops and art galleries (_preferably those with a mixture of classical and abstract art_).
