@@ -24,7 +24,7 @@ It’s immoral to lock out users. It’s also bad business to deflate your poten
 
 I want to work fully remotely so I can spend time with family in the United States, Europe, and the United Kingdom. At work I want to help produce digital experiences which produce real life value for people. So, [tell me what’s on your mind](#contact)?
 
-<a href="https://www.dropbox.com/s/r493rkl37t0dvfm/isral-duke-resume.pdf?dl=0" class="btn btn-dark" target="_blank">
+<a href="https://www.dropbox.com/s/75cvru5qb75op63/isral-duke-resume.pdf?dl=0" class="btn btn-dark" target="_blank">
     Read My Resumé
     <span class="fas fa-angle-double-right" aria-hidden="true"></span>
 </a>
