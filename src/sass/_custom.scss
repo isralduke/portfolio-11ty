@@ -81,6 +81,10 @@ body {
 }
 h2 {
   font-weight: 900;
+  
+  img {
+    transform: translateY(-4px);
+  }
 }
 .hero-home-block, .about-hero {
   background-image: url('../images/photos/isral-crop-tall.jpg');
@@ -89,7 +93,6 @@ h2 {
   height: 75vh;
   h2 {
     font-weight: 900;
-    letter-spacing: .1rem;
   }
   .card {
     background-color: $crimson;
@@ -134,7 +137,6 @@ h2 {
   margin-bottom: 3rem;
   h2 {
     @extend .d-flex;
-    // filter: drop-shadow(4px 4px 4px black);
   }
   .card {
     @extend .rounded-0;
@@ -316,7 +318,9 @@ background-attachment: fixed;
   }
 }
 .project-detail {
+  @extend .position-relative;
   @extend .reading-background;
+  padding-bottom: 6rem;
   .img-feature {
     width: 0; height: 0;
   }
@@ -336,33 +340,32 @@ background-attachment: fixed;
 }
 .project-content {
   padding: 48px 0;
-  color: $projectContentText;
+  
 }
 .reading-background {
   background-color: $reading;
   color: $grey-dark;
 }
 .content {
-  color: inherit;
+  color: $projectContentText;
   img {
     @extend .img-fluid;
     @extend .d-block;
-    @extend .rounded;
-    @extend .mt-4;
-    @extend .mb-5;
+    @extend .rounded-3;
+    @extend .my-3;
     @extend .img-shadow;
     border-radius: .25rem;
-    transform: scale(1.05);
+  }
+  h3, h4, h5 {
+
   }
   h3 {
-    color: inherit;
-    font-weight: 700!important;
+    font-weight: 600;
     &:not(:first-of-type) {
-      margin-top: 2rem!important;
+      margin-top: 3rem!important;
     }
   }
   h4, h5, h6 {
-    color: inherit;
     font-weight: bolder;
   }
   .card {
@@ -398,6 +401,13 @@ background-attachment: fixed;
         background-color: fade-out($violet, .85);
       }
     }
+  }
+  .end-img {
+    @extend .position-absolute;
+    width: 1.5rem; height: 1.5rem;
+    filter: unset;
+    transform: translateY(-.25rem);
+    
   }
 }
 .tryit-block {
@@ -441,11 +451,11 @@ background-color: $grey-dark;
 }
 .form-group {
   @extend .position-relative;
-  .fas {
+  .icon {
     @extend .position-absolute;
     transition: $transition-base;
-    color: $grey-medium;
-    top: 44px; left: 12px;
+    color: fade-out($white, .25);
+    top: 56px; left: 12px;
     width: 20px; height: 20px;
   }
 }
@@ -458,7 +468,7 @@ background-color: $grey-dark;
     background-color: $white;
     outline: 3px dashed $white;
     border-color: transparent;
-    & + .fas {
+    & + .icon {
       color: darken($crimson, 25%);
     }
   }

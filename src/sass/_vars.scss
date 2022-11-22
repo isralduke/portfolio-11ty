@@ -9,7 +9,7 @@ $white: fade-out(#ffffff, .04);
 $light: $white;
 $dark: $violet;
 $link-color: #3366cc;
-$reading: #FFFBF5;
+$reading: #FFFFFB;
 $projectContentText: #401C0F;
 
 $navbar-dark-brand-color: $white;
@@ -23,3 +23,5 @@ $input-bg: fade-out($white, .25);
 $input-border-color: transparent;
 
 $font-family-sans-serif:      Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+// $font-size-base:              1.25rem !default; // Assumes the browser default, typically `16px`
+$line-height-base:            1.55 !default;

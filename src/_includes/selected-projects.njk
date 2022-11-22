@@ -4,7 +4,7 @@
         <div class="col-10 offset-1">
           <h2 class="h2 text-uppercase" id="projects">
             <img src="/images/svg/icon-projects.svg" alt="" aria-hidden="true">
-            Selected Projects
+            Some Projects
           </h2>
         </div>
       </div>
@@ -20,8 +20,8 @@
                   <img src="{{ project.data.projectImgSrc1}}" class="img-fluid rounded mb-4 mb-md-0" alt="">
                 </div>
                 <div class="col-10 offset-1 col-md-4">
-                  <h3 class="h2 text-center text-md-start" id="{{ project.data.projectName | slugify }}">{{ project.data.projectName }}</h3>
-                  <p class="text-center text-md-start mb-0" aria-hidden="true">{{project.data.projectPlatform}} | {{project.data.projectType}} | {{project.data.projectStatus}}</p>
+                  <h3 class="h4 text-center text-md-start" id="{{ project.data.projectName | slugify }}">{{ project.data.projectName }}</h3>
+                  <p class="text-center text-md-start mb-0 order-2 opacity-50" aria-hidden="true">{{project.data.projectPlatform}}&thinsp; | &thinsp;{{project.data.projectType}}&thinsp; | &thinsp;{{project.data.projectStatus}}</p>
                 </div>
               </div>
             </a>

@@ -21,7 +21,7 @@ bodyclass: project-detail
       </div>
     </div> 
   </div>
-  <div class="project-content">
+  <div >
     <div class="container">
       <div class="row g-5">
         <div class="col-lg-4 order-0 order-lg-1">
@@ -75,23 +75,16 @@ bodyclass: project-detail
               </div>
             </div>
             {{ content | safe }}
-          </div>
-        </div>
-      </div>
-      <div class="content">
-        <div class="row">
-          <div class="col-12">
             <h3 class="h3">Review It</h3>
             <a href="{{ projectDesignFile }}" class="btn btn-dark">
               Review it in Figma
               <span class="fas fa-angle-double-right" aria-hidden="true"></span>
             </a>
-          </div>
-          <div class="col-12">
             <a href="{{ projectDesignFile }}" class="project-prototype">
               <img src="{{ projectImgSrc4 }}" alt="{{ projectImageAlt4 }}" class="img-fluid">
               <span class="visually-hidden">Go to the Figma file</span>
             </a>
+            <img src="/images/svg/isral-duke-designer-logo-mark.svg" alt="" class="end-img" aria-hidden="true">
           </div>
         </div>
       </div>
