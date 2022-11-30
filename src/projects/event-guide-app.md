@@ -17,6 +17,7 @@ projectPrototypeLink: https://www.figma.com/proto/4EtTiMKTB2q2TOmenmbnJM/SQL-Sat
 projectDesignFile: https://www.figma.com/file/4EtTiMKTB2q2TOmenmbnJM/?node-id=0%3A1
 socialImage: https://isralduke.com/images/projects/event-guide-app/event-guide-app-designed-isral-duke.jpg
 date: 2021-11-27
+tags: interactive
 ---
 
 ### Overview

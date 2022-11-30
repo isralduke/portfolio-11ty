@@ -17,6 +17,7 @@ projectPrototypeLink: https://www.figma.com/proto/tPBiKe1NLVwLuJcD0875Ko/Karaoke
 projectDesignFile: https://www.figma.com/file/tPBiKe1NLVwLuJcD0875Ko/Karaoke-Competition?node-id=0%3A1
 socialImage: https://isralduke.com/images/projects/karaoke-competition-app/karaoke-competition-app-adobe-creative-jam-winner-michael-alford-isral-duke.jpg
 date: 2021-11-29
+tags: interactive
 ---
 ### User & Audience
 

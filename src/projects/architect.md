@@ -1,2 +1,4 @@
 ---
-title: Architect 
+title: Architect
+permalink: false
+---

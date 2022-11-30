@@ -17,6 +17,7 @@ projectPrototypeLink: https://www.figma.com/proto/3eZwSoXFfOuMdku5Vi9tfC/Telemed
 projectDesignFile: https://www.figma.com/file/3eZwSoXFfOuMdku5Vi9tfC/Telemedicine-Design?node-id=5%3A11973
 socialImage: https://isralduke.com/images/projects/medical-diagnosis-app/medical-diagnosis-app-user-interface-designed-isral-duke.jpg
 date: 2021-11-25
+tags: interactive
 ---
 
 ### Overview

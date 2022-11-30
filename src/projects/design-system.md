@@ -17,6 +17,7 @@ projectPrototypeLink: https://pelican.ots.la.gov
 projectDesignFile: https://www.figma.com/community/file/1080971993134221445
 socialImage: https://isralduke.com/images/projects/design-system/
 date: 2021-11-24
+tags: interactive
 ---
 
 ### Overview

@@ -17,6 +17,7 @@ projectPrototypeLink: https://www.figma.com/proto/9QpaowpepugdTBfLypuW3i/Squiddl
 projectDesignFile: https://www.figma.com/file/9QpaowpepugdTBfLypuW3i/Squiddle?node-id=0%3A1
 socialImage: https://isralduke.com/images/projects/sketch-note-app/sketch-note-app-designed-patrick-rills-isral-duke.jpg 
 date: 2021-11-26
+tags: interactive
 ---
 
 ### Overview

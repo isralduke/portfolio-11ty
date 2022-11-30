@@ -17,6 +17,7 @@ projectPrototypeLink: https://www.figma.com/proto/he8ruRik6mfojjhDm53qgv/Budget-
 projectDesignFile: https://www.figma.com/file/he8ruRik6mfojjhDm53qgv/Budget-Buddy?node-id=115%3A1649
 socialImage: https://isralduke.com/images/projects/budget-app/budget-app-designed-isral-duke.jpg
 date: 2021-11-22
+tags: interactive
 ---
 
 ### Project Role & Goal

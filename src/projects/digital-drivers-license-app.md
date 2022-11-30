@@ -17,6 +17,7 @@ projectPrototypeLink: https://apps.apple.com/us/app/la-wallet/id1386930269
 projectDesignFile: https://www.figma.com/file/ij8qjFQ387MBGRYDJWOWAw/Digital-Driver%E2%80%99s-License?node-id=0%3A1
 socialImage: https://isralduke.com/images/projects/digital-drivers-license-app/digital-drivers-license-app-designed-envoc-isral-duke.jpg
 date: 2021-11-23
+tags: interactive
 ---
 
 ### Project Role & Goal
