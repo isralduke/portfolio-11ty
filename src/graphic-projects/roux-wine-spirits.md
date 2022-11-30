@@ -1,6 +1,6 @@
 ---
-title: 'Legal Services Business | '
-projectName: Legal Services Business
+title: 'Premium Drinks Retailer | '
+projectName: Premium Drinks Retailer
 projectType: Client
 projectPlatform: Branding
 projectStatus: Released
