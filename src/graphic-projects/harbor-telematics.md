@@ -1,6 +1,6 @@
 ---
-title: 'Hardware and Software Engineering and Prototyping | '
-projectName: Hardware and Software Engineering and Prototyping
+title: 'Hardware and Software Engineering | '
+projectName: Hardware and Software Engineering
 projectType: Client
 projectPlatform: Various
 projectStatus: Released
