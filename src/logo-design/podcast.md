@@ -1,6 +1,5 @@
 ---
 title: Podcast
-tags: logo
 permalink: false 
 ---
 

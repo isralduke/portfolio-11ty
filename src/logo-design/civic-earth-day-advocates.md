@@ -1,6 +1,5 @@
 ---
 title: Civic Earth Day Advocates
-tags: logo
 permalink: false
 ---
 

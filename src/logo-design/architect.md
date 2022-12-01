@@ -1,6 +1,5 @@
 ---
 title: Architect
-tags: logo
 permalink: false
 ---
 

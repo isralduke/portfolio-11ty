@@ -1,6 +1,5 @@
 ---
 title: Legal Firm
-tags: branding
 permalink: false
 ---
 

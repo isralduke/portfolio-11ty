@@ -1,6 +1,5 @@
 ---
 title: Ecological Consultings
-tags: logo
 permalink: false
 ---
 

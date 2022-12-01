@@ -1,6 +1,5 @@
 ---
 title: Church
-tags: logo
 permalink: false 
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Violinist Violist
-tags: logo
 permalink: false
 ---
 

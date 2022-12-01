@@ -1,6 +1,5 @@
 ---
 title: Political Lobbyist
-tags: logo
 permalink: false 
 excerpt: Logo for a political influence organization.
 ---
