@@ -1,23 +1,20 @@
 ---
-title: 'Event Guide App | '
-projectName: Event Guide App
-projectType: Personal
-projectPlatform: Xamarin
-projectStatus: Proposed
-projectLeadSentence: Mobile app provides conference attendees quick access to relevant presentation details and schedule information.
-projectImgSrc1: /images/projects/event-guide-app/event-guide-app-designed-isral-duke.jpg
-projectImageAlt1: App screen designs for the event guide app.
-projectImgSrc2: /images/projects/event-guide-app/event-guide-app-mockups-designed-isral-duke-set-2.png
-projectImageAlt2: Two phone screens, one with the home screen design, the other with speaker session information.
-projectImgSrc3: /images/projects/event-guide-app/event-guide-app-mockups-designed-isral-duke-set-3.png
-projectImageAlt3: Two phone screens, one showing the presentation categories, and the other showing a speaker’s biography.
-projectImgSrc4: /images/projects/event-guide-app/event-guide-app-canvas-designed-isral-duke.jpg
-projectImageAlt4: A view of some of design screens which comprise the event guide app.
-projectPrototypeLink: https://www.figma.com/proto/4EtTiMKTB2q2TOmenmbnJM/SQL-Sat-Guidebook?page-id=0%3A1&node-id=4%3A1383&viewport=241%2C48%2C0.25&scaling=scale-down&starting-point-node-id=0%3A76
-projectDesignFile: https://www.figma.com/file/4EtTiMKTB2q2TOmenmbnJM/?node-id=0%3A1
-socialImage: https://isralduke.com/images/projects/event-guide-app/event-guide-app-designed-isral-duke.jpg
-date: 2021-11-27
-tags: interactive
+title      : Event Guide App
+date       : 2021-11-27
+tags       : interactive
+type       : Personal
+platform   : Xamarin
+status     : Proposed
+excerpt    : Mobile app provides conference attendees quick access to relevant presentation details and schedule information.
+tryitLink  : https://www.figma.com/proto/4EtTiMKTB2q2TOmenmbnJM/SQL-Sat-Guidebook?page-id=0%3A1&node-id=4%3A1383&viewport=241%2C48%2C0.25&scaling=scale-down&starting-point-node-id=0%3A76
+featureAlt : App screen designs for the event guide app.
+mockups    : ['mockup-1.png','mockup-2.png']
+roles      : ['UX Designer','UI Designer']
+personas   : ['persona-1.jpg','persona-2.jpg']
+sketches   : ['sketch-1.jpg']
+wireframes : []
+usabilities: []
+designFile : https://www.figma.com/file/4EtTiMKTB2q2TOmenmbnJM/?node-id=0%3A1
 ---
 
 ### Overview
@@ -28,20 +25,13 @@ tags: interactive
 
 The audience for SQL Saturday Guidebook are developers, database administrators, and other information technology workers such as designers, projects managers, business analysts, and other I.T. employees. Dark mode was chosen for the theme from an ad-hoc survey of would-be attendees. Many developers seem to prefer the dark mode of Visual Studio. A light mode is planned to be incorporated as a choice for subsequent years.
 
-<a data-fslightbox href="/images/projects/event-guide-app/event-guide-app-personas-isral-duke-1.jpg">
-    <img src="/images/projects/event-guide-app/event-guide-app-personas-isral-duke-1.jpg" alt="Persona for Gwenly, one of the imaginary users to guide design decisions.">
-</a>
-<a data-fslightbox href="/images/projects/event-guide-app/event-guide-app-personas-isral-duke-2.jpg">
-    <img src="/images/projects/event-guide-app/event-guide-app-personas-isral-duke-2.jpg" alt="Persona for William, one of the imaginary users to guide design decisions.">
-</a>
+{% include 'personas.njk' %}
 
 ### Initial Design Concepts
 
 The initial design concepts were sketched on the fly in one of the initial planning meetings for the event. Using an _ad hoc_ competitive analysis of other event guide apps, the event advisory board — myself included — generated the requirements on the spot.
 
-<a data-fslightbox href="/images/projects/event-guide-app/event-guide-app-initial-concepts-designed-isral-duke.png">
-    <img alt="Initial design concept sketches for the event guide app." src="/images/projects/event-guide-app/event-guide-app-initial-concepts-designed-isral-duke.png">
-</a>
+{% include 'sketches.njk' %}
 
 ### Key Challenges
 

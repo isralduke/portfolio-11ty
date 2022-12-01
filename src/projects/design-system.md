@@ -1,23 +1,20 @@
 ---
-title: 'Design System | '
-projectName: Design System
-projectType: Employer
-projectPlatform: Web
-projectStatus: Published
-projectLeadSentence: Design System allows team members to access a single source of truth and quickly produce value.
-projectImgSrc1: /images/projects/design-system/design-system-designed-isral-duke.jpg
-projectImageAlt1: 
-projectImgSrc2: /images/projects/design-system/design-system-mockups-designed-isral-duke-set-2.png
-projectImageAlt2: Two iPhones displaying sample screens from a web app produced with the Design System.
-projectImgSrc3: /images/projects/design-system/design-system-mockups-designed-isral-duke-set-3.jpg
-projectImageAlt3: A laptop screen showing a sample screen from a web app produced with the Design System.
-projectImgSrc4: /images/projects/design-system/design-system-canvas-designed-isral-duke.jpg
-projectImageAlt4: A view of some of design frames which comprise the Design System.
-projectPrototypeLink: https://pelican.ots.la.gov
-projectDesignFile: https://www.figma.com/community/file/1080971993134221445
-socialImage: https://isralduke.com/images/projects/design-system/
-date: 2021-11-24
-tags: interactive
+title      : Design System
+date       : 2021-11-24
+tags       : interactive
+type       : Employer
+platform   : Web
+status     : Published
+excerpt    : Design System allows team members to access a single source of truth and quickly produce value.
+tryitLink  : https://pelican.ots.la.gov
+featureAlt : Laptop, iPads, and an iPhone displaying products built with the design system.
+mockups    : ['mockup-1.png','mockup-2.jpg']
+roles      : ['User Researcher','UX Designer','UI Designer']
+personas   : ['persona-1.jpg','persona-2.jpg']
+sketches   : []
+wireframes : []
+usabilities: []
+designFile : https://www.figma.com/community/file/1080971993134221445
 ---
 
 ### Overview
@@ -32,12 +29,7 @@ I am the lead UI and UX designer and the primary frontend designer. I consult wi
 
 The primary users for this design system are senior developers, mid-level developers, junior developers, and user experience designers. Seondary users are the business analysts and product owners. Tertiary users are stakeholders who decide to adopt the design system for their products.
 
-<a data-fslightbox href="/images/projects/design-system/design-system-personas-isral-duke-1.jpg">
-  <img src="/images/projects/design-system/design-system-personas-isral-duke-1.jpg" alt="Persona for Lalana, one of the imaginary users to guide design decisions.">
-</a>
-<a data-fslightbox href="/images/projects/design-system/design-system-personas-isral-duke-2.jpg">
-  <img src="/images/projects/design-system/design-system-personas-isral-duke-2.jpg" alt="Persona for Umang, one of the imaginary users to guide design decisions.">
-</a>
+{% include 'personas.njk' %}
 
 ### Research
 

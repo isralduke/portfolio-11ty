@@ -1,8 +1,8 @@
 <div class="row justify-content-center">
 {% for item in personas %}
   <div class="col-12 {% if personas.length > 1%} col-md-6 {% endif %}">
-    <a data-fslightbox href="/images/projects/{{ title | slugify }}/{{ item.file }}">
-      <img src="/images/projects/{{ title | slugify }}/{{ item.file }}" alt="{{ item.alt }}" class="img-fluid">
+    <a data-fslightbox href="/images/projects/{{ title | slugify }}/{{ item }}">
+      <img src="/images/projects/{{ title | slugify }}/{{ item }}" alt="{{ loop.index }} of {{ personas.length }} created for {{ title }}." class="img-fluid">
     </a>
   </div>
 {% endfor %}

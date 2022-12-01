@@ -1,23 +1,20 @@
 ---
-title: 'Digital Driver’s License App | '
-projectName: Digital Driver’s License App
-projectType: Employer
-projectPlatform: iOS
-projectStatus: Released
-projectLeadSentence: Mobile app allows drivers to substitute their phones for a physical license for traffic purposes.
-projectImgSrc1: /images/projects/digital-drivers-license-app/digital-drivers-license-app-designed-envoc-isral-duke.jpg
-projectImageAlt1: App screen designs for the digital driver’s license app.
-projectImgSrc2: /images/projects/digital-drivers-license-app/digital-drivers-license-app-designed-isral-duke-set-2.jpg
-projectImageAlt2: An iPhone 8 showing the home screen of the digital driver’s license app.
-projectImgSrc3: /images/projects/digital-drivers-license-app/digital-drivers-license-app-designed-isral-duke-set-3.jpg
-projectImageAlt3: An iPhone 8 showing the license preview screen of the digital driver’s license app.
-projectImgSrc4: /images/projects/digital-drivers-license-app/digital-drivers-license-app-canvas-designed-isral-duke.jpg
-projectImageAlt4: A view of some of design screens which comprise the digital driver’s license app.
-projectPrototypeLink: https://apps.apple.com/us/app/la-wallet/id1386930269
-projectDesignFile: https://www.figma.com/file/ij8qjFQ387MBGRYDJWOWAw/Digital-Driver%E2%80%99s-License?node-id=0%3A1
-socialImage: https://isralduke.com/images/projects/digital-drivers-license-app/digital-drivers-license-app-designed-envoc-isral-duke.jpg
-date: 2021-11-23
-tags: interactive
+title      : Digital Drivers License App
+date       : 2021-11-23
+tags       : interactive
+type       : Employer
+platform   : Xamarin
+status     : Released
+excerpt    : Mobile app allows drivers to substitute their phones for a physical license for traffic purposes.
+tryitLink  : https://apps.apple.com/us/app/la-wallet/id1386930269
+featureAlt : App screen designs for the digital driver’s license app.
+mockups    : ['mockup-1.jpg','mockup-2.jpg']
+roles      : ['User Researcher','UX Designer','UI Designer']
+personas   : ['persona-1.jpg','persona-2.jpg']
+sketches   : []
+wireframes : []
+usabilities: []
+designFile : https://www.figma.com/file/ij8qjFQ387MBGRYDJWOWAw/Digital-Driver%E2%80%99s-License?node-id=0%3A1
 ---
 
 ### Project Role & Goal
@@ -28,12 +25,7 @@ During the [La Wallet](https://lawallet.com) app project I was the UX Designer, 
 
 There are two primary users for the digital driver’s license: the driver and the public safety officer who needs to see the driver’s license.
 
-<a data-fslightbox href="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-1.jpg">
-  <img src="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-1.jpg" alt="Persona for Gerald, one of the imaginary users to guide design decisions.">
-</a>
-<a data-fslightbox href="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-2.jpg">
-  <img src="/images/projects/digital-drivers-license-app/digital-drivers-license-app-personas-isral-duke-2.jpg" alt="Persona for Melissa, one of the imaginary users to guide design decisions.">
-</a>
+{% include 'personas.njk' %}
 
 ### Key Challenges
 
@@ -41,4 +33,4 @@ The driver needs fast, a fews taps as possible access to present their license t
 
 ### Conclusion
 
-The digital driver’s license is called [La Wallet](https://lawallet.com). It’s designed, developed, and owned by [Envoc](https://envoc.com), a software agency in Louisiana, where I worked on La Wallet as the UX Designer while I was an employee.
+The digital driver’s license is called [La Wallet](https://lawallet.com). It’s designed, developed, and owned by [Envoc](https://envoc.com), a software agency in Louisiana, where I worked on La Wallet while I was an employee.

@@ -5,33 +5,33 @@ layout: base.njk
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <h2 id="pageName">{{ title }}</h2>
+      <h2 id="pageName" class="h2">{{ title }}</h2>
       <p class="lead">{{ excerpt }}</p>
     </div>
   </div>
   <div class="row">
     {# feature image, should only be 1 item #}
-    {% for item in features %}
     <div class="col-12">
-      <img src="/images/projects/{{ title | slugify }}/{{ item.file }}" alt="{{ item.alt }}" class="img-fluid">
+      <img src="/images/projects/{{ title | slugify }}/feature.jpg" alt="{{ featureAlt }}" class="img-fluid">
     </div>
-    {% endfor %}
   </div>
   <div class="row">
     {# mockups #}
     {% for item in mockups %}
     <div class="col-6">
-      <img src="/images/projects/{{ title | slugify }}/{{ item.file }}" alt="{{ item.alt }}" class="img-fluid">
+      <img src="/images/projects/{{ title | slugify }}/{{ item }}" alt="Mockup {{ loop.index }} of {{ mockups.length }} for {{ title }}." class="img-fluid">
     </div>
     {% endfor %}
   </div>
-  {% if tag == 'interactive' %}
+  {# only for interactive projects #}
+  {% if tags == 'interactive' %}
   <div class="row">
     <div class="col-12">
       {# try it link #}
       <a href="{{ tryitLink }}" class="btn btn-primary">Try It</a>
     </div>
   </div>
+  {# Projct Info #}
   <div class="row">
     <div class="col-12">
       <h3>Project Info</h3>
@@ -48,7 +48,7 @@ layout: base.njk
       {{ content | safe }}
     </div>
   </div>
-  {% if tag == 'interactive' %}
+  {% if tags == 'interactive' %}
   <div class="row">
     <div class="col-12">
       <h3>Design Review</h3>

@@ -1,23 +1,20 @@
 ---
-title: 'Medical Diagnosis App | '
-projectName: Medical Diagnosis App
-projectType: Client Work
-projectPlatform: Web
-projectStatus: Published
-projectLeadSentence: Web application allows licensed medical personnel to remotely diagnose patients. 
-projectImgSrc1: /images/projects/medical-diagnosis-app/medical-diagnosis-app-user-interface-designed-isral-duke.jpg
-projectImageAlt1: App screen designs for the medical diagnosis app.
-projectImgSrc2: /images/projects/medical-diagnosis-app/medical-diagnosis-app-designed-isral-duke-set-2.jpg
-projectImageAlt2: A laptop showing the dashboard screen of the medical diagnosis app.
-projectImgSrc3: /images/projects/medical-diagnosis-app/medical-diagnosis-app-designed-isral-duke-set-3.jpg
-projectImageAlt3: A laptop showing the patient queue screen of the medical diagnosis app.
-projectImgSrc4: /images/projects/medical-diagnosis-app/medical-diagnosis-app-canvas-designed-isral-duke.jpg
-projectImageAlt4: A view of some of design screens which comprise the medical diagnosis app.
-projectPrototypeLink: https://www.figma.com/proto/3eZwSoXFfOuMdku5Vi9tfC/Telemedicine-Design?page-id=5%3A11973&node-id=0%3A122&viewport=241%2C48%2C0.12&scaling=scale-down&starting-point-node-id=0%3A122
-projectDesignFile: https://www.figma.com/file/3eZwSoXFfOuMdku5Vi9tfC/Telemedicine-Design?node-id=5%3A11973
-socialImage: https://isralduke.com/images/projects/medical-diagnosis-app/medical-diagnosis-app-user-interface-designed-isral-duke.jpg
-date: 2021-11-25
-tags: interactive
+title      : Medical Diagnosis App
+date       : 2021-11-25
+tags       : interactive
+type       : Client Work
+platform   : Web
+status     : Released
+excerpt    : Web application allows licensed medical personnel to remotely diagnose patients.
+tryitLink  : https://www.figma.com/proto/3eZwSoXFfOuMdku5Vi9tfC/Telemedicine-Design?page-id=5%3A11973&node-id=0%3A122&viewport=241%2C48%2C0.12&scaling=scale-down&starting-point-node-id=0%3A122
+featureAlt : App screen designs for the medical diagnosis app.
+mockups    : ['mockup-1.jpg','mockup-2.jpg']
+roles      : ['UI Designer']
+personas   : ['persona-1.jpg','persona-2.jpg']
+sketches   : []
+wireframes : ['wireframe-1.jpg']
+usabilities: []
+designFile : https://www.figma.com/file/3eZwSoXFfOuMdku5Vi9tfC/Telemedicine-Design?node-id=5%3A11973
 ---
 
 ### Overview
@@ -28,12 +25,7 @@ Relief Telemed created a mobile application and web application for healthcare p
 
 The user for this web application is an educated, trained, and licensed registered nurse. This is the highest rank of nurse and they are legally sanctioned for diagnosing patients and writing limited prescriptions.
 
-<a data-fslightbox href="/images/projects/medical-diagnosis-app/medical-diagnosis-app-personas-isral-duke-1.jpg">
-    <img src="/images/projects/medical-diagnosis-app/medical-diagnosis-app-personas-isral-duke-1.jpg" alt="Persona for Nancy, one of the imaginary users to guide design decisions.">
-</a>
-<a data-fslightbox href="/images/projects/medical-diagnosis-app/medical-diagnosis-app-personas-isral-duke-2.jpg">
-    <img src="/images/projects/medical-diagnosis-app/medical-diagnosis-app-personas-isral-duke-2.jpg" alt="Persona for William, one of the imaginary users to guide design decisions.">
-</a>
+{% include 'personas.njk' %}
 
 ### Key Challenges
 
@@ -43,6 +35,8 @@ This web application needs to fit and work on small laptops to ensure maximum ha
 
 The wireframes were collaboratively designed with the CIO and CEO, using their backgrounds in medicine and informatics, to guide the placement of “widget regions”. As the digital wireframes were simple rectangles denoting widget regions, we iteratively arranged the regions until the executive team was satisfied.
 
-<a data-fslightbox href="/images/projects/medical-diagnosis-app/medical-diagnosis-app-wireframes-designed-isral-duke.png">
-    <img alt="Digital wireframes collaboratively-created with the executive team." src="/images/projects/medical-diagnosis-app/medical-diagnosis-app-wireframes-designed-isral-duke.png">
-</a>
+{% include 'wireframes.njk' %}
+
+### Conclusion
+
+Relief Telemed hoped the users, nurse practitioners, would be able to interact with one patient every twenty minutes. The actual rate turned out to be approximately one patient every 13 minutes.
