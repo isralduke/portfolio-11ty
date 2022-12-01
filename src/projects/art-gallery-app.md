@@ -18,6 +18,27 @@ projectDesignFile: https://www.figma.com/file/Hh5HjU7yPB3WbHwYxFKIDj/gallerWeMe-
 socialImage: https://isralduke.com/images/projects/art-gallery-app/art-gallery-app-designed-isral-duke.jpg
 date: 2021-11-20
 tags: interactive
+feature: true
+designFilePreview: https://www.figma.com/file/Hh5HjU7yPB3WbHwYxFKIDj/gallerWeMe-art-gallery?node-id=138%3A932
+mockups:
+  - file: mockup-1.png
+    alt : Two phones, one with the home screen of the art gallery app, the other with an art collections screen of the app.
+  - file: mockup-2.png
+    alt : Two phones, one with the ticket purchase process started and the other with the ticket purchase confirmation.
+personas:
+  - file: persona-1.jpg
+    alt : Persona for Dotty, one of the imaginary users to guide design decisions.
+  - file: persona-2.jpg
+    alt : Persona for Bao, one of the imaginary users to guide design decisions.
+sketches: 
+  - file: sketch-1.jpg
+    alt : Initial design concept sketches for the art gallery app.
+wireframes: 
+  - file: wireframe-1.jpg
+    alt : Digital wireframes created from the best hand sketches.
+usability:
+  - file: usability-1.jpg
+    alt : Affinity diagrams distilled from usability testing insights.
 ---
 
 ### Project Role & Goal
