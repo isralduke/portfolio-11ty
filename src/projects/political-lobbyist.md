@@ -1,7 +1,8 @@
 ---
 title: Political Lobbyist
+tags: logo
 permalink: false 
-excerpt: 'Logo for a political influence organization.'
+excerpt: Logo for a political influence organization.
 ---
 
 ### About the Client

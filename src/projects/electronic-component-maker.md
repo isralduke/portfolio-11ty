@@ -1,5 +1,6 @@
 ---
 title: Electronic Component Maker
+tags: logo
 permalink: false
 ---
 

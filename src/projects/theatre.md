@@ -1,5 +1,6 @@
 ---
 title: Theatre
+tags: logo
 permalink: false
 ---
 

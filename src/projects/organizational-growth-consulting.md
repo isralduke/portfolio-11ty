@@ -1,5 +1,6 @@
 ---
 title: Organinizational Growth Consulting
+tags: logo
 permalink: false
 ---
 

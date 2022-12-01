@@ -1,5 +1,6 @@
 ---
 title: Jeweller
+tags: logo
 permalink: false
 ---
 

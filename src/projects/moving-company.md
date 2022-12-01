@@ -1,5 +1,6 @@
 ---
 title: Moving Company
+tags: logo
 permalink: false
 ---
 

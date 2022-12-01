@@ -1,5 +1,6 @@
 ---
 title: Athletics Management
+tags: logo
 permalink: false
 ---
 
