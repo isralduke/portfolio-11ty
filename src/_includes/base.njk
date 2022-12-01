@@ -13,7 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/brands.min.css" rel="stylesheet">
-	<title>{{ title }}isral Duke, Designer </title>
+	<title>{% if tags != 'home' ||  %}{{ title }} | {% endif %}isral Duke, Designer </title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -32,12 +32,13 @@
 </head>
 <body class="{{ bodyclass }}">
 	<header>
-		<a href="#main" id="skip-link">Skip to Main Content</a>
-		<h1 class="visually-hidden">{{ title }}isral Duke, Designer</h1>
+		<h1 class="visually-hidden">isral Duke, Designer</h1>
 		{% include 'nav.njk' %}
 	</header>
-	{{ content | safe }}
-	{% include 'skills-block.njk' %}
+	<main aria-labelledby="pageName">
+		{{ content | safe }}
+		{% include 'skills-block.njk' %}
+	</main>
 	{% include 'footer.njk' %}
 	<script src="{{ '/js/bootstrap.bundle.min.js' | url }}"></script>
 	<script src="{{ '/js/fslightbox.js' | url }}"></script>

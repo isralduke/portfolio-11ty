@@ -1,0 +1,60 @@
+---
+layout: base.njk
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h2 id="pageName">{{ title }}</h2>
+      <p class="lead">{{ excerpt }}</p>
+    </div>
+  </div>
+  <div class="row">
+    {# feature image, should only be 1 item #}
+    {% for item in features %}
+    <div class="col-12">
+      <img src="/images/projects/{{ title | slugify }}/{{ item.file }}" alt="{{ item.alt }}" class="img-fluid">
+    </div>
+    {% endfor %}
+  </div>
+  <div class="row">
+    {# mockups #}
+    {% for item in mockups %}
+    <div class="col-6">
+      <img src="/images/projects/{{ title | slugify }}/{{ item.file }}" alt="{{ item.alt }}" class="img-fluid">
+    </div>
+    {% endfor %}
+  </div>
+  <div class="row">
+    <div class="col-12">
+      {# try it link #}
+      <a href="{{ tryitLink }}" class="btn btn-primary">Try It</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12">
+      <h3>Project Info</h3>
+      <ul>
+        <li>Platform: {{ platform }}</li>
+        <li>Type: {{ type }}</li>
+        <li>Status: {{ status}}</li>
+      </ul>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-12">
+      {{ content | safe }}
+    </div>
+  </div>
+  <hr>
+  {% if tag == 'interactive' %}
+  <div class="row">
+    <div class="col-12">
+      <h3>Design Review</h3>
+      <a href="{{ designFile }}" class="btn btn-primary">Review the design file</a>
+      <img src="/images/projects/{{ title | slugify }}/design-file-preview.jpg" alt="A view of the screens which comprise the {{ title }}." class="img-fluid">
+    </div>
+  </div>
+  {% endif %}
+</div>

@@ -1,0 +1,9 @@
+<div class="row justify-content-center">
+{% for item in usabilities %}
+  <div class="col-12 {% if usabilities.length > 1%} col-md-6 {% endif %}">
+    <a data-fslightbox href="/images/projects/{{ title | slugify }}/{{ item.file }}">
+      <img src="/images/projects/{{ title | slugify }}/{{ item.file }}" alt="{{ item.alt }}" class="img-fluid">
+    </a>
+  </div>
+{% endfor %}
+</div>

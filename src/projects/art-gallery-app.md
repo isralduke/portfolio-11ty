@@ -1,47 +1,42 @@
 ---
-title: 'Art Gallery App | '
-projectName: Art Gallery App
-projectType: Personal
-projectPlatform: iOS
-projectStatus: Proposed
-projectLeadSentence: Mobile app allows art gallery visitors to plan trips, see current artwork collections and buy tickets.
-projectImgSrc1: /images/projects/art-gallery-app/art-gallery-app-designed-isral-duke.jpg
-projectImageAlt1: iPhones on a table with the art gallery app on their screens. 
-projectImgSrc2: /images/projects/art-gallery-app/art-gallery-app-mockups-designed-isral-duke-set-2.png
-projectImageAlt2: Two phones, one with the home screen of the art gallery app, the other with an art collections screen of the app.
-projectImgSrc3: /images/projects/art-gallery-app/art-gallery-app-mockups-designed-isral-duke-set-3.png
-projectImageAlt3: Two phones, one with the ticket purchase process started and the other with the ticket purchase confirmation.
-projectImgSrc4: /images/projects/art-gallery-app/art-gallery-app-canvas-designed-isral-duke.jpg
-projectImageAlt4: A view of some of design screens which comprise the art gallery app.
-projectPrototypeLink: https://www.figma.com/proto/Hh5HjU7yPB3WbHwYxFKIDj/Art-Gallery-Tour?page-id=138%3A932&node-id=138%3A940&viewport=241%2C48%2C0.11&scaling=scale-down&
-projectDesignFile: https://www.figma.com/file/Hh5HjU7yPB3WbHwYxFKIDj/gallerWeMe-art-gallery?node-id=138%3A932
-socialImage: https://isralduke.com/images/projects/art-gallery-app/art-gallery-app-designed-isral-duke.jpg
-date: 2021-11-20
-tags: interactive
-feature: true
-designFilePreview: https://www.figma.com/file/Hh5HjU7yPB3WbHwYxFKIDj/gallerWeMe-art-gallery?node-id=138%3A932
-mockups:
-  - file: mockup-1.png
-    alt : Two phones, one with the home screen of the art gallery app, the other with an art collections screen of the app.
-  - file: mockup-2.png
-    alt : Two phones, one with the ticket purchase process started and the other with the ticket purchase confirmation.
-personas:
-  - file: persona-1.jpg
-    alt : Persona for Dotty, one of the imaginary users to guide design decisions.
-  - file: persona-2.jpg
-    alt : Persona for Bao, one of the imaginary users to guide design decisions.
-sketches: 
-  - file: sketch-1.jpg
-    alt : Initial design concept sketches for the art gallery app.
-wireframes: 
-  - file: wireframe-1.jpg
-    alt : Digital wireframes created from the best hand sketches.
-usability:
-  - file: usability-1.jpg
-    alt : Affinity diagrams distilled from usability testing insights.
+layout: project-interactive
+title: Art Gallery App
+date       : 2021-11-20
+tags       : interactive
+type       : Personal
+status     : Proposed
+platform   : iOS
+excerpt    : Mobile app allows art gallery visitors to plan trips, see current artwork collections and buy tickets.
+tryitLink  : https://www.figma.com/proto/Hh5HjU7yPB3WbHwYxFKIDj/Art-Gallery-Tour?page-id=138%3A932&node-id=138%3A940&viewport=241%2C48%2C0.11&scaling=scale-down&
+features   :
+  - file   : feature.jpg
+    alt    : iPhones on a table with the art gallery app on their screens.
+mockups    : 
+  - file   : mockup-1.png
+    alt    : Two phones, one with the home screen of the art gallery app, the other with an art collections screen of the app.
+  - file   : mockup-2.png
+    alt    : Two phones, one with the ticket purchase process started and the other with the ticket purchase confirmation.
+roles      : ['User Researcher','UX Designer','UI Designer']
+personas   : 
+  - file   : persona-1.jpg
+    alt    : Persona for Dotty, one of the imaginary users to guide design decisions.
+  - file   : persona-2.jpg
+    alt    : Persona for Bao, one of the imaginary users to guide design decisions.
+sketches   : 
+  - file   : sketch-1.jpg
+    alt    : Initial design concept sketches for the art gallery app.
+wireframes : 
+  - file   : wireframe-1.jpg
+    alt    : Digital wireframes created from the best hand sketches.
+usabilities: 
+  - file   : usability-1.jpg
+    alt    : Affinity diagrams distilled from usability testing insights.
+  - file   : usability-2.jpg
+    alt    : Affinity diagrams distilled from second round of usability testing insights.
+designFile : https://www.figma.com/file/Hh5HjU7yPB3WbHwYxFKIDj/gallerWeMe-art-gallery?node-id=138%3A932
 ---
 
-### Project Role & Goal
+### Project Goal
 
 During the art gallery mobile application design process I acted as the UX Designer and User Researcher. The goal was to create a new mobile experience for the gallery. The app helps visitors buy tickets in the app, shows them upcoming gallery events, and helps them plan their visit to the gallery.
 
@@ -49,12 +44,7 @@ During the art gallery mobile application design process I acted as the UX Desig
 
 The target audience is composed of two primary segments. The first segment is made up retired, senior visitors who often rely on third parties for transportation to the gallery. They need accommodation and accessibility information for their visits. The second segment is made up of young professionals who can visit the gallery in the evenings and weekends. The second segment is most likely to buy tickets in the application. Both segments expressed a desire to attend weekend events at the gallery.
 
-<a data-fslightbox href="/images/projects/art-gallery-app/art-gallery-app-personas-isral-duke-1.jpg">
-    <img src="/images/projects/art-gallery-app/art-gallery-app-personas-isral-duke-1.jpg" alt="Persona for Dotty, one of the imaginary users to guide design decisions.">
-</a>
-<a data-fslightbox href="/images/projects/art-gallery-app/art-gallery-app-personas-isral-duke-2.jpg">
-    <img src="/images/projects/art-gallery-app/art-gallery-app-personas-isral-duke-2.jpg" alt="Persona for Bao, one of the imaginary users to guide design decisions.">
-</a>
+{% include 'personas.njk' %}
 
 ### Key Challenges
 
@@ -68,25 +58,19 @@ The research began with online surveys to determine the content in the mobile ap
 
 Paper sketches were used to capture initial design ideas, using crazy 8 methodology.
 
-<a data-fslightbox href="/images/projects/art-gallery-app/art-gallery-app-initial-concepts-designed-isral-duke.jpg">
-    <img alt="Initial design concept sketches for the art gallery app." src="/images/projects/art-gallery-app/art-gallery-app-initial-concepts-designed-isral-duke.jpg">
-</a>
+{% include 'sketches.njk' %}
 
 ### Digital Wireframes
 
 The best ideas from initial design concepts were translated into digital wireframes.
 
-<a data-fslightbox href="/images/projects/art-gallery-app/art-gallery-app-wireframes-designed-isral-duke.jpg">
-    <img alt="Digital wireframes created from the best hand sketches." src="/images/projects/art-gallery-app/art-gallery-app-wireframes-designed-isral-duke.jpg">
-</a>
+{% include 'wireframes.njk' %}
 
 ### Usability Testing
 
 Usability testing data was recorded in a spreadsheet for each of the participants. Each participant was asked to perform key tasks in the wireframes. Moderated, remote testing enabled us to answer questions about the function about the wireframe setup verses the actual wireframe design. Testing occurred with digital wireframes with some follow up in the mockups.
 
-<a data-fslightbox href="/images/projects/art-gallery-app/art-gallery-app-usability-testing-performed-isral-duke.jpg">
-    <img alt="Affinity diagrams distilled from usability testing insights." src="/images/projects/art-gallery-app/art-gallery-app-usability-testing-performed-isral-duke.jpg">
-</a>
+{% include 'usabilities.njk' %}
 
 ### Conclusion
 
