@@ -4,19 +4,16 @@ layout: base.njk
 bodyclass: home
 projectLeadSentence: Isral Duke is a Google, Adobe, and W3C certified UX Designer. He has a decade of experience doing User Experience, User Interface, and Interaction Design in software.
 socialImage: https://isralduke.com/images/photos/isral-sketch-observe.jpg
+tags: home
 ---
 
-<section class="hero-home-block d-flex" aria-labelledby="designer">
-    <img class="img-fluid visually-hidden" src="../images/photos/isral-sketch-observe.jpg" alt="isral Duke holding a sketchbook facing towards a light source.">
-    <div class="container-fluid mt-auto mx-0 mb-4 mb-lg-auto">
+<section aria-labelledby="designer">
+    <div class="container">
         <div class="row">
-            <div class="col-10 offset-1 col-md-5 offset-md-6 col-lg-3 offset-lg-8">
-                <div class="card card-body border-0 rounded-0">
-                    <h2 class="h1 mb-0 text-uppercase" id="designer">Designer</h2>
-                    <p class="mb-0">I design inclusive and easy to use products.</p>
-                </div>
+            <div class="col-12">
+                <h2 id="designer">Purpose</h2>
+                <p class="mb-0">I design inclusive and easy to use products.</p>
             </div>
         </div>
     </div>
 </section>
-{% include 'selected-projects.njk' %}
