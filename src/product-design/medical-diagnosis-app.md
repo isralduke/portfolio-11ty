@@ -1,7 +1,6 @@
 ---
 title      : Medical Diagnosis App
 date       : 2021-11-25
-tags       : interactive
 type       : Client Work
 platform   : Web
 status     : Released

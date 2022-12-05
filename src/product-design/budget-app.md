@@ -1,7 +1,6 @@
 ---
 title      : Budget App
 date       : 2021-11-22
-tags       : interactive
 type       : Personal
 platform   : iOS
 status     : Proposed

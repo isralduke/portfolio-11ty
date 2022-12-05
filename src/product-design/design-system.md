@@ -1,7 +1,6 @@
 ---
 title      : Design System
 date       : 2021-11-24
-tags       : interactive
 type       : Employer
 platform   : Web
 status     : Published

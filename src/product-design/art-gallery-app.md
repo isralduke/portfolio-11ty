@@ -1,7 +1,6 @@
 ---
 title      : Art Gallery App
 date       : 2021-11-20
-tags       : interactive
 type       : Personal
 platform   : iOS
 status     : Proposed

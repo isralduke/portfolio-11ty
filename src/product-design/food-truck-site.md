@@ -1,7 +1,6 @@
 ---
 title      : Food Truck Site
 date       : 2021-11-28
-tags       : interactive
 type       : Personal
 platform   : Web
 status     : Proposed

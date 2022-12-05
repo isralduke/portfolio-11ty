@@ -1,7 +1,6 @@
 ---
 title      : Sketch Note App
 date       : 2021-11-26
-tags       : interactive
 type       : Personal
 platform   : iOS
 status     : Released

@@ -1,7 +1,6 @@
 ---
 title      : Event Guide App
 date       : 2021-11-27
-tags       : interactive
 type       : Personal
 platform   : Xamarin
 status     : Proposed

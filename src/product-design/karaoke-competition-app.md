@@ -1,7 +1,6 @@
 ---
 title      : Karaoke Competition App
 date       : 2021-11-29
-tags       : interactive
 type       : Contest Winner
 platform   : Xamarin
 status     : Proposed

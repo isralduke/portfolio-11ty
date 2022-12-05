@@ -1,7 +1,6 @@
 ---
 title      : Digital Drivers License App
 date       : 2021-11-23
-tags       : interactive
 type       : Employer
 platform   : Xamarin
 status     : Released
