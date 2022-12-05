@@ -1,5 +1,5 @@
 ---
 title  : Human Sitemap
-layout : sitemap-human
+layout : sitemap
 excerpt: 
 ---
