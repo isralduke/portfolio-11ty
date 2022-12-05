@@ -1,6 +1,8 @@
 ---
-title: Violinist Violist
-permalink: false
+title   : Violinist Violist
+date    : 2022-10-28
+excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
+mockups : []
 ---
 
 ### About the Client

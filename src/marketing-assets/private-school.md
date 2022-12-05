@@ -1,13 +1,15 @@
 ---
-title: Private School
-permalink: false
+title   : Private School
+date    : 2022-10-27
+excerpt : Faith-based private school gets a plan to strategically market itself.
+mockups : []
 ---
 
 ### About the Client
 
 St. Luke’s Episcopal School is a small, tightly-knit, private school attached to St. Luke’s Episcopal Church. Seeking to become a recognized, separate organization, the school needed  a new brand for themselves.
 
-### Design Inspiration
+### Informed Design Decisions
 
 The logo is informed by the traditional Episcopal flag, in the colors and the graphic devices, such as the quatrafoil cross.
 

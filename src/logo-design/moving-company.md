@@ -1,6 +1,8 @@
 ---
-title: Moving Company
-permalink: false
+title   : Moving Company
+date    : 2022-10-28
+excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
+mockups : []
 ---
 
 ### About the Client

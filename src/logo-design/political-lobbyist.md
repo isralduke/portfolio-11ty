@@ -1,6 +1,8 @@
 ---
-title: Political Lobbyist
-permalink: false 
+title   : Political Lobbyist
+date    : 2022-10-28
+excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
+mockups : [] 
 excerpt: Logo for a political influence organization.
 ---
 
