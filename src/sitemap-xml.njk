@@ -1,0 +1,59 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://isralduke.com/</loc>
+    <lastmod>2022-07-07</lastmod>
+  </url>
+  <url>
+    <loc>https://isralduke.com/product-design</loc>
+    <lastmod>2022-07-07</lastmod>
+  </url>
+  {% for item in collections.productDesign %}
+  <url>
+      <loc>https://isralduke.com{{ item.url }}</loc>
+      <lastmod>2022-07-07</lastmod>
+  </url>
+  {% endfor %}
+  <url>
+    <loc>https://isralduke.com/talks</loc>
+    <lastmod>2022-07-07</lastmod>
+  </url>
+  {% for item in collections.talks %}
+  <url>
+      <loc>https://isralduke.com{{ item.url }}</loc>
+      <lastmod>2022-07-07</lastmod>
+  </url>
+  {% endfor %}
+  <url>
+    <loc>https://isralduke.com/marketing-asset-design</loc>
+    <lastmod>2022-07-07</lastmod>
+  </url>
+  {% for item in collections.marketingAssets %}
+  <url>
+      <loc>https://isralduke.com{{ item.url }}</loc>
+      <lastmod>2022-07-07</lastmod>
+  </url>
+  {% endfor %}
+  <url>
+    <loc>https://isralduke.com/logo-design</loc>
+    <lastmod>2022-07-07</lastmod>
+  </url>
+  {% for item in collections.logoDesign %}
+  <url>
+      <loc>https://isralduke.com{{ item.url }}</loc>
+      <lastmod>2022-07-07</lastmod>
+  </url>
+  {% endfor %}
+  <url>
+    <loc>https://isralduke.com/about</loc>
+    <lastmod>2022-07-07</lastmod>
+  </url>
+  <url>
+    <loc>https://isralduke.com/resources</loc>
+    <lastmod>2022-07-07</lastmod>
+  </url>
+</urlset>

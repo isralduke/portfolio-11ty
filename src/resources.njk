@@ -3,3 +3,28 @@ title: Resources
 layout: base
 excerpt:
 ---
+
+<main aria-labelledby="pageName">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="h2" id="pageName">Resources</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row g-3">
+      {% for item in collections.resources | reverse  %}
+      <div class="col-md-6 col-lg-4">
+        <section aria-labelledby="{{ item.data.title | slugify }}" class="card">
+          <div class="card-body">
+            <h3 id="{{ item.data.title | slugify }}" class="h6">{{ item.data.title }}</h3>
+            <p>{{ item.data.summary }}</p>
+            <a href="{{ item.data.weburl }}" class="btn btn-link">{{ item.data.source }}</a>
+          </div>
+        </section>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</main>
