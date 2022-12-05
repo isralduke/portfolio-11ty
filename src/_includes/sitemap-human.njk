@@ -1,0 +1,54 @@
+---
+title    : Human Sitemap
+layout   : base
+permalink: /sitemap
+---
+
+<main aria-labelledby="pageName">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="h2" id="pageName">Human Sitemap</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/product-design">Product Design</a>
+            <ul>
+              {% for item in collection.productDesign %}
+              <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li><a href="/talks">Talks</a>
+            <ul>
+              {% for item in collection.talks %}
+              <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li><a href="/marketing-asset-design">Marketing Asset Design</a>
+            <ul>
+              {% for item in collection.marketingAssets %}
+              <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li><a href="/logo-design">Logo Design</a>
+            <ul>
+              {% for item in collection.logoDesign %}
+              <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/resources">Resources</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</main>
