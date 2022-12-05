@@ -1,7 +1,7 @@
 ---
 title   : Jeweller
 date    : 2022-11-24
-excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
+excerpt : Custom design for precious stone wearables.
 mockups : ['mockup-1.jpg'] 
 ---
 

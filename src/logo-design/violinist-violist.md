@@ -1,7 +1,7 @@
 ---
 title   : Violinist Violist
 date    : 2022-11-23
-excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
+excerpt : Classically-trained violinist and violist performing for theatrical, orchestral, and community events.
 mockups : ['mockup-1.jpg'] 
 ---
 

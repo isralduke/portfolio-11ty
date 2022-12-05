@@ -1,7 +1,7 @@
 ---
 title   : Athletics Management
 date    : 2022-11-28
-excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
+excerpt : Outsource management for athletic events, programs, or organization extensions.
 mockups : ['mockup-1.jpg'] 
 ---
 

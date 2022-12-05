@@ -1,7 +1,7 @@
 ---
 title   : Electronic Component Maker
 date    : 2022-11-27
-excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
+excerpt : Startup which design and manufactures electronic components for hobbyists.
 mockups : ['mockup-1.jpg'] 
 ---
 

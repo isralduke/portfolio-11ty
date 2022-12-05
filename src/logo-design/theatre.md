@@ -1,7 +1,7 @@
 ---
 title   : Theatre
 date    : 2022-11-30
-excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
+excerpt : Venue for ongoing stage, comedy, and business meeting events.
 mockups : ['mockup-1.jpg'] 
 ---
 

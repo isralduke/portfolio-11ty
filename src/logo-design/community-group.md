@@ -1,7 +1,7 @@
 ---
-title   : Church
+title   : Community Group
 date    : 2022-11-19
-excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
+excerpt : Small community of evangelicals who asseble on Sundays or special holidays.
 mockups : ['mockup-1.jpg'] 
 ---
 

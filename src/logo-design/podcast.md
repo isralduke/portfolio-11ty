@@ -1,7 +1,7 @@
 ---
 title   : Podcast
 date    : 2022-12-01
-excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
+excerpt : Educator-focused, humorous podcast features topics about teacher successes and frustrations.
 mockups : [] 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title   : Organizational Growth Consultants
 date    : 2022-11-22
-excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
+excerpt : Small business which educates and trains business operations to focus on organizational health.
 mockups : ['mockup-1.jpg'] 
 ---
 

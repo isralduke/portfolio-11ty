@@ -1,7 +1,7 @@
 ---
 title   : Architect
 date    : 2022-11-26
-excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
+excerpt : Home design and construction organization for homeowners looking for their uniquely-designed and built home.
 mockups : ['mockup-1.jpg'] 
 ---
 

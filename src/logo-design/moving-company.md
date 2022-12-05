@@ -1,7 +1,7 @@
 ---
 title   : Moving Company
 date    : 2022-11-21
-excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
+excerpt : Sole proprietorship which offers packing and moving services.
 mockups : ['mockup-1.jpg'] 
 ---
 
