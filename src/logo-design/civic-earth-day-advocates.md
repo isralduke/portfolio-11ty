@@ -1,8 +1,8 @@
 ---
 title   : Civic Earth Day Advocates
-date    : 2022-10-28
+date    : 2022-11-25
 excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
-mockups : []
+mockups : ['mockup-1.jpg'] 
 ---
 
 ### About the Client

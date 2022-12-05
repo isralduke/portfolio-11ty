@@ -2,7 +2,7 @@
 title   : Premium Drinks Retailer
 date    : 2022-10-25
 excerpt : Spirits retailer promotes itself as an afterwork destination for the professional crowd.
-mockups : []
+mockups : ['mockup-1.jpg'] 
 ---
 
 ### About the Client

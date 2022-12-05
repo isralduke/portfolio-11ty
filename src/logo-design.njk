@@ -3,3 +3,27 @@ title: Logo Design
 layout: base
 excerpt:
 ---
+
+<main aria-labelledby="pageName">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="h2" id="pageName">Logo Design</h2>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row g-3">
+      {% for item in collections.logos | reverse  %}
+      <div class="col-md-6 col-lg-4">
+        <section aria-labelledby="{{ item.data.title | slugify }}" class="card">
+          <div class="card-body d-flex flex-column">
+            <h3 id="{{ item.data.title | slugify }}" class="visually-hidden">Logo for {{ item.data.title }}</h3>
+            <img alt="" src="/images/projects/{{ item.data.title | slugify }}/feature.jpg" class="img-fluid rounded order-0">
+          </div>
+        </section>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</main>

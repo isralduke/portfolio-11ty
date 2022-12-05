@@ -2,7 +2,7 @@
 title   : Logistics Products Firm
 date    : 2022-10-30
 excerpt : Hardware and software engineers for the maritime industy feature a wide array of expertise.
-mockups : []
+mockups : ['mockup-1.jpg'] 
 ---
 
 ### About the Client

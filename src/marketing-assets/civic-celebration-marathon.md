@@ -2,7 +2,7 @@
 title   : Civic Celebration Marathon
 date    : 2022-10-24
 excerpt : A cozy town celebrates its birthday and historical roots with a marathon.
-mockups : []
+mockups : ['mockup-1.jpg'] 
 ---
 
 ### About the Client

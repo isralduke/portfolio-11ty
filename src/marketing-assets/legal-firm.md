@@ -2,7 +2,7 @@
 title   : Legal Firm
 date    : 2022-11-01
 excerpt : Rapid-growth legal services firm creates an ecosystem of services.
-mockups : []
+mockups : ['mockup-1.jpg'] 
 ---
 
 ### About the Client

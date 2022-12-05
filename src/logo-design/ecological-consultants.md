@@ -1,8 +1,8 @@
 ---
-title   : Ecological Consultings
-date    : 2022-10-28
-excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
-mockups : []
+title   : Ecological Consultants
+date    : 2022-11-29
+excerpt : Business consultants who research green solutions for business process requirements.
+mockups : ['mockup-1.jpg'] 
 ---
 
 ### About the Client
