@@ -1,4 +1,5 @@
 ---
-title : Human Sitemap
-layout: sitemap-human.njk
+title  : Human Sitemap
+layout : sitemap-human
+excerpt: 
 ---
