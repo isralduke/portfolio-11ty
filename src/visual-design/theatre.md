@@ -2,7 +2,7 @@
 title   : Theatre
 date    : 2022-11-30
 excerpt : Venue for ongoing stage, comedy, and business meeting events.
-mockups : ['mockup-1.jpg'] 
+mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 
 ### About the Client

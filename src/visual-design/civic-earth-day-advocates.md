@@ -2,7 +2,7 @@
 title   : Civic Earth Day Advocates
 date    : 2022-11-25
 excerpt : Annual earth day holiday focused within a metropolitan region.
-mockups : ['mockup-1.jpg'] 
+mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 
 ### About the Client

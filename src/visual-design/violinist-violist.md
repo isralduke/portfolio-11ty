@@ -2,7 +2,7 @@
 title   : Violinist Violist
 date    : 2022-11-23
 excerpt : Classically-trained violinist and violist performing for theatrical, orchestral, and community events.
-mockups : ['mockup-1.jpg'] 
+mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 
 ### About the Client

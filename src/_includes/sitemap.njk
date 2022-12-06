@@ -29,16 +29,9 @@ layout   : base
               {% endfor %}
             </ul>
           </li>
-          <li><a href="/marketing-asset-design">Marketing Asset Design</a>
+          <li><a href="/visual-design">Visual Design</a>
             <ul>
-              {% for item in collections.marketingAssetDesign | reverse %}
-              <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
-              {% endfor %}
-            </ul>
-          </li>
-          <li><a href="/logo-design">Logo Design</a>
-            <ul>
-              {% for item in collections.logoDesign | reverse %}
+              {% for item in collections.visualDesign | reverse %}
               <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
               {% endfor %}
             </ul>

@@ -2,7 +2,7 @@
 title   : Organizational Growth Consultants
 date    : 2022-11-22
 excerpt : Small business which educates and trains business operations to focus on organizational health.
-mockups : ['mockup-1.jpg'] 
+mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 
 ### About the Client

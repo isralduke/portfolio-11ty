@@ -2,7 +2,7 @@
 title   : Jeweller
 date    : 2022-11-24
 excerpt : Custom design for precious stone wearables.
-mockups : ['mockup-1.jpg'] 
+mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 
 ### About the Client

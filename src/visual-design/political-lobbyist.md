@@ -1,7 +1,7 @@
 ---
 title   : Political Lobbyist
 date    : 2022-11-20
-mockups : ['mockup-1.jpg'] 
+mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 excerpt : Logo for a political influence organization.
 ---
 

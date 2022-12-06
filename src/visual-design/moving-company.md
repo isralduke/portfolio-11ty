@@ -2,7 +2,7 @@
 title   : Moving Company
 date    : 2022-11-21
 excerpt : Sole proprietorship which offers packing and moving services.
-mockups : ['mockup-1.jpg'] 
+mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 
 ### About the Client

@@ -2,7 +2,7 @@
 title   : Architect
 date    : 2022-11-26
 excerpt : Home design and construction organization for homeowners looking for their uniquely-designed and built home.
-mockups : ['mockup-1.jpg'] 
+mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 
 ### About the Client

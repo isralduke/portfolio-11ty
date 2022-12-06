@@ -2,7 +2,7 @@
 title   : Travel Agency
 date    : 2022-10-28
 excerpt : Personalized travel agency which caters to premium travelers uses whimsy and fun to set up favorable expectations.
-mockups : ['mockup-1.jpg'] 
+mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 
 ### About the Client

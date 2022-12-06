@@ -2,7 +2,7 @@
 title   : Athletics Management
 date    : 2022-11-28
 excerpt : Outsource management for athletic events, programs, or organization extensions.
-mockups : ['mockup-1.jpg'] 
+mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 
 ### About the Client
