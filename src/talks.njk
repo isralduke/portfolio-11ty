@@ -4,19 +4,12 @@ layout: base
 excerpt: isral Duke presents product design topics such as design systems and accessibility.
 ---
 
-<main aria-labelledby="pageName">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="h2" id="pageName">Talks</h2>
-      </div>
-    </div>
-  </div>
+
   <div class="container">
     {% for item in collections.talks %}
     <div class="row">
       <div class="col-12 col-md-6">
-        <h3 class="h3">{{ item.data.title }}</h3>
+        <h2 class="h2">{{ item.data.title }}</h2>
         <p>{{ item.data.excerpt }}</p>
         <a href="{{ item.data.deck }}" download>Get {{ item.data.title }} deck</a>
       </div>
@@ -28,4 +21,3 @@ excerpt: isral Duke presents product design topics such as design systems and ac
     </div>
     {% endfor %}
   </div>
-</main>
