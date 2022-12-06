@@ -1,4 +1,4 @@
 {
-  "layout" : "product-design.njk",
+  "layout" : "project.njk",
   "tags"   : "productDesign"
 }

@@ -1,4 +1,4 @@
 {
-  "layout" : "logo-design.njk",
+  "layout" : "project.njk",
   "tags"   : "logoDesign"
 }

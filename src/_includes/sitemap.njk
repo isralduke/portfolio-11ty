@@ -17,28 +17,28 @@ layout   : base
           <li><a href="/">Home</a></li>
           <li><a href="/product-design">Product Design</a>
             <ul>
-              {% for item in collection.productDesign %}
+              {% for item in collections.productDesign %}
               <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
               {% endfor %}
             </ul>
           </li>
           <li><a href="/talks">Talks</a>
             <ul>
-              {% for item in collection.talks %}
+              {% for item in collections.talks | reverse %}
               <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
               {% endfor %}
             </ul>
           </li>
           <li><a href="/marketing-asset-design">Marketing Asset Design</a>
             <ul>
-              {% for item in collection.marketingAssetDesign %}
+              {% for item in collections.marketingAssetDesign | reverse %}
               <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
               {% endfor %}
             </ul>
           </li>
           <li><a href="/logo-design">Logo Design</a>
             <ul>
-              {% for item in collection.logoDesign %}
+              {% for item in collections.logoDesign | reverse %}
               <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
               {% endfor %}
             </ul>

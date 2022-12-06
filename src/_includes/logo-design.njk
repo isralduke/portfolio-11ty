@@ -1,0 +1,31 @@
+---
+layout: base
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h2 id="pageName" class="h2">{{ title }}</h2>
+            <p class="lead">{{ excerpt }}</p>
+        </div>
+    </div>
+    <div class="row">
+        {# feature image, should only be 1 item #}
+        <div class="col-12">
+            <img src="/images/projects/{{ title | slugify }}/feature.jpg" alt="{{ featureAlt }}" class="img-fluid">
+        </div>
+    </div>
+    <div class="row">
+        {# mockups #}
+        {% for item in mockups %}
+        <div class="col-6">
+            <img src="/images/projects/{{ title | slugify }}/{{ item }}" alt="Mockup {{ loop.index }} of {{ mockups.length }} for {{ title }}." class="img-fluid rounded">
+        </div>
+        {% endfor %}
+    </div>
+    <div class="row">
+        <div class="col-12">
+          {{ content | safe }}
+        </div>
+      </div>
+</div>

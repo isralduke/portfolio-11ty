@@ -1,4 +1,4 @@
 {
-  "layout" : "marketing-asset.njk",
+  "layout" : "project.njk",
   "tags"   : "marketingAssetDesign"
 }
