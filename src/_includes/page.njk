@@ -1,0 +1,27 @@
+---
+layout: base
+---
+
+<div class="container">
+  <div class="row ">
+    <div class="col-12">
+      <h2 class="h2" id="pageName">{{ title }}</h2>
+    </div>
+  </div>
+</div>
+<div class="container">
+  {% if photos %}
+    <div class="row">
+    {% for photo in photos %}
+    <div class="col-12 col-md-3">
+      <img alt="{{ photo.alt }}" class="img-fluid" src="{{ photo.weburl }}">
+    </div>
+    {% endfor %}
+    </div>
+  {% endif %}
+  <div class="row">
+    <div class="col-12">
+      {{ content | safe }}
+    </div>
+  </div>
+</div>

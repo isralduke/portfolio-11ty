@@ -1,6 +1,6 @@
 ---
 title   : Community Group
-date    : 2022-11-19
+date    : 2022-11-11
 excerpt : Small community of people who assemble on Sundays or special holidays.
 mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---

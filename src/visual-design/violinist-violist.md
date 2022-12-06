@@ -1,6 +1,6 @@
 ---
 title   : Violinist Violist
-date    : 2022-11-23
+date    : 2022-11-13
 excerpt : Classically-trained violinist and violist performing for theatrical, orchestral, and community events.
 mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
@@ -12,4 +12,3 @@ Jivka Duke is a classically-trained violinist and violist who has played in Sout
 ### Design Inspiration
 
 The “J” in her logo is inspired by the tuning pegs’ curves of the violin and viola. Further, the colors of her violin and viola informed the color choices in her logo, deep wooden reds, and sonically-rich ebonies. To set herself apart, she didn’t want to plain or literal image of a violin. The focus is on her, as a musician who performs, not on the instrument.
-

@@ -1,6 +1,6 @@
 ---
 title   : Ecological Consultants
-date    : 2022-11-29
+date    : 2022-11-15
 excerpt : Business consultants who research green solutions for business process requirements.
 mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---

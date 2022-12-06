@@ -1,11 +1,20 @@
 ---
 title: About
-layout: about
+layout: page
 projectLeadSentence: Isral Duke is a Google, Adobe, and W3C certified UX Designer. He has a decade of experience doing User Experience, User Interface, and Interaction Design in software.
 projectImgSrc1: /images/photos/isral-sketch-in-situ.jpg
 projectImgageAltText1: isral Duke on user location sketching solutions. Several ink pens surround him. He has his sketchbook in his hands and his laptop, open, on his lap.
 projectImgSrc2: /images/photos/isral-sketch-in-situ-tall.jpg
 socialImage: https://isralduke.com/images/photos/isral-sketch-in-situ.jpg
+photos:
+  - weburl: /images/photos/isral-work-4.jpg
+    alt   : isral Duke sitting in front of a computer. He is also using his ipad to analyze how web sites will work for tablet users.
+  - weburl: /images/photos/isral-work-2.jpg
+    alt   : isral Duke sitting in front of a computer. He is editing photos of small electronic components.
+  - weburl: /images/photos/isral-legos.jpg
+    alt   : isral Duke leaning over a pile of Legos. He has a large smile and an excited facial expression.
+  - weburl: /images/photos/isral-work-3.jpg
+    alt   : isral Duke working on a quick sketch for a furniture project using a Wacom Cintiq.
 ---
 
 ### What I Do

@@ -1,6 +1,6 @@
 ---
 title   : Private School
-date    : 2022-10-27
+date    : 2022-11-22
 excerpt : Faith-based private school gets a plan to strategically market itself.
 mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---

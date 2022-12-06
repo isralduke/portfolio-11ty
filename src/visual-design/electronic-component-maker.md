@@ -1,6 +1,6 @@
 ---
 title   : Electronic Component Maker
-date    : 2022-11-27
+date    : 2022-11-14
 excerpt : Startup which design and manufactures electronic components for hobbyists.
 mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---

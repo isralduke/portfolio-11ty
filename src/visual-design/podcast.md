@@ -1,8 +1,8 @@
 ---
 title   : Podcast
-date    : 2022-12-01
+date    : 2022-11-29
 excerpt : Educator-focused, humorous podcast features topics about teacher successes and frustrations.
-mockups : [] 
+mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 
 ### About the Client

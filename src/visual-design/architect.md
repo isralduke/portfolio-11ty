@@ -1,7 +1,7 @@
 ---
 title   : Architect
-date    : 2022-11-26
-excerpt : Home design and construction organization for homeowners looking for their uniquely-designed and built home.
+date    : 2022-11-20
+excerpt : Home design and construction business for homeowners looking for a uniquely-designed and built home.
 mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 

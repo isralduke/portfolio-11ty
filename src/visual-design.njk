@@ -18,7 +18,7 @@ excerpt:
       <div class="col-md-6 col-lg-4">
         <section aria-labelledby="{{ item.data.title | slugify }}" class="card">
           <a href="{{ item.url }}" class="card-body d-flex flex-column">
-            <h3 id="{{ item.data.title | slugify }}" class="h6 order-1">Logo for {{ item.data.title }}</h3>
+            <h3 id="{{ item.data.title | slugify }}" class="h6 order-1">{{ item.data.title }}</h3>
             <img alt="" src="/images/projects/{{ item.data.title | slugify }}/feature.jpg" class="img-fluid rounded order-0">
             <p class="order-2">{{ item.data.excerpt }}</p>
           </a>

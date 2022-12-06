@@ -1,7 +1,7 @@
 ---
 title   : Custom Software Agency
-date    : 2022-10-29
-excerpt : Startup software agency shows and establishes how it  implements industry standards,
+date    : 2022-11-27
+excerpt : Startup software agency shows and establishes how it implements industry standards,
 mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 
