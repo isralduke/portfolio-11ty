@@ -9,7 +9,7 @@ tryitLink  : https://www.figma.com/proto/Hh5HjU7yPB3WbHwYxFKIDj/Art-Gallery-Tour
 featureAlt : iPhones on a table with the art gallery app on their screens.
 mockups    : ['mockup-1.png','mockup-2.png']
 roles      : ['User Researcher','UX Designer','UI Designer']
-personas   : ['persona-1.jpg','persona-2.jpg']
+personas   : ['persona-1.jpg','storyboard-1.jpg','persona-2.jpg','storyboard-2.jpg']
 sketches   : ['sketch-1.jpg']
 wireframes : ['wireframe-1.jpg']
 usabilities: ['usability-1.jpg','usability-2.jpg']
