@@ -22,7 +22,7 @@ layout: base
   <div class="row">
     {# mockups #}
     {% for item in mockups %}
-    <div class="col-6">
+    <div class="col-6 {% if mockups.length == 3 %} col-md-4 {% endif %} {% if mockups.length == 4 %} col-md-3 {% endif %}">
       <img src="/images/projects/{{ title | slugify }}/{{ item }}" alt="Mockup {{ loop.index }} of {{ mockups.length }} for {{ title }}." class="img-fluid">
     </div>
     {% endfor %}
@@ -30,9 +30,13 @@ layout: base
   {# only for interactive projects #}
   {% if tags == 'productDesign' %}
   <div class="row">
-    <div class="col-12">
+    <div class="col-md-6">
       {# try it link #}
-      <a href="{{ tryitLink }}" class="btn btn-primary">Try It</a>
+      <a href="{{ tryitLink }}" class="btn btn-primary">Try It Yourself</a>
+    </div>
+    <div class="col-md-6">
+      {# try it link #}
+      <a href="{{ designFile }}" class="btn btn-outline-primary">Review Design File</a>
     </div>
   </div>
   {# Projct Info #}
@@ -52,13 +56,4 @@ layout: base
       {{ content | safe }}
     </div>
   </div>
-  {% if tags == 'productDesign' %}
-  <div class="row">
-    <div class="col-12">
-      <h3>Design Review</h3>
-      <a href="{{ designFile }}" class="btn btn-primary">Review the design file</a>
-      <img src="/images/projects/{{ title | slugify }}/design-file-preview.jpg" alt="A view of the screens which comprise the {{ title }}." class="img-fluid">
-    </div>
-  </div>
-  {% endif %}
 </div>

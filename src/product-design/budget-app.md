@@ -7,7 +7,7 @@ status     : Proposed
 excerpt    : Budget app which helps first-time budgeters easily learn how to think in terms of a budget.
 tryitLink  : https://www.figma.com/proto/he8ruRik6mfojjhDm53qgv/Budget-Buddy?node-id=135%3A1593&scaling=scale-down&page-id=115%3A1649&starting-point-node-id=135%3A1592
 featureAlt : App screen designs for the budget app.
-mockups    : ['mockup-1.png','mockup-2.png']
+mockups    : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg']
 roles      : ['User Researcher','UX Designer','UI Designer']
 personas   : ['persona-1.jpg','persona-2.jpg']
 sketches   : ['sketch-1.jpg']

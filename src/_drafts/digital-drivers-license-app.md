@@ -7,7 +7,7 @@ status     : Released
 excerpt    : Mobile app allows drivers to substitute their phones for a physical license for traffic purposes.
 tryitLink  : https://apps.apple.com/us/app/la-wallet/id1386930269
 featureAlt : App screen designs for the digital driver’s license app.
-mockups    : ['mockup-1.jpg','mockup-2.jpg']
+mockups    : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg']
 roles      : ['User Researcher','UX Designer','UI Designer']
 personas   : ['persona-1.jpg','persona-2.jpg']
 sketches   : []

@@ -7,7 +7,7 @@ status     : Proposed
 excerpt    : Mobile app allows art gallery visitors to plan trips, see current artwork collections and buy tickets.
 tryitLink  : https://www.figma.com/proto/Hh5HjU7yPB3WbHwYxFKIDj/Art-Gallery-Tour?page-id=138%3A932&node-id=138%3A940&viewport=241%2C48%2C0.11&scaling=scale-down&
 featureAlt : iPhones on a table with the art gallery app on their screens.
-mockups    : ['mockup-1.png','mockup-2.png']
+mockups    : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg']
 roles      : ['User Researcher','UX Designer','UI Designer']
 personas   : ['persona-1.jpg','storyboard-1.jpg','persona-2.jpg','storyboard-2.jpg']
 sketches   : ['sketch-1.jpg']

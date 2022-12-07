@@ -7,7 +7,7 @@ status     : Proposed
 excerpt    : A responsive website for a food truck allows visitors to find its daily location and pay ahead.
 tryitLink  : https://www.figma.com/proto/pPlHakn8QYDpx2taE25BGE/Street-Food-Vendor?page-id=418%3A151920&node-id=67%3A1184&viewport=241%2C48%2C0.5&scaling=scale-down&starting-point-node-id=67%3A1184
 featureAlt : Food truck responsive web site being presented on iPads and iPhones.
-mockups    : ['mockup-1.png','mockup-2.png']
+mockups    : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg']
 roles      : ['User Researcher','UX Designer','Visual Designer']
 personas   : ['persona-1.jpg','persona-2.jpg']
 sketches   : []
@@ -35,6 +35,8 @@ The key challenge was to condense the client’s desired features and market-sta
 Remote interviews uncovered popular food trucks in the regions where the participants lived. These participants also took part in the usability studies remotely, via teleconferencing and screen sharing.
 
 ### Digital Wireframes
+
+The best hand sketches were selected by the users I interviewed and became the basis for the digital wireframes.
 
 {% include 'wireframes.njk' %}
 
