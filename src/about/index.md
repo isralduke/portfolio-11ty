@@ -27,7 +27,7 @@ I began life as a graphic designer. But as I designed web sites and sports marke
 
 ## Accessibility is Important
 
-It’s immoral to lock out users. It’s also bad business to deflate your potential customer base. My [W3C certification](https://courses.edx.org/certificates/42dc6997e0c4460f885d0763411dee0c) for semantic markup and accessibility empowers me to meaningfully contribute to team efforts. At any stage of planning and design, from research to information architecture to development, I can contribute to a meaningful, accessible experience. To this end, I recently gave a talk at a local Google Developer Groups chapter about creating [Accessible, Friendly Content](https://youtu.be/xm1gRpfmwkE).
+It’s immoral to lock out users. It’s also bad business to deflate your potential customer base. My [W3C certification](https://courses.edx.org/certificates/42dc6997e0c4460f885d0763411dee0c) for semantic markup and accessibility empowers me to meaningfully contribute to team efforts. At any stage of planning and design, from research to information architecture to development, I can contribute to a meaningful, accessible experience. To this end, I recently gave a talk at a local Google Developer Groups chapter about creating [Accessible, Friendly Content](/talks/#accessible-friendly-content).
 
 ## What I Want in Work
 

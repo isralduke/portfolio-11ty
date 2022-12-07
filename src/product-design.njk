@@ -11,17 +11,17 @@ excerpt: isral Duke designs inclusive and easy to use digital projects.
     </div>
   </div>
 </div>
-  <div class="container">
-    <div class="row g-5">
-      {% for item in collections.productDesign %}
-      <section aria-labelledby="{{ item.data.title | slugify }}" class="col-12">
-        <a href="{{ item.url }}" class="d-flex flex-column">
-          <h2 class="h5 order-1" id="{{ item.data.title | slugify }}">{{ item.data.title }}</h2>
-          <img src="/images/projects/{{ item.data.title | slugify }}/feature.jpg" class="img-fluid rounded mb-3 order-0" alt="Preview of {{ item.data.title }}.">
-          <p class="order-2" aria-hidden="true">{{ item.data.platform }} &emsp;|&emsp; {{item.data.type}} &emsp;|&emsp; {{ item.data.status }}</p>
-        </a>
-      </section>
-      {% endfor %}
-    </div>
+<div class="container">
+  <div class="row g-5">
+    {% for item in collections.productDesign %}
+    <section aria-labelledby="{{ item.data.title | slugify }}" class="col-12">
+      <a href="{{ item.url }}" class="d-flex flex-column">
+        <h2 class="h5 order-1" id="{{ item.data.title | slugify }}">{{ item.data.title }}</h2>
+        <img src="/images/projects/{{ item.data.title | slugify }}/feature.jpg" class="img-fluid rounded mb-3 order-0" alt="Preview of {{ item.data.title }}.">
+        <p class="order-2" aria-hidden="true">{{ item.data.platform }} &emsp;|&emsp; {{item.data.type}} &emsp;|&emsp; {{ item.data.status }}</p>
+      </a>
+    </section>
+    {% endfor %}
   </div>
+</div>
 

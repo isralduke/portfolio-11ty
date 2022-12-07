@@ -1,26 +1,24 @@
 ---
-title: 
-layout: base.njk
-bodyclass: home
-projectLeadSentence: Isral Duke is a Google, Adobe, and W3C certified UX Designer. He has a decade of experience doing User Experience, User Interface, and Interaction Design in software.
-socialImage: https://isralduke.com/images/photos/isral-sketch-observe.jpg
-tags: home
+title     : Product Designer
+layout    : base.njk
+bodyclass : home
+excerpt   : Isral Duke is a Google, Adobe, and W3C certified UX Designer. He has a decade of experience doing User Experience, User Interface, and Interaction Design in software.
+tags      : home
+feature   : /images/photos/isral-sketch-observe.jpg
+featureAlt: Isral Duke looking out of a window, holding a sketchbook and marker, preparing to sketch.
 ---
 
-<section aria-labelledby="designer">
+<section aria-labelledby="designer" class="">
+  <img src="{{ feature }}" alt="{{ featureAlt }}" class="">
+  <div class="">
     <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="h1" id="pageName">{{ title }}</h1>
-          </div>
+      <div class="row">
+        <div class="col-12">
+          <h1 class="h1" id="designer">{{ title }}</h1>
+          <p class="mb-0">I design inclusive and easy to use products.</p>
         </div>
       </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h2 id="designer">Purpose</h2>
-                <p class="mb-0">I design inclusive and easy to use products.</p>
-            </div>
-        </div>
     </div>
+  </div>
 </section>
+

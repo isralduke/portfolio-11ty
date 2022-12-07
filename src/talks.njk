@@ -15,7 +15,7 @@ excerpt: isral Duke presents product design topics such as design systems and ac
     {% for item in collections.talks %}
     <div class="row">
       <div class="col-12 col-md-6">
-        <h2 class="h2">{{ item.data.title }}</h2>
+        <h2 class="h2" id="{{ item.data.title | slugify }}">{{ item.data.title }}</h2>
         <p>{{ item.data.excerpt }}</p>
         <a href="{{ item.data.deck }}" download>Get {{ item.data.title }} deck</a>
       </div>
