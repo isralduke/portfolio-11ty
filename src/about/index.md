@@ -1,12 +1,10 @@
 ---
-title: About
-layout: page
-projectLeadSentence: Isral Duke is a Google, Adobe, and W3C certified UX Designer. He has a decade of experience doing User Experience, User Interface, and Interaction Design in software.
-projectImgSrc1: /images/photos/isral-sketch-in-situ.jpg
-projectImgageAltText1: isral Duke on user location sketching solutions. Several ink pens surround him. He has his sketchbook in his hands and his laptop, open, on his lap.
-projectImgSrc2: /images/photos/isral-sketch-in-situ-tall.jpg
-socialImage: https://isralduke.com/images/photos/isral-sketch-in-situ.jpg
-photos:
+title     : About
+layout    : page
+excerpt   : Isral Duke is an experienced and certified Product Designer. He has a decade of experience doing User Experience, User Interface, and Interaction Design in software.
+feature   : /images/photos/isral-sketch-in-situ.jpg
+featureAlt: isral Duke drawing hand sketches. Many ink pens surround him and he has his sketchbook and laptop open.
+photos    :
   - weburl: /images/photos/isral-work-4.jpg
     alt   : isral Duke sitting in front of a computer. He is also using his ipad to analyze how web sites will work for tablet users.
   - weburl: /images/photos/isral-work-2.jpg
@@ -35,10 +33,7 @@ It’s immoral to lock out users. It’s also bad business to deflate your poten
 
 I want to work fully remotely so I can spend time with family in the United States, Europe, and the United Kingdom. At work I want to help produce digital experiences which produce real life value for people. So, [tell me what’s on your mind](#contact)?
 
-<a href="https://www.dropbox.com/s/75cvru5qb75op63/isral-duke-resume.pdf?dl=0" class="btn btn-dark" target="_blank">
-    Read My Resumé
-    <span class="fas fa-angle-double-right" aria-hidden="true"></span>
-</a>
+<a href="https://www.dropbox.com/s/75cvru5qb75op63/isral-duke-resume.pdf?dl=0" class="btn btn-dark">Read My Resumé</a>
 
 ## Personal
 
