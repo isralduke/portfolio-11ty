@@ -17,7 +17,7 @@ photos    :
 
 ## What I Do
 
-I am a Product Designer. Some will say I’m a full stack designer. Whichever you call what I do in your organization, this means I do Interaction Design, User Interface Design, User Experience Design, and User Research. 
+I am a Product Designer. Some will say I’m a full stack designer. Whichever you call what I do in your organization, this means I do [Interaction Design](https://coursera.org/share/3a43026450434f0ebc7ebd94cf711001), User Interface Design, [User Experience Design](https://coursera.org/share/749df5fdaf7b154e1fc375d0f24c0545), and User Research. 
 
 As a plus, I can even do some coding — but I am not a frontend developer. This means I can have meaningful production discussions to bridge the gap with frontend developers while I focus on the users’ needs and the business goals.
 
@@ -31,7 +31,7 @@ It’s immoral to lock out users. It’s also bad business to deflate your poten
 
 ## What I Want in Work
 
-I want to work fully remotely so I can spend time with family in the United States, Europe, and the United Kingdom. At work I want to help produce digital experiences which produce real life value for people. So, [tell me what’s on your mind](#contact)?
+I want to work fully remotely so I can spend time with family in the United States, Europe, and the United Kingdom. At work I want to help produce digital experiences which produce real life value for people. So, why not work together?
 
 <a href="https://www.dropbox.com/s/75cvru5qb75op63/isral-duke-resume.pdf?dl=0" class="btn btn-dark">Read My Resumé</a>
 
