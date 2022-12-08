@@ -1,5 +1,5 @@
 ---
-title      : Karaoke Competition App
+title      : Karaoke App
 date       : 2021-11-29
 type       : Contest Winner
 platform   : Xamarin

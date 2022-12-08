@@ -24,9 +24,28 @@
 	<meta property="og:description" content="{{ projectLeadSentence }}">
 	<meta property="og:image" content="{{ socialImage }}">
 	<!-- CSS only -->
+	<link rel="stylesheet" href="https://use.typekit.net/uay6gsf.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 	<style>
-		.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+		:root {
+			--bs-font-sans-serif: ratio, system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+			--bs-body-font-size: 1.25rem;
+			--bs-body-color: var(--bs-gray-800);
+		}
+		.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+			margin-top: 2.5rem;
+			margin-bottom: 0.5rem;
+			font-weight: 700;
+			line-height: 1.2;
+		}
+		.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+		.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+		@media screen and (min-width: 768px) {
+			.columns-md-2 {
+				columns: 2;
+			}
+		}
 	</style>
 </head>
 <body class="{{ bodyclass }}">
