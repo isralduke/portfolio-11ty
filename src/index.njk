@@ -1,5 +1,5 @@
 ---
-title     : Product Designer
+title     : Designer
 layout    : base.njk
 bodyclass : home
 excerpt   : Isral Duke is a Google, Adobe, and W3C certified UX Designer. He has a decade of experience doing User Experience, User Interface, and Interaction Design in software.
@@ -9,16 +9,22 @@ featureAlt: Isral Duke looking out of a window, holding a sketchbook and marker,
 ---
 
 <section aria-labelledby="designer" class="">
-  <img src="{{ feature }}" alt="{{ featureAlt }}" class="">
-  <div class="">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h1 class="h1" id="designer">{{ title }}</h1>
-          <p class="mb-0">I design inclusive and easy to use products.</p>
+  <div class="" style="background-image: url('{{ feature }}'); background-position: center; background-size: cover;" role="img" aria-label="{{ featureAlt }}">
+    <div class="hero hero-home">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6"></div>
+          <div class="col-12 col-md-6 col-lg-4 ">
+            <div class="card bg-danger text-white rounded-0 border-0">
+              <div class="card-body p-4">
+                <h1 class="h2 my-0 mb-3 text-white text-uppercase" id="designer">{{ title }}</h1>
+                <p class="my-0 mb-1 text-white">I design inclusive and easy to use products.</p>
+              </div>
+            </div>
+            
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-

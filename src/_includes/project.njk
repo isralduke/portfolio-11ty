@@ -6,19 +6,19 @@ layout: base
   <div class="row">
     <div class="col-12">
       <h1 class="h1" id="pageName">{{ title }}</h1>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12">
       <p class="lead">{{ excerpt }}</p>
     </div>
   </div>
+</div>
+<div class="container-fluid">
   <div class="row">
     {# feature image, should only be 1 item #}
     <div class="col-12">
       <img src="/images/projects/{{ title | slugify }}/feature.jpg" alt="{{ featureAlt }}" class="img-fluid">
     </div>
   </div>
+</div>
+<div class="container">
   <div class="row">
     {# mockups #}
     {% for item in mockups %}
