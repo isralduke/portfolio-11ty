@@ -1,24 +1,26 @@
 ---
-title      : Art Gallery App
-date       : 2021-11-20
-type       : Personal
-platform   : iOS
-status     : Proposed
-excerpt    : Mobile app allows art gallery visitors to plan trips, see current artwork collections and buy tickets.
-tryitLink  : https://www.figma.com/proto/Hh5HjU7yPB3WbHwYxFKIDj/Art-Gallery-Tour?page-id=138%3A932&node-id=138%3A940&viewport=241%2C48%2C0.11&scaling=scale-down&
-featureAlt : iPhones on a table with the art gallery app on their screens.
-mockups    : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg']
-roles      : ['User Researcher','UX Designer','UI Designer']
-personas   : ['persona-1.jpg','storyboard-1.jpg','persona-2.jpg','storyboard-2.jpg']
-sketches   : ['sketch-1.jpg']
-wireframes : ['wireframe-1.jpg']
-usabilities: ['usability-1.jpg','usability-2.jpg']
-designFile : https://www.figma.com/file/Hh5HjU7yPB3WbHwYxFKIDj/gallerWeMe-art-gallery?node-id=138%3A932
+title         : Art Gallery App
+date          : 2021-11-20
+type          : Personal
+platform      : iOS
+status        : Proposed
+excerpt       : Mobile app allows art gallery visitors to plan trips, see current artwork collections and buy tickets.
+tryitLink     : https://www.figma.com/proto/Hh5HjU7yPB3WbHwYxFKIDj/Art-Gallery-Tour?page-id=138%3A932&node-id=138%3A940&viewport=241%2C48%2C0.11&scaling=scale-down&
+featureAlt    : iPhones on a table with the art gallery app on their screens.
+mockups       : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg']
+roles         : ['User Researcher','UX Designer','UI Designer','Visual Designer']
+goal          : The goal was to create a new mobile experience for the gallery. The app helps visitors buy tickets in the app, shows them upcoming gallery events, and helps them plan their visit to the gallery.
+targetAudience: The target audience is composed of two primary segments. The first segment is made up retired, senior visitors who often rely on third parties for transportation to the gallery. They need accommodation and accessibility information for their visits. The second segment is made up of young professionals who can visit the gallery in the evenings and weekends. The second segment is most likely to buy tickets in the application. Both segments expressed a desire to attend weekend events at the gallery.
+personas      : ['persona-1.jpg','storyboard-1.jpg','persona-2.jpg','storyboard-2.jpg']
+sketches      : ['sketch-1.jpg']
+wireframes    : ['wireframe-1.jpg']
+usabilities   : ['usability-1.jpg','usability-2.jpg']
+designFile    : https://www.figma.com/file/Hh5HjU7yPB3WbHwYxFKIDj/gallerWeMe-art-gallery?node-id=138%3A932
 ---
 
 ### Project Goal
 
-During the art gallery mobile application design process I acted as the UX Designer and User Researcher. The goal was to create a new mobile experience for the gallery. The app helps visitors buy tickets in the app, shows them upcoming gallery events, and helps them plan their visit to the gallery.
+The goal was to create a new mobile experience for the gallery. The app helps visitors buy tickets in the app, shows them upcoming gallery events, and helps them plan their visit to the gallery.
 
 ### Target Audience
 
