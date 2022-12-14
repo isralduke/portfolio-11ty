@@ -1,28 +1,28 @@
-<nav aria-label="Site Navigation" class="navbar navbar-expand-md bg-light ms-auto">
-  {# <h2 id="navHeader" class="visually-hidden">Site Navigation</h2> #}
+<nav aria-labelledby="mainNav" class="main-nav">
+  <p id="mainNav" class="visually-hidden">Primary</p>
   <div class="container">
-    <a class="navbar-brand" href="/">isral Duke, Designer</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#siteNavigation" aria-controls="siteNavigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="siteNavigation">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/product-design">Product Design</a>
+    <div class="d-flex align-items-center">
+      <a class="navbar-brand" href="/">
+        <span class="visually-hidden">Isral Duke</span>
+        <span aria-hidden="true">
+          {% include 'svg/isral-duke-logo-mark.svg' %}
+        </span>
+      </a>
+      <ul class="">
+        <li class="list-inline-item">
+          <a href="/product-design">Product Design</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/talks">Talks</a>
+        <li class="list-inline-item">
+          <a href="/talks">Talks</a>
         </li>
-        {# <li class="nav-item">
-          <a class="nav-link" href="/visual-design">Visual Design</a>
-        </li> #}
-        <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="https://linkedin.com/in/isralduke" class="nav-link">LinkedIn</a>
+        <li class="list-inline-item">
+          <a href="https://linkedin.com/in/isralduke">
+            <span class="bi bi-linkedin"></span>
+            <p class="visually-hidden">LinkedIn</p>
+          </a>
         </li>
       </ul>
     </div>
+    
   </div>
 </nav>

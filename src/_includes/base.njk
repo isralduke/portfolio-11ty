@@ -28,13 +28,10 @@
 	<link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
-<body class="{{ bodyclass }}">
-	<header>
-		{% include 'nav.njk' %}
-	</header>
-	<main aria-labelledby="pageName">
-		{{ content | safe }}
-	</main>
+<body aria-labelledby="pageName" class="{{ bodyclass }}">
+	<h1 class="visually-hidden">{{ title }}</h1>
+	{% include 'nav.njk' %}
+	{{ content | safe }}
 	{% include 'skills-block.njk' %}
 	{% include 'footer.njk' %}
 	<!-- JavaScript Bundle with Popper -->

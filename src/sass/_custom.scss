@@ -1,11 +1,62 @@
-.list-style-none {
+body {
+  @extend .pt-7;
+  &.home {
+    @extend .pt-0;
+  }
+}
+.main-nav {
+  @extend .position-fixed;
+  @extend .w-100;
+  @extend .d-flex;
+  @extend .align-items-center;
+  @extend .text-white;
+  @extend .text-decoration-none;
+  top: 0; left: 0;
+  z-index: 100;
+  ul {
+    @extend .list-unstyled;
+    @extend .list-inline;
+    @extend .m-0;
+    @extend .ms-auto;
+    @extend .d-flex;
+    
+  }
+  li {
+    @extend .m-0;
+    color: inherit;
+    a {
+      @extend .d-block;
+      @extend .py-2;
+      @extend .px-2;
+      background-color: fade-out($black, .5);
+      color: inherit;
+      text-decoration: inherit;
+      &:hover, &:active {
+        @extend .bg-white;
+        @extend .text-black;
+      }
+    }
+    &:first-of-type {
+      a {
+        border-top-left-radius   : .25rem;
+        border-bottom-left-radius: .25rem;
+      }
+    }
+    &:last-of-type {
+      a {
+        border-top-right-radius   : .25rem;
+        border-bottom-right-radius: .25rem;
+      }
+    }
+  }
+}
+.list-style-none, .list-group {
   li {
     &::before {
       content: '\200b';
     }
   }
 }
-
 h3 {
   font-weight: 400;
 }
@@ -75,7 +126,7 @@ h3 {
   @extend .mb-9;
   @extend .mb-lg-0;
 }
-footer {
+.footer {
   @extend .py-4;
   @extend .text-white;
   @extend .text-decoration-none;
