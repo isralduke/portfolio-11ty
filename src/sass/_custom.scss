@@ -29,6 +29,52 @@ h3 {
     @extend .text-white;
   }
 }
+.hero {
+  @extend .position-relative;
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .justify-content-center;
+  max-height: 75vh;
+  overflow: hidden;
+  @include media-breakpoint-up(lg) {
+    max-height: unset;
+  }
+}
+.hero-img {
+  @extend .w-100;
+}
+.hero-img-sm {
+  @extend .d-lg-none;
+}
+.hero-img-lg {
+  @extend .d-none;
+  @extend .d-lg-block;
+}
+.overlay {
+  @extend .position-absolute;
+  @extend .w-100;
+  @extend .h-100;
+  top: 0; left: 0;
+}
+.overlay-gray {
+  background-color: #808080;
+  mix-blend-mode: saturation;
+}
+.overlay-azure {
+  background-color: $azure;
+  mix-blend-mode: multiply;
+}
+.overlay-content {
+  @extend .position-absolute;
+  @extend .w-100;
+  @extend .h-100;
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .justify-content-end;
+  @extend .justify-content-lg-center;
+  @extend .mb-9;
+  @extend .mb-lg-0;
+}
 footer {
   @extend .py-4;
   @extend .text-white;
