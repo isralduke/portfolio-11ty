@@ -31,7 +31,7 @@ It’s immoral to lock out users. It’s also bad business to deflate your poten
 
 ## What I Want in Work
 
-I want to work fully remotely so I can spend time with family in the United States, Europe, and the United Kingdom. At work I want to help produce digital experiences which produce real life value for people. So, why not work together?
+I want to work fully remotely so I can spend time with family in the United States, Europe, and the United Kingdom. At work I want to help produce digital experiences which produce real life value for people. So, why not work together? Read my resumé, as a tagged PDF.
 
 <a href="https://www.dropbox.com/s/75cvru5qb75op63/isral-duke-resume.pdf?dl=0" class="btn btn-dark">Read My Resumé</a>
 
