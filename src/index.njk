@@ -1,30 +1,35 @@
 ---
 title     : Isral Duke, Designer
 layout    : base.njk
-bodyclass : home
+bodyclass : home pt-0 bg-gray-700
 excerpt   : Isral Duke is a Google, Adobe, and W3C certified UX Designer. He has a decade of experience doing User Experience, User Interface, and Interaction Design in software.
 tags      : home
 featureSm : /images/photos/isral-crop-tall.jpg
 featureLg : /images/photos/isral-sketch-observe.jpg
 featureAlt: Isral Duke looking out of a window, holding a sketchbook and marker, preparing to sketch.
 ---
-<header aria-labelledby="pageName" class="hero">
-  <img src="{{ featureLg }}" alt="{{ featureAlt }}" class="hero-img hero-img-lg">
-  <img src="{{ featureSm }}"   alt="{{ featureAlt }}" class="hero-img hero-img-sm">
-  <div class="overlay overlay-gray"></div>
-  <div class="overlay overlay-azure"></div>
-  <div class="overlay-content">
-    <div class="container">
-    <div class="row justify-content-center justify-content-lg-end">
-      <div class="col-10 col-lg-4">
-        <div class="card bg-danger text-white">
-          <div class="card-body">
-            <h2 id="pageName" class="h1 text-uppercase">Designer</h2>
-            <p class="mb-0">I design inclusive and easy to use products.</p>
+<header aria-labelledby="pageName" class="hero position-relative d-flex flex-column flex-column justify-content-center overflow-hidden">
+  <img src="{{ featureSm }}" alt="{{ featureAlt }}" class="w-100 d-lg-none">
+  <img src="{{ featureLg }}" alt="{{ featureAlt }}" class="w-100 d-none d-lg-block">
+  <div class="overlay-gray  top-0 start-0 position-absolute w-100 h-100"></div>
+  <div class="overlay-color top-0 start-0 bg-primary position-absolute w-100 h-100"></div>
+  <div class="position-absolute w-100 h-100 d-flex flex-column justify-content-end justify-content-lg-center mb-0 mb-lg-0">
+    <div class="container mb-6 mb-lg-0">
+      <div class="row justify-content-center justify-content-lg-end">
+        <div class="col-10 col-lg-4">
+          <div class="card bg-danger text-white">
+            <div class="card-body">
+              <h2 id="pageName" class="h1 text-uppercase">Designer</h2>
+              <p class="mb-0">I design inclusive and easy to use products.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  </div>
 </header>
+<main aria-labelledby="productDesignProjects" class="main bg-gray-700 text-white pt-6">
+  {% for item in collections.productDesign | limit(3) %}
+  {% include 'project-card-item.njk' %}
+  {% endfor %}
+</main>
