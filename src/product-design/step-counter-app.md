@@ -7,7 +7,7 @@ status     : Released
 excerpt    : An Apple watchOS and iOS step counter app which gives users a quick glance at their steps.
 tryitLink  : https://apps.apple.com/us/app/duffy-steps-complication/id1207581673
 featureAlt : App screen designs on iPhone and Apple Watch for the step counter app.
-mockups    : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg']
+mockups    : ['mockup-1.png','mockup-2.png','mockup-3.png','mockup-4.png']
 roles      : ['UI Designer']
 personas   : ['persona-1.jpg','persona-2.jpg']
 sketches   : []

@@ -7,7 +7,7 @@ status     : Proposed
 excerpt    : Mobile app provides conference attendees quick access to relevant presentation details and schedule information.
 tryitLink  : https://www.figma.com/proto/4EtTiMKTB2q2TOmenmbnJM/SQL-Sat-Guidebook?page-id=0%3A1&node-id=4%3A1383&viewport=241%2C48%2C0.25&scaling=scale-down&starting-point-node-id=0%3A76
 featureAlt : App screen designs for the event guide app.
-mockups    : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg']
+mockups    : ['mockup-1.png','mockup-2.png','mockup-3.png','mockup-4.png']
 roles      : ['UX Designer','UI Designer']
 personas   : ['persona-1.jpg','persona-2.jpg']
 sketches   : ['sketch-1.jpg','sketch-2.jpg','sketch-3.jpg']
