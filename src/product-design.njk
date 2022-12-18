@@ -4,23 +4,3 @@ layout: base
 bodyclass : pt-7 bg-gray-700
 excerpt: isral Duke designs inclusive and easy to use digital projects.
 ---
-<header aria-labelledby="pageName" class="bg-gray-700">
-  <div class="container">
-    <div class="row">
-      <div class="col-8 col-lg-4 offset-2 offset-lg-6">
-        <div class="card bg-primary">
-          <div class="card-body">
-            <h2 class="h3 mb-0 text-white" id="pageName">{{ title }}</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-<main aria-labelledby="pageName" class="main bg-gray-700 text-white pt-4">
-  <div role="list">
-    {% for item in collections.productDesign %}
-    {% include 'project-card-item.njk' %}
-    {% endfor %}
-  </div>
-</main>

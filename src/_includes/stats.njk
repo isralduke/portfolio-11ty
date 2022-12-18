@@ -1,0 +1,54 @@
+<div class="py-8">
+    <div class="container">
+        <div class="row">
+            <div class="col-10 col-lg-4 offset-1">
+                <h2 class="h2">Project Roles</h2>
+                <div class="card bg-gray-700">
+                    <div class="card-body">
+                        <div class="d-flex flex-wrap">
+                            {% for item in roles %}
+                            <div class="w-50">
+                                <p class="mb-0 text-white">{{ item }}</p>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 col-lg-4 offset-1 offset-lg-2">
+                <h2 class="h2">Stats Goal</h2>
+                <div class="card bg-gray-700">
+                    <div class="card-body">
+                        <div class="d-flex flex-wrap">
+                            <div class="w-50">
+                                <p class="mb-0 text-uppercase text-white">  
+                                    <small>Platform</small>
+                                </p>
+                                <p class="mb-0 text-white">{{ platform }}</p>
+                            </div>
+                            <div class="w-50">
+                                <p class="mb-0 text-uppercase text-white">  
+                                    <small>Type</small>
+                                </p>
+                                <p class="mb-0 text-white">{{ type }}</p>
+                            </div>
+                            <div class="w-50">
+                                <p class="mb-0 text-uppercase text-white">  
+                                    <small>Status</small>
+                                </p>
+                                <p class="mb-0 text-white">{{ status }}</p>
+                            </div>
+                            <div class="w-50">
+                                <p class="mb-0 text-uppercase text-white">  
+                                    <small>Location</small>
+                                </p>
+                                <p class="mb-0 text-white">
+                                    <a href="{{ tryitLink }}" class="text-white">Try It</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

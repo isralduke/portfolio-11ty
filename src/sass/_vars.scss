@@ -21,7 +21,7 @@ $body-bg: $gray-100;
 $body-color: $gray-700;
 
 $font-family-sans-serif: ratio, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-size-base: 1.25rem;
+$font-size-base: 1.125rem;
 
 $headings-font-weight:       700 !default;
 
@@ -38,3 +38,5 @@ $spacers: (
   8: $spacer * 5,
   9: $spacer * 6
 ) !default;
+
+$enable-negative-margins: true;

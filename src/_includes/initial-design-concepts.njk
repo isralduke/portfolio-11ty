@@ -1,0 +1,15 @@
+<div class="py-8">
+    <div class="container">
+        <div class="row">
+            <div class="col-10 offset-1 col-lg-4">
+                <h2 class="h2">Initial Design Concepts</h2>
+                <p class="mb-0">{{ sketchText }}</p>
+            </div>
+            <div class="col-10 offset-1 col-lg-5">
+                {% for item in sketches %}
+                <img src="/images/projects/{{ title | slugify }}/{{ item }}" alt="Hand sketches for {{ title }}." class="img-fluid rounded shadow-sm">
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,4 +1,5 @@
 {
-  "layout" : "project.njk",
-  "tags"   : "productDesign"
+  "layout"      : "project.njk",
+  "tags"        : "productDesign",
+  "cardBgColor" : "bg-gray-700"
 }

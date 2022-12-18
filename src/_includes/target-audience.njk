@@ -1,0 +1,23 @@
+<div class="py-8">
+    <div class="container">
+        <div class="row">
+            <div class="col-10 offset-1">
+                <h2 class="h2">Target Audience</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-10 offset-1 ">
+                <p class="">{{ targetAudience }}</p>
+            </div>
+            <div class="col-10 offset-1 ">
+                <div class="row g-2">
+                    {% for item in personas %}
+                    <div class="col-6">
+                        <img src="/images/projects/{{ title | slugify }}/{{ item }}" alt="Persona and storyboard for {{ title }}." class="img-fluid rounded shadow-sm">
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

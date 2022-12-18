@@ -1,48 +1,13 @@
 ---
-title: Talks
-layout: base
-bodyclass : pt-0 bg-gray-700
-excerpt: Isral Duke has presented topics about design systems, semantic markup effects in screen readers and design.
-featureSm : isral-talk-google-devfest-crop-tall.jpg
-featureLg : isral-talk-google-devfest.jpg
-featureAlt: Isral Duke giving a presentation at a local chapter of Google Dev Fest.
+title          : Talks
+layout         : base
+excerpt        : Isral Duke has presented topics about design systems, semantic markup effects in screen readers and design.
+featureSm      : /images/photos/isral-talk-google-devfest-crop-tall.jpg
+feature        : /images/photos/isral-talk-google-devfest.jpg
+featureAlt     : Isral Duke giving a presentation about VoiceOver at a local chapter of Google Dev Fest.
+heroBgColor    : bg-black
+heroTextColor  : text-white
+cardBgColor    : bg-danger
+overlayBgColor : bg-gray-800
 ---
-<header aria-labelledby="pageName" class="hero position-relative d-flex flex-column flex-column justify-content-center overflow-hidden">
-  <img src="/images/photos/{{ featureLg }}" alt="{{ featureAlt }}" class="w-100 d-none d-lg-block">
-  <img src="/images/photos/{{ featureSm }}" alt="{{ featureAlt }}" class="w-100 d-lg-none">
-  <div class="overlay-gray  top-0 start-0 position-absolute w-100 h-100"></div>
-  <div class="overlay-color top-0 start-0 bg-gray-700 position-absolute w-100 h-100"></div>
-  <div class="position-absolute z-index-100 bg-black w-100 bottom-0 start-0 pt-5 pb-4">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-10">
-          <p class="text-white mb-0">{{ excerpt }}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-<main class="text-white">
-  {% for item in collections.talks %}
-  <div class="py-8 {% if not loop.first %} border-top border-dark {% endif %}">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-10">
-          <h2 class="h2" id="{{ item.data.title | slugify }}">{{ item.data.title }}</h2>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <div class="col-10 col-md-5">
-          <p>{{ item.data.excerpt }}</p>
-          <a href="{{ item.data.deck }}" class="text-white">Get {{ item.data.title }} deck</a>
-        </div>
-        <div class="col-10 col-md-5">
-          <div class="embed-container">
-            <iframe src='https://www.youtube.com/embed/{{ item.data.embed }}' frameborder='0' allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-</main>
+{% include 'hero-page.njk' %}

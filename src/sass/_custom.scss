@@ -1,3 +1,36 @@
+.bg-azure-dark {
+  background-color: $azure-dark;
+}
+.bg-gray-neutral {
+  background-color: #808080;
+}
+.bg-gray-600 {
+  background-color: $gray-600;
+}
+.bg-gray-700 {
+  background-color: $gray-700;
+}
+.bg-gray-800 {
+  background-color: $gray-800;
+}
+.mix-blend-mode-saturation {
+  mix-blend-mode: saturation;
+}
+.mix-blend-mode-multiply {
+  mix-blend-mode: multiply;
+}
+.z-index-100 {
+  z-index: 100;
+}
+.z-index-200 {
+  z-index: 200;
+}
+.z-index-300 {
+  z-index: 300;
+}
+
+
+/*
 .main-nav {
   top: 0; left: 0;
   z-index: 100;
@@ -75,21 +108,4 @@ h3 {
 .stats-value {
   font-size: 1rem;
 }
-.bg-azure-dark {
-  background-color: $azure-dark;
-}
-.bg-gray-600 {
-  background-color: $gray-600;
-}
-.bg-gray-700 {
-  background-color: $gray-700;
-}
-.z-index-100 {
-  z-index: 100;
-}
-.z-index-200 {
-  z-index: 200;
-}
-.z-index-300 {
-  z-index: 300;
-}
+*/
