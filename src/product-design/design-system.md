@@ -6,13 +6,22 @@ platform   : Web
 status     : Published
 excerpt    : Design System allows team members to access a single source of truth and quickly produce value.
 tryitLink  : https://pelican.ots.la.gov
+feature       : /images/projects/
 featureAlt : Laptop, iPads, and an iPhone displaying products built with the design system.
 mockups    : ['mockup-1.png','mockup-2.png','mockup-3.png','mockup-4.png']
-roles      : ['User Researcher','UX Designer','UI Designer','Frontend Designer']
+roles      : ['User Researcher','UX Designer','UI Designer','Frontend Designer', 'Visual Designer']
+goal : The design system will enable developers and designers to reuse proven user experience patterns within an ecosystem of organizations.
+targetAudience : The primary users for this design system are senior developers, mid-level developers, junior developers, and user experience designers. Seondary users are the business analysts and product owners. Tertiary users are stakeholders who decide to adopt the design system for their products.
+research : The design system’s original research was performed by taking a user interface inventory of two vast web applications which were being modernized. But, research never stops. The design system is continually applied to unknown web applications which were not updates for many years. As these obscure web applications are discovered new components are added to the design system if it can be used in more than one place.
+keyChallenges : The design system is meant to provide value for end users and stakeholders. Many stakeholders were unaware of the value of a unified user experience across official products so convincing them of its value is an ongoing effort. Performing an inventory across a myriad of official web applications is a monumental task for which the design system has to flexible to accomodate unknown use cases.
 personas   : ['persona-1.jpg','persona-2.jpg']
+sketchText :
 sketches   : []
+wireframeText : 
 wireframes : []
+usabilityText : 
 usabilities: []
+conclusion : During the lifecycle of the design system, continuous iteration and maintenance will be paried with best practices and templates for common user flows.
 designFile : https://www.figma.com/community/file/1080971993134221445
 ---
 
