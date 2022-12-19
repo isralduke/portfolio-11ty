@@ -4,3 +4,6 @@ layout: base
 bodyclass : pt-7 bg-gray-700
 excerpt: isral Duke designs inclusive and easy to use digital projects.
 ---
+{% for item in collections.productDesign %}
+<p><a href="{{ item.url }}">{{ item.data.title }}</a></p>
+{% endfor %}

@@ -6,7 +6,7 @@ platform   : Web
 status     : Published
 excerpt    : Design System allows team members to access a single source of truth and quickly produce value.
 tryitLink  : https://pelican.ots.la.gov
-feature       : /images/projects/
+feature       : /images/projects/design-system/feature.png
 featureAlt : Laptop, iPads, and an iPhone displaying products built with the design system.
 mockups    : ['mockup-1.png','mockup-2.png','mockup-3.png','mockup-4.png']
 roles      : ['User Researcher','UX Designer','UI Designer','Frontend Designer', 'Visual Designer']
