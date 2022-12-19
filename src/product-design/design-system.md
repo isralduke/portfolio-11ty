@@ -16,11 +16,11 @@ research : The design system’s original research was performed by taking a use
 keyChallenges : The design system is meant to provide value for end users and stakeholders. Many stakeholders were unaware of the value of a unified user experience across official products so convincing them of its value is an ongoing effort. Performing an inventory across a myriad of official web applications is a monumental task for which the design system has to flexible to accomodate unknown use cases.
 personas   : ['persona-1.jpg','persona-2.jpg']
 sketchText :
-sketches   : []
+sketches   : 
 wireframeText : 
-wireframes : []
+wireframes : 
 usabilityText : 
-usabilities: []
+usabilities: 
 conclusion : During the lifecycle of the design system, continuous iteration and maintenance will be paried with best practices and templates for common user flows.
 designFile : https://www.figma.com/community/file/1080971993134221445
 ---

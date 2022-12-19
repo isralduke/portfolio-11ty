@@ -2,50 +2,41 @@
     <div class="container">
         <div class="row">
             <div class="col-10 col-lg-4 offset-1">
-                <h2 class="h2">Project Roles</h2>
+                <h2 class="h2">Project Stats</h2>
                 <div class="card bg-gray-700">
                     <div class="card-body">
-                        <div class="d-flex flex-wrap">
-                            {% for item in roles %}
-                            <div class="w-50">
-                                <p class="mb-0 text-white">{{ item }}</p>
-                            </div>
-                            {% endfor %}
-                        </div>
+                        <ul class="list-group list-group-flush mb-0">
+                            <li class="list-group-item d-flex ps-0 bg-gray-700 text-white">
+                              <span class="text-white w-50">Type</span>
+                              <span class="text-white w-50">{{ type }}</span>
+                            </li>
+                            <li class="list-group-item d-flex ps-0 bg-gray-700 text-white">
+                              <span class="text-white w-50">Platform</span>
+                              <span class="text-white w-50">{{ platform }}</span>
+                            </li>
+                            <li class="list-group-item d-flex ps-0 bg-gray-700 text-white">
+                              <span class="text-white w-50">Status</span>
+                              <span class="text-white w-50">{{ status }}</span>
+                            </li>
+                            <li class="list-group-item d-flex ps-0 bg-gray-700 text-white">
+                                <span class="text-white w-50">Get It</span>
+                                <span class="text-white w-50">
+                                    <a href="{{ item.data.tryitLink }}" class="text-white">Go to {{ title }}</a>
+                                </span>
+                              </li>
+                          </ul>
                     </div>
                 </div>
             </div>
             <div class="col-10 col-lg-4 offset-1 offset-lg-2">
-                <h2 class="h2">Stats Goal</h2>
+                <h2 class="h2">Project Roles</h2>
                 <div class="card bg-gray-700">
                     <div class="card-body">
-                        <div class="d-flex flex-wrap">
-                            <div class="w-50">
-                                <p class="mb-0 text-uppercase text-white">  
-                                    <small>Platform</small>
-                                </p>
-                                <p class="mb-0 text-white">{{ platform }}</p>
-                            </div>
-                            <div class="w-50">
-                                <p class="mb-0 text-uppercase text-white">  
-                                    <small>Type</small>
-                                </p>
-                                <p class="mb-0 text-white">{{ type }}</p>
-                            </div>
-                            <div class="w-50">
-                                <p class="mb-0 text-uppercase text-white">  
-                                    <small>Status</small>
-                                </p>
-                                <p class="mb-0 text-white">{{ status }}</p>
-                            </div>
-                            <div class="w-50">
-                                <p class="mb-0 text-uppercase text-white">  
-                                    <small>Location</small>
-                                </p>
-                                <p class="mb-0 text-white">
-                                    <a href="{{ tryitLink }}" class="text-white">Try It</a></p>
-                            </div>
-                        </div>
+                        <ul class="list-group list-group-flush mb-0">
+                            {% for item in roles %}
+                            <li class="list-group-item ps-0 bg-gray-700 text-white">{{ item }}</li>
+                            {% endfor %}
+                          </ul>
                     </div>
                 </div>
             </div>

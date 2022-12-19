@@ -3,17 +3,24 @@
       <div class="row">
           <div class="col-10 offset-1 col-lg-4">
               <h2 class="h2">Usability Testing</h2>
-              <p class="mb-0">{{ usabilityText }}</p>
+              <p class="">{{ usabilityText }}</p>
           </div>
+          {% if usabilities.length == 1 %}
           <div class="col-10 offset-1 col-lg-5">
-            <div class="row g-2">
-              {% for item in usabilities %}
-              <div class="col-12">
-                <img src="/images/projects/{{ title | slugify }}/{{ item }}" alt="Usability result {{ loop.index }} of {{ loop.length }} for {{ title }}." class="img-fluid rounded shadow-sm">
-              </div>
-              {% endfor %}
-            </div>
+            {% for item in usabilities %}
+            <img src="/images/projects/{{ title | slugify }}/{{ item }}" alt="Usability result {{ loop.index }} of {{ loop.length }} for {{ title }}." class="img-fluid rounded shadow-sm">
+            {% endfor %}
           </div>
+          {% endif %}
       </div>
+      {% if usabilities.length == 2 %}
+      <div class="row justify-content-center">
+        {% for item in usabilities %}
+        <div class="col-10 {% if usabilities.length == 2 %} col-lg-5 {% endif %}">
+          <img src="/images/projects/{{ title | slugify }}/{{ item }}" alt="Usability result {{ loop.index }} of {{ loop.length }} for {{ title }}." class="img-fluid rounded shadow-sm">
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %}
   </div>
 </div>

@@ -16,7 +16,7 @@ research : Remote interviews uncovered popular food trucks in the regions where 
 keyChallenges : The key challenge was to condense the client’s desired features and market-standard features into a singe page website. This decision reduced the information architecture and navigation to bare minimum which tested well among participants.
 personas   : ['persona-1.jpg','persona-2.jpg']
 sketchText : 
-sketches   : []
+sketches   : 
 wireframeText : The best hand sketches were selected by the users I interviewed and became the basis for the digital wireframes.
 wireframes : ['wireframe-1.jpg']
 usabilityText : Usability testing data was recorded in a spreadsheet for each of the participants. Each participant was asked to perform key tasks in the wireframes. Moderated, remote testing enabled us to answer questions about the function about the testing apparatus verses the actual wireframe design.

@@ -7,7 +7,17 @@ layout: base
 {% include 'goal.njk' %}
 {% include 'target-audience.njk' %}
 {% include 'research-key-challenges.njk' %}
+
+{% if sketches %}
 {% include 'initial-design-concepts.njk' %}
+{% endif %}
+
+{% if wireframes %}
 {% include 'digital-wireframes.njk' %}
+{% endif %}
+
+{% if usabilities %}
 {% include 'usabilities.njk' %}
+{% endif %}
+
 {% include 'conclusion.njk' %}
