@@ -4,6 +4,10 @@ layout    : page
 excerpt   : Isral Duke is an experienced and certified Product Designer. He has a decade of experience doing User Experience, User Interface, and Interaction Design in software.
 feature   : /images/photos/isral-sketch-in-situ.jpg
 featureAlt: isral Duke drawing hand sketches. Many ink pens surround him and he has his sketchbook and laptop open.
+heroBgColor    : bg-black
+heroTextColor  : text-white
+cardBgColor    : bg-danger
+overlayBgColor : bg-azure
 photos    :
   - weburl: /images/photos/isral-work-4.jpg
     alt   : isral Duke sitting in front of a computer. He is also using his ipad to analyze how web sites will work for tablet users.

@@ -11,3 +11,26 @@ cardBgColor    : bg-danger
 overlayBgColor : bg-gray-800
 ---
 {% include 'hero-page.njk' %}
+<main id="main" class="bg-gray-700">
+{% for item in collections.talks %}
+  <section class="py-8 {% if not loop.last %}border-bottom border-dark{% endif %}">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <h2 class="h2 text-white">{{ item.data.title }}</h2>
+        </div>
+        <div class="col-10 col-lg-5">
+          <p class="text-white">{{ excerpt }}</p>
+          <p>
+            <a href="https://www.dropbox.com/s/3i90j38jm2jhl09/Building%20Pelican%20Design%20System%20Isral%20Duke.pdf?dl=0" class="text-white">Get deck for {{ item.data.title }}</a></p>
+        </div>
+        <div class="col-10 col-lg-5">
+          <div class="embed-container">
+            <iframe src='https://www.youtube.com/embed/{{ item.data.embed }}' frameborder='0' allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endfor %}
+</main>
