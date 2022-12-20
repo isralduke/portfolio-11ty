@@ -58,15 +58,14 @@
   background-attachment: fixed;
   background-size: cover;
 }
-.hero-home {
+.hero {
   height: 75vh;
   max-height: 768px;
-  background-image: url('../images/photos/isral-crop-tall.jpg');
   background-position: center;
   background-size: cover;
-  @include media-breakpoint-up(lg) {
-    background-image: url('../images/photos/isral-sketch-observe.jpg');
-  }
+}
+.hero-project {
+  max-height: 344px;
 }
 .main-nav {
   top: 0; left: 0;
