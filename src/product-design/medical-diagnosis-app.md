@@ -18,7 +18,7 @@ personas   : ['persona-1.jpg','persona-2.jpg']
 sketchText : 
 sketches   : 
 wireframeText : The wireframes were collaboratively designed with SMEs and core users, using their backgrounds in medicine and informatics, to guide the placement of “widget regions”. As the digital wireframes were simple rectangles denoting widget regions, we iteratively arranged the regions until the executive team was satisfied.
-wireframes : ['wireframe-1.jpg','wireframe-2.jpg','wireframe-3.jpg','wireframe-4.jpg']
+wireframes : ['wireframe-1.jpg','wireframe-3.jpg']
 usabilities: 
 conclusion : Relief Telemed hoped the users, nurse practitioners, would be able to interact with one patient every twenty minutes. The actual rate turned out to be approximately one patient every 13 minutes.
 designFile : https://www.figma.com/file/3eZwSoXFfOuMdku5Vi9tfC/Telemedicine-Design?node-id=5%3A11973

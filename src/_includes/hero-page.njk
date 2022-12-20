@@ -1,37 +1,29 @@
-<header class="d-flex flex-column {{ heroBgColor }}">
-    <div class="order-1 pt-0 pb-5 z-index-300">
-        <div class="container ">
-            <div class="row">
-                <div class="col-10 offset-1 col-lg-5 offset-lg-1">
-                    <div class="card page-title-card {{ cardBgColor }} mt-n6 mb-4">
-                        <div class="card-body">
-                            <h1 class="h1 mb-1 text-white">{{ title }}</h1>
-                            {% if topText %}
-                            <p class="mb-0 text-white">{{ topText }}</p>
-                            {% endif %}
-                            {% if sentence %}
-                            <p class="mb-0 text-white">{{ sentence }}</p>
-                            {% endif %}
-                            {% if excerpt %}
-                            <p class="lead mb-0 text-white">{{ excerpt }}</p>
-                            {% endif %}
-                        </div>
+<header class=" {{ heroBgColor }}">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 position-relative">
+                <div class="position-absolute card page-title-card {{ cardBgColor }} ">
+                    <div class="card-body">
+                        <h1 class="h1 mb-4 text-white">{{ title }}</h1>
+                        {% if topText %}
+                        <p class="mb-0 text-white">{{ topText }}</p>
+                        {% endif %}
+                        {% if sentence %}
+                        <p class="mb-0 text-white">{{ sentence }}</p>
+                        {% endif %}
+                        {% if excerpt %}
+                        <p class="mb-0 text-white">{{ excerpt }}</p>
+                        {% endif %}
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="position-relative order-0 ">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    {% if featureSm %}
-                    <img src="{{ featureSm }}" alt="{{ featureAlt }}" class="w-100 d-lg-none">
-                    {% endif %}
-                    <img src="{{ feature }}"   alt="{{ featureAlt }}" class="w-100 {% if featureSm %} d-none {% endif %} d-lg-block ">
-                </div>
-            </div>
-        </div>
+    <div class="position-relative">
+        {% if featureSm %}
+        <img src="{{ featureSm }}" alt="{{ featureAlt }}" class="w-100 d-lg-none">
+        {% endif %}
+        <img src="{{ feature }}"   alt="{{ featureAlt }}" class="w-100 {% if featureSm %} d-none {% endif %} d-lg-block">
         {% if overlayBgColor %}
         <div class="position-absolute w-100 h-100 top-0 left-0 bg-gray-neutral mix-blend-mode-saturation z-index-100"></div>
         <div class="position-absolute w-100 h-100 top-0 left-0 {{ overlayBgColor }} mix-blend-mode-multiply z-index-200"></div>

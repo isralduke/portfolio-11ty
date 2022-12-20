@@ -1,11 +1,53 @@
 ---
-title     : Isral Duke, Designer
-layout    : base.njk
-bodyclass : home pt-0 bg-gray-700
-excerpt   : Isral Duke is a Google, Adobe, and W3C certified UX Designer. He has a decade of experience doing User Experience, User Interface, and Interaction Design in software.
-tags      : home
-featureSm : /images/photos/isral-crop-tall.jpg
-featureLg : /images/photos/isral-sketch-observe.jpg
-featureAlt: Isral Duke looking out of a window, holding a sketchbook and marker, preparing to sketch.
+title         : Designer
+layout        : base.njk
+bodyclass     : home pt-0 bg-gray-700
+excerpt       : I design inclusive and easy to use products.
+tags          : home
+featureSm     : /images/photos/isral-crop-tall.jpg
+feature       : /images/photos/isral-sketch-observe.jpg
+featureAlt    : Isral Duke looking out of a window, holding a sketchbook and marker, preparing to sketch.
+overlayBgColor: bg-azure
 ---
 
+{% include 'hero.njk' %}
+<main id="main">
+  {% for item in collections.productDesign | limit(3) %}
+  <section class="container" aria-labelledby="{{ item.data.title | slugify }}">
+    <div class="row align-items-center">
+      <div class="col-12 col-md-6 col-lg-8">
+        <a href="{{ item.url }}">
+          <img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="Preview image for {{ item.data.title }}." class="img-fluid rounded">
+        </a>
+      </div>
+      <div class="col-10 ofset-1 col-md-6 offset-md-0 col-lg-4">
+        <div class="card bg-gray-600">
+          <div class="card-body bg-gray-600 pb-0">
+            <h2 id="{{ item.data.title | slugify }}" class="position-relative h5 text-white">
+              <span class="icon position-absolute end-0 bi-icon bi-arrow-right-short"></span>
+              {{ item.data.title }}
+            </h2>
+            <ul class="list-group list-group-flush mb-0">
+              <li class="list-group-item d-flex ps-0 bg-gray-600">
+                <span class="w-50 text-white">Type</span>
+                <span class="w-50 text-white">{{ item.data.type }}</span>
+              </li>
+              <li class="list-group-item d-flex ps-0 bg-gray-600">
+                <span class="w-50 text-white">Platform</span>
+                <span class="w-50 text-white">{{ item.data.platform }}</span>
+              </li>
+              <li class="list-group-item d-flex ps-0 bg-gray-600">
+                <span class="w-50 text-white">Status</span>
+                <span class="w-50 text-white">{{ item.data.status }}</span>
+              </li>
+            </ul>
+            <a href="{{ item.url }}" class="stretched-link">
+              <span class="visually-hidden">{{ item.data.title }}</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% endfor %}
+</main>

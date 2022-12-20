@@ -1,21 +1,27 @@
 <div class="py-8">
     <div class="container">
         <div class="row">
-            <div class="col-10 offset-1 col-lg-4">
+            <div class="col-10 offset-1 col-lg-5">
                 <h2 class="h2">Initial Design Concepts</h2>
                 <p class="">{{ sketchText }}</p>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-10 offset-1">
-                <div class="row">
-                {% for item in sketches %}
-                <div class="col-12 {% if sketches.length > 1 %} col-lg-4 {% endif %}">
-                    <img src="/images/projects/{{ title | slugify }}/{{ item }}" alt="Hand sketches for {{ title }}." class="img-fluid rounded shadow-sm">
-                </div>
-                {% endfor %}
-                </div>
+            {% if sketches.length == 1 %}
+            <div class="col-10 offset-1 col-lg-5 offset-lg-0">
+              {% for item in sketches %}
+              <img src="/images/projects/{{ title | slugify }}/{{ item }}" alt="Usability result {{ loop.index }} of {{ loop.length }} for {{ title }}." class="img-fluid rounded shadow-sm">
+              {% endfor %}
             </div>
+            {% endif %}
         </div>
+        {% if sketches.length == 2 %}
+        <div class="row justify-content-center">
+          {% for item in sketches %}
+          <div class="col-10 {% if sketches.length == 2 %} col-lg-5 {% endif %}">
+            <img src="/images/projects/{{ title | slugify }}/{{ item }}" alt="Usability result {{ loop.index }} of {{ loop.length }} for {{ title }}." class="img-fluid rounded shadow-sm">
+          </div>
+          {% endfor %}
+        </div>
+        {% endif %}
     </div>
-</div>
+  </div>
+  
