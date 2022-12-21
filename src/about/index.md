@@ -1,6 +1,6 @@
 ---
 title     : About
-layout    : page
+layout    : base
 excerpt   : Isral Duke is an experienced and certified Product Designer. He has a decade of experience doing User Experience, User Interface, and Interaction Design in software.
 feature   : /images/photos/isral-sketch-in-situ.jpg
 featureAlt: isral Duke drawing hand sketches. Many ink pens surround him and he has his sketchbook and laptop open.

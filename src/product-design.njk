@@ -1,16 +1,15 @@
 ---
 title: Product Design
 layout: base
-bodyclass : pt-7 bg-gray-700
-feature : /images/projects/product-design-feature.png
-excerpt: isral Duke designs inclusive and easy to use digital projects.
+bodyclass : pt-7 bg-gray-900
+excerpt   : Selected product design samples.
 ---
-
+{% include 'hero-project.njk' %}
 <main id="main" class="bg-graph-paper">
   {% for item in collections.productDesign %}
   <section class="container py-5" aria-labelledby="{{ item.data.title | slugify }}">
-    <div class="row align-items-center">
-      <div class="col-12 col-md-6 col-lg-8">
+    <div class="row justify-content-center align-items-center">
+      <div class="col-8 col-md-6 col-lg-8">
         <a href="{{ item.url }}">
           <img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="Preview image for {{ item.data.title }}." class="img-fluid rounded">
         </a>

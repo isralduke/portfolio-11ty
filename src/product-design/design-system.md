@@ -14,13 +14,9 @@ goal : The design system will enable developers and designers to reuse proven us
 targetAudience : The primary users for this design system are senior developers, mid-level developers, junior developers, and user experience designers. Seondary users are the business analysts and product owners. Tertiary users are stakeholders who decide to adopt the design system for their products.
 research : The design system’s original research was performed by taking a user interface inventory of two vast web applications which were being modernized. But, research never stops. The design system is continually applied to unknown web applications which were not updates for many years. As these obscure web applications are discovered new components are added to the design system if it can be used in more than one place.
 keyChallenges : The design system is meant to provide value for end users and stakeholders. Many stakeholders were unaware of the value of a unified user experience across official products so convincing them of its value is an ongoing effort. Performing an inventory across a myriad of official web applications is a monumental task for which the design system has to flexible to accomodate unknown use cases.
-personas   : ['persona-1.jpg','persona-2.jpg']
 sketchText :
-sketches   : 
-wireframeText : 
-wireframes : 
-usabilityText : 
-usabilities: 
+wireframeText : Wireframes were shared with business analysts and developers as they will have the most exposure to the design system outside of the design team.
+usabilityText : Usability information and benchmarks were captured as group feature requests and roadmap proposals. The design system’s growth would be evaluated against these early brainstorm sessions.
 conclusion : During the lifecycle of the design system, continuous iteration and maintenance will be paried with best practices and templates for common user flows.
 designFile : https://www.figma.com/community/file/1080971993134221445
 ---

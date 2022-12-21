@@ -6,7 +6,6 @@ platform      : iOS
 status        : Proposed
 excerpt       : Mobile app allows art gallery visitors to plan trips, see current artwork collections and buy tickets.
 tryitLink     : https://www.figma.com/proto/Hh5HjU7yPB3WbHwYxFKIDj/Art-Gallery-Tour?page-id=138%3A932&node-id=138%3A940&viewport=241%2C48%2C0.11&scaling=scale-down&
-feature       : /images/projects/art-gallery-app/feature.png
 featureAlt    : iPhones on a table with the art gallery app on their screens.
 mockups       : ['mockup-1.png','mockup-2.png','mockup-3.png','mockup-4.png']
 roles         : ['User Researcher','UX Designer','UI Designer','Visual Designer']
@@ -16,11 +15,8 @@ research      : The research began with online surveys to determine the content 
 keyChallenges : The key challenges in the process was arranging for the in-person usability studies for the seniors who make up the first segment of the target audience. Segment two was comfortable with video interviews.
 personas      : ['persona-1.jpg','storyboard-1.jpg','persona-2.jpg','storyboard-2.jpg']
 sketchText    : Paper sketches were used to capture initial design ideas, using crazy 8 methodology.
-sketches      : ['sketch-1.jpg']
 wireframeText : The best ideas from initial design concepts were translated into digital wireframes.
-wireframes    : ['wireframe-1.jpg']
 usabilityText : Usability testing data was recorded in a spreadsheet for each of the participants. Each participant was asked to perform key tasks in the wireframes. Moderated, remote testing enabled us to answer questions about the function about the wireframe setup verses the actual wireframe design. Testing occurred with digital wireframes with some follow up in the mockups.
-usabilities   : ['usability-1.jpg','usability-2.jpg']
 conclusion    : For the next steps I want to design an Apple Watch app to go along so that visitors can scan their tickets on their wrists. This would make it easier for seniors who use Apple Watches to enter the building using walkers or other assistive instruments.
 designFile    : https://www.figma.com/file/Hh5HjU7yPB3WbHwYxFKIDj/gallerWeMe-art-gallery?node-id=138%3A932
 ---

@@ -15,9 +15,9 @@ personas   : ['persona-1.jpg','persona-2.jpg']
 keyChallenges : The app should be fully usable from just the watchOS app. The user doesn’t really have to use the iOS app, except to install the watchOS app. Another key challenge was keeping the app’s information concentrated on as few screens as possible for a glanceable app.
 research : Research was performed by interviewing iOS Health app users to determine their pain points and delights while using that app. The research informed the information architecture of the app.
 targetAudience : The user for Duffy is a health-conscious user, but they’re probably best described as lay persons of the fitness world. They may not be gym members or calorie counters, but they’re aware that they need to walk during the day. They need to know how much to walk, and steps are a simple metric for these users.
-sketches   : 
+sketchText   : Sketches for the step counter app began as a collaborative meeting between the designer and developer.
 wireframes : 
-usabilities: 
+usabilityText: Usability tests were performed by showing Figma mockups to potential friends and family to gain their initial impressions.
 conclusion : It’s a free app and you can get Duffy at the App Store for your Apple Watch and iPhone.
 designFile : https://www.figma.com/file/Qx7rW9DLGHgGCmEcFkFwL0/Duffy?node-id=67%3A254
 ---

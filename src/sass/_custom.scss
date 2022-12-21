@@ -54,7 +54,7 @@
 
 }
 .project-block {
-  @extend .py-8;
+  @extend .py-5;
   h2, .h2 {
     @extend .text-black;
   }
@@ -71,9 +71,6 @@
   }
   &:last-of-type {
     @extend .bg-gray-100;
-  }
-  &:not(:last-of-type) {
-    border-top: 2px solid $gray-300;
   }
 }
 .embed-container { 

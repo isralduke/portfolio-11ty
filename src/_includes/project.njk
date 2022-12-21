@@ -3,22 +3,7 @@ layout    : base
 heroClass : hero-project
 ---
 
-<header class="position-relative pt-8 pb-5 background-position-center background-size-cover" style="background-image:url('/images/projects/{{ title | slugify }}/feature.png');">
-  <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-gray-neutral mix-blend-mode-saturation"></div>
-  <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-azure mix-blend-mode-multiply"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <div class="card bg-danger">
-          <div class="card-body bg-danger">
-            <h1 class="text-uppercase text-white">{{ title }}</h1>
-            <p class="mb-0 text-white">{{ excerpt }}</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
+{% include 'hero-project.njk' %}
 
 
 
@@ -122,12 +107,13 @@ heroClass : hero-project
                 <p class="">{{ targetAudience }}</p>
             </div>
         </div>
-        <div class="row g-4">
-            {% for item in personas %} 
-                <div class="col-12 col-md-6">
-                    <img src="/images/projects/{{ title | slugify }}/{{ item }}" alt="Persona and storyboard for {{ title }}." class="">
-                </div>
-            {% endfor %}
+        <div class="row g-4 justify-content-center">
+            <div class="col-12 col-md-6 col-lg-4">
+                <img src="/images/projects/{{ title | slugify }}/persona-1.jpg" alt="Persona 1 for {{ title }}." class="">
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <img src="/images/projects/{{ title | slugify }}/persona-2.jpg" alt="Persona 2 for {{ title }}." class="">
+          </div>
         </div>
     </div>
   </div>
@@ -156,11 +142,11 @@ heroClass : hero-project
                 <p class="">{{ sketchText }} {{ wireframeText }}</p>
             </div>
         </div>
-        <div class="row g-4">
-          <div class="col-12 col-md-6">
-            <img src="/images/projects/{{ title | slugify }}/sketch-1.jpg" alt="SKetch of early thoughts for {{ title }}." class="">
+        <div class="row g-4 justify-content-center">
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="/images/projects/{{ title | slugify }}/sketch-1.jpg" alt="Sketch of early thoughts for {{ title }}." class="">
           </div>
-          <div class="col-12 col-md-6">
+          <div class="col-12 col-md-6 col-lg-4">
             <img src="/images/projects/{{ title | slugify }}/wireframe-1.jpg" alt="Digital wireframes for {{ title }}." class="">
           </div>
         </div>
@@ -173,16 +159,16 @@ heroClass : hero-project
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-8 col-xl-6">
-                <h2 class="h2">Usability Testing</h2>
+                <h2 class="h2">Usability</h2>
                 <p class="">{{ usabilityText }}</p>
             </div>
           </div>
-        <div class="row g-4">
-          <div class="col-12 col-lg-6">
-            <img src="/images/projects/{{ title | slugify }}/usability-1.jpg" alt="Usability result for {{ title }}." class="">
+        <div class="row g-4 justify-content-center">
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="/images/projects/{{ title | slugify }}/usability-1.jpg" alt="Usability result 1 for {{ title }}." class="">
           </div>
-          <div class="col-12 col-lg-6">
-            <img src="/images/projects/{{ title | slugify }}/usability-2.jpg" alt="Usability result for {{ title }}." class="">
+          <div class="col-12 col-md-6 col-lg-4">
+            <img src="/images/projects/{{ title | slugify }}/usability-2.jpg" alt="Usability result 2 for {{ title }}." class="">
           </div>
         </div>
     </div>
@@ -200,9 +186,16 @@ heroClass : hero-project
                 <h2 class="h2 mt-2">
                   Conclusion
                 </h2>
-                <p class="mb-0">{{ conclusion }}</p>
+                <p class="">{{ conclusion }}</p>
             </div>
         </div>
+        {% if conclusionImg %}
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 col-lg-8">
+            <img src="/images/projects/{{ title | slugify }}/conclusion.jpg" alt="{{ conclusionAlt }}." class="">
+          </div>
+        </div>
+        {% endif %}
     </div>
   </div>
 
