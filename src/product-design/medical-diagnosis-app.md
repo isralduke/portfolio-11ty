@@ -6,6 +6,7 @@ platform   : Web
 status     : Released
 excerpt    : Web application allows licensed medical personnel to remotely diagnose patients.
 tryitLink  : https://www.figma.com/proto/3eZwSoXFfOuMdku5Vi9tfC/Telemedicine-Design?page-id=5%3A11973&node-id=0%3A122&viewport=241%2C48%2C0.12&scaling=scale-down&starting-point-node-id=0%3A122
+feature        : /images/projects/medical-diagnosis-app/feature.png
 featureAlt : App screen designs for the medical diagnosis app.
 mockups    : ['mockup-1.png','mockup-2.png','mockup-3.png']
 roles      : ['UI Designer']

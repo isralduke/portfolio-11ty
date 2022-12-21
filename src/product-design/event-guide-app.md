@@ -6,6 +6,7 @@ platform   : Xamarin
 status     : Proposed
 excerpt    : Mobile app provides conference attendees quick access to relevant presentation details and schedule information.
 tryitLink  : https://www.figma.com/proto/4EtTiMKTB2q2TOmenmbnJM/SQL-Sat-Guidebook?page-id=0%3A1&node-id=4%3A1383&viewport=241%2C48%2C0.25&scaling=scale-down&starting-point-node-id=0%3A76
+feature        : /images/projects/event-guide-app/feature.png
 featureAlt : App screen designs for the event guide app.
 mockups    : ['mockup-1.png','mockup-2.png','mockup-3.png','mockup-4.png']
 roles      : ['UX Designer','UI Designer']

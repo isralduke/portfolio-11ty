@@ -1,18 +1,14 @@
 ---
 layout   : base
+feature  : /images/photos/isral-process-photo.jpg
+overlayBgColor: bg-azure
 ---
-
-<main aria-labelledby="pageName">
+{% include 'hero.njk' %}
+<main aria-labelledby="pageName" class="py-9 bg-gray-100">
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="h2" id="pageName">Human Sitemap</h2>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
+        <h2 class="h2">Pages in this site</h2>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/product-design">Product Design</a>
@@ -23,11 +19,11 @@ layout   : base
             </ul>
           </li>
           <li><a href="/talks">Talks</a>
-            <ul>
+            {# <ul>
               {% for item in collections.talks | reverse %}
               <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
               {% endfor %}
-            </ul>
+            </ul> #}
           </li>
           {# <li><a href="/visual-design">Visual Design</a>
             <ul>
@@ -36,7 +32,7 @@ layout   : base
               {% endfor %}
             </ul>
           </li> #}
-          <li><a href="/about">About</a></li>
+          {# <li><a href="/about">About</a></li> #}
           {# <li><a href="/resources">Resources</a></li> #}
         </ul>
       </div>

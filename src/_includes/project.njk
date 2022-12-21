@@ -16,21 +16,31 @@ heroClass : hero-project
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <img src="/images/projects/{{ title | slugify }}/feature.png" alt="{{ featureAlt }}" class="w-100">
+          <a data-fslightbox href="/images/projects/{{ title | slugify }}/feature.png">
+            <img src="/images/projects/{{ title | slugify }}/feature.png" alt="{{ featureAlt }}" class="w-100">
+          </a>
         </div>
       </div>
       <div class="row g-0">
         <div class="col-3">
+          <a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-1.png">
             <img src="/images/projects/{{ title | slugify }}/mockup-1.png" alt="Preview of a screen from {{ title }}." class="img-fluid">
+          </a>
         </div> 
         <div class="col-3">
-          <img src="/images/projects/{{ title | slugify }}/mockup-2.png" alt="Preview of a screen from {{ title }}." class="img-fluid">
+          <a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-2.png">
+            <img src="/images/projects/{{ title | slugify }}/mockup-2.png" alt="Preview of a screen from {{ title }}." class="img-fluid">
+          </a>
         </div> 
         <div class="col-3">
-          <img src="/images/projects/{{ title | slugify }}/mockup-3.png" alt="Preview of a screen from {{ title }}." class="img-fluid">
+          <a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-3.png">
+            <img src="/images/projects/{{ title | slugify }}/mockup-3.png" alt="Preview of a screen from {{ title }}." class="img-fluid">
+          </a>
         </div> 
         <div class="col-3">
-          <img src="/images/projects/{{ title | slugify }}/mockup-4.png" alt="Preview of a screen from {{ title }}." class="img-fluid">
+          <a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-4.png">
+            <img src="/images/projects/{{ title | slugify }}/mockup-4.png" alt="Preview of a screen from {{ title }}." class="img-fluid">
+          </a>
         </div> 
       </div>
     </div>
@@ -60,7 +70,7 @@ heroClass : hero-project
                               <span class="text-white w-50">{{ status }}</span>
                             </li>
                             <li class="list-group-item d-flex px-0 bg-gray-700 text-white">
-                                <a href="{{ item.data.tryitLink }}" class="btn btn-link text-white">Go to {{ title }}</a>
+                                <a href="{{ tryitLink }}" class="btn btn-link text-white">Go to {{ title }}</a>
                             </li>
                           </ul>
                     </div>
@@ -109,10 +119,14 @@ heroClass : hero-project
         </div>
         <div class="row g-4 justify-content-center">
             <div class="col-12 col-md-6 col-lg-4">
+              <a data-fslightbox href="/images/projects/{{ title | slugify }}/persona-1.jpg">
                 <img src="/images/projects/{{ title | slugify }}/persona-1.jpg" alt="Persona 1 for {{ title }}." class="">
+              </a>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
-              <img src="/images/projects/{{ title | slugify }}/persona-2.jpg" alt="Persona 2 for {{ title }}." class="">
+              <a data-fslightbox href="/images/projects/{{ title | slugify }}/persona-2.jpg">
+                <img src="/images/projects/{{ title | slugify }}/persona-2.jpg" alt="Persona 2 for {{ title }}." class="">
+              </a>
           </div>
         </div>
     </div>
@@ -144,10 +158,14 @@ heroClass : hero-project
         </div>
         <div class="row g-4 justify-content-center">
           <div class="col-12 col-md-6 col-lg-4">
-            <img src="/images/projects/{{ title | slugify }}/sketch-1.jpg" alt="Sketch of early thoughts for {{ title }}." class="">
+            <a data-fslightbox href="/images/projects/{{ title | slugify }}/sketch-1.jpg">
+              <img src="/images/projects/{{ title | slugify }}/sketch-1.jpg" alt="Sketch of early thoughts for {{ title }}." class="">
+            </a>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <img src="/images/projects/{{ title | slugify }}/wireframe-1.jpg" alt="Digital wireframes for {{ title }}." class="">
+            <a data-fslightbox href="/images/projects/{{ title | slugify }}/wireframe-1.jpg">
+              <img src="/images/projects/{{ title | slugify }}/wireframe-1.jpg" alt="Digital wireframes for {{ title }}." class="">
+            </a>
           </div>
         </div>
     </div>
@@ -165,10 +183,14 @@ heroClass : hero-project
           </div>
         <div class="row g-4 justify-content-center">
           <div class="col-12 col-md-6 col-lg-4">
-            <img src="/images/projects/{{ title | slugify }}/usability-1.jpg" alt="Usability result 1 for {{ title }}." class="">
+            <a data-fslightbox href="/images/projects/{{ title | slugify }}/usability-1.jpg">
+              <img src="/images/projects/{{ title | slugify }}/usability-1.jpg" alt="Usability result 1 for {{ title }}." class="">
+            </a>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <img src="/images/projects/{{ title | slugify }}/usability-2.jpg" alt="Usability result 2 for {{ title }}." class="">
+            <a data-fslightbox href="/images/projects/{{ title | slugify }}/usability-2.jpg">
+              <img src="/images/projects/{{ title | slugify }}/usability-2.jpg" alt="Usability result 2 for {{ title }}." class="">
+            </a>
           </div>
         </div>
     </div>
@@ -192,7 +214,9 @@ heroClass : hero-project
         {% if conclusionImg %}
         <div class="row justify-content-center">
           <div class="col-12 col-md-6 col-lg-8">
-            <img src="/images/projects/{{ title | slugify }}/conclusion.jpg" alt="{{ conclusionAlt }}." class="">
+            <a data-fslightbox href="/images/projects/{{ title | slugify }}/conclusion.jpg">
+              <img src="/images/projects/{{ title | slugify }}/conclusion.jpg" alt="{{ conclusionAlt }}." class="">
+            </a>
           </div>
         </div>
         {% endif %}
