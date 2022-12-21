@@ -11,7 +11,7 @@ overlayBgColor: bg-azure
 ---
 
 {% include 'hero.njk' %}
-<main id="main">
+<main id="main" class="bg-graph-paper pb-6">
   {% for item in collections.productDesign | limit(3) %}
   <section class="container" aria-labelledby="{{ item.data.title | slugify }}">
     <div class="row align-items-center">
@@ -21,22 +21,22 @@ overlayBgColor: bg-azure
         </a>
       </div>
       <div class="col-12 col-md-6 col-lg-4">
-        <div class="card bg-gray-600">
-          <div class="card-body bg-gray-600 pb-0">
+        <div class="card bg-gray-700">
+          <div class="card-body bg-gray-700 pb-0">
             <h2 id="{{ item.data.title | slugify }}" class="position-relative h5 text-white">
               <span class="icon position-absolute end-0 bi-icon bi-arrow-right-short"></span>
               {{ item.data.title }}
             </h2>
             <ul class="list-group list-group-flush mb-0">
-              <li class="list-group-item d-flex ps-0 bg-gray-600">
+              <li class="list-group-item d-flex ps-0 bg-gray-700">
                 <span class="w-50 text-white">Type</span>
                 <span class="w-50 text-white">{{ item.data.type }}</span>
               </li>
-              <li class="list-group-item d-flex ps-0 bg-gray-600">
+              <li class="list-group-item d-flex ps-0 bg-gray-700">
                 <span class="w-50 text-white">Platform</span>
                 <span class="w-50 text-white">{{ item.data.platform }}</span>
               </li>
-              <li class="list-group-item d-flex ps-0 bg-gray-600">
+              <li class="list-group-item d-flex ps-0 bg-gray-700">
                 <span class="w-50 text-white">Status</span>
                 <span class="w-50 text-white">{{ item.data.status }}</span>
               </li>

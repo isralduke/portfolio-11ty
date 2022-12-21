@@ -2,25 +2,210 @@
 layout    : base
 heroClass : hero-project
 ---
-{% include 'hero.njk' %}
-<main id="main" class="pt-8 bg-gray-200">
-{% include 'mockups.njk' %}
-{% include 'stats.njk' %}
-{% include 'goal.njk' %}
-{% include 'target-audience.njk' %}
-{% include 'research-key-challenges.njk' %}
 
-{% if sketches %}
-{% include 'initial-design-concepts.njk' %}
-{% endif %}
+<header class="position-relative pt-8 pb-5 background-position-center background-size-cover" style="background-image:url('/images/projects/{{ title | slugify }}/feature.png');">
+  <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-gray-neutral mix-blend-mode-saturation"></div>
+  <div class="position-absolute top-0 end-0 bottom-0 start-0 bg-azure mix-blend-mode-multiply"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <div class="card bg-danger">
+          <div class="card-body bg-danger">
+            <h1 class="text-uppercase text-white">{{ title }}</h1>
+            <p class="mb-0 text-white">{{ excerpt }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
-{% if wireframes %}
-{% include 'digital-wireframes.njk' %}
-{% endif %}
 
-{% if usabilities %}
-{% include 'usabilities.njk' %}
-{% endif %}
 
-{% include 'conclusion.njk' %}
+
+<main id="main" class="bg-gray-200">
+  
+
+  {# feature and mockups #}
+  <div class="project-hero bg-graph-paper pb-6">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <img src="/images/projects/{{ title | slugify }}/feature.png" alt="{{ featureAlt }}" class="w-100">
+        </div>
+      </div>
+      <div class="row g-0">
+        <div class="col-3">
+            <img src="/images/projects/{{ title | slugify }}/mockup-1.png" alt="Preview of a screen from {{ title }}." class="img-fluid">
+        </div> 
+        <div class="col-3">
+          <img src="/images/projects/{{ title | slugify }}/mockup-2.png" alt="Preview of a screen from {{ title }}." class="img-fluid">
+        </div> 
+        <div class="col-3">
+          <img src="/images/projects/{{ title | slugify }}/mockup-3.png" alt="Preview of a screen from {{ title }}." class="img-fluid">
+        </div> 
+        <div class="col-3">
+          <img src="/images/projects/{{ title | slugify }}/mockup-4.png" alt="Preview of a screen from {{ title }}." class="img-fluid">
+        </div> 
+      </div>
+    </div>
+  </div>
+
+
+
+  {# stats #}
+  <div class="pb-8 bg-graph-paper">
+    <div class="container">
+        <div class="row justify-content-center g-1 gx-md-4">
+            <div class="col-sm-6 col-md-4">
+                <div class="card bg-gray-700 border-0">
+                    <div class="card-body">
+                        <h2 class="h5 text-white">Project Stats</h2>
+                        <ul class="list-group list-group-flush mb-0">
+                            <li class="list-group-item d-flex ps-0 bg-gray-700 text-white">
+                              <span class="text-white w-50">Type</span>
+                              <span class="text-white w-50">{{ type }}</span>
+                            </li>
+                            <li class="list-group-item d-flex ps-0 bg-gray-700 text-white">
+                              <span class="text-white w-50">Platform</span>
+                              <span class="text-white w-50">{{ platform }}</span>
+                            </li>
+                            <li class="list-group-item d-flex ps-0 bg-gray-700 text-white">
+                              <span class="text-white w-50">Status</span>
+                              <span class="text-white w-50">{{ status }}</span>
+                            </li>
+                            <li class="list-group-item d-flex px-0 bg-gray-700 text-white">
+                                <a href="{{ item.data.tryitLink }}" class="btn btn-link text-white">Go to {{ title }}</a>
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card bg-gray-700 border-0">
+                    <div class="card-body">
+                        <h2 class="h5 text-white">Project Roles</h2>
+                        <ul class="list-group list-group-flush mb-0">
+                            {% for item in roles %}
+                            <li class="list-group-item ps-0 bg-gray-700 text-white">{{ item }}</li>
+                            {% endfor %}
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+<div class="project-content">
+
+
+  {# project goal #}
+  <div class="project-block">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-8 col-xl-6">
+          <h2 class="h2">Project Goal</h2>
+          <p class="mb-0">{{ goal }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  {# target audience #}
+  <div class="project-block">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8 col-xl-6">
+                <h2 class="h2">Target Audience</h2>
+                <p class="">{{ targetAudience }}</p>
+            </div>
+        </div>
+        <div class="row g-4">
+            {% for item in personas %} 
+                <div class="col-12 col-md-6">
+                    <img src="/images/projects/{{ title | slugify }}/{{ item }}" alt="Persona and storyboard for {{ title }}." class="">
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+  </div>
+
+
+  {# research key challenges #}
+  <div class="project-block">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8 col-xl-6">
+                <h2 class="h2">Research &amp; Key Challenges</h2>
+                <p class="">{{ research }}</p>
+                <p class="mb-0">{{ keyChallenges }}</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+  {# sketches wireframes #}
+  <div class="project-block">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8 col-xl-6">
+                <h2 class="h2">Sketches &amp; Wireframes</h2>
+                <p class="">{{ sketchText }} {{ wireframeText }}</p>
+            </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-12 col-md-6">
+            <img src="/images/projects/{{ title | slugify }}/sketch-1.jpg" alt="SKetch of early thoughts for {{ title }}." class="">
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="/images/projects/{{ title | slugify }}/wireframe-1.jpg" alt="Digital wireframes for {{ title }}." class="">
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+  {# usability testing #}
+  <div class="project-block">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8 col-xl-6">
+                <h2 class="h2">Usability Testing</h2>
+                <p class="">{{ usabilityText }}</p>
+            </div>
+          </div>
+        <div class="row g-4">
+          <div class="col-12 col-lg-6">
+            <img src="/images/projects/{{ title | slugify }}/usability-1.jpg" alt="Usability result for {{ title }}." class="">
+          </div>
+          <div class="col-12 col-lg-6">
+            <img src="/images/projects/{{ title | slugify }}/usability-2.jpg" alt="Usability result for {{ title }}." class="">
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+  {# conclusion #}
+  <div class="project-block">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-lg-8 col-xl-6">
+                <span aria-hidden="true">
+                  {% include 'svg/isral-duke-logo-mark.svg' %}
+                </span>
+                <h2 class="h2 mt-2">
+                  Conclusion
+                </h2>
+                <p class="mb-0">{{ conclusion }}</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+</div>
 </main>
