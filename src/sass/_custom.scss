@@ -135,42 +135,65 @@ aside {
     border-color: $danger!important;
   }
 }
-/*
+#projectgoal, #targetaudience, #researchkeychallenges, #sketcheswireframes, #usability, #conclusion {
+  @extend .position-relative;
+  z-index: 100;
+  &::first-letter {
+    color: $body-bg;
+  }
+  &::before {
+    @extend .d-flex;
+    @extend .justify-content-center;
+    @extend .align-items-center;
+    @extend .position-absolute;
+    background-color: $scarlet;
+    border-radius: .25rem;
+    color: $body-bg;
+    top  : 4px; 
+    width: 2rem ; height: 2rem;
+    opacity: 1;
+    z-index: -1;
+  }
+}
+#projectgoal {
+  &::before {
+    content: 'P';
+    left  : -6.5px;
+  }
+}
+#targetaudience {
+  &::before {
+    content: 'T';
+    left  : -6.25px;
+  }
+}
+#researchkeychallenges {
+  &::before {
+    content: 'R';
+    left  : -5.5px;
+  }
+}
+#sketcheswireframes {
+  &::before {
+    content: 'S';
+    top: 4.5px;
+    left  : -6.5px;
+  }
+}
+#usability {
+  &::before {
+    content: 'U';
+    left  : -4.25px;
+  }
+}
+#conclusion {
+  &::before {
+    content: 'C';
+    left  : -5.25px;
+  }
+}
 
-.list-style-none, .list-group {
-  li {
-    &::before {
-      content: '\200b';
-    }
-  }
-}
-h3 {
-  font-weight: 400;
-}
 
-.hero {
-  max-height: 75vh;
-  @include media-breakpoint-up(lg) {
-    max-height: unset;
-  }
-}
-.overlay-gray {
-  background-color: #808080;
-  mix-blend-mode: saturation;
-}
-.overlay-color {
-  mix-blend-mode: multiply;
-}
-.card-project {
-  .icon {
-    right: -.25rem; top: 0px;
-  }
-}
-.stats-label {
-  font-size: .75rem;
-  margin-bottom: -.25rem; 
-}
-.stats-value {
-  font-size: 1rem;
-}
-*/
+ 
+    
+      

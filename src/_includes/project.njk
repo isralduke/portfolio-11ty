@@ -100,7 +100,7 @@ heroClass : hero-project
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-lg-8 col-xl-6">
-          <h2 class="h2">Project Goal</h2>
+          <h2 class="h2" id="projectgoal">Project Goal</h2>
           <p class="mb-0">{{ goal }}</p>
         </div>
       </div>
@@ -113,7 +113,7 @@ heroClass : hero-project
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-8 col-xl-6">
-                <h2 class="h2">Target Audience</h2>
+                <h2 class="h2" id="targetaudience">Target Audience</h2>
                 <p class="">{{ targetAudience }}</p>
             </div>
         </div>
@@ -138,7 +138,7 @@ heroClass : hero-project
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-8 col-xl-6">
-                <h2 class="h2">Research &amp; Key Challenges</h2>
+                <h2 class="h2" id="researchkeychallenges">Research &amp; Key Challenges</h2>
                 <p class="">{{ research }}</p>
                 <p class="mb-0">{{ keyChallenges }}</p>
             </div>
@@ -152,7 +152,7 @@ heroClass : hero-project
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-8 col-xl-6">
-                <h2 class="h2">Sketches &amp; Wireframes</h2>
+                <h2 class="h2" id="sketcheswireframes">Sketches &amp; Wireframes</h2>
                 <p class="">{{ sketchText }} {{ wireframeText }}</p>
             </div>
         </div>
@@ -177,7 +177,7 @@ heroClass : hero-project
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-8 col-xl-6">
-                <h2 class="h2">Usability</h2>
+                <h2 class="h2" id="usability">Usability</h2>
                 <p class="">{{ usabilityText }}</p>
             </div>
           </div>
@@ -202,12 +202,7 @@ heroClass : hero-project
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-8 col-xl-6">
-                <span aria-hidden="true">
-                  {% include 'svg/isral-duke-logo-mark.svg' %}
-                </span>
-                <h2 class="h2 mt-2">
-                  Conclusion
-                </h2>
+                <h2 class="h2 mt-2" id="conclusion">Conclusion</h2>
                 <p class="">{{ conclusion }}</p>
             </div>
         </div>
@@ -222,7 +217,5 @@ heroClass : hero-project
         {% endif %}
     </div>
   </div>
-
-
 </div>
 </main>
