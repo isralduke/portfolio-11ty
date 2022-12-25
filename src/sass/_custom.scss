@@ -57,6 +57,14 @@
 .project-block {
   @extend .pt-5;
   color: $azure-dark;
+  h2 {
+    &::first-letter {
+      @extend .px-1;
+      color: $body-bg;
+      background-color: $scarlet;
+      border-radius: 4px;
+    }
+  }
   img {
     @extend .p-1;
     @extend .rounded;
@@ -134,66 +142,5 @@ aside {
   .list-group-item {
     border-color: $danger!important;
   }
-}
-#projectgoal, #targetaudience, #researchkeychallenges, #sketcheswireframes, #usability, #conclusion {
-  @extend .position-relative;
-  z-index: 100;
-  &::first-letter {
-    color: $body-bg;
-  }
-  &::before {
-    @extend .d-flex;
-    @extend .justify-content-center;
-    @extend .align-items-center;
-    @extend .position-absolute;
-    background-color: $scarlet;
-    border-radius: .25rem;
-    color: $body-bg;
-    top  : 4px; 
-    width: 2rem ; height: 2rem;
-    opacity: 1;
-    z-index: -1;
-  }
-}
-#projectgoal {
-  &::before {
-    content: 'P';
-    left  : -6.5px;
-  }
-}
-#targetaudience {
-  &::before {
-    content: 'T';
-    left  : -6.25px;
-  }
-}
-#researchkeychallenges {
-  &::before {
-    content: 'R';
-    left  : -5.5px;
-  }
-}
-#sketcheswireframes {
-  &::before {
-    content: 'S';
-    top: 4.5px;
-    left  : -6.5px;
-  }
-}
-#usability {
-  &::before {
-    content: 'U';
-    left  : -4.25px;
-  }
-}
-#conclusion {
-  &::before {
-    content: 'C';
-    left  : -5.25px;
-  }
-}
-
-
- 
-    
+}    
       

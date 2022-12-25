@@ -5,11 +5,11 @@ excerpt : Personalized travel agency which caters to premium travelers uses whim
 mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 
-### About the Client
+## About the Client
 
 Roux Luxury Travel is a premium travel agency which creates custom travel packages. They manage and coordinate all aspects of their clients’ travel experiences.
 
-### Informed Design Decisions
+## Informed Design Decisions
 
 The logo uses the commonly-recognized symbols such as the map pin and heart. This indicates they will bring their clients where the love to go and that they will enjoy the service. The line under the map pin states a solid, reliable level of customer service.
 

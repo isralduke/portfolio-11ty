@@ -1,0 +1,54 @@
+---
+layout    : base
+heroClass : hero-project
+---
+
+{% include 'hero-project.njk' %}
+
+<main id="main" class="bg-gray-200">
+	{# feature and mockups #}
+	<div class="project-hero bg-graph-paper py-6">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<a data-fslightbox href="/images/projects/{{ title | slugify }}/feature.jpg">
+						<img src="/images/projects/{{ title | slugify }}/feature.jpg" alt="{{ featureAlt }}" class="rounded shadow w-100">
+					</a>
+				</div>
+			</div>
+			<div class="row g-0">
+				<div class="col-3">
+					<a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-1.png">
+						<img src="/images/projects/{{ title | slugify }}/mockup-1.png" alt="Preview of a screen from {{ title }}." class="img-fluid">
+					</a>
+				</div> 
+				<div class="col-3">
+					<a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-2.png">
+						<img src="/images/projects/{{ title | slugify }}/mockup-2.png" alt="Preview of a screen from {{ title }}." class="img-fluid">
+					</a>
+				</div> 
+				<div class="col-3">
+					<a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-3.png">
+						<img src="/images/projects/{{ title | slugify }}/mockup-3.png" alt="Preview of a screen from {{ title }}." class="img-fluid">
+					</a>
+				</div> 
+				<div class="col-3">
+					<a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-4.png">
+						<img src="/images/projects/{{ title | slugify }}/mockup-4.png" alt="Preview of a screen from {{ title }}." class="img-fluid">
+					</a>
+				</div> 
+			</div>
+		</div>
+	</div>
+	<div class="project-content">
+		<div class="project-block">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-12 col-lg-8">
+						{{ content | safe }}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>

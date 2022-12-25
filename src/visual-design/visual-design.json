@@ -1,4 +1,4 @@
 {
-  "layout" : "project.njk",
+  "layout" : "project-visual-design.njk",
   "tags"   : "visualDesign"
 }

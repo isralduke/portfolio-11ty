@@ -5,10 +5,10 @@ excerpt : Business which elevates and moves buildings needs material to rise abo
 mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 
-### About the Client
+## About the Client
 
 
 
-### Informed Design Decisions
+## Informed Design Decisions
 
 
