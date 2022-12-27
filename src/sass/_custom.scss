@@ -57,6 +57,14 @@
 .project-block {
   @extend .pt-5;
   color: $azure-dark;
+  h2 {
+    &::first-letter {
+      @extend .px-1;
+      color: $body-bg;
+      background-color: $scarlet;
+      border-radius: 4px;
+    }
+  }
   img {
     @extend .p-1;
     @extend .rounded;
@@ -134,43 +142,5 @@ aside {
   .list-group-item {
     border-color: $danger!important;
   }
-}
-/*
-
-.list-style-none, .list-group {
-  li {
-    &::before {
-      content: '\200b';
-    }
-  }
-}
-h3 {
-  font-weight: 400;
-}
-
-.hero {
-  max-height: 75vh;
-  @include media-breakpoint-up(lg) {
-    max-height: unset;
-  }
-}
-.overlay-gray {
-  background-color: #808080;
-  mix-blend-mode: saturation;
-}
-.overlay-color {
-  mix-blend-mode: multiply;
-}
-.card-project {
-  .icon {
-    right: -.25rem; top: 0px;
-  }
-}
-.stats-label {
-  font-size: .75rem;
-  margin-bottom: -.25rem; 
-}
-.stats-value {
-  font-size: 1rem;
-}
-*/
+}    
+      

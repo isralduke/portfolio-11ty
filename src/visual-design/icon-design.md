@@ -5,10 +5,10 @@ excerpt : Icons assist the user by giving applications and functions a recogniza
 mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 
-### About the Client
+## About the Client
 
 
 
-### Informed Design Decisions
+## Informed Design Decisions
 
 

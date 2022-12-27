@@ -5,10 +5,10 @@ excerpt : Hardware and software engineers for the maritime industy feature a wid
 mockups : ['mockup-1.jpg','mockup-2.jpg','mockup-3.jpg','mockup-4.jpg'] 
 ---
 
-### About the Client
+## About the Client
 
 
 
-### Informed Design Decisions
+## Informed Design Decisions
 
 
