@@ -45,8 +45,6 @@ During the budget starter app project I was the User Researcher and the UX Desig
 
 The primary audience is young adults and young professionals. These users have never used a budget before and want to easily learn how to apply budget concepts.
 
-{% include 'personas.njk' %}
-
 ### Key Challenges
 
 The key challenges were to limit the features to just those features which will educate first-time budgeters about budget concepts. Features were often requested which fall outside of the simple scope. Such features will be considered for later addition.
@@ -59,19 +57,13 @@ I conducted remote and in-person interviews for a wide range of ages. Participan
 
 Paper sketches were used to capture initial design ideas, using crazy 8 methodology. Some cues were taken from existing budget apps’ features, reducing complexity.
 
-{% include 'sketches.njk' %}
-
 ### Digital Wireframes
 
 The best ideas from initial design concepts were translated into digital wireframes.
 
-{% include 'wireframes.njk' %}
-
 ### Usability Testing
 
 Usability testing data was recorded in a spreadsheet for each of the participants and in affinity diagrams. Two of the users were self-reported as dyslexic readers. The dyslexic users found the application easy to scan and read. All participants’ feedback were taken into consideration for a second round of wireframes.
-
-{% include 'usabilities.njk' %}
 
 ### Conclusion
 

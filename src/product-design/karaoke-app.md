@@ -41,8 +41,6 @@ designFile : https://www.figma.com/file/tPBiKe1NLVwLuJcD0875Ko/Karaoke-Competiti
 
 The audience for the karaoke compeition app, called “Let’s Duet Again” are bar patrons who want to compete as teams of two against other patrons. Oh, it’s not uncommon for these users to experience temporary use challenges, such as **decreased cognitive capacities**.
 
-{% include 'personas.njk' %}
-
 ### Key Challenges
 
 The app doesn’t require logins or accounts as it uses the bar’s wifi connection to communicate with other users of the same app on the local network. The app’s “disposable” nature precludes the need to create logins or save user information. (This results in an easier experience for patrons with less than their full cognitive capacity.) The apps work in conjunction to synchronize all aspects of the competition such as voting, queueing entrants, and loading songs.

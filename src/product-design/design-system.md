@@ -49,8 +49,6 @@ I am the lead UI and UX designer and the primary frontend designer. I consult wi
 
 The primary users for this design system are senior developers, mid-level developers, junior developers, and user experience designers. Seondary users are the business analysts and product owners. Tertiary users are stakeholders who decide to adopt the design system for their products.
 
-{% include 'personas.njk' %}
-
 ### Research
 
 The design system’s original research was performed by taking a user interface inventory of two vast web applications which were being modernized. But, research never stops. The design system is continually applied to unknown web applications which were not updates for many years. As these obscure web applications are discovered new components are added to the design system if it can be used in more than one place.

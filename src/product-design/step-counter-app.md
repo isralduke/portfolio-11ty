@@ -49,8 +49,6 @@ Duffy is fully usable from just the watchOS app. The user doesn’t really have 
 
 The user for Duffy is a health-conscious user, but they’re probably best described as lay persons of the fitness world. They may not be gym members or calorie counters, but they’re aware that they need to walk during the day. They need to know how much to walk, and steps are a simple metric for these users.
 
-{% include 'personas.njk' %}
-
 ### Key Challenges
 
  We also needed to give users a way to track and improve their progress. As a way to reward the user for using tracking and goals, we gamified the steps by awarding trophies when the user hits goal milestones.

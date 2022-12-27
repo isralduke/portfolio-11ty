@@ -45,8 +45,6 @@ The goal was to create a new mobile experience for the gallery. The app helps vi
 
 The target audience is composed of two primary segments. The first segment is made up retired, senior visitors who often rely on third parties for transportation to the gallery. They need accommodation and accessibility information for their visits. The second segment is made up of young professionals who can visit the gallery in the evenings and weekends. The second segment is most likely to buy tickets in the application. Both segments expressed a desire to attend weekend events at the gallery.
 
-{% include 'personas.njk' %}
-
 ### Key Challenges
 
 The key challenges in the process was arranging for the in-person usability studies for the seniors who make up the first segment of the target audience. Segment two was comfortable with video interviews.
@@ -59,19 +57,13 @@ The research began with online surveys to determine the content in the mobile ap
 
 Paper sketches were used to capture initial design ideas, using crazy 8 methodology.
 
-{% include 'sketches.njk' %}
-
 ### Digital Wireframes
 
 The best ideas from initial design concepts were translated into digital wireframes.
 
-{% include 'wireframes.njk' %}
-
 ### Usability Testing
 
 Usability testing data was recorded in a spreadsheet for each of the participants. Each participant was asked to perform key tasks in the wireframes. Moderated, remote testing enabled us to answer questions about the function about the wireframe setup verses the actual wireframe design. Testing occurred with digital wireframes with some follow up in the mockups.
-
-{% include 'usabilities.njk' %}
 
 ### Conclusion
 
