@@ -8,7 +8,11 @@ excerpt       : Mobile app allows art gallery visitors to plan trips, see curren
 tryitLink     : https://www.figma.com/proto/Hh5HjU7yPB3WbHwYxFKIDj/Art-Gallery-Tour?page-id=138%3A932&node-id=138%3A940&viewport=241%2C48%2C0.11&scaling=scale-down&
 feature        : /images/projects/art-gallery-app/feature.png
 featureAlt    : iPhones on a table with the art gallery app on their screens.
-mockups       : ['mockup-1.png','mockup-2.png','mockup-3.png','mockup-4.png']
+mockups       : 
+  - iPhone showing the preview of the home screen design. It has excerpts of the events and art collections.
+  - iPhone showing the all artwork collections screen.
+  - iPhone showing the review screen for buying entry tickets.
+  - iPhone showing the confirmation screen presenting a scannable code for entry.
 roles         : ['User Researcher','UX Designer','UI Designer','Visual Designer']
 goal          : The goal was to create a new mobile experience for the gallery. The app helps visitors buy tickets in the app, shows them upcoming gallery events, and helps them plan their visit to the gallery.
 targetAudience: The target audience is composed of two primary segments. The first segment is made up retired, senior visitors who often rely on third parties for transportation to the gallery. They need accommodation and accessibility information for their visits. The second segment is made up of young professionals who can visit the gallery in the evenings and weekends. The second segment is most likely to buy tickets in the application. Both segments expressed a desire to attend weekend events at the gallery.

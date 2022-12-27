@@ -8,7 +8,11 @@ excerpt    : Web application allows licensed medical personnel to remotely diagn
 tryitLink  : https://www.figma.com/proto/3eZwSoXFfOuMdku5Vi9tfC/Telemedicine-Design?page-id=5%3A11973&node-id=0%3A122&viewport=241%2C48%2C0.12&scaling=scale-down&starting-point-node-id=0%3A122
 feature        : /images/projects/medical-diagnosis-app/feature.png
 featureAlt : App screen designs for the medical diagnosis app.
-mockups    : ['mockup-1.png','mockup-2.png','mockup-3.png']
+mockups    : 
+  - iPad showing the screen for nurse practitioners to sign up to become a telemedicine diagnosis provider.
+  - iPad showing the screen for the face sheet.
+  - iPad showing the screen for visit details.
+  - iPad showing the landing page with initial customer sign up offers.
 roles      : ['UI Designer']
 goal: The goal was to create a web app which allowed qualified medical personnel to diagnose a telemedicine patient using an interface designed around specific processing information.
 targetAudience: The user for this web application is an educated, trained, and licensed registered nurse. This is the highest rank of nurse and they are legally sanctioned for diagnosing patients and writing limited prescriptions.

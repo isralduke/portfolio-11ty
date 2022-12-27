@@ -8,7 +8,11 @@ excerpt    : Design System allows team members to access a single source of trut
 tryitLink  : https://pelican.ots.la.gov
 feature       : /images/projects/design-system/feature.png
 featureAlt : Laptop, iPads, and an iPhone displaying products built with the design system.
-mockups    : ['mockup-1.png','mockup-2.png','mockup-3.png','mockup-4.png']
+mockups    : 
+  - iPad showing a sample screen from an internal app to group people by their permissions.
+  - iPad showing a sample screen from an internal app to collect contact information from users.
+  - iPad showing a sample screen from an internal app to report on fees received from permits.
+  - iPad showing a sample screen of the home page of the Pelican design system site.
 roles      : ['User Researcher','UX Designer','UI Designer','Frontend Designer', 'Visual Designer']
 goal : The design system will enable developers and designers to reuse proven user experience patterns within an ecosystem of organizations.
 targetAudience : The primary users for this design system are senior developers, mid-level developers, junior developers, and user experience designers. Seondary users are the business analysts and product owners. Tertiary users are stakeholders who decide to adopt the design system for their products.

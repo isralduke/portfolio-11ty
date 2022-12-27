@@ -8,7 +8,11 @@ excerpt    : A responsive website for a food truck allows visitors to find its d
 tryitLink  : https://www.figma.com/proto/pPlHakn8QYDpx2taE25BGE/Street-Food-Vendor?page-id=418%3A151920&node-id=67%3A1184&viewport=241%2C48%2C0.5&scaling=scale-down&starting-point-node-id=67%3A1184
 feature        : /images/projects/food-truck-site/feature.png
 featureAlt : Food truck responsive web site being presented on iPads and iPhones.
-mockups    : ['mockup-1.png','mockup-2.png','mockup-3.png','mockup-4.png']
+mockups    : 
+  - iPhone showing the screen with food details.
+  - iPhone showing the screen with the shopping cart.
+  - iPad showing the screen wth food details.
+  - iPad showing the screen with the items in the food truck menu.
 roles      : ['User Researcher','UX Designer','Visual Designer']
 goal : BzzTruck’s goal was to create a new, responsive website so customers can engage with it. The website allows visitors to see the BzzTruck’s location on the current day and the next day. It also allows customer to pay ahead for contactless payments.
 targetAudience : BzzTruck’s audience is primarily onsite employees and workers in the cities where it has a presence. These are mostly office workers in a variety of sectors. The target audience is familiar and comfortable with mobile ordering.

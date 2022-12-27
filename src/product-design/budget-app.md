@@ -8,7 +8,11 @@ excerpt    : Budget app which helps first-time budgeters easily learn how to thi
 tryitLink  : https://www.figma.com/proto/he8ruRik6mfojjhDm53qgv/Budget-Buddy?node-id=135%3A1593&scaling=scale-down&page-id=115%3A1649&starting-point-node-id=135%3A1592
 feature    : /images/projects/budget-app/feature.png
 featureAlt : App screen designs for the budget app.
-mockups    : ['mockup-1.png','mockup-2.png','mockup-3.png','mockup-4.png']
+mockups    : 
+  - iPhone showing a screen which reports on bookmarked spending categories.
+  - iPhone showing a screen which presents the details of a transaction.
+  - iPhone showing a screen which reports on the spending for each month in a year.
+  - iPhone showing a screen in which the user selects from prebuilt categories for budgets.
 roles      : ['User Researcher','UX Designer','UI Designer']
 goal       : It’s a mobile application to teach time first-time budgeters about creating and sticking to a budget. It is not a financial management application such as Quicken or Mint. Its scope is purposely limited in features.
 targetAudience : The primary audience is young adults and young professionals. These users have never used a budget before and want to easily learn how to apply budget concepts.

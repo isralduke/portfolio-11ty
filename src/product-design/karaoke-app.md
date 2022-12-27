@@ -8,6 +8,11 @@ excerpt    : iOS application allows patrons to create and participate in ad hoc 
 tryitLink  : https://www.figma.com/proto/tPBiKe1NLVwLuJcD0875Ko/Karaoke-Competition?page-id=0%3A1&node-id=1%3A2&viewport=241%2C48%2C0.25&scaling=scale-down&starting-point-node-id=1%3A2
 feature        : /images/projects/art-gallery-app/feature.png
 featureAlt : iPhones showing the screen designs for the karaoke competiton app.
+mockups : 
+  - iPhone showing the team order screen in the contest queue.
+  - iPhone showing a screen with radio buttons to pick a song.
+  - iPhone showing a screen with radio buttons to nominate a team to be the contest winner.
+  - iPhone showing a screen announcing the team which wins the contest.
 roles      : ['UI Designer','🌟 Star Performer']
 goal : The goal was to deliver an app design which met specified contest theme criteria in three hours.
 targetAudience : The target audience could be the contest judges (this was for a contest) or the imaginary users. Let’s make it for the imaginary users. They’ll be somewhat cognitively burdened though, so this has to be simple.

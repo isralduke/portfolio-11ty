@@ -8,7 +8,11 @@ excerpt    : Sketch note app allows users to create quick sticky notes on their 
 tryitLink  : https://www.figma.com/proto/9QpaowpepugdTBfLypuW3i/Squiddle?page-id=0%3A1&node-id=3%3A6&viewport=241%2C48%2C0.34&scaling=scale-down&starting-point-node-id=6%3A338
 feature: /images/projects/sketch-note-app/feature.png
 featureAlt : App screen designs for the sketch note app.
-mockups    : ['mockup-1.png','mockup-2.png','mockup-3.png','mockup-4.png']
+mockups    : 
+  - iPhone showing the screen for browsing sketch notes in a grid.
+  - iPhone showing the screen for browsing sketch notes in a list.
+  - iPhone showing the screen for drawing the note. Controls for drawing, color, and text are presented.
+  - iPhone showing the screen for adding a photo as the background of a note.
 roles      : ['User Researcher','UX Designer','UI Designer']
 goal : The goal was to design a note-taking app which appeals to casual note takers. The app would note present overly-structure note interfaces.
 personas   : ['persona-1.jpg','persona-2.jpg']

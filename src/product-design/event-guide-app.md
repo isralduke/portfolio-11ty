@@ -8,7 +8,11 @@ excerpt    : Mobile app provides conference attendees quick access to relevant p
 tryitLink  : https://www.figma.com/proto/4EtTiMKTB2q2TOmenmbnJM/SQL-Sat-Guidebook?page-id=0%3A1&node-id=4%3A1383&viewport=241%2C48%2C0.25&scaling=scale-down&starting-point-node-id=0%3A76
 feature        : /images/projects/event-guide-app/feature.png
 featureAlt : App screen designs for the event guide app.
-mockups    : ['mockup-1.png','mockup-2.png','mockup-3.png','mockup-4.png']
+mockups    : 
+  - iPhone showing the screen for reading presentation session details.
+  - iPhone showing the screen for browsing through the presentation session groups.
+  - iPhone showing the screen for browsing through bookmarked sessions.
+  - iPhone showing the launch screen.
 roles      : ['UX Designer','UI Designer']
 goal : The goal for the product is to enable conference attendees to make a plan to attend as many presentations as possible.
 targetAudience : The audience for SQL Saturday Guidebook are developers, database administrators, and other information technology workers such as designers, projects managers, business analysts, and other I.T. employees. Dark mode was chosen for the theme from an ad-hoc survey of would-be attendees. Many developers seem to prefer the dark mode of Visual Studio. A light mode is planned to be incorporated as a choice for subsequent years.

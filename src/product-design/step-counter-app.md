@@ -8,7 +8,11 @@ excerpt    : An Apple watchOS and iOS step counter app which gives users a quick
 tryitLink  : https://apps.apple.com/us/app/duffy-steps-complication/id1207581673
 feature : /images/projects/step-counter-app/feature.png
 featureAlt : App screen designs on iPhone and Apple Watch for the step counter app.
-mockups    : ['mockup-1.png','mockup-2.png','mockup-3.png','mockup-4.png']
+mockups    : 
+  - Apple watch showing a screen which shows steps walked so far, also showing the equivalents in miles and flights of stairs.
+  - Apple watch showing a screen for reviewing the steps walked on each of the preview seven days.
+  - iPhone showing a screen which shows steps walked so far, also showing the equivalents in miles and flights of stairs. It also shows the previous seven days.
+  - iPhone showing a screen for learning about the trophies for meeting and exceeding multiples of goal steps.
 roles      : ['UI Designer']
 goal : The goal is to design an iOS and watchOS app which enables users to easily see how many steps they’ve walked during the day. They would not have to navigate several menus deep into the health app.
 personas   : ['persona-1.jpg','persona-2.jpg']

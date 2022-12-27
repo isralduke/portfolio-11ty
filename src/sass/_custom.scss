@@ -55,7 +55,7 @@
 
 }
 .project-block {
-  @extend .pt-5;
+  @extend .pt-6;
   color: $azure-dark;
   h2 {
     &::first-letter {
@@ -74,8 +74,7 @@
     border: 1px solid $gray-400;
   }
   &:last-of-type {
-    @extend .pt-6;
-    @extend .pb-5;
+    @extend .pb-6;
   }
 }
 .embed-container { 
