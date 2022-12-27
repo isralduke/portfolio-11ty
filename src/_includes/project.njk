@@ -11,78 +11,73 @@ heroClass : hero-project
 <main id="main" class="bg-gray-200">
   
 
-  {# feature and mockups #}
-  <div class="project-hero bg-graph-paper pb-6">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <a data-fslightbox href="/images/projects/{{ title | slugify }}/feature.png">
-            <img src="/images/projects/{{ title | slugify }}/feature.png" alt="{{ featureAlt }}" class="w-100">
-          </a>
-        </div>
-      </div>
-      {# mockups #}
-      <div class="row g-0">
-        {% for item in mockups %}
-        <div class="col-3">
-          <a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png">
-            <img src="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" alt="{{ item }}" class="img-fluid">
-          </a>
-        </div>
-        {% endfor %}
+{# feature and mockups #}
+<div class="project-hero bg-graph-paper pb-6">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <a data-fslightbox href="/images/projects/{{ title | slugify }}/feature.png">
+          <img src="/images/projects/{{ title | slugify }}/feature.png" alt="{{ featureAlt }}" class="w-100">
+        </a>
       </div>
     </div>
-  </div>
-
-
-
-  {# stats #}
-  <div class="pb-8 bg-graph-paper">
-    <div class="container">
-        <div class="row justify-content-center g-1 gx-md-4">
-            <div class="col-sm-6 col-md-4">
-                <div class="card bg-gray-700 border-0">
-                    <div class="card-body">
-                        <h2 class="h5 text-white">Project Stats</h2>
-                        <ul class="list-group list-group-flush mb-0">
-                            <li class="list-group-item d-flex ps-0 bg-gray-700 text-white">
-                              <span class="text-white w-50">Type</span>
-                              <span class="text-white w-50">{{ type }}</span>
-                            </li>
-                            <li class="list-group-item d-flex ps-0 bg-gray-700 text-white">
-                              <span class="text-white w-50">Platform</span>
-                              <span class="text-white w-50">{{ platform }}</span>
-                            </li>
-                            <li class="list-group-item d-flex ps-0 bg-gray-700 text-white">
-                              <span class="text-white w-50">Status</span>
-                              <span class="text-white w-50">{{ status }}</span>
-                            </li>
-                            <li class="list-group-item d-flex px-0 bg-gray-700 text-white">
-                                <a href="{{ tryitLink }}" class="btn btn-link text-white">Go to {{ title }}</a>
-                            </li>
-                          </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="card bg-gray-700 border-0">
-                    <div class="card-body">
-                        <h2 class="h5 text-white">Project Roles</h2>
-                        <ul class="list-group list-group-flush mb-0">
-                            {% for item in roles %}
-                            <li class="list-group-item ps-0 bg-gray-700 text-white">{{ item }}</li>
-                            {% endfor %}
-                          </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+    {# mockups #}
+    <div class="row g-0">
+      {% for item in mockups %}
+      <div class="col-3">
+        <a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png">
+          <img src="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" alt="{{ item }}" class="img-fluid">
+        </a>
+      </div>
+      {% endfor %}
     </div>
   </div>
+</div>
+
+
+{# stats #}
+<div class="pb-8 bg-graph-paper">
+  <div class="container">
+      <div class="row justify-content-center g-1 gx-md-4">
+          <div class="col-sm-6 col-md-4">
+              <div class="card bg-gray-700 border-0">
+                  <div class="card-body">
+                      <h2 class="h5 text-white">Project Stats</h2>
+                      <ul class="list-group list-group-flush mb-0">
+                        {% for item in stats %}
+                        <li class="list-group-item d-flex ps-0 bg-gray-700 text-white">
+                          <span class="text-white w-50">{{ item.label }}</span>
+                          <span class="text-white w-50">{{ item.value }}</span>
+                        </li>
+                        {% endfor %}
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+              <div class="card bg-gray-700 border-0">
+                  <div class="card-body">
+                      <h2 class="h5 text-white">Project Roles</h2>
+                      <ul class="list-group list-group-flush mb-0">
+                        {% for item in roles %}
+                        <li class="list-group-item ps-0 bg-gray-700 text-white">{{ item }}</li>
+                        {% endfor %}
+                      </ul>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-8 mt-4">
+            <a href="{{ tryitLink }}" class="btn btn-outline-light w-100">
+              Try {{ title }}
+              <span class="icon bi bi-arrow-right-short" aria-hidden="true"></span>
+            </a>
+          </div>
+      </div>
+  </div>
+</div>
+
 
 <div class="project-content">
-
-
   {# project goal #}
   <div class="project-block">
     <div class="container">
@@ -106,16 +101,14 @@ heroClass : hero-project
             </div>
         </div>
         <div class="row g-4 justify-content-center">
-            <div class="col-12 col-md-6 col-lg-4">
-              <a data-fslightbox href="/images/projects/{{ title | slugify }}/persona-1.jpg">
-                <img src="/images/projects/{{ title | slugify }}/persona-1.jpg" alt="Persona 1 for {{ title }}." class="">
-              </a>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <a data-fslightbox href="/images/projects/{{ title | slugify }}/persona-2.jpg">
-                <img src="/images/projects/{{ title | slugify }}/persona-2.jpg" alt="Persona 2 for {{ title }}." class="">
-              </a>
+          <!-- i don’t yet have a plan to present these more thoroughly in an accessible manner. -->
+          {% for item in personas %}
+          <div class="col-12 col-md-6 col-lg-4">
+            <a data-fslightbox href="/images/projects/{{ title | slugify }}/persona-{{ loop.index }}.jpg">
+              <img src="/images/projects/{{ title | slugify }}/persona-{{ loop.index }}.jpg" alt="{{ item }}" class="">
+            </a>
           </div>
+          {% endfor %}
         </div>
     </div>
   </div>
@@ -140,21 +133,18 @@ heroClass : hero-project
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-8 col-xl-6">
-                <h2 class="h2" id="sketcheswireframes">Sketches &amp; Wireframes</h2>
-                <p class="">{{ sketchText }} {{ wireframeText }}</p>
+                <h2 class="h2" id="sketcheswireframes">Initial Concepts</h2>
+                <p class="">{{ initialConcept }}</p>
             </div>
         </div>
         <div class="row g-4 justify-content-center">
+          {% for item in initialConcepts %}
           <div class="col-12 col-md-6 col-lg-4">
-            <a data-fslightbox href="/images/projects/{{ title | slugify }}/sketch-1.jpg">
-              <img src="/images/projects/{{ title | slugify }}/sketch-1.jpg" alt="Sketch of early thoughts for {{ title }}." class="">
+            <a data-fslightbox href="/images/projects/{{ title | slugify }}/sketch-wireframe-{{ loop.index }}.jpg">
+              <img src="/images/projects/{{ title | slugify }}/sketch-wireframe-{{ loop.index }}.jpg" alt="{{ item }}" class="">
             </a>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <a data-fslightbox href="/images/projects/{{ title | slugify }}/wireframe-1.jpg">
-              <img src="/images/projects/{{ title | slugify }}/wireframe-1.jpg" alt="Digital wireframes for {{ title }}." class="">
-            </a>
-          </div>
+          {% endfor %}
         </div>
     </div>
   </div>
@@ -170,16 +160,14 @@ heroClass : hero-project
             </div>
           </div>
         <div class="row g-4 justify-content-center">
+          <!-- i don’t yet have a plan to present these more thoroughly in an accessible manner. -->
+          {% for item in usabilities %}
           <div class="col-12 col-md-6 col-lg-4">
-            <a data-fslightbox href="/images/projects/{{ title | slugify }}/usability-1.jpg">
-              <img src="/images/projects/{{ title | slugify }}/usability-1.jpg" alt="Usability result 1 for {{ title }}." class="">
+            <a data-fslightbox href="/images/projects/{{ title | slugify }}/usability-{{ loop.index }}.jpg">
+              <img src="/images/projects/{{ title | slugify }}/usability-{{ loop.index }}.jpg" alt="{{ item }}" class="">
             </a>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <a data-fslightbox href="/images/projects/{{ title | slugify }}/usability-2.jpg">
-              <img src="/images/projects/{{ title | slugify }}/usability-2.jpg" alt="Usability result 2 for {{ title }}." class="">
-            </a>
-          </div>
+          {% endfor %}
         </div>
     </div>
   </div>

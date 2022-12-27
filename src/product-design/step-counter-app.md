@@ -1,9 +1,13 @@
 ---
 title      : Step Counter App
 date       : 2021-11-21
-type       : Personal
-platform   : iOS
-status     : Released
+stats          : 
+  - label      : Type
+    value      : personal
+  - label      : Platform
+    value      : iOS
+  - label      : Status
+    value      : Published
 excerpt    : An Apple watchOS and iOS step counter app which gives users a quick glance at their steps.
 tryitLink  : https://apps.apple.com/us/app/duffy-steps-complication/id1207581673
 feature : /images/projects/step-counter-app/feature.png
@@ -15,13 +19,20 @@ mockups    :
   - iPhone showing a screen for learning about the trophies for meeting and exceeding multiples of goal steps.
 roles      : ['UI Designer']
 goal : The goal is to design an iOS and watchOS app which enables users to easily see how many steps they’ve walked during the day. They would not have to navigate several menus deep into the health app.
-personas   : ['persona-1.jpg','persona-2.jpg']
-keyChallenges : The app should be fully usable from just the watchOS app. The user doesn’t really have to use the iOS app, except to install the watchOS app. Another key challenge was keeping the app’s information concentrated on as few screens as possible for a glanceable app.
-research : Research was performed by interviewing iOS Health app users to determine their pain points and delights while using that app. The research informed the information architecture of the app.
 targetAudience : The user for Duffy is a health-conscious user, but they’re probably best described as lay persons of the fitness world. They may not be gym members or calorie counters, but they’re aware that they need to walk during the day. They need to know how much to walk, and steps are a simple metric for these users.
-sketchText   : Sketches for the step counter app began as a collaborative meeting between the designer and developer.
-wireframes : 
+research : Research was performed by interviewing iOS Health app users to determine their pain points and delights while using that app. The research informed the information architecture of the app.
+keyChallenges : The app should be fully usable from just the watchOS app. The user doesn’t really have to use the iOS app, except to install the watchOS app. Another key challenge was keeping the app’s information concentrated on as few screens as possible for a glanceable app.
+personas   : 
+- Persona card for Bruce who represents users who can easily navigate complexity but prefer something requiring less thought.
+- Persona card for Tonya who represents users who want easy-to-see stats on their daily step progress.
+initialConcept  : Sketches for the step counter app began as a collaborative meeting between the designer and developer.
+initialConcepts : 
+  - Original marker sketches for Apple watch app showing the home complication, today, previosu seven days, and goal setting screens.
+  - Original market sketches for iPhone showing the about, how to change goal, home, and history screens.
 usabilityText: Usability tests were performed by showing Figma mockups to potential friends and family to gain their initial impressions.
+usabilities : 
+  - Usability issues and insights from tester one regarding the app and a similar app used for comparison.
+  - Usability issues and insights from testers two and three regarding the app and a similar app used for comparison.
 conclusion : It’s a free app and you can get Duffy at the App Store for your Apple Watch and iPhone.
 designFile : https://www.figma.com/file/Qx7rW9DLGHgGCmEcFkFwL0/Duffy?node-id=67%3A254
 ---

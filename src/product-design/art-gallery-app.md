@@ -1,29 +1,40 @@
 ---
-title         : Art Gallery App
-date          : 2021-11-20
-type          : Personal
-platform      : iOS
-status        : Proposed
-excerpt       : Mobile app allows art gallery visitors to plan trips, see current artwork collections and buy tickets.
-tryitLink     : https://www.figma.com/proto/Hh5HjU7yPB3WbHwYxFKIDj/Art-Gallery-Tour?page-id=138%3A932&node-id=138%3A940&viewport=241%2C48%2C0.11&scaling=scale-down&
+title          : Art Gallery App
+date           : 2021-11-20
+stats          : 
+  - label      : Type
+    value      : Personal
+  - label      : Platform
+    value      : iOS
+  - label      : Status
+    value      : Proposed
+excerpt        : Mobile app allows art gallery visitors to plan trips, see current artwork collections and buy tickets.
+tryitLink      : https://www.figma.com/proto/Hh5HjU7yPB3WbHwYxFKIDj/Art-Gallery-Tour?page-id=138%3A932&node-id=138%3A940&viewport=241%2C48%2C0.11&scaling=scale-down&
 feature        : /images/projects/art-gallery-app/feature.png
-featureAlt    : iPhones on a table with the art gallery app on their screens.
-mockups       : 
+featureAlt     : iPhones on a table with the art gallery app on their screens.
+mockups        : 
   - iPhone showing the preview of the home screen design. It has excerpts of the events and art collections.
   - iPhone showing the all artwork collections screen.
   - iPhone showing the review screen for buying entry tickets.
   - iPhone showing the confirmation screen presenting a scannable code for entry.
-roles         : ['User Researcher','UX Designer','UI Designer','Visual Designer']
-goal          : The goal was to create a new mobile experience for the gallery. The app helps visitors buy tickets in the app, shows them upcoming gallery events, and helps them plan their visit to the gallery.
-targetAudience: The target audience is composed of two primary segments. The first segment is made up retired, senior visitors who often rely on third parties for transportation to the gallery. They need accommodation and accessibility information for their visits. The second segment is made up of young professionals who can visit the gallery in the evenings and weekends. The second segment is most likely to buy tickets in the application. Both segments expressed a desire to attend weekend events at the gallery.
-research      : The research began with online surveys to determine the content in the mobile application which users most likely expect. Participants were chosen from people who normally visit art galleries and art museums. The seniors who represent the second segment of the target audience participated in in-person usability studies. I conducted remote interviews with participants who represented the second segment of the target audience.
-keyChallenges : The key challenges in the process was arranging for the in-person usability studies for the seniors who make up the first segment of the target audience. Segment two was comfortable with video interviews.
-personas      : ['persona-1.jpg','storyboard-1.jpg','persona-2.jpg','storyboard-2.jpg']
-sketchText    : Paper sketches were used to capture initial design ideas, using crazy 8 methodology.
-wireframeText : The best ideas from initial design concepts were translated into digital wireframes.
-usabilityText : Usability testing data was recorded in a spreadsheet for each of the participants. Each participant was asked to perform key tasks in the wireframes. Moderated, remote testing enabled us to answer questions about the function about the wireframe setup verses the actual wireframe design. Testing occurred with digital wireframes with some follow up in the mockups.
-conclusion    : For the next steps I want to design an Apple Watch app to go along so that visitors can scan their tickets on their wrists. This would make it easier for seniors who use Apple Watches to enter the building using walkers or other assistive instruments.
-designFile    : https://www.figma.com/file/Hh5HjU7yPB3WbHwYxFKIDj/gallerWeMe-art-gallery?node-id=138%3A932
+roles          : ['User Researcher','UX Designer','UI Designer','Visual Designer']
+goal           : The goal was to create a new mobile experience for the gallery. The app helps visitors buy tickets in the app, shows them upcoming gallery events, and helps them plan their visit to the gallery.
+targetAudience : The target audience is composed of two primary segments. The first segment is made up retired, senior visitors who often rely on third parties for transportation to the gallery. They need accommodation and accessibility information for their visits. The second segment is made up of young professionals who can visit the gallery in the evenings and weekends. The second segment is most likely to buy tickets in the application. Both segments expressed a desire to attend weekend events at the gallery.
+research       : The research began with online surveys to determine the content in the mobile application which users most likely expect. Participants were chosen from people who normally visit art galleries and art museums. The seniors who represent the second segment of the target audience participated in in-person usability studies. I conducted remote interviews with participants who represented the second segment of the target audience.
+keyChallenges  : The key challenges in the process was arranging for the in-person usability studies for the seniors who make up the first segment of the target audience. Segment two was comfortable with video interviews.
+personas       : 
+  - Persona card for Dotty who represents users who are older and use the app to plan their visits rather than consume art in the app.
+  - Persona card for Bao who represents users who are younger and use the app to buy tickets for themselves and others.
+initialConcept : Paper sketches were used to capture initial design ideas, using crazy 8 methodology. The best ideas from initial design concepts were translated into digital wireframes.
+initialConcepts: 
+  - Crazy eight marker sketches for various user flows.
+  - Digital wireframes created from the best concepts from the crazy eight ideations. 
+usabilityText  : Usability testing data was recorded in a spreadsheet for each of the participants. Each participant was asked to perform key tasks in the wireframes. Moderated, remote testing enabled us to answer questions about the function about the wireframe setup verses the actual wireframe design. Testing occurred with digital wireframes with some follow up in the mockups.
+usabilities : 
+  - Usability issues and insights gathered from testers one and two while using the wireframe prototype.
+  - Usability successes gathered from testers while using the wireframe prototype.
+conclusion     : For the next steps I want to design an Apple Watch app to go along so that visitors can scan their tickets on their wrists. This would make it easier for seniors who use Apple Watches to enter the building using walkers or other assistive instruments.
+designFile     : https://www.figma.com/file/Hh5HjU7yPB3WbHwYxFKIDj/gallerWeMe-art-gallery?node-id=138%3A932
 ---
 
 ### Project Goal

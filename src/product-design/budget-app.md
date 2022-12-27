@@ -1,9 +1,13 @@
 ---
 title      : Budget App
 date       : 2021-11-22
-type       : Personal
-platform   : iOS
-status     : Proposed
+stats          : 
+  - label      : Type
+    value      : Personal
+  - label      : Platform
+    value      : iOS
+  - label      : Status
+    value      : Proposed
 excerpt    : Budget app which helps first-time budgeters easily learn how to think in terms of a budget.
 tryitLink  : https://www.figma.com/proto/he8ruRik6mfojjhDm53qgv/Budget-Buddy?node-id=135%3A1593&scaling=scale-down&page-id=115%3A1649&starting-point-node-id=135%3A1592
 feature    : /images/projects/budget-app/feature.png
@@ -18,13 +22,17 @@ goal       : It’s a mobile application to teach time first-time budgeters abou
 targetAudience : The primary audience is young adults and young professionals. These users have never used a budget before and want to easily learn how to apply budget concepts.
 research   : I conducted remote and in-person interviews for a wide range of ages. Participants ranged from early twenties to late fifties. I asked the participants to use the think aloud method as they completed key tasks and explained what they thought to be each screen’s purpose.
 keyChallenges: The key challenges were to limit the features to just those features which will educate first-time budgeters about budget concepts. Features were often requested which fall outside of the simple scope. Such features will be considered for later addition.
-personas   : ['persona-1.jpg','persona-2.jpg']
-sketchText : Paper sketches were used to capture initial design ideas, using crazy 8 methodology. Some cues were taken from existing budget apps’ features, reducing complexity.
-sketches   : ['sketch-1.jpg']
-wireframeText : The best ideas from initial design concepts were translated into digital wireframes.
-wireframes : ['wireframe-1.jpg']
+personas   : 
+  - Persona card for John who represents users who often start but quit using budget apps. 
+  - Persona card for Lucy who represents users who like budget apps but want simpler offerings.
+initialConcept : Paper sketches were used to capture initial design ideas, using crazy 8 methodology. Some cues were taken from existing budget apps’ features, reducing complexity. The best ideas from initial design concepts were translated into digital wireframes.
+initialConcepts: 
+  - Crazy eight marker sketches for various screens.
+  - Digital wireframes created from the best concepts from the crazy eight ideations. 
 usabilityText : Usability testing data was recorded in a spreadsheet for each of the participants and in affinity diagrams. Two of the users were self-reported as dyslexic readers. The dyslexic users found the application easy to scan and read. All participants’ feedback were taken into consideration for a second round of wireframes.
-usabilities: ['usability-1.jpg']
+usabilities: 
+  - Usability issues and insights gathered from tester one during wireframe prototype use.
+  - Usability issues and insights gathered from tester two during wireframe prototype use.
 conclusion: Budget Buddy’s future depends on the signups using its service. Future feature releases will be considered from the perspective of learning about budget concepts. Features which align more closely to financial management apps will probably be ignored as that doesn’t align with Budget Buddy’s mission.
 designFile : https://www.figma.com/file/he8ruRik6mfojjhDm53qgv/Budget-Buddy?node-id=115%3A1649
 ---
