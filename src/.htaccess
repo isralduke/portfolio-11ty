@@ -1,3 +1,4 @@
+Redirect 302 /projects /product-design
 Redirect 302 /projects/art-gallery-app /product-design/art-gallery-app
 Redirect 302 /projects/step-counter-app /product-design/step-counter-app
 Redirect 302 /projects/budget-app /product-design/budget-app
