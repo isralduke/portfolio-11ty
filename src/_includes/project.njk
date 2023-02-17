@@ -16,7 +16,7 @@ heroClass : hero-project
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <a data-fslightbox href="/images/projects/{{ title | slugify }}/feature.png">
+        <a data-fslightbox href="/images/projects/{{ title | slugify }}/feature.png" class="thumbnail-link">
           <img src="/images/projects/{{ title | slugify }}/feature.png" alt="{{ featureAlt }}" class="w-100">
         </a>
       </div>
@@ -25,7 +25,7 @@ heroClass : hero-project
     <div class="row g-0">
       {% for item in mockups %}
       <div class="col-3">
-        <a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png">
+        <a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" class="thumbnail-link">
           <img src="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" alt="{{ item }}" class="img-fluid">
         </a>
       </div>
@@ -104,7 +104,7 @@ heroClass : hero-project
           <!-- i don’t yet have a plan to present these more thoroughly in an accessible manner. -->
           {% for item in personas %}
           <div class="col-12 col-md-6 col-lg-4">
-            <a data-fslightbox href="/images/projects/{{ title | slugify }}/persona-{{ loop.index }}.jpg">
+            <a data-fslightbox href="/images/projects/{{ title | slugify }}/persona-{{ loop.index }}.jpg" class="thumbnail-link">
               <img src="/images/projects/{{ title | slugify }}/persona-{{ loop.index }}.jpg" alt="{{ item }}" class="">
             </a>
           </div>
@@ -140,7 +140,7 @@ heroClass : hero-project
         <div class="row g-4 justify-content-center">
           {% for item in initialConcepts %}
           <div class="col-12 col-md-6 col-lg-4">
-            <a data-fslightbox href="/images/projects/{{ title | slugify }}/sketch-wireframe-{{ loop.index }}.jpg">
+            <a data-fslightbox href="/images/projects/{{ title | slugify }}/sketch-wireframe-{{ loop.index }}.jpg" class="thumbnail-link">
               <img src="/images/projects/{{ title | slugify }}/sketch-wireframe-{{ loop.index }}.jpg" alt="{{ item }}" class="">
             </a>
           </div>
@@ -163,7 +163,7 @@ heroClass : hero-project
           <!-- i don’t yet have a plan to present these more thoroughly in an accessible manner. -->
           {% for item in usabilities %}
           <div class="col-12 col-md-6 col-lg-4">
-            <a data-fslightbox href="/images/projects/{{ title | slugify }}/usability-{{ loop.index }}.jpg">
+            <a data-fslightbox href="/images/projects/{{ title | slugify }}/usability-{{ loop.index }}.jpg" class="thumbnail-link">
               <img src="/images/projects/{{ title | slugify }}/usability-{{ loop.index }}.jpg" alt="{{ item }}" class="">
             </a>
           </div>

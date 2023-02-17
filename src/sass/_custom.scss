@@ -51,6 +51,24 @@
 .z-index-300 {
   z-index: 300;
 }
+.skip-link {
+  @extend .d-block;
+  @extend .p-4;
+  @extend .bg-white;
+  @extend .position-fixed;
+  @extend .text-decoration-none;
+  @extend .position-relative;
+  @extend .text-black;
+  @extend .fw-bold;
+  z-index: 10000;
+  left: 50%; 
+  top: -100%;
+  transform: translateX(-50%);
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius : 1rem;
+  line-height: 1;
+  transition: $transition-base;
+}
 .project-content {
 
 }
@@ -139,7 +157,85 @@ aside {
     }
   }
   .list-group-item {
-    border-color: $danger!important;
+    border: none;
+    &:not(:last-of-type) {
+      border-bottom: 1px solid fade-out($white, .9);
+    }
   }
-}    
+} 
+// focus styles
+.navbar-brand, .main-nav li a, .footer a, .project-hero .thumbnail-link, .text-link {
+  &:focus {
+    outline: none;
+    @extend .position-relative;
+    &:after {
+      @extend .position-absolute;
+      content: "";
+      width: calc(100% + 0.5rem);
+      height: calc(100% + 0.03125rem);
+      border: 2px dashed $white;;
+      top: -0.03125rem!important;
+      left: -0.25rem!important;
+    }
+  }
+}
+.stretched-link {
+  &:focus {
+    &:after {
+      border       : .125rem dashed $white;
+      border-radius: .5rem;
+      top          : -.5rem;
+      right        : -.5rem;
+      bottom       : -.5rem;
+      left         : -.5rem;
+    }
+  }
+}
+.project-hero .thumbnail-link {
+  @extend .d-block;
+  &:focus {
+    &:after {
+      border-radius: 1rem;;
+    }
+  }
+}
+.project-hero .btn, .project-hero .btn-outline-light {
+  &:focus {
+    box-shadow: none!important;
+  }
+}
+.project-content .thumbnail-link {
+  @extend .d-block;
+  &:focus {
+    @extend .position-relative;
+    outline: none;
+    &:after {
+      @extend .position-absolute;
+      content: '';
+      width : calc(100% + 0.5rem);
+      height: calc(100% + 0.03125rem);
+      top   : -0.03125rem!important;
+      left  : -0.25rem!important;
+      border: 2px dashed $scarlet;
+    }
+  }
+}
+.skip-link {
+  &:focus {
+    top: 0;
+    outline: none;
+    &:after {
+      @extend .position-absolute;
+      content: '';
+      width: calc(100% + 1rem);
+      height: calc(100% + 0.875rem);
+      border: .25rem dashed $white;
+      top: -0.3755rem;
+      left: -0.5rem;
+      border-bottom-right-radius: 1.5rem;
+      border-bottom-left-radius : 1.5rem;
+    }
+  }
+}
+
       
