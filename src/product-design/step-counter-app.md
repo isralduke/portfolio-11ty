@@ -3,7 +3,7 @@ title      : Step Counter App
 date       : 2021-11-21
 stats          : 
   - label      : Type
-    value      : personal
+    value      : Personal
   - label      : Platform
     value      : iOS
   - label      : Status
