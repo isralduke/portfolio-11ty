@@ -18,22 +18,22 @@ mockups    :
   - iPhone showing a screen which reports on the spending for each month in a year.
   - iPhone showing a screen in which the user selects from prebuilt categories for budgets.
 roles      : ['User Researcher','UX Designer','UI Designer']
-goal       : It’s a mobile application to teach time first-time budgeters about creating and sticking to a budget. It is not a financial management application such as Quicken or Mint. Its scope is purposely limited in features.
-targetAudience : The primary audience is young adults and young professionals. These users have never used a budget before and want to easily learn how to apply budget concepts.
-research   : I conducted remote and in-person interviews for a wide range of ages. Participants ranged from early twenties to late fifties. I asked the participants to use the think aloud method as they completed key tasks and explained what they thought to be each screen’s purpose.
-keyChallenges: The key challenges were to limit the features to just those features which will educate first-time budgeters about budget concepts. Features were often requested which fall outside of the simple scope. Such features will be considered for later addition.
+goal       : Design a mobile application to teach time first-time budgeters about creating and sticking to a budget.
+targetAudience : The primary audience is young adults and young professionals who have never used a budget before.
+research   : I conducted remote and in-person interviews for a wide range of ages.
+keyChallenges: The key challenges were to limit the features to just those features which will educate first-time budgeters about budget concepts.
 personas   : 
   - Persona card for John who represents users who often start but quit using budget apps. 
   - Persona card for Lucy who represents users who like budget apps but want simpler offerings.
-initialConcept : Paper sketches were used to capture initial design ideas, using crazy 8 methodology. Some cues were taken from existing budget apps’ features, reducing complexity. The best ideas from initial design concepts were translated into digital wireframes.
+initialConcept : Paper sketches were used to capture initial design ideas, using crazy 8 methodology. The best ideas from initial design concepts were translated into digital wireframes.
 initialConcepts: 
   - Crazy eight marker sketches for various screens.
   - Digital wireframes created from the best concepts from the crazy eight ideations. 
-usabilityText : Usability testing data was recorded in a spreadsheet for each of the participants and in affinity diagrams. Two of the users were self-reported as dyslexic readers. The dyslexic users found the application easy to scan and read. All participants’ feedback were taken into consideration for a second round of wireframes.
+usabilityText : Usability testing data was recorded in a spreadsheet for each of the participants. The responses were transformed into affinity groups to find themes.
 usabilities: 
   - Usability issues and insights gathered from tester one during wireframe prototype use.
   - Usability issues and insights gathered from tester two during wireframe prototype use.
-conclusion: Budget Buddy’s future depends on the signups using its service. Future feature releases will be considered from the perspective of learning about budget concepts. Features which align more closely to financial management apps will probably be ignored as that doesn’t align with Budget Buddy’s mission.
+conclusion: Future feature releases will be considered from the perspective of learning about budget concepts which align with Budget Buddy’s mission.
 designFile : https://www.figma.com/file/he8ruRik6mfojjhDm53qgv/Budget-Buddy?node-id=115%3A1649
 ---
 

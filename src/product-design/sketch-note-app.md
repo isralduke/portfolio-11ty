@@ -18,14 +18,14 @@ mockups    :
   - iPhone showing the screen for drawing the note. Controls for drawing, color, and text are presented.
   - iPhone showing the screen for adding a photo as the background of a note.
 roles      : ['User Researcher','UX Designer','UI Designer']
-goal : The goal was to design a note-taking app which appeals to casual note takers. The app would note present overly-structure note interfaces.
-targetAudience : The target audience for the sketch note app is someone who likes to use their finger to draw quick sketch notes. They don’t necessarily want to abandon the features of a digital note, but they’re not interested in a structured note.
-research : Research was performed by interviewing people who liked using real life sticky notes. We asked them why they liked sticky notes and what they would add to digital versions of sticky notes.
-keyChallenges : The key challenge was repeatedly resisting our own efforts at “gold plating” — adding unrequested features. Keeping features to bare minimum resulted in a simpler user experience and a less cluttered user interface.
+goal : The goal was to design a note-taking app which appeals to casual note takers.
+targetAudience : The target audience for the sketch note app is someone who likes to use their finger to draw quick sketch notes. They’re not interested in a structured note.
+research : Research was performed by interviewing people who liked using real life sticky notes.
+keyChallenges : The key challenge was repeatedly resisting our own efforts at “gold plating”.
 personas   : 
   - Persona card for Lora who represents users who want to take a few moments longer to create visual notes.
   - Persona card for Simone who represents users who don’t have much time to create visual notes.
-initialConcept : We started with real pencil and paper to immerse ourselves in the organic feel we wanted to preserve for the user. Squares are the shape of sticky notes and squares are simple, basic shapes, so we decided to stick to simple shapes for the user interface and icons as well.
+initialConcept : We started with real pencil and paper to immerse ourselves in the organic feel we wanted to preserve for the user. We decided to stick to square notes and simple shapes for the user interface and icons.
 initialConcepts : 
   - Hand sketch showing original thoughts for the home, note, tag, and search screens.
   - Hand sketch showing original thinking for the pen, eraser, note, and text option screens.

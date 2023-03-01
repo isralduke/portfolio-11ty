@@ -18,14 +18,14 @@ mockups    :
   - iPhone showing the screen for browsing through bookmarked sessions.
   - iPhone showing the launch screen.
 roles      : ['UX Designer','UI Designer']
-goal : The goal for the product is to enable conference attendees to make a plan to attend as many presentations as possible.
-targetAudience : The audience for SQL Saturday Guidebook are developers, database administrators, and other information technology workers such as designers, projects managers, business analysts, and other I.T. employees. Dark mode was chosen for the theme from an ad-hoc survey of would-be attendees. Many developers seem to prefer the dark mode of Visual Studio. A light mode is planned to be incorporated as a choice for subsequent years.
+goal : Create a mobile app for conference attendees. Let them bookmark sessions and browser by session metadata.
+targetAudience : Developers, database administrators, and other information technology workers such as designers, projects managers, and business analysts.
 research : Research was conducted using past years’ attendees’ feedback surveys. Features were generated from insights gathered from the surveys.
-keyChallenges : The app is designed to be easily developed using Xamarin and many pre-defined layouts within Xamarin. Using pre-defined layouts enabled us to produce the app more quickly for both iOS and Android phones. Additionally, the design for the app had to be complete within a week. We relied on Lean UX and Genius Design in lieu of user research.
+keyChallenges : The app is designed to be easily developed using Xamarin and many pre-defined layouts within Xamarin. Using pre-defined layouts enabled us to produce the app more quickly for both iOS and Android phones.
 personas : 
   - Persona card for William who represents back end developers and users who care about the data model of the app.
   - Persona card for Gwenly who represents designers and the information organization within the app.
-initialConcept : The initial design concepts were sketched on the fly in one of the initial planning meetings for the event. Using an ad hoc competitive analysis of other event guide apps, the event advisory board — myself included — generated the requirements on the spot. Given the short turn-around time, digital wireframes were skipped.
+initialConcept : The initial design concepts were sketched on the fly in one of the initial planning meetings for the event. Using an ad hoc competitive analysis of other event guide apps, the event advisory board generated the app parameters.
 initialConcepts : 
   - Digital hand sketch of the home screen and bookmarked sessions screen.
   - Digital hand sketch of the session details screen and the session categories screen.

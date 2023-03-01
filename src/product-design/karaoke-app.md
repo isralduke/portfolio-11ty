@@ -18,14 +18,14 @@ mockups :
   - iPhone showing a screen with radio buttons to nominate a team to be the contest winner.
   - iPhone showing a screen announcing the team which wins the contest.
 roles      : ['UI Designer','🌟 Star Performer']
-goal : The goal was to deliver an app design which met specified contest theme criteria in three hours.
-targetAudience : The target audience could be the contest judges (this was for a contest) or the imaginary users. Let’s make it for the imaginary users. They’ll be somewhat cognitively burdened though, so this has to be simple.
+goal : Plan an app which met specified contest theme criteria in three hours.
+targetAudience : The target audience could be the contest judges (this was for a contest) or the imaginary users.
 research : No research was done for this app. We had three hours to concept an app, design it, and present it. Given our time constraints, we used Lean UX and Genius Design while keeping user-centric principles in mind.
-keyChallenges : The app doesn’t require logins or accounts. It will use local device wifi and bluetooth connection to communicate with other users of the same app. The app’s “disposable” nature precludes the need to create logins or save user information.
+keyChallenges : The app doesn’t require logins or accounts. It will use local device wifi and bluetooth connection to communicate with other users.
 personas : 
   - Persona card for Karina, representing younger karaoke competitors who use the karaoke competition app.
   - Persona card for Blake, representing older karaoke competitors who use the karaoke competition app.
-initialConcept : Sketches were created after ad hoc audience interviews. Wireframes were skipped due to the contest time limit. Ad hoc interviews with audience members were carried out to determine potential problems users might encounter in a real life situation.
+initialConcept : Sketches were created after ad hoc audience interviews. Wireframes were skipped due to the contest time limit.
 initialConcepts: 
   - Hand sketches for home screen, team name submission screen, and music genre selection screen.
   - Hand sketches for song selection and winner screen. The sketch for audience voting has been crossed out.
@@ -33,7 +33,7 @@ usabilityText : Ad hoc interviews with audience members were carried out to dete
 usabilities : 
   - Potential usability problems brainstormed with audience members.
   - Action directives we derived from brainstorming with audience members.
-conclusion : The team designing this app, “The Pun-o-matics,” of which I was a part with Michael Alford, won 1st Place People’s Choice and 2nd Place Professionals’ Choice awards. The app isn’t actually built but I’d love to collaborate with interested parties in actually building it. It was conceived and designed at Adobe Creative Jam, New Orleans.
+conclusion : The team designing this app, “The Pun-o-matics,” of which I was a part with Michael Alford, won 1st Place People’s Choice and 2nd Place Professionals’ Choice awards. It was conceived and designed at Adobe Creative Jam, New Orleans.
 designFile : https://www.figma.com/file/tPBiKe1NLVwLuJcD0875Ko/Karaoke-Competition?node-id=0%3A1
 ---
 
