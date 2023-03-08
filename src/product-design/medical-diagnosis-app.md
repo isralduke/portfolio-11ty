@@ -18,18 +18,18 @@ mockups    :
   - iPad showing the screen for visit details.
   - iPad showing the landing page with initial customer sign up offers.
 roles      : ['UI Designer']
-goal: The goal was to create a web app which allowed qualified medical personnel to diagnose a telemedicine patient using an interface designed around specific processing information.
-targetAudience: The user for this web application is an educated, trained, and licensed registered nurse. This is the highest rank of nurse and they are legally sanctioned for diagnosing patients and writing limited prescriptions.
-research : The research involved direct communication with medical personnel and administrative subject matter experts during many knowledge transfer sessions.
-keyChallenges : This web application needs to fit and work on small laptops to ensure maximum hardware compatibility. The video is fixed in place so the healthcare professional can always have the patient in view while scrolling the chart. Controls are designed to be large enough for easy, non-precise clicking. The color choices are limited to reserve high-intensity colors for important status, system, or patient-related info to gain prominence. As much as possible, we limited the layouts of the portal to be two columns, but no more than three if absolutely necessary, to control information density for easy scanning and reading. The UX designer role was mostly distributed across the product owner and SMEs.
+goal: Create a web appfor qualified medical personnel to diagnose a telemedicine patient.
+targetAudience: The user for this web application is an educated, trained, and licensed, Nurse Practitioner.
+research : Direct communication with medical personnel and administrative subject matter experts over  many knowledge transfer sessions.
+keyChallenges : This web application needs to fit and work on small laptops to ensure maximum hardware compatibility. The video is fixed in place so the healthcare professional can always have the patient in view while scrolling the chart. Controls are designed to be large enough for easy, non-precise clicking. The color choices are limited to reserve high-intensity colors for important status, system, or patient-related info to gain prominence.
 personas   : 
   - Persona card for Nancy who represents the nurse practitioners who use the web app process and diagnose patients.
   - Persona card for William who represents users of the mobile app to be treated and older users.
-initialConcept : The wireframes were collaboratively designed with SMEs and core users, using their backgrounds in medicine and informatics, to guide the placement of “widget regions”. As the digital wireframes were simple rectangles denoting widget regions, we iteratively arranged the regions until the executive team was satisfied.
+initialConcept : The wireframes were collaboratively designed with SMEs and core users, using their backgrounds in medicine and informatics to guide the placement of “widget regions”.
 initialConcepts : 
   - Original digital wireframe of widget areas for the financials screen.
   - Original digital wireframe of the widget areas for the messages screen.
-usabilityText: Usability notes were formed from brainstorming sessions with representative users, nurse practitioners, who group recalled tasks and decisions made when diagnosing patients in person.
+usabilityText: Usability testing data was recorded in a spreadsheet for each of the participants. The responses were transformed into affinity groups to find themes.
 usabilities : 
   - Incentivizing feature requests from medically-trained subject matter experts.
   - Constraint feature requests from medically-trained and administrative subject matter experts.

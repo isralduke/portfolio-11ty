@@ -3,7 +3,7 @@ title      : Step Counter App
 date       : 2021-11-21
 stats          : 
   - label      : Type
-    value      : personal
+    value      : Personal
   - label      : Platform
     value      : iOS
   - label      : Status
@@ -18,10 +18,10 @@ mockups    :
   - iPhone showing a screen which shows steps walked so far, also showing the equivalents in miles and flights of stairs. It also shows the previous seven days.
   - iPhone showing a screen for learning about the trophies for meeting and exceeding multiples of goal steps.
 roles      : ['UI Designer']
-goal : The goal is to design an iOS and watchOS app which enables users to easily see how many steps they’ve walked during the day. They would not have to navigate several menus deep into the health app.
-targetAudience : The user for Duffy is a health-conscious user, but they’re probably best described as lay persons of the fitness world. They may not be gym members or calorie counters, but they’re aware that they need to walk during the day. They need to know how much to walk, and steps are a simple metric for these users.
-research : Research was performed by interviewing iOS Health app users to determine their pain points and delights while using that app. The research informed the information architecture of the app.
-keyChallenges : The app should be fully usable from just the watchOS app. The user doesn’t really have to use the iOS app, except to install the watchOS app. Another key challenge was keeping the app’s information concentrated on as few screens as possible for a glanceable app.
+goal : The goal is to design an iOS and watchOS app which lets users easily see their daily steps.
+targetAudience : The user for Duffy is a health-conscious user. They’re probably best described as lay persons of the fitness world.
+research : Research was performed by interviewing iOS Health app users to determine their pain points and delights while using that app.
+keyChallenges : The app should be fully usable from just the watchOS app. Also, keeping the app’s information concentrated on as few screens as possible for a glanceable app.
 personas   : 
 - Persona card for Bruce who represents users who can easily navigate complexity but prefer something requiring less thought.
 - Persona card for Tonya who represents users who want easy-to-see stats on their daily step progress.
