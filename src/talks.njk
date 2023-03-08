@@ -12,7 +12,7 @@ overlayBgColor : bg-azure
 ---
 {% include 'hero.njk' %}
 <main id="main" class="bg-gray-700">
-{% for item in collections.talks %}
+{% for item in collections.talks | reverse %}
   <section class="py-8 {% if not loop.last %}border-bottom border-dark{% endif %}">
     <div class="container">
       <div class="row justify-content-center">
