@@ -2,196 +2,85 @@
 layout    : base
 heroClass : hero-project
 ---
-
 {% include 'hero-project.njk' %}
-
-
-
-
-<main id="main" class="bg-gray-200">
-  
-
+<main id="main" class="bg-gray-200" tabindex="-1" aria-labelledby="pageName">
 {# feature and mockups #}
 <div class="project-hero bg-graph-paper pb-6">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <a data-fslightbox href="/images/projects/{{ title | slugify }}/feature.png" class="thumbnail-link">
-          <img src="/images/projects/{{ title | slugify }}/feature.png" alt="{{ featureAlt }}" class="w-100">
-        </a>
-      </div>
-    </div>
-    {# mockups #}
-    <div class="row g-0">
-      {% for item in mockups %}
-      <div class="col-3">
-        <a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" class="thumbnail-link">
-          <img src="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" alt="{{ item }}" class="img-fluid">
-        </a>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<a data-fslightbox href="/images/projects/{{ title | slugify }}/feature.png" class="thumbnail-link">
+					<img src="/images/projects/{{ title | slugify }}/feature.png" alt="{{ featureAlt }}" class="w-100">
+				</a>
+			</div>
+		</div>
+		{# mockups #}
+		<div class="row g-0">
+			{% for item in mockups %}
+			<div class="col-3">
+				<a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" class="thumbnail-link">
+					<img src="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" alt="{{ item }}" class="img-fluid">
+				</a>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
 </div>
-
-
 {# stats #}
 <div class="pb-8 bg-graph-paper">
-  <div class="container">
-      <div class="row justify-content-center g-1 gx-md-4">
-          <div class="col-sm-6 col-md-4">
-              <div class="card bg-gray-700 border-0">
-                  <div class="card-body">
-                      <h2 class="h5 text-white">Project Stats</h2>
-                      <ul class="list-group list-group-flush mb-0">
-                        {% for item in stats %}
-                        <li class="list-group-item d-flex ps-0 bg-gray-700 text-white">
-                          <span class="text-white w-50">{{ item.label }}</span>
-                          <span class="text-white w-50">{{ item.value }}</span>
-                        </li>
-                        {% endfor %}
-                      </ul>
-                  </div>
-              </div>
-          </div>
-          <div class="col-sm-6 col-md-4">
-              <div class="card bg-gray-700 border-0">
-                  <div class="card-body">
-                      <h2 class="h5 text-white">Project Roles</h2>
-                      <ul class="list-group list-group-flush mb-0">
-                        {% for item in roles %}
-                        <li class="list-group-item ps-0 bg-gray-700 text-white">{{ item }}</li>
-                        {% endfor %}
-                      </ul>
-                  </div>
-              </div>
-          </div>
-          <div class="col-md-8 mt-4">
-            <a href="{{ tryitLink }}" class="btn btn-outline-light w-100">
-              Try {{ title }}
-              <span class="icon bi bi-arrow-right-short" aria-hidden="true"></span>
-            </a>
-          </div>
-      </div>
-  </div>
+	<div class="container">
+		<div class="row justify-content-center g-1 gx-md-4">
+			<div class="col-sm-6 col-md-4">
+				<div class="card h-100 bg-gray-700 border-0">
+					<div class="card-body">
+						<h2 class="h5 text-white">Project Stats</h2>
+						<ul class="list-group list-group-flush mb-0">
+							{% for item in stats %}
+							<li class="list-group-item d-flex ps-0 bg-gray-700 text-white">
+								<span class="text-white w-50">{{ item.label }}</span>
+								<span class="text-white w-50">{{ item.value }}</span>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-md-4">
+				<div class="card h-100 bg-gray-700 border-0">
+					<div class="card-body">
+						<h2 class="h5 text-white">Project Roles</h2>
+						<ul class="list-group list-group-flush mb-0">
+							{% for item in roles %}
+							<li class="list-group-item ps-0 bg-gray-700 text-white">{{ item }}</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 mt-4">
+				<a href="{{ tryitLink }}" class="btn btn-light btn-lg fw-bold  w-100">
+					Try {{ title }}
+				</a>
+			</div>
+			{% if designFile %}
+			<div class="col-md-8 mt-4">
+				<a href="{{ designFile }}" class="btn btn-link text-white btn-lg fw-bold  w-100">
+					Design File for {{ title }}
+				</a>
+			</div>
+			{% endif %}
+		</div>
+	</div>
 </div>
-
-
 <div class="project-content">
-  {# project goal #}
-  <div class="project-block">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-lg-8 col-xl-6">
-          <h2 class="h2" id="projectgoal">Project Goal</h2>
-          <p class="mb-0">{{ goal }}</p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  {# target audience #}
-  <div class="project-block">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-8 col-xl-6">
-                <h2 class="h2" id="targetaudience">Target Audience</h2>
-                <p class="">{{ targetAudience }}</p>
-            </div>
-        </div>
-        <div class="row g-4 justify-content-center">
-          <!-- i don’t yet have a plan to present these more thoroughly in an accessible manner. -->
-          {% for item in personas %}
-          <div class="col-12 col-md-6 col-lg-4">
-            <a data-fslightbox href="/images/projects/{{ title | slugify }}/persona-{{ loop.index }}.jpg" class="thumbnail-link">
-              <img src="/images/projects/{{ title | slugify }}/persona-{{ loop.index }}.jpg" alt="{{ item }}" class="">
-            </a>
-          </div>
-          {% endfor %}
-        </div>
-    </div>
-  </div>
-
-
-  {# research key challenges #}
-  <div class="project-block">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-8 col-xl-6">
-                <h2 class="h2" id="researchkeychallenges">Research &amp; Key Challenges</h2>
-                <p class="">{{ research }}</p>
-                <p class="mb-0">{{ keyChallenges }}</p>
-            </div>
-        </div>
-    </div>
-  </div>
-
-
-  {# sketches wireframes #}
-  <div class="project-block">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-8 col-xl-6">
-                <h2 class="h2" id="sketcheswireframes">Initial Concepts</h2>
-                <p class="">{{ initialConcept }}</p>
-            </div>
-        </div>
-        <div class="row g-4 justify-content-center">
-          {% for item in initialConcepts %}
-          <div class="col-12 col-md-6 col-lg-4">
-            <a data-fslightbox href="/images/projects/{{ title | slugify }}/sketch-wireframe-{{ loop.index }}.jpg" class="thumbnail-link">
-              <img src="/images/projects/{{ title | slugify }}/sketch-wireframe-{{ loop.index }}.jpg" alt="{{ item }}" class="">
-            </a>
-          </div>
-          {% endfor %}
-        </div>
-    </div>
-  </div>
-
-
-  {# usability testing #}
-  <div class="project-block">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-8 col-xl-6">
-                <h2 class="h2" id="usability">Usability</h2>
-                <p class="">{{ usabilityText }}</p>
-            </div>
-          </div>
-        <div class="row g-4 justify-content-center">
-          <!-- i don’t yet have a plan to present these more thoroughly in an accessible manner. -->
-          {% for item in usabilities %}
-          <div class="col-12 col-md-6 col-lg-4">
-            <a data-fslightbox href="/images/projects/{{ title | slugify }}/usability-{{ loop.index }}.jpg" class="thumbnail-link">
-              <img src="/images/projects/{{ title | slugify }}/usability-{{ loop.index }}.jpg" alt="{{ item }}" class="">
-            </a>
-          </div>
-          {% endfor %}
-        </div>
-    </div>
-  </div>
-
-
-  {# conclusion #}
-  <div class="project-block">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-8 col-xl-6">
-                <h2 class="h2 mt-2" id="conclusion">Conclusion</h2>
-                <p class="">{{ conclusion }}</p>
-            </div>
-        </div>
-        {% if conclusionImg %}
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-6 col-lg-8">
-            <a data-fslightbox href="/images/projects/{{ title | slugify }}/conclusion.jpg">
-              <img src="/images/projects/{{ title | slugify }}/conclusion.jpg" alt="{{ conclusionAlt }}." class="">
-            </a>
-          </div>
-        </div>
-        {% endif %}
-    </div>
-  </div>
-</div>
+	{# project goal #}
+	<div class="project-block">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 col-lg-8 content">
+					{{ content | safe }}
+				</div>
+			</div>
+		</div>
+	</div>
 </main>

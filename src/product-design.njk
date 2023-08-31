@@ -6,37 +6,37 @@ excerpt   : Selected product design samples.
 feature        : /images/photos/isral-talk-google-devfest.jpg
 ---
 {% include 'hero-project.njk' %}
-<main id="main" class="bg-graph-paper">
-  {% for item in collections.productDesign %}
-  <section class="container py-5" aria-labelledby="{{ item.data.title | slugify }}">
-    <div class="row justify-content-center align-items-center">
-      <div class="col-8 col-md-6 col-lg-8">
-        <a href="{{ item.url }}">
-          <img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="Preview image for {{ item.data.title }}." class="img-fluid rounded">
-        </a>
-      </div>
-      <div class="col-10 ofset-1 col-md-6 offset-md-0 col-lg-4">
-        <div class="card bg-gray-700">
-          <div class="card-body bg-gray-700 pb-0">
-            <h2 id="{{ item.data.title | slugify }}" class="position-relative h5 text-white">
-              <span class="icon position-absolute end-0 bi-icon bi-arrow-right-short"></span>
-              {{ item.data.title }}
-            </h2>
-            <ul class="list-group list-group-flush mb-0">
-              {% for stat in item.data.stats %}
-              <li class="list-group-item d-flex ps-0 bg-gray-700">
-                <span class="w-50 text-white">{{ stat.label }}</span>
-                <span class="w-50 text-white">{{ stat.value }}</span>
-              </li>
-              {% endfor %}
-            </ul>
-            <a href="{{ item.url }}" class="stretched-link">
-              <span class="visually-hidden">{{ item.data.title }}</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  {% endfor %}
+<main id="main" class="bg-graph-paper" tabindex="-1" aria-labelledby="pageName">
+	{% for item in collections.productDesign %}
+	<section class="container py-5" aria-labelledby="{{ item.data.title | slugify }}">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-8 col-md-6 col-lg-8">
+				<a href="{{ item.url }}">
+					<img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="Preview image for {{ item.data.title }}." class="img-fluid rounded">
+				</a>
+			</div>
+			<div class="col-10 ofset-1 col-md-6 offset-md-0 col-lg-4">
+				<div class="card bg-gray-700">
+					<div class="card-body bg-gray-700 pb-0">
+						<h2 id="{{ item.data.title | slugify }}" class="position-relative h5 text-white">
+							<span class="icon position-absolute end-0 bi-icon bi-arrow-right-short"></span>
+							{{ item.data.title }}
+						</h2>
+						<ul class="list-group list-group-flush mb-0">
+							{% for stat in item.data.stats %}
+							<li class="list-group-item d-flex ps-0 bg-gray-700">
+								<span class="w-50 text-white">{{ stat.label }}</span>
+								<span class="w-50 text-white">{{ stat.value }}</span>
+							</li>
+							{% endfor %}
+						</ul>
+						<a href="{{ item.url }}" class="stretched-link">
+							<span class="visually-hidden">{{ item.data.title }}</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	{% endfor %}
 </main>

@@ -2,7 +2,7 @@
   background-color: $azure;
 }
 .bg-azure-dark {
-  background-color: $azure-dark;
+  background-color: darken($azure-dark, 25%);
 }
 .bg-gray-neutral {
   background-color: #808080;
@@ -235,6 +235,21 @@ aside {
       border-bottom-right-radius: 1.5rem;
       border-bottom-left-radius : 1.5rem;
     }
+  }
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  h2, p {
+    grid-column: span 2;
+  }
+  h2 {
+    margin: 2rem 0 0;
+  }
+  img {
+    width: calc(50% - .25rem);
+    margin: 0 0 .25rem;
   }
 }
 

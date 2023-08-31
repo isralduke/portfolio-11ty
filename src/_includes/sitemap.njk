@@ -4,38 +4,38 @@ feature  : /images/photos/isral-process-photo.jpg
 overlayBgColor: bg-azure
 ---
 {% include 'hero.njk' %}
-<main aria-labelledby="pageName" class="py-9 bg-gray-100">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2 class="h2">Pages in this site</h2>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/product-design">Product Design</a>
-            <ul>
-              {% for item in collections.productDesign %}
-              <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
-              {% endfor %}
-            </ul>
-          </li>
-          <li><a href="/talks">Talks</a>
-            {# <ul>
-              {% for item in collections.talks | reverse %}
-              <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
-              {% endfor %}
-            </ul> #}
-          </li>
-          {# <li><a href="/visual-design">Visual Design</a>
-            <ul>
-              {% for item in collections.visualDesign | reverse %}
-              <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
-              {% endfor %}
-            </ul>
-          </li> #}
-          {# <li><a href="/about">About</a></li> #}
-          {# <li><a href="/resources">Resources</a></li> #}
-        </ul>
-      </div>
-    </div>
-  </div>
+<main aria-labelledby="pageName" class="py-9 bg-gray-100" tabindex="-1" aria-labelledby="pageName">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="h2">Pages in this site</h2>
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="/product-design">Product Design</a>
+						<ul>
+							{% for item in collections.productDesign %}
+							<li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+							{% endfor %}
+						</ul>
+					</li>
+					<li><a href="/talks">Talks</a>
+						{# <ul>
+							{% for item in collections.talks | reverse %}
+							<li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+							{% endfor %}
+						</ul> #}
+					</li>
+					{# <li><a href="/visual-design">Visual Design</a>
+						<ul>
+							{% for item in collections.visualDesign | reverse %}
+							<li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+							{% endfor %}
+						</ul>
+					</li> #}
+					{# <li><a href="/about">About</a></li> #}
+					{# <li><a href="/resources">Resources</a></li> #}
+				</ul>
+			</div>
+		</div>
+	</div>
 </main>
