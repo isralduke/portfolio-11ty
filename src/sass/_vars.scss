@@ -15,7 +15,7 @@ $scarlet: #E00034;
 
 $blue: $azure;
 $danger: $scarlet;
-$link-color: $azure;
+$link-color: darken($azure, 15%);
 
 $body-bg: $gray-100;
 $body-color: $gray-700;
