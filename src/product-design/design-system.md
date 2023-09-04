@@ -46,7 +46,7 @@ Original concepts were created as wireframes between design team members. We cho
 
 ## Usability Testing
 
-Usability testing started out by gathering successful design systems as inspirations. We choose design systems for  which we coudl easily benefit from its creator’s “halo effect” to prove parallel values. We also used wireframes to create imaginary, but feasible interface scenarios to show how the system would provide quicker turn-arounds and reusable benefits.
+Usability testing started out by gathering successful design systems as inspirations. We choose design systems for  which we could easily benefit from its creator’s “halo effect” to prove parallel values. We also used wireframes to create imaginary, but feasible interface scenarios to show how the system would provide quicker turn-arounds and reusable benefits.
 
 ![Sources, ideas, and features we wanted to implement in the design system.](/images/projects/design-system/usability-1.jpg)
 ![Feedback from developers baout features they wanted in the design system.](/images/projects/design-system/usability-2.jpg)
