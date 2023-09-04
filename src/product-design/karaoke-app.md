@@ -26,7 +26,7 @@ My team had to plan and design an app which met specified contest theme criteria
 
 ## Target Audience
 
-The audience for the karaoke compeition app, called “Let’s Duet Again” are bar patrons who want to compete as teams of two against other patrons. Oh, it’s not uncommon for these users to experience temporary challenges, such as **decreased cognitive capacities**. I’ll let you guess why.
+The audience for the karaoke compeition app, called “Let’s Duet Again” are bar patrons who want to compete as teams of two against other patrons. Oh, it’s not uncommon for these users to experience temporary challenges, such as **decreased cognitive capacities**. (_I’ll let you guess why._)
 
 ![Persona card for Karina, representing younger karaoke competitors who use the karaoke competition app.](/images/projects/karaoke-app/persona-1.jpg)
 ![Persona card for Blake, representing older karaoke competitors who use the karaoke competition app.](/images/projects/karaoke-app/persona-2.jpg)

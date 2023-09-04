@@ -1,6 +1,8 @@
 ---
 title      : Design System
 date       : 2021-11-24
+excerpt    : Design System allows team members to access a single source of truth and quickly produce value.
+featureAlt : Laptop, iPads, and an iPhone displaying products built with the design system.
 stats          : 
   - label      : Type
     value      : Employer
@@ -8,51 +10,47 @@ stats          :
     value      : Web
   - label      : Status
     value      : Published
-excerpt    : Design System allows team members to access a single source of truth and quickly produce value.
-tryitLink  : https://pelican.ots.la.gov
-feature       : /images/projects/design-system/feature.png
-featureAlt : Laptop, iPads, and an iPhone displaying products built with the design system.
 mockups    : 
   - iPad showing a sample screen from an internal app to group people by their permissions.
   - iPad showing a sample screen from an internal app to collect contact information from users.
   - iPad showing a sample screen from an internal app to report on fees received from permits.
   - iPad showing a sample screen of the home page of the Pelican design system site.
-roles      : ['User Researcher','UX Designer','UI Designer','Frontend Designer', 'Visual Designer']
-goal : The design system will enable developers and designers to reuse proven user experience patterns within an ecosystem of organizations.
-targetAudience : The primary users for this design system are senior developers, mid-level developers, junior developers, and user experience designers. Seondary users are the business analysts and product owners. Tertiary users are stakeholders who decide to adopt the design system for their products.
-research : The design system’s original research was performed by taking a user interface inventory of two vast web applications which were being modernized.
-keyChallenges : Performing an inventory across a myriad of official web applications is a monumental task.
-personas   : 
-  - Persona card for Lalana who represents designers who will use the design system in Figma and during client and business analyst meetings.
-  - Persona card for Umang who represents developers who will use the design system in code and during user acceptance testing.
-initialConcept : Wireframes were shared with business analysts and developers as they will have the most exposure to the design system outside of the design team.
-initialConcepts : 
-  - Digital wireframe snippet of the homepage design.
-  - Digital wireframe snippet of each area’s landing page design.
-usabilityText : Usability information and benchmarks were captured as group feature requests and roadmap proposals. The design system’s growth would be evaluated against these early brainstorm sessions.
-usabilities : 
-  - Feature constraints from competitive audits, business analysts, and senior developer requests.
-  - Feature constraints from content managers, and designers.
-conclusion : During the lifecycle of the design system, continuous iteration and maintenance will be paried with best practices and templates for common user flows.
+roles      : ['User Researcher','UI Designer','Frontend Designer', 'Visual Designer']
+tryitLink  : https://pelican.ots.la.gov
 designFile : https://www.figma.com/community/file/1080971993134221445
 ---
 
-### Overview
+## Project Goal
 
-Design systems allow organizations to unify their products’ appearances, code base, and provide users with a consistent experience. Pelican Design System which is being actively designed and developed for official web aplications for the state of Louisiana.
+Create and maintain a design system to enable developers and designers to reuse proven user experience patterns within an ecosystem of organizations. It’s named [Pelican Design System](https://pelican.ots.la.gov) and is being actively designed and developed for official web aplications for the state of Louisiana.
 
-### Project Role
-
-I am the lead UI and UX designer and the primary frontend designer. I consult with other designers assigned to various modernization projects and review those projects’ user interface design and code needs. Frontend code is written to build the necessary components using a popular frontend CSS framework.
-
-### User & Audience
+## Target Audience
 
 The primary users for this design system are senior developers, mid-level developers, junior developers, and user experience designers. Seondary users are the business analysts and product owners. Tertiary users are stakeholders who decide to adopt the design system for their products.
 
-### Research
+![Persona card for Lalana who represents designers who will use the design system in Figma and during client and business analyst meetings.](/images/projects/design-system/persona-1.jpg)
+![Persona card for Umang who represents developers who will use the design system in code and during user acceptance testing.](/images/projects/design-system/persona-2.jpg)
+
+## Research & Key Challenges
 
 The design system’s original research was performed by taking a user interface inventory of two vast web applications which were being modernized. But, research never stops. The design system is continually applied to unknown web applications which were not updates for many years. As these obscure web applications are discovered new components are added to the design system if it can be used in more than one place.
 
-### Key Challenges
+Many stakeholders were unaware of the value of a unified user experience across official products so convincing them of its value is an ongoing effort. Performing an inventory across a myriad of official web applications is a monumental task for which the design system has to flexible to accomodate unknown use cases.
 
-The design system is meant to provide value for end users and stakeholders. Many stakeholders were unaware of the value of a unified user experience across official products so convincing them of its value is an ongoing effort. Performing an inventory across a myriad of official web applications is a monumental task for which the design system has to flexible to accomodate unknown use cases.
+## Initial Design Concepts & Wireframes
+
+Original concepts were created as wireframes between design team members. We chose final concepts from those which the whole team agreed could be most easily “sold” to external stakeholders. Wireframes were shared with business analysts and developers as they will have the most exposure to the design system outside of the design team.
+
+![Layout idea for the home page in the design system.](/images/projects/design-system/sketch-wireframe-1.jpg)
+![Layout idea for the area page in the design system.](/images/projects/design-system/sketch-wireframe-2.jpg)
+
+## Usability Testing
+
+Usability testing started out by gathering successful design systems as inspirations. We choose design systems for  which we coudl easily benefit from its creator’s “halo effect” to prove parallel values. We also used wireframes to create imaginary, but feasible interface scenarios to show how the system would provide quicker turn-arounds and reusable benefits.
+
+![Sources, ideas, and features we wanted to implement in the design system.](/images/projects/design-system/usability-1.jpg)
+![Feedback from developers baout features they wanted in the design system.](/images/projects/design-system/usability-2.jpg)
+
+## Conclusion
+
+The [Pelican Design System](https://pelican.ots.la.gov) is currently at version 1. Version 2 is close to release. Pelican 3 is actually in the early research and ideation stage to build it from scratch instead of basing it upon Bootstrap.
