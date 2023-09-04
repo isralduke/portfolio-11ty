@@ -2,7 +2,6 @@
 title      : Step Counter App
 date       : 2021-11-21
 excerpt    : A watchOS and iOS step counter app which gives users a glanceable view of their steps as a watch face complication with an accompanying iOS app.
-tryitLink  : https://apps.apple.com/us/app/duffy-steps-complication/id1207581673
 featureAlt : App screen designs on iPhone and Apple Watch for the step counter app.
 stats      : 
   - label  : Type
@@ -17,6 +16,7 @@ mockups    :
   - iPhone showing a screen which shows steps walked so far, also showing the equivalents in miles and flights of stairs. It also shows the previous seven days.
   - iPhone showing a screen for learning about the trophies for meeting and exceeding multiples of goal steps.
 roles      : ['User Researcher', 'UI Designer']
+tryitLink  : https://apps.apple.com/us/app/duffy-steps-complication/id1207581673
 designFile : https://www.figma.com/file/Qx7rW9DLGHgGCmEcFkFwL0/Duffy?node-id=67%3A254
 ---
 
