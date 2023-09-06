@@ -39,6 +39,8 @@ The key challenge was to condense the client’s expectations and market-standar
 
 ![User journey map for Ricky.](/images/projects/food-truck-site/research-1.png)
 ![User journey map for Tina.](/images/projects/food-truck-site/research-2.png)
+![Empathy map for Ricky.](/images/projects/food-truck-site/research-3.png)
+![Empathy map for Tina.](/images/projects/food-truck-site/research-4.png)
 
 ## Initial Design Concepts & Wireframes
 

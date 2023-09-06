@@ -43,6 +43,7 @@ The key challenges in the process was arranging for the in-person usability stud
 ![](/images/projects/art-gallery-app/research-2.jpg)
 ![](/images/projects/art-gallery-app/research-3.jpg)
 ![](/images/projects/art-gallery-app/research-4.jpg)
+![](/images/projects/art-gallery-app/research-5.png)
 
 ## Initial Design Concepts & Wireframes
 
