@@ -39,11 +39,11 @@ I used an <a href="https://docs.google.com/spreadsheets/d/1ZGKmeZwhySw5s2tmV382c
 
 The key challenges in the process was arranging for the in-person usability studies for the seniors who make up the first segment of the target audience. Segment two was comfortable with video interviews.
 
-![](/images/projects/art-gallery-app/research-1.jpg)
-![](/images/projects/art-gallery-app/research-2.jpg)
-![](/images/projects/art-gallery-app/research-3.jpg)
-![](/images/projects/art-gallery-app/research-4.jpg)
-![](/images/projects/art-gallery-app/research-5.png)
+![Preview of the virtual survey used to gather feature and content expectations.](/images/projects/art-gallery-app/research-1.jpg)
+![Preview of the responses from the virtual survey.](/images/projects/art-gallery-app/research-5.png)
+![User journey map for Persona 1.](/images/projects/art-gallery-app/research-3.jpg)
+![User journey map for Persona 2.](/images/projects/art-gallery-app/research-4.jpg)
+![Preview of the competitive audit performed on art gallery sites and apps.](/images/projects/art-gallery-app/research-2.jpg)
 
 ## Initial Design Concepts & Wireframes
 
