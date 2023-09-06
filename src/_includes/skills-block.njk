@@ -6,44 +6,19 @@
 			</div>
 		</div>
 		<div class="row justify-content-center">
-			<div class="col-8 col-md-4">
+			{% for item in collections.skills %}
+			<div class="col-10 col-md-4">
 				<div class="p-4">
-					<h3 class="h3 d-flex align-items-center">UX</h3>
-					<p class="">Learn about users and designing for their needs means respecting the business’s goals.</p>
-					<p id="uxskills" hidden>UX Skills</p>
-					<ul aria-labelledby="uxskills" class="list-group">
-						<li class="list-group-item bg-transparent text-white">User Research</li>
-						<li class="list-group-item bg-transparent text-white">Information Architecture</li>
-						<li class="list-group-item bg-transparent text-white">Accessible Content</li>
-						<li class="list-group-item bg-transparent text-white">Public Speaking</li>
+					<h3 id="{{ item.data.title | slugify }}" class="h3 d-flex align-items-center">{{ item.data.title }}</h3>
+					<p class="">{{ item.data.description }}</p>
+					<ul aria-labelledby="{{ item.data.title | slugify }}" class="list-group">
+						{% for skillItem in item.data.skillItems %}
+						<li class="list-group-item bg-transparent text-white">{{ skillItem }}</li>
+						{% endfor %}
 					</ul>
 				</div>
 			</div>
-			<div class="col-8 col-md-4">
-				<div class="p-4">
-					<h3 class="h3 d-flex align-items-center">Design</h3>
-					<p class="">Design means intentially creating for both the users and the business.</p>
-					<p id="designskills" hidden>Design Skills</p>
-					<ul aria-labelledby="designskills" class="list-group">
-						<li class="list-group-item bg-transparent text-white">Inclusive Design</li>
-						<li class="list-group-item bg-transparent text-white">Design Systems</li>
-						<li class="list-group-item bg-transparent text-white">Product Design</li>
-						<li class="list-group-item bg-transparent text-white">Graphic Design</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-8 col-md-4">
-				<div class="p-4">
-					<h3 class="h3 d-flex align-items-center">Technical</h3>
-					<p class="">Technology is how we build products. We must  consider feasibility, accessibility, and timelines.</p>
-					<p id="techskills" hidden>Tech Skills</p>
-					<ul aria-labelledby="techskills" class="list-group">
-						<li class="list-group-item bg-transparent text-white">Accessible Markup</li>
-						<li class="list-group-item bg-transparent text-white">HTML, SCSS, CSS</li>
-						<li class="list-group-item bg-transparent text-white">Screen Readers</li>
-					</ul>
-				</div>
-			</div>
+			{% endfor %}
 		</div>
 	</div>
 </aside>

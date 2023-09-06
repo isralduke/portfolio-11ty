@@ -1,0 +1,117 @@
+---
+title          : Resume
+layout         : base
+excerpt        : Resume for Isral Duke, inclusive products and experiences designer. Objectives, experience, skills, and other credentials.
+featureSm      : /images/photos/isral-duke-credentials-tall.jpg
+feature        : /images/photos/isral-duke-credentials.jpg
+featureAlt     : Isral Duke giving a presentation about VoiceOver at a local chapter of Google Dev Fest.
+heroBgColor    : bg-black
+heroTextColor  : text-white
+cardBgColor    : bg-danger
+overlayBgColor : bg-azure
+---
+{% include 'hero.njk' %}
+<main id="main" class="bg-gray-200" tabindex="-1" aria-labelledby="pageName">
+    <section class="py-8 project-block">
+        <div class="container">
+            <div class="row justify-content-center">
+                {# objective #}
+                <div class="col-10 col-lg-8">
+                    <h2 class="h2 mt-7">Objective</h2>
+                    <p class="fw-bold">I want to design inclusive experiences which everyone can enjoy and benefit from.</p>
+                    <p>My journey to making digital experiences which are usable by all began by teaching users and clients how to use experiences I helped produce. I noticed that some interface patterns were more quickly understood than others. I also learned that some people face barriers which I can’t imagine. The more I examined this, I learned that accessibility is vital to people who face barriers I can’t imagine.</p>
+                    <p>Whether taking courses or reading industry experts’ blogs, I continuously educate myself in my chosen career path.</p>
+                </div>
+                <hr class="mt-4 mb-5">
+                {# skills #}
+                <div class="col-10 col-lg-8">
+                    <h2 class="h2">Skills</h2>
+                    <div class="row">
+                        {% for item in collections.skills %}
+                        <div class="col-12 col-md-4">
+                            <h3 class="h6">{{ item.data.title }}</h3>
+                            <ul>
+                                {% for skillItem in item.data.skillItems %}
+                                <li>{{ skillItem }}</li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <hr class="mt-4 mb-5">
+                {# talks #}
+                <div class="col-10 col-lg-8">
+                    <h2 class="h2">Talks</h2>
+                    <ul>
+                        {% for item in collections.talks %}
+                        <li><a href="{{ item.data.video }}">{{ item.data.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <hr class="mt-4 mb-5">
+                {# published apps #}
+                <div class="col-10 col-lg-8">
+                    <h2 class="h2">Published Apps</h2>
+                    <ul>
+                        {% for item in collections.apps | reverse %}
+                        <li><a href="{{ item.data.appstore }}">{{ item.data.title }}</a>, {{ item.data.description }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <hr class="mt-4 mb-5">
+                {# certifications #}
+                <div class="col-10 col-lg-8">
+                    <h2 class="h2">Certifications</h2>
+                    <ul>
+                        {% for item in collections.certifications | reverse %}
+                        <li><a href="{{ item.data.url }}">{{ item.data.title }}</a>, {{ item.data.description }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <hr class="mt-4 mb-5">
+                {# education #}
+                <div class="col-10 col-lg-8">
+                    <h2 class="h2">Education</h2>
+                    <ul>
+                        {% for item in collections.educations | reverse %}
+                        <li>{{ item.data.title }}, {{ item.data.school }}, {{ item.data.year }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <hr class="mt-4 mb-5">
+                {# references #}
+                <div class="col-10 col-lg-8">
+                    <h2 class="h2">References</h2>
+                    <ul>
+                        {% for item in collections.references | reverse %}
+                        <li><a href="">{{ item.data.title }}</a>, {{ item.data.description }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <hr class="mt-4 mb-5">
+                {# experience #}
+                <div class="col-10 col-lg-8">
+                    <h2 class="h2">Experience</h2>
+                    {% for item in collections.experience | reverse %}
+                    <div class="col-12">
+                        <h3 id="{{ item.data.company | slugify }}" class="h6 mt-5 mb-0">{{ item.data.title }}</h2>
+                        <p class="mb-0">
+                            {% if item.data.site %}
+                            <a href="{{ item.data.site }}">{{ item.data.company }}</a>
+                            {% else %}
+                            {{ item.data.company }} <span class="fst-italic">(now defunct)</span>
+                            {% endif %}
+                        </p>
+                        <ul aria-labelledby="{{ item.data.company | slugify }}">
+                            {% for task in item.data.tasks %}
+                            <li>{{ task }}</li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
