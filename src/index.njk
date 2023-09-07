@@ -1,22 +1,44 @@
 ---
-title: 
-layout: base.njk
-bodyclass: home
-projectLeadSentence: Isral Duke is a Google, Adobe, and W3C certified UX Designer. He has a decade of experience doing User Experience, User Interface, and Interaction Design in software.
-socialImage: https://isralduke.com/images/photos/isral-sketch-observe.jpg
+title         : Designer
+layout        : base.njk
+bodyclass     : home pt-0 bg-gray-700
+excerpt       : I design inclusive and easy to use products.
+tags          : home
+featureSm     : /images/photos/isral-crop-tall.jpg
+feature       : /images/photos/isral-sketch-observe.jpg
+featureAlt    : Isral Duke looking out of a window, holding a sketchbook and marker, preparing to sketch.
+overlayBgColor: bg-azure
 ---
-
-<section class="hero-home-block d-flex" aria-labelledby="designer">
-    <img class="img-fluid visually-hidden" src="../images/photos/isral-sketch-observe.jpg" alt="isral Duke holding a sketchbook facing towards a light source.">
-    <div class="container-fluid mt-auto mx-0 mb-4 mb-lg-auto">
-        <div class="row">
-            <div class="col-10 offset-1 col-md-5 offset-md-6 col-lg-3 offset-lg-8">
-                <div class="card card-body border-0 rounded-0">
-                    <h2 class="h1 mb-0 text-uppercase" id="designer">Designer</h2>
-                    <p class="mb-0">I design inclusive and easy to use products.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-{% include 'selected-projects.njk' %}
+{% include 'hero.njk' %}
+<main id="main" class="bg-graph-paper pb-6" tabindex="-1" aria-labelledby="pageName">
+	{% for item in collections.productDesign | limit(3) %}
+	<section class="container" aria-labelledby="{{ item.data.title | slugify }}">
+		<div class="row justify-content-center align-items-center">
+			<div class="col-12 col-md-6 col-lg-8">
+					<img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="Preview image for {{ item.data.title }}." class="img-fluid rounded">
+			</div>
+			<div class="col-10 col-md-6 col-lg-4">
+				<div class="card bg-gray-700">
+					<div class="card-body bg-gray-700 pb-0">
+						<h2 id="{{ item.data.title | slugify }}" class="position-relative h5 text-white">
+							<span class="icon position-absolute end-0 bi-icon bi-arrow-right-short"></span>
+							{{ item.data.title }}
+						</h2>
+						<ul class="list-group list-group-flush mb-0">
+							{% for stat in item.data.stats %}
+							<li class="list-group-item d-flex ps-0 bg-gray-700">
+								<span class="w-50 text-white">{{ stat.label }}</span>
+								<span class="w-50 text-white">{{ stat.value }}</span>
+							</li>
+							{% endfor %}
+						</ul>
+						<a href="{{ item.url }}" class="stretched-link">
+							<span class="visually-hidden">{{ item.data.title }}</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	{% endfor %}
+</main>

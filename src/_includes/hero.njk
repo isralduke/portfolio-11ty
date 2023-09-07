@@ -1,0 +1,32 @@
+<style>
+	{% if featureSm %}
+	.hero {
+		background-image: url('{{ featureSm }}');
+	}
+	@media screen and (min-width: 992px) {
+		.hero {
+			background-image: url('{{ feature }}');
+		}
+	}
+	{% else %}
+	.hero {
+		background-image: url('{{ feature }}');
+	}
+	{% endif %}
+</style>
+<header class="hero {{ heroClass }} d-flex flex-column position-relative {{ heroBgColor }}">
+	<div class="position-absolute w-100 h-100 top-0 left-0 bg-gray-neutral mix-blend-mode-saturation z-index-100"></div>
+	<div class="position-absolute w-100 h-100 top-0 left-0 {{ overlayBgColor }} mix-blend-mode-multiply z-index-200"></div>
+	<div class="container mt-auto mb-5 my-lg-auto z-index-300">
+		<div class="row">
+			<div class="col-12 col-md-6 col-xl-4">
+				<div class="card bg-danger">
+					<div class="card-body bg-danger">
+						<h1 class="h1 text-uppercase text-white" id="pageName">{{ title }}</h1>
+						<p class="mb-0 text-white">{{ excerpt }}</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>

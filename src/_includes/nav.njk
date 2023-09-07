@@ -1,33 +1,27 @@
-<nav class="navbar fixed-top navbar-expand-sm navbar-dark">
-  <h2 class="visually-hidden">Site Navigation</h2>
-  <div class="container-fluid">
-    <a class="navbar-brand p-2 me-0 rounded-3" href="/">
-      <img class="logo" src="/images/svg/isral-duke-designer-logo.svg" alt="Logo for isral Duke.">
-    </a>
-    <button class="navbar-toggler rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse mt-2" id="navigation">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item fw-bold">
-          <a class="nav-link position-relative py-2 px-4" href="/projects">
-            <img src="/images/svg/icon-projects.svg" alt="" aria-hidden="true" class="opacity-85">
-            Projects
-          </a>
-        </li>
-        <li class="nav-item fw-bold">
-          <a class="nav-link position-relative py-2 px-4" href="/about">
-            <img src="/images/svg/icon-isral-white.svg" alt="" aria-hidden="true" class="opacity-85">
-            About
-          </a>
-        </li>
-        <li class="nav-item fw-bold">
-          <a class="nav-link position-relative py-2 px-4" href="#contact">
-            <img src="/images/svg/icon-contact.svg" alt="" aria-hidden="true" class="opacity-85">
-            Contact
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
+<nav aria-labelledby="mainNav" class="main-nav position-fixed w-100 d-flex align-items-center text-white text-decoration-none">
+	<p id="mainNav" class="visually-hidden">Primary</p>
+	<div class="container">
+		<div class="d-flex align-items-center">
+			<a class="navbar-brand" href="/">
+				<span class="visually-hidden">Isral Duke</span>
+				<span aria-hidden="true">
+					{% include 'svg/isral-duke-logo-mark.svg' %}
+				</span>
+			</a>
+			<ul class="list-unstyled list-inline d-flex m-0 ms-auto">
+				<li class="list-inline-item mb-0 mx-0">
+					<a href="/product-design" class="d-block py-2 px-2">Product Design</a>
+				</li>
+				<li class="list-inline-item mb-0 mx-0">
+					<a href="/talks" class="d-block py-2 px-2">Talks</a>
+				</li>
+				<li class="list-inline-item mb-0 mx-0">
+					<a href="https://linkedin.com/in/isralduke" class="d-block py-2 px-2">
+						<span class="bi bi-linkedin" aria-hidden="true"></span>
+						<span class="visually-hidden">LinkedIn</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
 </nav>
