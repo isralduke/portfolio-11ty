@@ -115,12 +115,12 @@
 }
 .hero {
   height: 75vh;
-  max-height: 768px;
+  max-height: 48rem;
   background-position: center;
   background-size: cover;
 }
-.hero-project {
-  max-height: 344px;
+.hero-project, .hero-small {
+  max-height: 21.5rem;
 }
 .main-nav {
   top: 0; left: 0;
@@ -189,6 +189,8 @@ aside {
 }
 .stretched-link {
   &:focus {
+    outline: none;
+    box-shadow: none;
     &:after {
       border       : .125rem dashed $white;
       border-radius: .5rem;
