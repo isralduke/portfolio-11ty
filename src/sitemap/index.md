@@ -1,5 +1,5 @@
 ---
-title  : Human Sitemap
+title  : Sitemap
 layout : sitemap
-excerpt: 
+excerpt: Maybe one of these pages will help?
 ---
