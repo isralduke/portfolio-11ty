@@ -84,7 +84,7 @@ overlayBgColor : bg-azure
                     <h2 class="h2">References</h2>
                     <ul>
                         {% for item in references %}
-                        <li><a href="">{{ item.title }}</a>, {{ item.description }}</li>
+                        <li><a href="{{ item.link }}">{{ item.title }}</a>, {{ item.description }}</li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -104,7 +104,7 @@ overlayBgColor : bg-azure
                         </p>
                         <ul aria-labelledby="{{ item.company | slugify }}">
                             {% for listItem in item.listItems %}
-                            <li>{{ task }}</li>
+                            <li>{{ listItem }}</li>
                             {% endfor %}
                         </ul>
                     </div>
