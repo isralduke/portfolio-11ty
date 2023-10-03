@@ -1,0 +1,20 @@
+[
+	{
+		"title":"Duffy",
+		"description":"Apple Watch step tracker",
+		"internalRef":"/product-design/step-counter-app/",
+		"link":"https://itunes.apple.com/us/app/duffy/id1207581673?mt=8"
+	},
+	{
+		"title":"La Wallet",
+		"description":"Digital driver’s liense app (v1). (Owned by envoc.com)",
+		"internalRef":"",
+		"link":"https://itunes.apple.com/us/app/la-wallet/id1386930269"
+	}
+	,{
+		"title":"Squiddle",
+		"description":"iOS note-taking app (v2 is in the works)",
+		"internalRef":"/product-design/sketch-note-app/",
+		"link":"https://apps.apple.com/us/app/squiddle/id1161266643?ls=1"
+	}
+]

@@ -1,0 +1,46 @@
+[
+	{
+		"role":"Lead UI / UX / Frontend Designer",
+		"company":"Office of Technology Services",
+		"link":"https://www.doa.la.gov/doa/ots/",
+		"dates":"2018-07-09 – ",
+		"listItems":["Kick-started the creation of a design system, user experience documentation, Figma libraries, Accessibility initiatives, and a branding documentation site","Created and maintained wireframe and mockup libraries to standardize business analysts’ work across teams","Introduced and advocated for accessibility, usability concerns in internal and public-facing experiences","Discovered end users’, stakeholders’, and product owners’ needs in planning massive enterprise-sized administrative web applications","Created wireframes and user flows for business analysts, policy makers, and SMEs for enterprise applications","Continuously updated accessibility and design practices based upon information from authoritative sources","Trained business analysts to use wireframing software such as Sketch and Figma","Trained developers in semantic HTML and screen readers","Mentored junior designers","Kick-started the creation of a design system, user experience documentation, Figma libraries, Accessibility initiatives, and a branding documentation site","Created and maintained wireframe and mockup libraries to standardize business analysts’ work across teams","Introduced and advocated for accessibility, usability concerns in internal and public-facing experiences","Discovered end users’, stakeholders’, and product owners’ needs in planning massive enterprise-sized administrative web applications","Created wireframes and user flows for business analysts, policy makers, and SMEs for enterprise applications","Continuously updated accessibility and design practices based upon information from authoritative sources","Trained business analysts to use wireframing software such as Sketch and Figma","Trained developers in semantic HTML and screen readers","Mentored junior designers"]
+	},
+	{
+		"role":"Interaction / Frontend Designer",
+		"company":"Envoc",
+		"link":"https://envoc.com",
+		"dates":"2016-11-28 – 2018-04-13",
+		"listItems":["Designed the user interface for Louisiana’s first digital driver’s license, seen at LaWallet.com","Started the accessibility documentation for use by designers and developers","Designed application mockups",
+		"Wrote design department policies","Planned information architecture for mobile health incentive applications","Determined data points in enterprise-sized content management systems","Advocated for dark mode in applications even before wider operating support support","Mentored junior designers","Onboarded junior frontend developers in design collaboration"]
+	},
+	{
+		"role":"UX / Frontend Designer",
+		"company":"STUN! Design",
+		"link":"https://stundesign.com",
+		"dates":"2015-05-25 – 2016-11-23",
+		"listItems":["Discovered clients needs and goals for their digital products","Researched and presented accessibility plans for enterprise-sized civic clients","Created sitemaps for civic organizations based upon analytics reports","Kick-started a local tech conference","Implemented information architecture as data points in content management system (CMS) websites","Wrote front-end code for websites","Designed intranets for enterprise corporate clients","Developed and led client training efforts"
+		]
+	},
+	{
+		"role":"Interaction Designer",
+		"company":"Pinion LMS",
+		"link":"https://pinionlms.com",
+		"dates":"2014-02-10 – 2015-05-22",
+		"listItems":["Designed user interfaces for safety education and certification software","Educated stakeholders about accessibility in design","Implemented mobile-first information architecture for end users to use in the field","Wrote markup using frontend frameworks","Designed SVG icon sprites"]
+	},
+	{
+		"role":"UI Designer",
+		"company":"SJ Technologies",
+		"link":"",
+		"dates":"2012-02-13 – 2014-02-11",
+		"listItems":["Designed user interfaces for web and mobile applications","Designed the corporate brand and acted as the brand manager","Executed product photography","Designed icons"]
+	},
+	{
+		"role":"Design Specialist",
+		"company":"I.T. by Design",
+		"link":"",
+		"dates":"2007-05-14 – 2012-02-10",
+		"listItems":["Designed user interfaces for web, mobile, and desktop applications","Designed the corporate brand and acted as the brand manager","Designed icons"]
+	}
+]

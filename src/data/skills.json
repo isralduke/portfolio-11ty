@@ -1,0 +1,17 @@
+[
+	{
+		"title":"Design",
+		"description":"Design means intentially creating for both the users and the business.",
+		"listItems":["Inclusive Design","Design Systems","Product Design","Visual Design"]
+	},
+	{
+		"title":"User Experience",
+		"description":"Learn about users and designing for their needs means respecting the business’s goals.",
+		"listItems":["User Research","Information Architecture","Accessible Content","Public Speaking"]
+	},
+	{
+		"title":"Technical",
+		"description":"Technology is how we build products. We must consider feasibility, accessibility, and timelines.",
+		"listItems":["Accessible Markup","HTML, SCSS, CSS","Screen Readers","Frontend"]
+	}
+]
