@@ -12,7 +12,7 @@
 					<h3 id="{{ item.title | slugify }}" class="h3 d-flex align-items-center">{{ item.title }}</h3>
 					<p>{{ item.description }}</p>
 					<ul aria-labelledby="{{ item.title | slugify }}" class="list-group">
-						{% for listItem in listItems %}
+						{% for listItem in item.listItems %}
 						<li class="list-group-item bg-transparent text-white">{{ listItem }}</li>
 						{% endfor %}
 					</ul>
