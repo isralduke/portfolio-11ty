@@ -290,5 +290,12 @@ details {
     }
   }
 }
-
-      
+.card {
+  &:has(.stretched-link) {
+    &:hover {
+      h2 {
+        text-decoration: underline;
+      }
+    }
+  }
+}
