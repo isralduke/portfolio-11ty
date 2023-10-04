@@ -41,8 +41,8 @@ heroClass: hero-small
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row g-2 mt-4 mb-2">
+		
+		
 			<div class="col-12">
 				<div class="card bg-gray-700">
 					<div class="card-body bg-gray-700">
@@ -50,11 +50,11 @@ heroClass: hero-small
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row g-2">
+		
+		
 			{% for item in collections.productDesign %}
 			<div class="col-12 col-md-4 col-lg-3">
-				<div class="card bg-gray-700">
+				<div class="card bg-gray-700 h-100">
 					<img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="Preview image for {{ item.data.title }}." class="img-fluid rounded">
 					<div class="card-body bg-gray-700 pb-0">
 						<h2 id="{{ item.data.title | slugify }}" class="position-relative h5 text-white">

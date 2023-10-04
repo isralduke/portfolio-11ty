@@ -282,5 +282,13 @@ aside {
     }
   }
 }
+details {
+  summary {
+    cursor: pointer;
+    &:hover, &:active {
+      text-decoration: underline;
+    }
+  }
+}
 
       

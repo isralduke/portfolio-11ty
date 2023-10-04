@@ -102,11 +102,16 @@ overlayBgColor : bg-azure
                             {{ item.company }} <span class="fst-italic">(now defunct)</span>
                             {% endif %}
                         </p>
-                        <ul aria-labelledby="{{ item.company | slugify }}">
-                            {% for listItem in item.listItems %}
-                            <li>{{ listItem }}</li>
-                            {% endfor %}
-                        </ul>
+                        <details>
+                            <summary>
+                                Read {{ item.role }} accomplishments
+                            </summary>
+                            <ul aria-labelledby="{{ item.company | slugify }}">
+                                {% for listItem in item.listItems %}
+                                <li>{{ listItem }}</li>
+                                {% endfor %}
+                            </ul>
+                        </details>
                     </div>
                     {% endfor %}
                 </div>

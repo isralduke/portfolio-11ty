@@ -1,9 +1,7 @@
 <section class="container py-5" aria-labelledby="{{ item.data.title | slugify }}">
 	<div class="row justify-content-center align-items-center">
 		<div class="col-8 col-md-6 col-lg-8">
-			<a href="{{ item.url }}">
-				<img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="Preview image for {{ item.data.title }}." class="img-fluid rounded">
-			</a>
+			<img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="Preview image for {{ item.data.title }}." class="img-fluid rounded">
 		</div>
 		<div class="col-10 ofset-1 col-md-6 offset-md-0 col-lg-4">
 			<div class="card bg-gray-700">
