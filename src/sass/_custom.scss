@@ -2,7 +2,7 @@
   background-color: $azure;
 }
 .bg-azure-dark {
-  background-color: darken($azure-dark, 25%);
+  background-color: darken($azure, 25%);
 }
 .bg-gray-neutral {
   background-color: #808080;
@@ -120,7 +120,7 @@
   background-size: cover;
 }
 .hero-project, .hero-small {
-  max-height: 21.5rem;
+  max-height: 16rem;
 }
 .main-nav {
   top: 0; left: 0;
@@ -173,12 +173,11 @@ aside {
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 1rem;
   h2, p {
     grid-column: span 2;
   }
   h2 {
-    margin: 2rem 0 0;
+    margin: 4rem 0 1rem;
   }
   img {
     width: calc(50% - .25rem);
