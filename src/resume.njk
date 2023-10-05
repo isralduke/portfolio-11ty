@@ -44,7 +44,7 @@ overlayBgColor : bg-azure
                     <h2 class="h2">Talks</h2>
                     <ul>
                         {% for item in talks %}
-                        <li><a href="{{ item.video }}">{{ item.title }}</a></li>
+                        <li><a href="{{ item.link }}">{{ item.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </div>
@@ -54,7 +54,7 @@ overlayBgColor : bg-azure
                     <h2 class="h2">Published Apps</h2>
                     <ul>
                         {% for item in apps %}
-                        <li><a href="{{ item.appstore }}">{{ item.title }}</a>, {{ item.description }}</li>
+                        <li><a href="{{ item.link }}">{{ item.title }}</a>, {{ item.description }}</li>
                         {% endfor %}
                     </ul>
                 </div>
