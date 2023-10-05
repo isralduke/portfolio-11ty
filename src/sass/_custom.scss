@@ -299,13 +299,10 @@ details {
 }
 .content p, .project-block li {
   a:not([class]) {
-    text-decoration: none;
-    background-color: fade-out($azure-dark, 1);
-    border-bottom: .0625rem solid $azure-dark;
+    text-decoration: underline;
     transition: $transition-base;
     &:hover, &:focus, &:focus-visible {
-      background-color: fade-out($azure-dark, .9);
-      border-bottom-width: .125rem;
+      text-decoration-style: double;
       &::after {
         border-color: $scarlet;
       }
