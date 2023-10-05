@@ -184,19 +184,9 @@ aside {
     width: calc(50% - .25rem);
     margin: 0 0 .25rem;
   }
-  p a {
-    &:hover {
-      text-decoration: double;
-    }
-    &:focus {
-      &:after {
-        border-color: $azure-dark;
-      }
-    }
-  }
 }
 // focus styles
-.navbar-brand, .main-nav li a, .footer a, .project-hero .thumbnail-link, .text-link, .btn, p a, .btn-light {
+.navbar-brand, .main-nav li a, .footer a, .project-hero .thumbnail-link, .text-link, .btn, p a, li a, .btn-light {
   &:focus {
     outline: none;
     box-shadow: none;
@@ -303,7 +293,22 @@ details {
   a {
     text-decoration: none;
     &:hover, &:focus {
-      text-decoration: underline;
+      text-decoration: underline!important;
+    }
+  }
+}
+.content p, .project-block li {
+  a:not([class]) {
+    text-decoration: none;
+    background-color: fade-out($azure-dark, 1);
+    border-bottom: .0625rem solid $azure-dark;
+    transition: $transition-base;
+    &:hover, &:focus, &:focus-visible {
+      background-color: fade-out($azure-dark, .9);
+      border-bottom-width: .125rem;
+      &::after {
+        border-color: $scarlet;
+      }
     }
   }
 }
