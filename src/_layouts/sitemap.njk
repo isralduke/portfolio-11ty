@@ -1,73 +1,23 @@
 ---
 layout   : base
 feature  : /images/photos/isral-process-photo.jpg
-overlayBgColor: bg-azure
-heroClass: hero-small
 ---
-{% include 'hero.njk' %}
-<main aria-labelledby="pageName" class="py-9 bg-graph-paper" tabindex="-1" aria-labelledby="pageName">
-	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<h2 class="h2 text-white mb-4">Pages in this site</h2>
-			</div>
-		</div>
-		<div class="row g-2">
-			<div class="col-6 col-md-4 col-lg-3">
-				<div class="card bg-gray-700">
-					<div class="card-body bg-gray-700">
-						<a href="/" class="stretched-link h5 text-white">Home</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-6 col-md-4 col-lg-3">
-				<div class="card bg-gray-700">
-					<div class="card-body bg-gray-700">
-						<a href="/talks" class="stretched-link h5 text-white">Talks</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-6 col-md-4 col-lg-3">
-				<div class="card bg-gray-700">
-					<div class="card-body bg-gray-700">
-						<a href="/resume" class="stretched-link h5 text-white">Resume</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-6 col-md-4 col-lg-3">
-				<div class="card bg-gray-700">
-					<div class="card-body bg-gray-700">
-						<a href="/sitemap" class="stretched-link h5 text-white">Sitemap</a>
-					</div>
-				</div>
-			</div>
-		
-		
-			<div class="col-12">
-				<div class="card bg-gray-700">
-					<div class="card-body bg-gray-700">
-						<a href="/product-design" class="stretched-link h5 text-white">Product Design</a>
-					</div>
-				</div>
-			</div>
-		
-		
-			{% for item in collections.productDesign %}
-			<div class="col-12 col-md-4 col-lg-3">
-				<div class="card bg-gray-700 h-100">
-					<img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="Preview image for {{ item.data.title }}." class="img-fluid rounded">
-					<div class="card-body bg-gray-700 pb-0">
-						<h2 id="{{ item.data.title | slugify }}" class="position-relative h5 text-white">
-							<span class="icon position-absolute end-0 bi-icon bi-arrow-right-short"></span>
-							{{ item.data.title }}
-						</h2>
-						<a href="{{ item.url }}" class="stretched-link">
-							<span class="visually-hidden">{{ item.data.title }}</span>
-						</a>
-					</div>
-				</div>
-			</div>
-			{% endfor %}
-		</div>
-	</div>
-</main>
+
+<h1 class="" id="pageName">{{ title }}</h1>
+<p class="">{{ excerpt }}</p>
+
+
+<h2 class="h2 text-white mb-4">Pages in this site</h2>
+
+
+<a href="/" class="">Home</a>
+<a href="/resume" class="">Resume</a>
+<a href="/sitemap" class="">Sitemap</a>
+<a href="/product-design" class="">Product Design</a>
+
+
+{% for item in collections.productDesign %}
+<img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="Preview image for {{ item.data.title }}." class="img-fluid rounded">
+<h2 id="{{ item.data.title | slugify }}" class="">{{ item.data.title }}</h2>
+<a href="{{ item.url }}" class="stretched-link">{{ item.data.title }}</a>
+{% endfor %}

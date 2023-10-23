@@ -1,27 +1,21 @@
-<nav aria-labelledby="mainNav" class="main-nav position-fixed w-100 d-flex align-items-center text-white text-decoration-none">
-	<p id="mainNav" class="visually-hidden">Primary</p>
-	<div class="container">
-		<div class="d-flex align-items-center">
-			<a class="navbar-brand" href="/">
-				<span class="visually-hidden">Isral Duke</span>
-				<span aria-hidden="true">
-					{% include 'svg/isral-duke-logo-mark.svg' %}
-				</span>
+<nav aria-labelledby="mainNav" class="">
+	<p id="mainNav" hidden>Primary</p>
+
+	<a aria-labelledby="sitePerson" class="" href="/">
+		<span id="sitePerson" hidden>Isral Duke</span>
+		<span aria-hidden="true">{% include 'svg/isral-duke-logo-mark.svg' %}</span>
+	</a>
+	<ul class="">
+		<li class="">
+			<a href="/product-design" class="">Product Design</a>
+		</li>
+		<li class="">
+			<a href="/talks" class="">Talks</a>
+		</li>
+		<li class="">
+			<a href="https://linkedin.com/in/isralduke" class="">
+				LinkedIn
 			</a>
-			<ul class="list-unstyled list-inline d-flex m-0 ms-auto">
-				<li class="list-inline-item mb-0 mx-0">
-					<a href="/product-design" class="d-block py-2 px-2">Product Design</a>
-				</li>
-				<li class="list-inline-item mb-0 mx-0">
-					<a href="/talks" class="d-block py-2 px-2">Talks</a>
-				</li>
-				<li class="list-inline-item mb-0 mx-0">
-					<a href="https://linkedin.com/in/isralduke" class="d-block py-2 px-2">
-						<span class="bi bi-linkedin" aria-hidden="true"></span>
-						<span class="visually-hidden">LinkedIn</span>
-					</a>
-				</li>
-			</ul>
-		</div>
-	</div>
+		</li>
+	</ul>
 </nav>

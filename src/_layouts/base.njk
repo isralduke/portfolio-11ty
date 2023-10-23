@@ -24,14 +24,15 @@
 	<meta property="og:description" content="{{ excerpt }}">
 	<meta property="og:image" content="https://isralduke.com{{ feature }}">
 	<!-- CSS only -->
-	<link rel="stylesheet" href="https://use.typekit.net/uay6gsf.css">
-	<link rel="stylesheet" href="{{ '/css/style.css' | url }}">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+	{# <link rel="stylesheet" href="https://use.typekit.net/uay6gsf.css"> #}
+	{# <link rel="stylesheet" href="{{ '/css/style.css' | url }}"> #}
 </head>
-<body class="bg-gray-800">
-	<a href="#main" class="skip-link">Skip to main content</a>
+<body class="">
+	<a href="#main" class="">Skip to main content</a>
 	{% include 'nav.njk' %}
+	<main id="main" class="" tabindex="-1" aria-labelledby="pageName">
 	{{ content | safe }}
+	</main>
 	{% include 'skills-block.njk' %}
 	{% include 'footer.njk' %}
 	<!-- JavaScript Bundle with Popper -->
