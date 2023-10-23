@@ -3,21 +3,21 @@ layout   : base
 feature  : /images/photos/isral-process-photo.jpg
 ---
 
-<h1 class="" id="pageName">{{ title }}</h1>
-<p class="">{{ excerpt }}</p>
+<h1  id="pageName">{{ title }}</h1>
+<p >{{ excerpt }}</p>
 
 
 <h2 class="h2 text-white mb-4">Pages in this site</h2>
 
 
-<a href="/" class="">Home</a>
-<a href="/resume" class="">Resume</a>
-<a href="/sitemap" class="">Sitemap</a>
-<a href="/product-design" class="">Product Design</a>
+<a href="/" >Home</a>
+<a href="/resume" >Resume</a>
+<a href="/sitemap" >Sitemap</a>
+<a href="/product-design" >Product Design</a>
 
 
 {% for item in collections.productDesign %}
 <img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="Preview image for {{ item.data.title }}." class="img-fluid rounded">
-<h2 id="{{ item.data.title | slugify }}" class="">{{ item.data.title }}</h2>
+<h2 id="{{ item.data.title | slugify }}" >{{ item.data.title }}</h2>
 <a href="{{ item.url }}" class="stretched-link">{{ item.data.title }}</a>
 {% endfor %}

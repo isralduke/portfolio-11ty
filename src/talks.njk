@@ -7,13 +7,13 @@ feature        : /images/photos/isral-talk-google-devfest.jpg
 featureAlt     : Isral Duke giving a presentation about VoiceOver at a local chapter of Google Dev Fest.
 ---
 
-<h1 class="" id="pageName">{{ title }}</h1>
-<p class="">{{ excerpt }}</p>
+<h1  id="pageName">{{ title }}</h1>
+<p >{{ excerpt }}</p>
 
 
 {% for item in talks %}
-<h2 class="">{{ item.title }}</h2>
-<p class="">{{ item.description }}</p>
-<a href="{{ item.deck }}" class="">Get deck for {{ item.title }}</a>
+<h2 >{{ item.title }}</h2>
+<p >{{ item.description }}</p>
+<a href="{{ item.deck }}" >Get deck for {{ item.title }}</a>
 <iframe src='https://www.youtube.com/embed/{{ item.embed }}' frameborder='0' title="{{ item.data.title }}" allowfullscreen></iframe>		
 {% endfor %}

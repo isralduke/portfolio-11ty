@@ -7,16 +7,16 @@ feature        : /images/photos/isral-duke-credentials.jpg
 featureAlt     : Isral Duke giving a presentation about VoiceOver at a local chapter of Google Dev Fest.
 ---
 
-<h1 class="" id="pageName">{{ title }}</h1>
-<p class="">{{ excerpt }}</p>
+<h1  id="pageName">{{ title }}</h1>
+<p >{{ excerpt }}</p>
 
 
-<h2 class="">Objective</h2>
-<p class="">I want to design inclusive experiences which everyone can enjoy and benefit from.</p>
+<h2 >Objective</h2>
+<p >I want to design inclusive experiences which everyone can enjoy and benefit from.</p>
 <p>My journey to making digital experiences which are usable by all began by teaching users and clients how to use experiences I helped produce. I noticed that some interface patterns were more quickly understood than others. I also learned that some people face barriers which I can’t imagine. The more I examined this, I learned that accessibility is vital to people who face barriers I can’t imagine.</p>
 
 
-<h2 class="">Skills</h2>
+<h2 >Skills</h2>
 {% for item in skills %}
 	<h3 class="h6">{{ item.title }}</h3>
 	<ul>
@@ -27,7 +27,7 @@ featureAlt     : Isral Duke giving a presentation about VoiceOver at a local cha
 {% endfor %}
 
 
-<h2 class="">Talks</h2>
+<h2 >Talks</h2>
 <ul>
 	{% for item in talks %}
 	<li><a href="{{ item.link }}">{{ item.title }}</a></li>
@@ -43,7 +43,7 @@ featureAlt     : Isral Duke giving a presentation about VoiceOver at a local cha
 </ul>
 
 
-<h2 class="">Certifications</h2>
+<h2 >Certifications</h2>
 <ul>
 	{% for item in certifications %}
 	<li><a href="{{ item.link }}">{{ item.title }}</a>, {{ item.description }}</li>
@@ -51,7 +51,7 @@ featureAlt     : Isral Duke giving a presentation about VoiceOver at a local cha
 </ul>
 
 
-<h2 class="">Education</h2>
+<h2 >Education</h2>
 <ul>
 	{% for item in educations %}
 	<li>{{ item.title }}, {{ item.school }}, {{ item.year }}</li>
@@ -66,10 +66,10 @@ featureAlt     : Isral Duke giving a presentation about VoiceOver at a local cha
 </ul>
 
 
-<h2 class="">Experience</h2>
+<h2 >Experience</h2>
 {% for item in experiences %}
-<h3 id="{{ item.company | slugify }}" class="">{{ item.role }}</h2>
-<p class="">
+<h3 id="{{ item.company | slugify }}" >{{ item.role }}</h2>
+<p >
 	{% if item.link %}
 	<a href="{{ item.link }}">{{ item.company }}</a>
 	{% else %}

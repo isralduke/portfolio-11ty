@@ -3,48 +3,48 @@ layout    : base
 heroClass : hero-project
 ---
 
-<h1 class="" id="pageName">{{ title }}</h1>
-<p class="">{{ excerpt }}</p>
+<h1  id="pageName">{{ title }}</h1>
+<p >{{ excerpt }}</p>
 
 
-<a href="/images/projects/{{ title | slugify }}/feature.png" class="">
-	<img src="/images/projects/{{ title | slugify }}/feature.png" alt="{{ featureAlt }}" class="">
+<a href="/images/projects/{{ title | slugify }}/feature.png" >
+	<img src="/images/projects/{{ title | slugify }}/feature.png" alt="{{ featureAlt }}" >
 </a>
 
 
 {% for item in mockups %}
-<a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" class="">
-	<img src="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" alt="{{ item }}" class="">
+<a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" >
+	<img src="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" alt="{{ item }}" >
 </a>
 {% endfor %}
 
 
-<h2 class="">Project Stats</h2>
-<ul class="">
+<h2 >Project Stats</h2>
+<ul >
 	{% for item in stats %}
-	<li class="">
-		<span class="">{{ item.label }}</span>
-		<span class="">{{ item.value }}</span>
+	<li >
+		<span >{{ item.label }}</span>
+		<span >{{ item.value }}</span>
 	</li>
 	{% endfor %}
 </ul>
 
 
-<h2 class="">Project Roles</h2>
-<ul class="">
+<h2 >Project Roles</h2>
+<ul >
 	{% for item in roles %}
-	<li class="">{{ item }}</li>
+	<li >{{ item }}</li>
 	{% endfor %}
 </ul>
 
 
 <h2>Inspect It Yourself</h2>
 {% if tryitLink %}					
-<a href="{{ tryitLink }}" class="">Try {{ title }}</a>
+<a href="{{ tryitLink }}" >Try {{ title }}</a>
 {% endif %}
 
 {% if designFile %}
-<a href="{{ designFile }}" class="">
+<a href="{{ designFile }}" >
 	Design File for {{ title }}
 </a>
 {% endif %}

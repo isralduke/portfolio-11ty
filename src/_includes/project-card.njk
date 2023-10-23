@@ -1,10 +1,10 @@
-<section class="" aria-labelledby="{{ item.data.title | slugify }}">
-	<img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="Preview image for {{ item.data.title }}." class="">
-	<h2 id="{{ item.data.title | slugify }}" class="">{{ item.data.title }}</h2>
-	<ul class="">
+<section  aria-labelledby="{{ item.data.title | slugify }}">
+	<img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="Preview image for {{ item.data.title }}." >
+	<h2 id="{{ item.data.title | slugify }}" >{{ item.data.title }}</h2>
+	<ul >
 		{% for stat in item.data.stats %}
-		<li class="">{{ stat.label }} {{ stat.value }}</li>
+		<li >{{ stat.label }} {{ stat.value }}</li>
 		{% endfor %}
 	</ul>
-	<a href="{{ item.url }}" class="">{{ item.data.title }}</a>
+	<a href="{{ item.url }}" >{{ item.data.title }}</a>
 </section>
