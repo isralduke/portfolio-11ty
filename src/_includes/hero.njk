@@ -1,0 +1,9 @@
+<div>
+	<h1 id="pageName">{{ title }}</h1>
+	<p>{{ excerpt }}</p>
+	{% if tags == 'productDesign' %}
+	<img src="/images/projects/{{ title | slugify }}/feature.png" alt="{{ featureAlt }}" class="">
+	{% else %}
+	<img src="/images/photos/{{ feature }}" alt="{{ featureAlt }}" class="">
+	{% endif %}
+</div>

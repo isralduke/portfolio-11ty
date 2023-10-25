@@ -3,15 +3,6 @@ layout    : base
 heroClass : hero-project
 ---
 
-<h1  id="pageName">{{ title }}</h1>
-<p >{{ excerpt }}</p>
-
-
-<a href="/images/projects/{{ title | slugify }}/feature.png" >
-	<img src="/images/projects/{{ title | slugify }}/feature.png" alt="{{ featureAlt }}" >
-</a>
-
-
 {% for item in mockups %}
 <a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" >
 	<img src="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" alt="{{ item }}" >
@@ -38,7 +29,7 @@ heroClass : hero-project
 </ul>
 
 
-<h2>Inspect It Yourself</h2>
+<h2>Try It Yourself</h2>
 {% if tryitLink %}					
 <a href="{{ tryitLink }}" >Try {{ title }}</a>
 {% endif %}
