@@ -1,5 +1,5 @@
 <section  aria-labelledby="{{ item.data.title | slugify }}">
-	<img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="Preview image for {{ item.data.title }}." >
+	<img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="Preview image for {{ item.data.title }}." class="img-fluid">
 	<h2 id="{{ item.data.title | slugify }}" >{{ item.data.title }}</h2>
 	<ul >
 		{% for stat in item.data.stats %}

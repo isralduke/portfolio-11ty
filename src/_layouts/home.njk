@@ -1,0 +1,9 @@
+---
+layout: base.njk
+---
+
+<div class="container">
+{% for item in collections.productDesign | limit(3) %}
+{% include 'project-card.njk' %}
+{% endfor %}
+</div>
