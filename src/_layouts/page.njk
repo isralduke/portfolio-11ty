@@ -3,16 +3,4 @@ layout    : base
 heroClass : hero-page
 ---
 
-{{ content | safe }}
 
-{%- if tags == 'resume' -%}
-{% include 'resume-sections.njk' %}
-{%- endif -%}
-
-{%- if tags == 'talks' -%}
-{% include 'talks-sections.njk' %}
-{%- endif -%}
-
-{%- if tags == 'sitemap' -%}
-{% include 'human-sitemap-sections.njk' %}
-{%- endif -%}

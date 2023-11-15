@@ -1,0 +1,10 @@
+.page-main {
+	@extend .grid;
+	padding: var(--page-header-nav-height) 1.25rem 0;
+	background-color: beige;
+	
+	@media screen and (min-width: 1024px){
+		position: relative;
+		padding: 0 1.25rem 0 calc(var(--page-banner-width) + 1.25rem);
+	}
+}

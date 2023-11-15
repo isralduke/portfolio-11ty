@@ -1,0 +1,27 @@
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: minmax(0, auto);
+	grid-gap: 1.25rem;
+	align-items: start;
+	@media screen and (min-width: 1024px){
+		
+	}
+	@media screen and (min-width: 1366px){
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+.col-1 {
+	// everything is 1 col by default
+	// adding this to help comprehension
+}
+.col-2 {
+	// exists at even smallest size
+	grid-column: span 2;
+}
+.col-3 {
+	// only kicks in 12.9 ipad pro, landscape size
+	@media screen and (min-width: 1366px) {
+		grid-column: span 3;
+	}
+}

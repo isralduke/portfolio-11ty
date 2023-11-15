@@ -1,0 +1,13 @@
+:root {
+	--background-root: #f7f7f7;
+	--id-link-color: #0000ff;
+	--page-header-nav-height: 4rem;
+	--page-banner-width: 23.4375rem;
+}
+
+@import 'reset';
+@import 'html-body';
+@import 'grid';
+@import 'typography';
+@import 'page-banner';
+@import 'page-main';
