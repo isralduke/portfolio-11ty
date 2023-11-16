@@ -1,5 +1,16 @@
 ---
-layout    : base
-heroClass : hero-project
+layout   : base.njk
+bodyClass: project
 ---
 
+<div class="hero">
+	<h1>{{ title }}</h1>
+</div>
+
+<div class="feature">
+	<img src="/images/projects/{{ title | slugify }}/feature.png" alt="">
+</div>
+
+<div>{{ content | safe }}</div>
+
+test
