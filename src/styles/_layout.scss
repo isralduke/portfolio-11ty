@@ -1,0 +1,33 @@
+.page-banner {
+	height: $page-header-nav-height;
+	position: relative;
+
+	@media screen and (min-width: $width-md){
+		position: fixed;
+		top: 0; left: 0;
+		width: $page-banner-width; height: 100%;
+		z-index: 1;
+	}
+}
+
+
+.page-nav {
+	position: fixed;
+	height: $page-header-nav-height;
+	bottom: 0; left: 0;
+	width: 100%;
+
+	@media screen and (min-width: $width-md){
+		position: relative;
+	}
+}
+
+.page-main {
+	@extend .grid;
+	padding: $page-header-nav-height 1.25rem 0;
+	
+	@media screen and (min-width: $width-md){
+		position: relative;
+		padding: 0 1.25rem 0 calc($page-banner-width + 1.25rem);
+	}
+}

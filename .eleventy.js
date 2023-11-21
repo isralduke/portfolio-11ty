@@ -5,7 +5,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(eleventySass);
   eleventyConfig.addWatchTarget("./src/styles/");
   eleventyConfig.addPassthroughCopy("./src/styles/");
-  eleventyConfig.addPassthroughCopy("./src/styles/fonts/");
+  eleventyConfig.addPassthroughCopy("./src/fonts/");
   eleventyConfig.addPassthroughCopy("./src/images/");
   eleventyConfig.addPassthroughCopy("./src/js/");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");

@@ -71,7 +71,7 @@ img, picture, video, canvas, svg {
 
 // ensure all, plain <a> get underlines. usually those in a <p> or <li>, etc
 a:not([class]) {
-	color				: var(--id-link-color);
+	color: var(--link-color);
 }
 
 // details summary

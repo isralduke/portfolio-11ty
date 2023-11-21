@@ -4,10 +4,10 @@
 	grid-template-rows: minmax(0, auto);
 	grid-gap: 1.25rem;
 	align-items: start;
-	@media screen and (min-width: 1024px){
+	@media screen and (min-width: $width-md){
 		
 	}
-	@media screen and (min-width: 1366px){
+	@media screen and (min-width: $width-lg){
 		grid-template-columns: repeat(3, 1fr);
 	}
 }
@@ -21,7 +21,7 @@
 }
 .col-3 {
 	// only kicks in 12.9 ipad pro, landscape size
-	@media screen and (min-width: 1366px) {
+	@media screen and (min-width: $width-lg) {
 		grid-column: span 3;
 	}
 }

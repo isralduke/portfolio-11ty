@@ -1,13 +1,19 @@
+$width-md: 1024px;
+$width-lg: 1366px;
+$border-radius: .25rem;
+$page-header-nav-height: 4rem;
+$page-banner-width: 23.4375rem;
+$base-padding: 1rem;
+$content-padding: $base-padding * 4;
+
 :root {
-	--background-root: #f7f7f7;
-	--id-link-color: #0000ff;
-	--page-header-nav-height: 4rem;
-	--page-banner-width: 23.4375rem;
+	--background-color-root: #f7f7f7;
+	--link-color: #0000ff;
 }
 
 @import 'reset';
 @import 'html-body';
 @import 'grid';
 @import 'typography';
-@import 'page-banner';
-@import 'page-main';
+@import 'layout';
+@import 'content';

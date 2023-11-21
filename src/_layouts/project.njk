@@ -11,6 +11,10 @@ bodyClass: project
 	<img src="/images/projects/{{ title | slugify }}/feature.png" alt="">
 </div>
 
-<div>{{ content | safe }}</div>
+<div class="col-1 col-2 col-3">
+	<div class="content">
+		{{ content | safe }}
+	</div>
+</div>
 
 test
