@@ -1,5 +1,5 @@
 ---
-title         : Designer
+title         : Isral Duke, Designer
 layout        : home.njk
 excerpt       : I design inclusive and easy to use products.
 tags          : home

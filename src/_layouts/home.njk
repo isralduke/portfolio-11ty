@@ -3,40 +3,45 @@ layout: base.njk
 bodyClass: home
 ---
 
-<div class="hero">
-	<h1>{{ title }}</h1>
-</div>
+<h1>{{ title }}</h1>
 
-<div class="projects">
-	<h2>Selected Projects</h2>
-	{% for item in collections.productDesign | limit(5) %}
-		{{ item.data.title }}
-	{% endfor %}
-</div>
 
-<div class="talks">
-	<h2>Talks</h2>
-	{% for item in talks %}
-		{{ item.title }}
-	{% endfor %}
-</div>
 
-<div class="skills">
-	<h2>Skills</h2>
-	{% for item in skills %}
-	<h3 id="{{ item.title | slugify }}" >{{ item.title }}</h3>
-	<p>{{ item.description }}</p>
-	<ul aria-labelledby="{{ item.title | slugify }}" >
-		{% for listItem in item.listItems %}
-		<li >{{ listItem }}</li>
-		{% endfor %}
-	</ul>
-	{% endfor %}
-</div>
+<h2>Selected Projects</h2>
+<ul>
+{% for item in collections.productDesign | limit(5) %}
+	<li><a href="{{item.url}}">{{ item.data.title }}</a></li>
+{% endfor %}
+</ul>
 
-<div class="certifications">
-	<h2>Certifications</h2>
-	{% for item in certifications %}
-	{{ item.title }}
+
+
+<h2>Talks</h2>
+<ul >
+{% for item in talks %}
+	<li>{{ item.title }}</li>
+{% endfor %}
+</ul>
+
+
+
+<h2>Skills</h2>
+{% for item in skills %}
+<h3 id="{{ item.title | slugify }}" >{{ item.title }}</h3>
+<p>{{ item.description }}</p>
+<ul aria-labelledby="{{ item.title | slugify }}" >
+	{% for listItem in item.listItems %}
+	<li >{{ listItem }}</li>
 	{% endfor %}
-</div>
+</ul>
+{% endfor %}
+
+
+
+<h2>Certifications</h2>
+<ul>
+{% for item in certifications %}
+	<li>{{ item.title }}</li>
+{% endfor %}
+</ul>
+

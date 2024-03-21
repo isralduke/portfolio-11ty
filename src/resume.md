@@ -1,7 +1,7 @@
 ---
 title          : Resume
 layout         : page
-excerpt        : Resume for Isral Duke, inclusive products and experiences designer. Objectives, experience, skills, and other credentials.
+excerpt        : Resume for Isral Duke, designer who codes.
 featureSm      : isral-duke-credentials-tall.jpg
 feature        : isral-duke-credentials.jpg
 featureAlt     : Isral Duke giving a presentation about VoiceOver at a local chapter of Google Dev Fest.

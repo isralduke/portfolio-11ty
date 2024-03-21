@@ -2,7 +2,7 @@
 	{
 		"title":"Design",
 		"description":"Design means intentially creating for both the users and the business.",
-		"listItems":["Inclusive Design","Design Systems","Product Design","Visual Design"]
+		"listItems":["Organizational Goals","Inclusive Design","Design Systems","Product Design","Visual Design"]
 	},
 	{
 		"title":"User Experience",
@@ -12,6 +12,6 @@
 	{
 		"title":"Technical",
 		"description":"Technology is how we build products. We must consider feasibility, accessibility, and timelines.",
-		"listItems":["Accessible Markup","HTML, SCSS, CSS","Screen Readers","Frontend"]
+		"listItems":["Accessible Markup","Frontend","HTML, SCSS, CSS","Screen Readers","Working within technical constraints"]
 	}
 ]
