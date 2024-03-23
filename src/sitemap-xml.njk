@@ -1,0 +1,29 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://isralduke.com/</loc>
+		<lastmod>2023-08-31</lastmod>
+	</url>
+	<url>
+		<loc>https://isralduke.com/product-design</loc>
+		<lastmod>2023-08-31</lastmod>
+	</url>
+	{% for item in collections.productDesign %}
+	<url>
+		<loc>https://isralduke.com{{ item.url }}</loc>
+		<lastmod>2023-08-31</lastmod>
+	</url>
+	{% endfor %}
+	<url>
+		<loc>https://isralduke.com/talks</loc>
+		<lastmod>2023-08-31</lastmod>
+	</url>
+	<url>
+		<loc>https://isralduke.com/resume</loc>
+		<lastmod>2023-08-31</lastmod>
+	</url>
+</urlset>

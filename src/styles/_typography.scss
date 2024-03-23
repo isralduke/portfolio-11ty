@@ -1,0 +1,42 @@
+/* Variable fonts usage:
+:root { font-family: "Inter", sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: "InterVariable", sans-serif; font-optical-sizing: auto; }
+} */
+@font-face {
+	font-family: InterVariable;
+	font-style: normal;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url("/fonts/InterVariable.woff2") format("woff2");
+}
+@font-face {
+	font-family: InterVariable;
+	font-style: italic;
+	font-weight: 100 900;
+	font-display: swap;
+	src: url("/fonts/InterVariable-Italic.woff2") format("woff2");
+}
+* {
+	font-family: 'InterVariable', sans-serif;
+	font-feature-settings: "ss02" 1;
+}
+
+strong, b {
+	font-weight: 700;
+}
+p {
+	font-size: 1rem;
+}
+h3 {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+h2 {
+	font-size: 1.5rem;
+	font-weight: 900;
+}
+h1 {
+	font-size: 2rem;
+	font-weight: 400;
+}

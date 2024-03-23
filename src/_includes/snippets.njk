@@ -1,0 +1,86 @@
+{% include 'skills-block.njk' %}
+{% include 'footer.njk' %}
+<a href="#main" >Skip to main content</a>
+	{% include 'nav.njk' %}
+	<main id="main"  tabindex="-1" aria-labelledby="pageName">
+		{% include 'hero.njk' %}
+		{{ content | safe }}
+	</main>
+
+
+	<div class="container">
+
+		<div class="row">
+			{% for item in mockups %}
+			<div class="col-6 col-md-3">
+				<a data-fslightbox href="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" >
+					<img src="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" alt="{{ item }}" class="img-fluid">
+				</a>
+			</div>
+			{% endfor %}
+		</div>
+			
+	
+	
+		<h2 >Project Stats</h2>
+		<ul >
+			{% for item in stats %}
+			<li >
+				<span >{{ item.label }}</span>
+				<span >{{ item.value }}</span>
+			</li>
+			{% endfor %}
+		</ul>
+	
+	
+		<h2 >Project Roles</h2>
+		<ul >
+			{% for item in roles %}
+			<li >{{ item }}</li>
+			{% endfor %}
+		</ul>
+	
+	
+		<h2>Try It Yourself</h2>
+		{% if tryitLink %}					
+		<a href="{{ tryitLink }}" >Try {{ title }}</a>
+		{% endif %}
+	
+		{% if designFile %}
+		<a href="{{ designFile }}" >
+			Design File for {{ title }}
+		</a>
+		{% endif %}
+	
+				
+		{{ content | safe }}
+	
+	</div>
+	
+
+	<div class="container">
+		{% for item in collections.productDesign | limit(3) %}
+		{% include 'project-card.njk' %}
+		{% endfor %}
+		</div>
+
+
+
+		<div class="container">
+
+			{{ content | safe }}
+			
+			{%- if tags == 'resume' -%}
+			{% include 'resume-sections.njk' %}
+			{%- endif -%}
+			
+			{%- if tags == 'talks' -%}
+			{% include 'talks-sections.njk' %}
+			{%- endif -%}
+			
+			{%- if tags == 'sitemap' -%}
+			{% include 'human-sitemap-sections.njk' %}
+			{%- endif -%}
+			
+			</div>
+

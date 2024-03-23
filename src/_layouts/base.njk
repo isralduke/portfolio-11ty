@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109520377-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'UA-109520377-1');
-	</script>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{% if tags != 'home'  %}{{ title }}, {% endif %} isral Duke, Product Designer </title>
@@ -20,20 +12,18 @@
 	<!-- Open Graph -->
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://isralduke.com{{ page.url }}">
-	<meta property="og:title" content="{% if tags != 'home'  %}{{ title }} | {% endif %} isral Duke, Product Designer">
+	<meta property="og:title" content="{% if tags != 'home'  %}{{ title }} | {% endif %} isral Duke, Designer Who Codes">
 	<meta property="og:description" content="{{ excerpt }}">
 	<meta property="og:image" content="https://isralduke.com{{ feature }}">
 	<!-- CSS only -->
-	<link rel="stylesheet" href="https://use.typekit.net/uay6gsf.css">
-	<link rel="stylesheet" href="{{ '/css/style.css' | url }}">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="{{ '/styles/style.css' | url }}">
 </head>
-<body class="bg-gray-800">
-	<a href="#main" class="skip-link">Skip to main content</a>
-	{% include 'nav.njk' %}
-	{{ content | safe }}
-	{% include 'skills-block.njk' %}
-	{% include 'footer.njk' %}
+<body class="{{ bodyClass }}">
+	<header>
+		{% include 'nav.njk' %}
+	</header>
+	<main id="main">{{ content | safe }}</main>
+	<footer id="footer"></footer>
 	<!-- JavaScript Bundle with Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 	<script src="/js/fslightbox.js"></script>

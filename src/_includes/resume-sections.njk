@@ -1,0 +1,71 @@
+<h2 >Skills</h2>
+{% for item in skills %}
+	<h3 class="h6">{{ item.title }}</h3>
+	<ul>
+		{% for listItem in item.listItems %}
+		<li>{{ listItem }}</li>
+		{% endfor %}
+	</ul>
+{% endfor %}
+
+
+<h2 >Talks</h2>
+<ul>
+	{% for item in talks %}
+	<li><a href="{{ item.link }}">{{ item.title }}</a></li>
+	{% endfor %}
+</ul>
+
+
+<h2 class="h2">Published Apps</h2>
+<ul>
+	{% for item in apps %}
+	<li><a href="{{ item.link }}">{{ item.title }}</a>, {{ item.description }}</li>
+	{% endfor %}
+</ul>
+
+
+<h2 >Certifications</h2>
+<ul>
+	{% for item in certifications %}
+	<li><a href="{{ item.link }}">{{ item.title }}</a>, {{ item.description }}</li>
+	{% endfor %}
+</ul>
+
+
+<h2 >Education</h2>
+<ul>
+	{% for item in educations %}
+	<li>{{ item.title }}, {{ item.school }}, {{ item.year }}</li>
+	{% endfor %}
+</ul>
+
+<h2 class="h2">References</h2>
+<ul>
+	{% for item in references %}
+	<li><a href="{{ item.link }}">{{ item.title }}</a>, {{ item.description }}</li>
+	{% endfor %}
+</ul>
+
+
+<h2 >Experience</h2>
+{% for item in experiences %}
+<h3 id="{{ item.company | slugify }}" >{{ item.role }}</h2>
+<p >
+	{% if item.link %}
+	<a href="{{ item.link }}">{{ item.company }}</a>
+	{% else %}
+	{{ item.company }} <em>(now defunct)</em>
+	{% endif %}
+</p>
+<details>
+	<summary>
+		Read {{ item.role }} accomplishments
+	</summary>
+	<ul aria-labelledby="{{ item.company | slugify }}">
+		{% for listItem in item.listItems %}
+		<li>{{ listItem }}</li>
+		{% endfor %}
+	</ul>
+</details>
+{% endfor %}
