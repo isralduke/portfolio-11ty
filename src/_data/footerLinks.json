@@ -1,0 +1,18 @@
+[
+	{
+		"text":"Resume",
+		"link":"/resume"
+	},
+	{
+		"text":"LinkedIn",
+		"link":"https://linkedin.com/in/isralduke"
+	},
+	{
+		"text":"Site Map",
+		"link":"/sitemap"
+	},
+	{
+		"text":"Accessibility",
+		"link":"/accessibility"
+	}
+]

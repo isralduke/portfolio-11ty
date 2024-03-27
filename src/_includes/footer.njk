@@ -1,24 +1,12 @@
-<nav class="container" aria-labelledby="secondNav" >
-	<p id="secondNav" hidden>Secondary</p>
-	<p id="footernavlist" hidden>Secondary Nav Links</p>
-	<ul aria-labelledby="footernavlist" >
-		<li >
-			<a  href="/">Home</a>
+<nav aria-labelledby="footerNav">
+	<span id="footerNav" hidden>Footer</span>
+	<span id="footerNavList" hidden>Footer Navigation Links</span>
+	<ul aria-labelledby="footerNavList" >
+	{% for item in footerLinks %}
+		<li>
+			<a  href="{{ item.links }}">{{ item.text }}</a>
 		</li>
-		<li >
-			<a  href="/product-design">Product Design</a>
-		</li>
-		<li >
-			<a  href="/talks">Talks</a>
-		</li>
-		<li >
-			<a  href="/resume">Resume</a>
-		</li>
-		<li >
-			<a  href="/sitemap">Sitemap</a>
-		</li>
-		<li >
-			<a  href="https://linkedin.com/in/isralduke">LinkedIn</a>
-		</li>
+	{% endfor %}
 	</ul>
+	<p>Projects featured are copyright of their respective owners and are intended to only display my skills using previous work.</p>
 </nav> 
