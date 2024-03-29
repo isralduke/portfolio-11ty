@@ -1,12 +1,14 @@
-<nav aria-labelledby="footerNav">
-	<span id="footerNav" hidden>Footer</span>
-	<span id="footerNavList" hidden>Footer Navigation Links</span>
-	<ul aria-labelledby="footerNavList" >
-	{% for item in footerLinks %}
-		<li>
-			<a  href="{{ item.links }}">{{ item.text }}</a>
-		</li>
-	{% endfor %}
-	</ul>
-	<p>Projects featured are copyright of their respective owners and are intended to only display my skills using previous work.</p>
-</nav> 
+<footer>
+	<nav aria-labelledby="footerNav">
+		<span id="footerNav" hidden>Footer</span>
+		<span id="footerNavList" hidden>Footer Navigation Links</span>
+		<ul aria-labelledby="footerNavList" >
+		{% for item in footerLinks %}
+			<li>
+				<a href="{{ item.link }}">{{ item.text }}</a>
+			</li>
+		{% endfor %}
+		</ul>
+		<p>Projects featured are copyright of their respective owners and are intended to only display my skills using previous work.</p>
+	</nav> 
+</footer>
