@@ -1,6 +1,9 @@
 :root {
 	--id-width-md: 768px;
 	--id-width-lg: 1200px;
+	--id-spacing-default: 1.25rem;
+	--id-background-color-nav: #304650;
+	--id-color-white: #ffffff;
 }
 
 @import 'reset';
@@ -11,10 +14,26 @@ html, body {
 	background-color: var(--id-background-color-root);
 }
 body {
-	padding: 0 var(iid-padding-default);
+	padding: 0 var(iid-spacing-default);
 }
 
 footer {
+	color: var(--id-color-white);
 	background-color: var(--id-background-color-nav);
-	padding: calc(var(--id-padding-default) * 2);
+	padding: calc(var(--id-spacing-default) * 2);
+	text-align: center;
+	ul {
+		display: flex;
+		justify-content: center;
+		list-style: none;
+		padding: 0; margin: 0 0 var(--id-spacing-default);
+	}
+	li {
+		&:not(:last-of-type) {
+			margin-inline-end: var(--id-spacing-default);
+		}
+	}
+	a {
+		font-weight: bold;
+	}
 }

@@ -29,7 +29,7 @@
 strong, b {
 	font-weight: 700;
 }
-p {
+p, li {
 	font-size: 1rem;
 }
 h3 {
@@ -45,7 +45,7 @@ h1 {
 	font-weight: 400;
 }
 @media screen and (min-width:1190px) {
-	p {
+	p, li {
 		font-size: 1.25rem;
 	}
 	h3 {
