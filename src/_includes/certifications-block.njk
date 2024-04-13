@@ -1,0 +1,13 @@
+<aside aria-labelledby="certifications" class="content">
+
+	<h2 id="certifications">Certifications</h2>
+
+	{% for item in certifications %}
+	<h3 id="{{ item.title | slugify }}" >{{ item.title }}</h3>
+	<p class="mb-0">{{ item.description }}</p>
+	<p>
+		<a href="{{ item.link }}">Verify {{ item.title }}</a>
+	</p>
+	{% endfor %}
+
+</aside>

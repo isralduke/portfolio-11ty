@@ -1,8 +1,14 @@
 ---
-layout   : base.njk
-bodyClass: project
+layout: base.njk
 ---
 
-<h1>{{ title }}</h1>
-<img src="/images/projects/{{ title | slugify }}/feature.png" alt="">
-{{ content | safe }}
+<div class="banner">
+	<div class="card">
+		<h1>{{ title }}</h1>
+		<p>{{ excerpt }}</p>
+	</div>
+	<img src="/images/projects/{{ title | slugify }}/feature.png" alt="">
+</div>
+<div class="content">
+	{{ content | safe }}
+</div>

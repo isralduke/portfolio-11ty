@@ -1,8 +1,6 @@
-<aside aria-labelledby="skills" class="container">
-
+<aside aria-labelledby="skills" class="content">
 
 	<h2  id="skills">Skill Sets</h2>
-
 
 	{% for item in skills %}
 	<h3 id="{{ item.title | slugify }}" >{{ item.title }}</h3>
@@ -13,6 +11,5 @@
 		{% endfor %}
 	</ul>
 	{% endfor %}
-
 
 </aside>

@@ -3,7 +3,11 @@
 	--id-width-lg: 1200px;
 	--id-spacing-default: 1.25rem;
 	--id-background-color-nav: #304650;
+	--id-background-color-root: #e2e7e9;
+	--id-background-card: #F3F5F6;
 	--id-color-white: #ffffff;
+	--id-heading-color: #000000;
+	--id-text-color: var(--id-background-color-nav);
 }
 
 @import 'reset';
@@ -14,13 +18,57 @@ html, body {
 	background-color: var(--id-background-color-root);
 }
 body {
-	padding: 0 var(iid-spacing-default);
+	color: var(--id-text-color);
+	padding: 0 var(--id-spacing-default);
 }
-
+h1, h2, h3 {
+	color: var(--id-heading-color);
+}
+main {
+	
+}
+.banner {
+	display: flex;
+	flex-direction: column-reverse;
+	text-align: center;
+	img {
+		width: 100%;
+	}
+}
+.card {
+	padding: var(--id-spacing-default);
+	background-color: var(--id-background-card);
+}
+.content {
+	margin: var(--id-spacing-default) 0;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding: var(--id-spacing-default);
+	background-color: var(--id-background-card);
+	h2, h3, p {
+		grid-column: span 2;
+	}
+	h2, h3 {
+		line-height: 1.1;
+		margin: var(--id-spacing-default) 0 calc(var(--id-spacing-default) / 2);
+	}
+	p {
+		margin: 0 0 var(--id-spacing-default);
+	}
+	ul {
+		margin: calc(var(--id-spacing-default) * -.5) 0 0;
+	}
+	img {
+		padding: calc(var(--id-spacing-default) / 2);
+		margin: 0 0 calc(var(--id-spacing-default) / 2);
+		background-color: var(--id-color-white);
+	}
+}
 footer {
 	color: var(--id-color-white);
 	background-color: var(--id-background-color-nav);
 	padding: calc(var(--id-spacing-default) * 2);
+	margin-top: var(--id-spacing-default);
 	text-align: center;
 	ul {
 		display: flex;
@@ -36,4 +84,7 @@ footer {
 	a {
 		font-weight: bold;
 	}
+}
+.mb-0 {
+	margin-bottom: 0!important;
 }
