@@ -35,9 +35,7 @@ The target audience is two groups of people. The first group is made of retired,
 
 ## Research & Key Challenges
 
-I used an <a href="https://docs.google.com/spreadsheets/d/1ZGKmeZwhySw5s2tmV382cn9GItDQZUIeuVlgsDFsruw/edit?usp=sharing">online survey to determine the content</a> people expect in an art gallery app and which art galleries came to mind for what I should consider. Participants were chosen from people who normally visit art galleries and art museums. I conducted in-person and remote interviews.
-
-The key challenges in the process was arranging for the in-person usability studies for the seniors who make up the first segment of the target audience. Segment two was comfortable with video interviews.
+I used an <a href="https://docs.google.com/spreadsheets/d/1ZGKmeZwhySw5s2tmV382cn9GItDQZUIeuVlgsDFsruw/edit?usp=sharing">online survey to determine the content</a> people expect in an art gallery app and which art galleries came to mind for what I should consider. Participants were chosen from people who normally visit art galleries and art museums. I conducted in-person and remote interviews. The key challenges in the process was arranging for the in-person usability studies for the seniors who make up the first segment of the target audience. Segment two was comfortable with video interviews.
 
 ![Preview of the virtual survey used to gather feature and content expectations.](/images/projects/art-gallery-app/research-1.jpg)
 ![Preview of the responses from the virtual survey.](/images/projects/art-gallery-app/research-5.png)
@@ -47,9 +45,7 @@ The key challenges in the process was arranging for the in-person usability stud
 
 ## Initial Design Concepts & Wireframes
 
-After thinking about the research I started creating hand-drawn wireframes using the <a href="https://designsprintkit.withgoogle.com/methodology/phase3-sketch/crazy-8s">Crazy 8s method</a>. After selecting the most promising ideas, I created wireframes in Figma.
-
-The best ideas from initial design concepts were translated into digital wireframes.
+After thinking about the research I started creating hand-drawn wireframes using the <a href="https://designsprintkit.withgoogle.com/methodology/phase3-sketch/crazy-8s">Crazy 8s method</a>. After selecting the most promising ideas, I created wireframes in Figma. The best ideas from initial design concepts were translated into digital wireframes.
 
 ![Crazy eight marker sketches for various user flows.](/images/projects/art-gallery-app/sketch-wireframe-1.jpg)
 ![Digital wireframes created from the best concepts from the crazy eight ideations.](/images/projects/art-gallery-app/sketch-wireframe-2.jpg)

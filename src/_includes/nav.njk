@@ -1,9 +1,12 @@
-<nav aria-labelledby="mainNav">
+<nav aria-labelledby="mainNav" class="nav-main">
 	<span id="mainNav" hidden>Primary</span>
 	<a aria-labelledby="sitePerson"  href="/">
-		<span id="sitePerson" hidden>Isral Duke</span>
-		<span aria-hidden="true">{% include 'svg/isral-duke-logo-mark.svg' %}</span>
+		<span id="sitePerson" hidden>Isral Duke, Designer, Home</span>
+		<span aria-hidden="true">{% include 'svg/isral-duke-designer-logo.svg' %}</span>
 	</a>
+	<button>
+		{% include 'svg/closed.svg' %}
+	</button>
 	<ul>
 		<li>
 			<a href="/product-design">Product Design</a>

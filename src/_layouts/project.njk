@@ -9,6 +9,19 @@ layout: base.njk
 	</div>
 	<img src="/images/projects/{{ title | slugify }}/feature.png" alt="">
 </div>
+<div class="thumbnails">
+	<div class="card">
+		{% for item in mockups %}
+			<a class="thumbnail">
+				<img src="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" alt="{{ item }}">
+			</a class="thumbnail">
+		{% endfor %}
+	</div>
+</div>
 <div class="content">
 	{{ content | safe }}
 </div>
+
+{% set buttonText = 'Review More Projects' %}
+{% set buttonLink = '/product-design' %}
+{% include 'button-chunky.njk' %}
