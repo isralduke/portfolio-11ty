@@ -36,14 +36,13 @@ html:focus-within {
 body {
 	min-height: 100vh;
 	text-rendering: optimizeSpeed;
-	line-height: 1.5;
+	line-height: 1.55;
 	-webkit-font-smoothing: antialiased;
 }
 // A elements that don't have a class get default styles
 a:not([class]) {
 	color: var(--id-color-scarlet);
 	text-decoration-skip-ink	: auto;
-	text-underline-offset		: .25rem;
 	transition					: all .150ms ease-out;
 	text-decoration-thickness   : .0625rem;
 	&:hover, &:active, &:focus {

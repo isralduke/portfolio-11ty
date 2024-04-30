@@ -1,5 +1,6 @@
 * {
-	font-family: ratio, sans-serif;
+	font-family: system-ui, ratio, sans-serif;
+	font-feature-settings: "ss06";
 	font-weight: 400;
 	font-size: 1rem;
 }
@@ -17,6 +18,7 @@ h3 {
 h2 {
 	font-size: 1.5rem;
 	font-weight: 900;
+	letter-spacing: .03125rem;
 }
 h1 {
 	font-size: 2rem;

@@ -74,7 +74,8 @@ main {
 	-webkit-appearance: none;
 	text-decoration: none;
 	color: var(--id-color-white);
-	font-weight: 700;
+	font-weight: 800;
+	font-size: 1.125rem;
 	letter-spacing: .0625rem;
 	text-transform: uppercase;
 	padding: var(--id-spacing-default);
@@ -147,8 +148,11 @@ main {
 	margin: var(--id-spacing-default) 0;
 	background-color: var(--id-background-card);
 	h2 {
-		margin-top   : var(--id-spacing-default);
+		margin-bottom: calc(var(--id-spacing-default) * .5 );
 		text-transform: uppercase;
+		&:first-of-type {
+			margin-top: var(--id-spacing-default);
+		}
 	}
 	h3 {
 		margin-bottom: calc(var(--id-spacing-default) * .5 );
@@ -175,19 +179,32 @@ main {
 .grid {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: var(--id-spacing-default);
+	column-gap: var(--id-spacing-default);
 	h2 {
 		grid-column: span 2;
+	}
+	p {
+		margin: 0;
 	}
 }
 .grid-item {
 	grid-column: span 2;
 	display: grid;
+	& + h2 {
+		margin-top: var(--id-spacing-default);
+	}
+	&:has(.thumbnails){
+		& + h2 {
+			margin-top: calc(var(--id-spacing-default) * .5 );
+		}
+	}
 }
 .thumbnails {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: calc(var(--id-spacing-default) * .25);
+	gap: var(--id-spacing-default);
+	margin-top   : var(--id-spacing-default);
+	margin-bottom: var(--id-spacing-default);
 }
 .thumbnail {
 

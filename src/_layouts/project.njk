@@ -14,11 +14,9 @@ layout: base.njk
 	<div class="grid-item">
 		<div class="thumbnails">
 			{% for item in mockups %}
-	
 			<a class="thumbnail">
 				<img src="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" alt="{{ item }}">
 			</a>
-		
 			{% endfor %}
 		</div>
 	</div>	
@@ -29,15 +27,15 @@ layout: base.njk
 	<h2 id="{{ section.name | slugify }}">{{ section.name }}</h2>
 	<div class="grid-item">
 		<p>{{ section.content | safe }}</p>
-		<div class="thumbnails">
-		{% for item in section.imageAlts %}
-		
-			<a href="thumbnail">
-				<img src="/images/projects/{{ title | slugify }}/{{ section.name | slugify }}-{{ loop.index }}.jpg" alt="{{ item }}">
-			</a>
-		
-		{% endfor %}
-		</div>
+			{% if section.imageAlts | length %}
+			<div class="thumbnails">
+				{% for item in section.imageAlts %}
+					<a href="thumbnail">
+						<img src="/images/projects/{{ title | slugify }}/{{ section.name | slugify }}-{{ loop.index }}.jpg" alt="{{ item }}">
+					</a>
+				{% endfor %}
+			</div>
+			{% endif %}	
 	</div>
 	{% endfor %}
 </div>
