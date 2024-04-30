@@ -26,7 +26,7 @@ body {
 	color: var(--id-text-color);
 	padding: 4rem var(--id-spacing-default) 0;
 }
-h1, h2, h3 {
+h1, h2 {
 	color: var(--id-heading-color);
 	line-height: 1.1;
 }
@@ -34,6 +34,7 @@ h1, h2, h3 {
 	background-color: var(--id-background-color-nav);
 	padding: .5rem var(--id-spacing-default);
 	display: flex;
+	display: none;
 	justify-content: space-between;
 	position: fixed;
 	top: 0; right:0; left:0;
@@ -67,15 +68,6 @@ main {
 	text-align: center;
 	img {
 		width: 100%;
-	}
-}
-.card {
-	padding: var(--id-spacing-default);
-	margin: 0 0 var(--id-spacing-default);
-	background-color: var(--id-background-card);
-	&:has(.thumbnail){
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
 	}
 }
 .button {
@@ -155,43 +147,27 @@ main {
 	padding: var(--id-spacing-default);
 	margin: var(--id-spacing-default) 0;
 	background-color: var(--id-background-card);
-	h2, h3 {
-		margin: var(--id-spacing-default) 0 calc(var(--id-spacing-default) * -.5);
+	h2 {
+		margin-top   : var(--id-spacing-default);
+		text-transform: uppercase;
 	}
+	h3 {
+		margin-bottom: calc(var(--id-spacing-default) * .5 );
+		line-height: 1;
+	}	
 	p {
-		margin: 0 0 var(--id-spacing-default);
-		img {
-			margin: 0;
-		}
+		margin-bottom: var(--id-spacing-default);
 	}
 	ul {
-		margin: calc(var(--id-spacing-default) * -.5) 0 0;
-	}
-	img {
-		padding: calc(var(--id-spacing-default) / 5);
-		margin: 0 0 calc(var(--id-spacing-default) / 2);
-		background-color: var(--id-color-white);
+		margin-top: calc(var(--id-spacing-default) * -.5 );
 	}
 	a {
 		color: var(--id-color-azure);
 	}
+	img {
+		width: 100%;
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -200,23 +176,28 @@ main {
 .grid {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	gap: var(--id-spacing-default) ;
-	h2, h3, p {
+	gap: var(--id-spacing-default);
+	h2 {
 		grid-column: span 2;
 	}
-	p {
-		&:has(img){
-			display: grid;
-			grid-template-columns: repeat(2, 1fr);
-			gap: var(--id-spacing-default);
-		}
-	}
-	@media screen and (min-width: 992px) {
-
-	}
+	@media screen and (min-width: 1194px) {}
+	@media screen and (min-width: 1366px) {}
+	@media screen and (min-width: 1680px) {}
 }
+.grid-item {
+	grid-column: span 2;
+	display: grid;
+	@media screen and (min-width: 1194px) {}
+	@media screen and (min-width: 1366px) {}
+	@media screen and (min-width: 1680px) {}
+}
+.thumbnails {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.thumbnail {
 
-
+}
 
 
 

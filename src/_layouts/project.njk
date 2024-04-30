@@ -2,25 +2,43 @@
 layout: base.njk
 ---
 
-<div class="banner">
-	<div class="card">
-		<h1>{{ title }}</h1>
-		<p>{{ excerpt }}</p>
-	</div>
-	<img src="/images/projects/{{ title | slugify }}/feature.png" alt="">
+
+<div class="content">
+	<h1>{{ title }}</h1>
+	<p class="mb-0">{{ excerpt }}</p>
 </div>
-<div class="thumbnails">
-	<div class="card">
-		{% for item in mockups %}
+<img src="/images/projects/{{ title | slugify }}/feature.png" alt="">
+
+
+<div class="content grid">
+	<div class="grid-item">
+		<div class="thumbnails">
+			{% for item in mockups %}
+	
 			<a class="thumbnail">
 				<img src="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" alt="{{ item }}">
-			</a class="thumbnail">
-		{% endfor %}
-	</div>
+			</a>
+		
+			{% endfor %}
+		</div>
+	</div>	
 </div>
+
 <div class="content grid">
 	{% for section in sections %}
-	
+	<h2 id="{{ section.name | slugify }}">{{ section.name }}</h2>
+	<div class="grid-item">
+		<p>{{ section.content | safe }}</p>
+		<div class="thumbnails">
+		{% for item in section.imageAlts %}
+		
+			<a href="thumbnail">
+				<img src="/images/projects/{{ title | slugify }}/{{ section.name | slugify }}-{{ loop.index }}.jpg" alt="{{ item }}">
+			</a>
+		
+		{% endfor %}
+		</div>
+	</div>
 	{% endfor %}
 </div>
 

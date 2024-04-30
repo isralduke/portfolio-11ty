@@ -33,10 +33,10 @@ sections:
     content: 'I used an <a href="https://docs.google.com/spreadsheets/d/1ZGKmeZwhySw5s2tmV382cn9GItDQZUIeuVlgsDFsruw/edit?usp=sharing">online survey to determine the content</a> people expect in an art gallery app and which art galleries came to mind for what I should consider. Participants were chosen from people who normally visit art galleries and art museums. I conducted in-person and remote interviews. The key challenges in the process was arranging for the in-person usability studies for the seniors who make up the first segment of the target audience. Segment two was comfortable with video interviews.'
     imageAlts: 
       - 'Preview of the virtual survey used to gather feature and content expectations.'
-      - 'Preview of the responses from the virtual survey.'
-      - 'User journey map for Persona 1.'
-      - 'User journey map for Persona 2.'
       - 'Preview of the competitive audit performed on art gallery sites and apps.'
+      - 'User journey map for Persona 2.'
+      - 'Preview of the responses from the virtual survey.'
+      
   - name: Initial Design Concepts & Wireframes
     content: 'After thinking about the research I started creating hand-drawn wireframes using the <a href="https://designsprintkit.withgoogle.com/methodology/phase3-sketch/crazy-8s">Crazy 8s method</a>. After selecting the most promising ideas, I created wireframes in Figma. The best ideas from initial design concepts were translated into digital wireframes.'
     imageAlts: 

@@ -1,7 +1,7 @@
 <aside aria-labelledby="skills" class="content grid">
 	<h2  id="skills">Skill Sets</h2>
 	{% for item in skills %}
-	<div>
+	<div class="grid-item">
 		<h3 id="{{ item.title | slugify }}" >{{ item.title }}</h3>
 		<p>{{ item.description }}</p>
 		<ul aria-labelledby="{{ item.title | slugify }}" >
