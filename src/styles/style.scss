@@ -147,22 +147,18 @@ main {
 	padding: var(--id-spacing-default);
 	margin: var(--id-spacing-default) 0;
 	background-color: var(--id-background-card);
-	h2 {
-		margin-bottom: calc(var(--id-spacing-default) * .5 );
+	h2, h3 {
 		text-transform: uppercase;
-		&:first-of-type {
-			margin-top: var(--id-spacing-default);
-		}
+		margin-top: var(--id-spacing-default);
 	}
 	h3 {
-		margin-bottom: calc(var(--id-spacing-default) * .5 );
-		line-height: 1;
+		text-transform: none;
 	}	
 	p {
-		margin-bottom: var(--id-spacing-default);
+		margin-top: calc( var(--id-spacing-default) * .5 );
 	}
 	ul {
-		margin-top: calc(var(--id-spacing-default) * -.5 );
+		margin-top: calc( var(--id-spacing-default) * .5 );
 	}
 	a {
 		color: var(--id-color-azure);
@@ -183,31 +179,21 @@ main {
 	h2 {
 		grid-column: span 2;
 	}
-	p {
-		margin: 0;
-	}
 }
 .grid-item {
 	grid-column: span 2;
 	display: grid;
-	& + h2 {
-		margin-top: var(--id-spacing-default);
-	}
-	&:has(.thumbnails){
-		& + h2 {
-			margin-top: calc(var(--id-spacing-default) * .5 );
-		}
-	}
 }
 .thumbnails {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	gap: var(--id-spacing-default);
-	margin-top   : var(--id-spacing-default);
-	margin-bottom: var(--id-spacing-default);
+	margin-top   : calc( var(--id-spacing-default) * .75 );
+	margin-bottom: calc( var(--id-spacing-default) * .5 );
 }
 .thumbnail {
-
+	padding: calc(var(--id-spacing-default) * .25);
+	background-color: var(--id-color-white);
 }
 
 
