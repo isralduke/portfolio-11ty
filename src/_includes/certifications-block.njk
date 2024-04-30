@@ -1,13 +1,12 @@
-<aside aria-labelledby="certifications" class="content">
-
+<aside aria-labelledby="certifications" class="content grid">
 	<h2 id="certifications">Certifications</h2>
-
 	{% for item in certifications %}
-	<h3 id="{{ item.title | slugify }}" >{{ item.title }}</h3>
-	<p class="mb-0">{{ item.description }}</p>
-	<p>
-		<a href="{{ item.link }}">Verify {{ item.title }}</a>
-	</p>
+	<div>
+		<h3 id="{{ item.title | slugify }}" >{{ item.title }}</h3>
+		<p class="mb-0">{{ item.description }}</p>
+		<p class="mb-0">
+			<a href="{{ item.link }}">Verify {{ item.title }}</a>
+		</p>
+	</div>
 	{% endfor %}
-
 </aside>

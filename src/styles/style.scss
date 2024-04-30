@@ -24,10 +24,11 @@ html, body {
 }
 body {
 	color: var(--id-text-color);
-	padding: 4rem var(--id-spacing-default) 0 0;
+	padding: 4rem var(--id-spacing-default) 0;
 }
 h1, h2, h3 {
 	color: var(--id-heading-color);
+	line-height: 1.1;
 }
 .nav-main {
 	background-color: var(--id-background-color-nav);
@@ -35,7 +36,7 @@ h1, h2, h3 {
 	display: flex;
 	justify-content: space-between;
 	position: fixed;
-	top: 0;
+	top: 0; right:0; left:0;
 	width: 100%; 
 	margin: 0 -var(--id-spacing-default);
 	button {
@@ -110,26 +111,55 @@ main {
 		text-underline-offset: .25rem;
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .content {
-	margin: var(--id-spacing-default) 0;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
 	padding: var(--id-spacing-default);
+	margin: var(--id-spacing-default) 0;
 	background-color: var(--id-background-card);
-	h2, h3, p {
-		grid-column: span 2;
-	}
 	h2, h3 {
-		line-height: 1.1;
-		margin: var(--id-spacing-default) 0 calc(var(--id-spacing-default) / 2);
+		margin: var(--id-spacing-default) 0 calc(var(--id-spacing-default) * -.5);
 	}
 	p {
 		margin: 0 0 var(--id-spacing-default);
-		&:has(img) {
-			display: grid;
-			grid-template-columns: repeat(2, 1fr);
-			gap: var(--id-spacing-default);
-		}
 		img {
 			margin: 0;
 		}
@@ -146,6 +176,76 @@ main {
 		color: var(--id-color-azure);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: var(--id-spacing-default) ;
+	h2, h3, p {
+		grid-column: span 2;
+	}
+	p {
+		&:has(img){
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: var(--id-spacing-default);
+		}
+	}
+	@media screen and (min-width: 992px) {
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer {
 	color: var(--id-color-white);
 	background-color: var(--id-background-color-nav);
@@ -200,4 +300,7 @@ footer {
 			}
 		}
 	}
+}
+@media screen and (min-width: 1680px){
+
 }

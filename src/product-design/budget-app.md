@@ -18,6 +18,35 @@ mockups    :
 roles      : ['User Researcher','UX Designer','UI Designer']
 tryitLink  : https://www.figma.com/proto/he8ruRik6mfojjhDm53qgv/Budget-Buddy?node-id=135%3A1593&scaling=scale-down&page-id=115%3A1649&starting-point-node-id=135%3A1592
 designFile : https://www.figma.com/file/he8ruRik6mfojjhDm53qgv/Budget-Buddy?node-id=115%3A1649
+
+sections:
+  - name: Project Goal
+    content: 'Create a brand new  budget mobile app to help people create and stick to a budget. The app will put all aspects of their budgets just a few taps away.'
+  - name: Target Audience
+    content: 'The primary audience is young adults and young professionals who have never used a budget before. The secondary audience is young adults who have tried budget apps but found them too complex.'
+    imageAlts:
+      - 'Persona card for John who represents users who often start but quit using budget apps.'
+      - 'Persona card for Lucy who represents users who like budget apps but want simpler offerings.'
+  - name: Research & Key Challenges
+    content: 'I used Google Docs questionnaires to remote interviews for a wide range of ages. While [user journaling or diary studies](https://www.nngroup.com/articles/which-ux-research-methods/) aren’t as robust as other forms of research, it was the only way I could get the initial research done with my timeline and participants’ schedules. The key challenges were to limit the features to just those features which will educate first-time budgeters about budget concepts. The participants said that the budget app they tried were too complex so I kept the feature set limited.'
+    imageAlts: 
+      - 'Competitive audit synopsis showing a preview of the spreadsheet with audit data.'
+      - 'Interview transcript snippet showing some sample questions asked of John.'
+      - 'Insight identification data distilled into meaningful directions.'
+      - 'Preview of the U X research study.'
+  - name: Initial Design Concepts & Wireframes
+    content: 'First I drew many hand sketches to capture my initial design ideas, using the [Crazy 8s method](https://designsprintkit.withgoogle.com/methodology/phase3-sketch/crazy-8s). The best ideas from my initial design concepts were translated into digital wireframes in Figma.'
+    imageAlts: 
+      - 'Crazy eight marker sketches for various screens.'
+      - 'Digital wireframes created from the best concepts from the crazy eight ideations.'
+  - name: Usability Testing
+    content: 'Participants reviewed the digital wireframes and answered questions about navigation and asked further questions about budget concepts. Their feedback became usability testing data and recorded in a spreadsheet for each participants. The responses were transformed into affinity groups to find themes.'
+    imageAlts: 
+      - 'Usability issues and insights gathered from tester one during wireframe prototype use.'
+      - 'Usability issues and insights gathered from tester two during wireframe prototype use.'
+  - name: Conclusion
+    content: 'The budget app design’s is neutral. I decided not to make it “fun” or “serious” because the apps tried by my participants fell into one or the other style and it didn’t help them. The app has a light and day mode which don’t conform to either “white” or “black” themes. I wanted the themes to be warm and approachable to offset the app’s neutrality.'
+
 ---
 
 ## Project Goal
@@ -33,9 +62,7 @@ The primary audience is young adults and young professionals who have never used
 
 ## Research & Key Challenges
 
-I used Google Docs questionnaires to remote interviews for a wide range of ages. While [user journaling or diary studies](https://www.nngroup.com/articles/which-ux-research-methods/) aren’t as robust as other forms of research, it was the only way I could get the initial research done with my timeline and participants’ schedules.
-
-The key challenges were to limit the features to just those features which will educate first-time budgeters about budget concepts. The participants said that the budget app they tried were too complex so I kept the feature set limited.
+I used Google Docs questionnaires to remote interviews for a wide range of ages. While [user journaling or diary studies](https://www.nngroup.com/articles/which-ux-research-methods/) aren’t as robust as other forms of research, it was the only way I could get the initial research done with my timeline and participants’ schedules. The key challenges were to limit the features to just those features which will educate first-time budgeters about budget concepts. The participants said that the budget app they tried were too complex so I kept the feature set limited.
 
 ![Competitive audit synopsis showing a preview of the spreadsheet with audit data.](/images/projects/budget-app/research-1.jpg)
 ![Interview transcript snippet showing some sample questions asked of John.](/images/projects/budget-app/research-2.jpg)

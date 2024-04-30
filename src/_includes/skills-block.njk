@@ -1,15 +1,14 @@
-<aside aria-labelledby="skills" class="content">
-
+<aside aria-labelledby="skills" class="content grid">
 	<h2  id="skills">Skill Sets</h2>
-
 	{% for item in skills %}
-	<h3 id="{{ item.title | slugify }}" >{{ item.title }}</h3>
-	<p>{{ item.description }}</p>
-	<ul aria-labelledby="{{ item.title | slugify }}" >
-		{% for listItem in item.listItems %}
-		<li >{{ listItem }}</li>
-		{% endfor %}
-	</ul>
+	<div>
+		<h3 id="{{ item.title | slugify }}" >{{ item.title }}</h3>
+		<p>{{ item.description }}</p>
+		<ul aria-labelledby="{{ item.title | slugify }}" >
+			{% for listItem in item.listItems %}
+			<li >{{ listItem }}</li>
+			{% endfor %}
+		</ul>
+	</div>
 	{% endfor %}
-
 </aside>
