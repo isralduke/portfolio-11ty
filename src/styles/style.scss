@@ -102,6 +102,10 @@ main {
 		box-shadow: .25rem .25rem .25rem 0 rgba(48,70,80,.35);
 		text-underline-offset: .25rem;
 	}
+
+	& + & {
+		margin-top: var(--id-spacing-default);
+	}
 }
 
 
@@ -160,7 +164,7 @@ main {
 	ul {
 		margin-top: calc( var(--id-spacing-default) * .5 );
 	}
-	a {
+	a:not[class] {
 		color: var(--id-color-azure);
 	}
 	img {
