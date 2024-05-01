@@ -202,6 +202,9 @@ main {
 		&:not[class] {}
 		&.prominent-link {
 			color: var(--id-color-azure);
+			&:hover, &:active, &:focus {
+				text-decoration-style: double;
+			}
 		}
 		
 	}
@@ -249,6 +252,25 @@ main {
 		.mockups & {
 			grid-column: span 4;
 		}
+	}
+}
+.gallery-grid {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: var(--id-spacing-default);
+	@media screen and (min-width: 1194px){
+		grid-template-columns: repeat(2, 1fr);
+	}
+	@media screen and (min-width: 1920px){
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+.gallery-grid-item {
+	&.project-card {
+		margin: 0;
+	}
+	@media screen and (min-width: 1194px){
+		grid-column: span 1;
 	}
 }
 .thumbnails {
@@ -302,6 +324,9 @@ main {
 	}
 	.thumbnail {
 		padding: var(--id-spacing-default);
+	}
+	&:hover, &:active, &:focus {
+		text-decoration: underline;
 	}
 }
 
