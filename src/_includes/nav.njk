@@ -4,10 +4,11 @@
 		<span id="sitePerson" hidden>Isral Duke, Designer, Home</span>
 		<span aria-hidden="true">{% include 'svg/isral-duke-designer-logo.svg' %}</span>
 	</a>
-	<button>
+	<button type="button" id="navMainListsToggler" class="">
 		{% include 'svg/closed.svg' %}
+		<span class="visually-hidden">Toggle navigation</span>
 	</button>
-	<div class="nav-main-lists">
+	<div id="navMainLists" class="nav-main-lists hidden">
 		<ul class="nav-main-list primary" role="list">
 			<li role="listitem">
 				<a href="/product-design">Product Design</a>

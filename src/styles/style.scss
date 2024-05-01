@@ -63,6 +63,9 @@ h1, h2 {
 	width: 100%;
 	background-color: var(--id-background-color-nav);
 	padding: 0 var(--id-spacing-default) calc( var(--id-spacing-default) * .5 );
+	&.hidden {
+		display: none;
+	}
 }
 .nav-main-list {
 	list-style: none;
