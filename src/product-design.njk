@@ -2,14 +2,19 @@
 title: Product Design
 layout: base.njk
 excerpt: Selected product design samples.
-feature: isral-talk-google-devfest.jpg
-featureAlt: Isral Duke giving a talk about screen reader experience at a local university.
 ---
 
-<h1  id="pageName">{{ title }}</h1>
-<p >{{ excerpt }}</p>
-
+<div class="content">
+	<h1>{{ title }}</h1>
+	<p class="mb-0">{{ excerpt }}</p>
+</div>
 
 {% for item in collections.productDesign %}
-{% include 'project-card.njk' %}
+<section aria-labelledby="{{ item.data.title | slugify }}" class="project-card">
+	<h2 id="{{ item.data.title | slugify }}" class="visually-hidden">{{ item.data.title }}</h2>
+	<a href="{{ item.url }}" class="thumbnail thumbnail-block">
+		<span>{{ item.data.title }}</span>
+		<img src="/images/projects/{{ item.data.title | slugify }}/feature.png" alt="" class="img-fluid">
+	</a>
+</section>
 {% endfor %}

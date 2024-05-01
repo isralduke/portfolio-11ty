@@ -203,6 +203,38 @@ main {
 		box-shadow: .25rem .25rem .25rem 0 rgba(48,70,80,.35);
 	}
 }
+.thumbnail-block {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+.project-card {
+	margin-bottom: var(--id-spacing-default);
+	text-align: center;
+	a {
+		text-decoration: none;
+		font-size: calc( var(--id-spacing-default) * 1.2 );
+		font-weight: 900;
+		color: var(--id-text-color);
+	}
+	span {
+		text-decoration: inherit;
+		font-size: inherit;
+		font-weight: inherit;
+		
+	}
+	.thumbnail {
+		padding: var(--id-spacing-default);
+	}
+}
 
 
 
@@ -314,6 +346,21 @@ footer {
 }
 .mb-0 {
 	margin-bottom: 0!important;
+}
+.mb-default {
+	margin-bottom: var(--id-spacing-default);
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	white-space: nowrap;
+	border: 0;
 }
 
 @media screen and (min-width: 992px) {
