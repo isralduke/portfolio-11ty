@@ -31,7 +31,7 @@ if (mediaQuery.matches) {
 }
 
 window.addEventListener('resize', function() {
-	if (window.innerWidth > 992) {
+	if ( window.innerWidth >= 992 ) {
 		showNavMainLists();
 	} else {
 		hideNavMainLists();

@@ -55,6 +55,16 @@ h1, h2 {
 			background-color: var(--id-color-azure);
 		}
 	}
+	@media screen and (min-width: 992px) {
+		top: 0; left: 0;
+		width: var(--id-main-nav-size-large); height: 100%;
+		padding: 4rem;
+		display: flex;
+		flex-direction: column;
+		button {
+			display: none;
+		}
+	}
 }
 .nav-main-lists {
 	width: 100%;
@@ -65,6 +75,13 @@ h1, h2 {
 	padding: 0 var(--id-spacing-default) calc( var(--id-spacing-default) * .5 );
 	&.hidden {
 		display: none;
+	}
+	@media screen and (min-width: 992px) {
+		display: block;
+		position: unset;
+		padding: 0;
+		margin-block-start: auto;
+		margin-block-end: auto;
 	}
 }
 .nav-main-list {
@@ -100,6 +117,13 @@ h1, h2 {
 		a {
 			display: flex;
 			justify-content: center;
+		}
+		@media screen and (min-width: 992px) {
+			position: absolute;
+			bottom: calc( var(--id-spacing-default) * 2 );
+			left: 50%;
+			width: calc( 100% - var(--id-spacing-default) * 6 );
+			transform: translateX(-50%);
 		}
 	}
 }
@@ -415,12 +439,5 @@ footer {
 		padding-bottom: 0;
 		padding-left: calc(var(--id-main-nav-size-large) + 1.25rem);
 	}
-	.nav-main {
-		top: 0; left: 0;
-		width: var(--id-main-nav-size-large); height: 100%;
-		padding: 4rem;
-		button {
-			display: none;
-		}
-	}
+	
 }
