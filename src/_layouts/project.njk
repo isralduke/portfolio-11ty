@@ -7,20 +7,27 @@ layout: base.njk
 	<h1>{{ title }}</h1>
 	<p class="mb-0">{{ excerpt }}</p>
 </div>
-<img src="/images/projects/{{ title | slugify }}/feature.png" alt="">
+<a href="/images/projects/{{ title | slugify }}/feature.png" data-fslightbox>
+	<img src="/images/projects/{{ title | slugify }}/feature.png" alt="{{ featureAlt }}">
+</a>
+
+
 
 
 <div class="content grid mockups">
 	<div class="grid-item">
 		<div class="thumbnails">
 			{% for item in mockups %}
-			<a class="thumbnail">
+			<a href="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" data-fslightbox class="thumbnail">
 				<img src="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" alt="{{ item }}">
 			</a>
 			{% endfor %}
 		</div>
 	</div>	
 </div>
+
+
+
 
 <div class="content">
 	{% set buttonText = 'Try It Out' %}
@@ -34,6 +41,9 @@ layout: base.njk
 	{% include 'button-chunky.njk' %}
 </div>
 
+
+
+
 <div class="content project grid">
 	{% for section in sections %}
 	<h2 id="{{ section.name | slugify }}">{{ section.name }}</h2>
@@ -42,7 +52,7 @@ layout: base.njk
 			{% if section.imageAlts | length %}
 			<div class="thumbnails">
 				{% for item in section.imageAlts %}
-					<a class="thumbnail" href="">
+					<a href="/images/projects/{{ title | slugify }}/{{ section.name | slugify }}-{{ loop.index }}.jpg" data-fslightbox class="thumbnail" >
 						<img src="/images/projects/{{ title | slugify }}/{{ section.name | slugify }}-{{ loop.index }}.jpg" alt="{{ item }}">
 					</a>
 				{% endfor %}
@@ -51,6 +61,9 @@ layout: base.njk
 	</div>
 	{% endfor %}
 </div>
+
+
+
 
 {% set buttonText = 'Review More Projects' %}
 {% set buttonClass = 'button-chunky' %}

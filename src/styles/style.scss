@@ -196,6 +196,12 @@ main {
 .thumbnail {
 	padding: calc(var(--id-spacing-default) * .25);
 	background-color: var(--id-color-white);
+	box-shadow: calc( var(--id-spacing-default) * .2 ) calc( var(--id-spacing-default) * .2 ) 0 0 #00000020;
+	transition: all .15s ease-out;
+	&:hover, &:active, &:focus {
+		transform: scale(1.05);
+		box-shadow: .25rem .25rem .25rem 0 rgba(48,70,80,.35);
+	}
 }
 
 
