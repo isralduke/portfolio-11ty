@@ -1,9 +1,14 @@
-<aside aria-labelledby="certifications" class="content grid">
+<aside aria-labelledby="certifications" class="content grid auxilliary">
 	<h2 id="certifications">Certifications</h2>
 	{% for item in certifications %}
 	<div class="grid-item">
 		<h3 id="{{ item.title | slugify }}" >{{ item.title }}</h3>
-		<p><a href="{{ item.link }}">{{ item.description }}</a>.</p>
+		<p>
+			<a href="{{ item.link }}" class="prominent-link">
+				{{ item.description }}
+				{% include 'svg/caret.svg' %}
+			</a>
+		</p>
 	</div>
 	{% endfor %}
 </aside>
