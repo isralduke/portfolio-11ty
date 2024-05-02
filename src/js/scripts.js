@@ -1,6 +1,7 @@
 const navMainListsToggler = document.getElementById('navMainListsToggler');
 const navMainLists        = document.getElementById('navMainLists');
 const mediaQuery		  = window.matchMedia('(min-width: 992px)');
+const mainContent		  = document.getElementById('main');
 
 
 function showNavMainLists() {

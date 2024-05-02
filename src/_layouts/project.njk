@@ -14,8 +14,7 @@ layout: base.njk
 
 
 
-<div class="content grid mockups">
-	<div class="grid-item">
+<div class="content mockups">
 		<div class="thumbnails">
 			{% for item in mockups %}
 			<a href="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" data-fslightbox class="thumbnail">
@@ -23,7 +22,6 @@ layout: base.njk
 			</a>
 			{% endfor %}
 		</div>
-	</div>	
 </div>
 
 
