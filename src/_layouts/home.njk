@@ -10,7 +10,7 @@ layout: base.njk
 </header>
 
 <div class="gallery-grid mb-default">
-	{% for item in collections.productDesign | limit(4) %}
+	{% for item in collections.productDesign | limit(3) %}
 		<section aria-labelledby="{{ item.data.title | slugify }}" class="gallery-grid-item project-card">
 			<h2 id="product-design" class="visually-hidden">{{ item.data.title }}</h2>
 			<a href="{{ item.url }}" class="thumbnail thumbnail-block">

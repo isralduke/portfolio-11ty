@@ -369,10 +369,12 @@ main {
 	gap: var(--id-spacing-default);
 	margin-top   : calc( var(--id-spacing-default) * .75 );
 	margin-bottom: calc( var(--id-spacing-default) * .5 );
+	&.one-grid-item {
+		grid-template-columns: repeat(1, 1fr);
+	}
 	@media screen and (min-width: 1194px){
 		grid-template-columns: repeat(4, 1fr);
 	}
-	
 }
 .thumbnail {
 	position: relative;
@@ -400,7 +402,17 @@ main {
 .thumbnail-block {
 	display: block;
 }
+.one-grid-item {
+	.thumbnail {
+		&:hover, &:active {
+			transform: scale(1);
+		}
+	}
+}
 
+.w-100 {
+	width: 100%;
+}
 
 
 
@@ -615,7 +627,6 @@ header {
 	}
 	&:hover, &:active {
 		text-decoration: underline;
-		transform: scale(1.05);
 		text-underline-offset: .25rem;
 	}
 	&:focus, &:focus-visible {
@@ -716,6 +727,13 @@ footer {
 }
 .mb-default {
 	margin-bottom: var(--id-spacing-default);
+}
+
+.bg-transparent {
+	background-color: transparent;
+}
+.shadow-none {
+	box-shadow: none;
 }
 
 .visually-hidden {

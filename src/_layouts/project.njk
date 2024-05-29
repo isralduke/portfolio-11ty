@@ -7,17 +7,20 @@ layout: base.njk
 	<h1>{{ title }}</h1>
 	<p class="mb-0">{{ excerpt }}</p>
 </div>
-<a href="/images/projects/{{ title | slugify }}/feature.png" data-fslightbox class="feature-image-link">
-	<img src="/images/projects/{{ title | slugify }}/feature.png" alt="{{ featureAlt }}">
-</a>
+<div class="thumbnails one-grid-item">
+	<a href="/images/projects/{{ title | slugify }}/feature.png" data-fslightbox class="thumbnail thumbnail-block w-100 bg-transparent shadow-none">
+		<img src="/images/projects/{{ title | slugify }}/feature.png" alt="{{ featureAlt }}">
+	</a>
+</div>
 
 
 
 
-<div class="content mockups">
+
+<div class="content mockups bg-transparent">
 		<div class="thumbnails">
 			{% for item in mockups %}
-			<a href="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" data-fslightbox class="thumbnail">
+			<a href="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" data-fslightbox class="thumbnail bg-transparent shadow-none">
 				<img src="/images/projects/{{ title | slugify }}/mockup-{{ loop.index }}.png" alt="{{ item }}">
 			</a>
 			{% endfor %}
@@ -27,7 +30,7 @@ layout: base.njk
 
 
 
-<div class="content">
+<div class="content bg-transparent">
 	{% set buttonText = 'Try It Out' %}
 	{% set buttonClass = 'button-chunky' %}
 	{% set buttonLink =  tryitLink  %}
@@ -42,7 +45,7 @@ layout: base.njk
 
 
 
-<div class="content project grid">
+<div class="content project grid bg-transparent">
 	{% for section in sections %}
 	<h2 id="{{ section.name | slugify }}">{{ section.name }}</h2>
 	<div class="grid-item">
