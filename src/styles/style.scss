@@ -271,6 +271,8 @@ main {
 	}	
 	p {
 		margin-top: calc( var(--id-spacing-default) * .25 );
+	}
+	p, li {
 		a {
 			outline: none;
 			color: var(--id-color-azure);
@@ -295,8 +297,11 @@ main {
 			line-height: 1;
 		}
 	}
-	ul {
+	ul.bullet-list {
 		margin-top: calc( var(--id-spacing-default) * .5 );
+		li {
+			margin: 0 0 .5rem 0;
+		}
 	}
 	img {
 		width: 100%;
@@ -756,6 +761,10 @@ footer {
 		padding-left: calc(var(--id-main-nav-size-large) + 1.25rem);
 	}
 	
+}
+
+.mb-4 {
+	margin-bottom: 1rem;
 }
 
 .skip {

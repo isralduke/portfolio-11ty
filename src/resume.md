@@ -1,11 +1,9 @@
 ---
 title          : Resume
-layout         : page
+layout         : resume.njk
 excerpt        : Resume for Isral Duke, designer who codes.
-featureSm      : isral-duke-credentials-tall.jpg
-feature        : isral-duke-credentials.jpg
+featureImage   : /images/photos/isral-talk-google-devfest.jpg
 featureAlt     : Isral Duke giving a presentation about VoiceOver at a local chapter of Google Dev Fest.
-tags           : resume
 ---
 
 ## Objective

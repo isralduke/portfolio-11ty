@@ -3,4 +3,16 @@ layout    : base
 heroClass : hero-page
 ---
 
+<div class="content">
+	<h1>{{ title }}</h1>
+	<p class="mb-0">{{ excerpt }}</p>
+</div>
+<div class="one-grid-item mb-4">
+	<img src="{{ featureImage }}" alt="{{ featureAlt }}" class="mb-4">
+</div>
 
+<div class="content">
+	<div class="grid-item">
+		{{ content | safe }}
+	</div>
+</div>

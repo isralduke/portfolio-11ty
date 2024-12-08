@@ -1,0 +1,73 @@
+---
+layout    : base
+heroClass : hero-page
+---
+
+<div class="content">
+	<h1>{{ title }}</h1>
+	<p class="mb-0">{{ excerpt }}</p>
+</div>
+<div class="one-grid-item mb-4">
+	<img src="{{ featureImage }}" alt="{{ featureAlt }}" class="mb-4">
+</div>
+
+<div class="content">
+	<div class="grid-item">
+		{{ content | safe }}
+	</div>
+</div>
+
+<div class="content">
+	<div class="grid-item">
+		<h2 id="references">References</h2>
+		<ul aria-labelledby="references" class="bullet-list">
+			{% for item in references %}
+			<li>
+				<a href="{{ item.link }}" class="prominent-link">{{ item.title }}</a> {{ item.description }}
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
+
+<div class="content">
+	<div class="grid-item">
+		<h2 id="education">Education</h2>
+		<ul aria-labelledby="education" class="bullet-list">
+			{% for item in educations %}
+			<li>
+				<strong>{{ item.title }}</strong>, {{ item.school }}, {{ item.year }}
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>
+
+<div class="content">
+	<div class="grid-item">
+		<h2>Experience</h2>
+		{% for item in experiences %}
+		<div>
+			<h3>{{ item.role }}</h3>
+			<p>
+				{% if item.link %}
+					<a href="{{ item.link }}">{{ item.company }}</a>
+				{% else %}
+					{{ item.company }} <em>(now defunct)</em>
+				{% endif %}
+			</p>
+			<details>
+				<summary>
+					Read {{ item.role }} accomplishments
+				</summary>
+				<ul class="bullet-list">
+					{% for listitem in item.listItems %}
+						<li>{{ listitem }}</li>
+					{% endfor %}
+				</ul>
+			</details>
+		</div>
+		{% endfor %}
+	</div>
+</div>
+

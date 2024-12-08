@@ -1,7 +1,7 @@
 [
 	{
 		"text":"Resume",
-		"link":"/resume"
+		"link":"/resume/"
 	},
 	{
 		"text":"LinkedIn",
@@ -9,10 +9,10 @@
 	},
 	{
 		"text":"Site Map",
-		"link":"/sitemap"
+		"link":"/sitemap/"
 	},
 	{
 		"text":"Accessibility",
-		"link":"/accessibility"
+		"link":"/accessibility/"
 	}
 ]
