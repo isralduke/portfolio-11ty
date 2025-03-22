@@ -1,8 +1,8 @@
 # dependencies installed by npm
 node_modules
 
-# build artifacts
-public
+# # build artifacts
+# public
 
 # secrets and errors
 .env

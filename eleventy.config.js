@@ -10,21 +10,14 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("./src/js/");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
   eleventyConfig.addPassthroughCopy("./src/.htaccess");
+  eleventyConfig.addPassthroughCopy("./src/CNAME");
   eleventyConfig.addNunjucksFilter("limit", (arr, limit) => arr.slice(0, limit));
   return {
     dir: {
       input : "src",
-      output: "public",
+      output: "docs",
       includes:"_includes",
       layouts: '_layouts'
     },
-  };
-};
-
-module.exports = function (eleventyConfig) {
-  return {
-    dir: {
-      output: "public"
-    }
   };
 };

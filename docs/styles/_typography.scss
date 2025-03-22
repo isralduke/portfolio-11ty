@@ -1,0 +1,37 @@
+* {
+	font-family: system-ui, ratio, sans-serif;
+	font-feature-settings: "ss06";
+	font-weight: 400;
+	font-size: 1rem;
+}
+a {
+	font-size: inherit;
+	font-weight: 700;
+}
+strong, b, .fw-bold {
+	font-weight: 700;
+}
+h3 {
+	font-size: 1.25rem;
+	font-weight: 700;
+}
+h2 {
+	font-size: 1.5rem;
+	font-weight: 900;
+	letter-spacing: .03125rem;
+}
+h1 {
+	font-size: 2rem;
+	font-weight: 900;
+}
+@media screen and (min-width:1190px) {
+	h3 {
+		font-size: 1.5rem;
+	}
+	h2 {
+		font-size: 1.75rem;
+	}
+	h1 {
+		font-size: 2.25rem;
+	}
+}
