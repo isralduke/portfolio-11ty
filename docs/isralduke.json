@@ -61,13 +61,13 @@
 			"description":"Certified by UC San Diego via Coursera"
 		}
 	],
-	"work experience":[
+	"work_experience":[
 		{
 			"role":"Lead UI / UX Designer / Frontend Designer",
 			"company":"Office of Technology Services",
 			"link":"https://www.doa.la.gov/doa/ots/",
 			"dates":"2018-07-09 – ",
-			"listItems":["Kick-started the creation of a design system, user experience documentation, Figma libraries, Accessibility initiatives, and a branding documentation site","Created and maintained wireframe and mockup libraries to standardize business analysts’ work across teams","Introduced and advocated for accessibility, usability concerns in internal and public-facing experiences","Discovered end users’, stakeholders’, and product owners’ needs in planning massive enterprise-sized administrative web applications","Created wireframes and user flows for business analysts, policy makers, and SMEs for enterprise applications","Continuously updated accessibility and design practices based upon information from authoritative sources","Trained business analysts to use wireframing software such as Sketch and Figma","Trained developers in semantic HTML and screen readers","Mentored junior designers","Kick-started the creation of a design system, user experience documentation, Figma libraries, Accessibility initiatives, and a branding documentation site","Created and maintained wireframe and mockup libraries to standardize business analysts’ work across teams","Introduced and advocated for accessibility, usability concerns in internal and public-facing experiences","Discovered end users’, stakeholders’, and product owners’ needs in planning massive enterprise-sized administrative web applications","Created wireframes and user flows for business analysts, policy makers, and SMEs for enterprise applications","Continuously updated accessibility and design practices based upon information from authoritative sources","Trained business analysts to use wireframing software such as Sketch and Figma","Trained developers in semantic HTML and screen readers","Mentored junior designers"]
+			"listItems":["Kick-started the creation of a design system, user experience documentation, Figma libraries, Accessibility initiatives, and a branding documentation site","Created and maintained wireframe and mockup libraries to standardize business analysts’ work across teams","Introduced and advocated for accessibility, usability concerns in internal and public-facing experiences","Discovered end users’, stakeholders’, and product owners’ needs in planning massive enterprise-sized administrative web applications","Created wireframes and user flows for business analysts, policy makers, and SMEs for enterprise applications","Continuously updated accessibility and design practices based upon information from authoritative sources","Trained business analysts to use wireframing software such as Sketch and Figma","Trained developers in semantic HTML and screen readers","Mentored junior designers"]
 		},
 		{
 			"role":"Interaction / Frontend Designer",
@@ -107,7 +107,7 @@
 			"listItems":["Designed user interfaces for web, mobile, and desktop applications","Designed the corporate brand and acted as the brand manager","Designed icons"]
 		}
 	],
-	"talks given":[
+	"talks_given":[
 		{
 			"title":"Just in Time Usability",
 			"description":"Isral Duke presents why accessibility is important for business. He also presents 10 things that site owners can do to quick check their site’s accessibility and usability. Presented at a local ecommerce group lunch.",
@@ -147,7 +147,7 @@
 			"date":"2007-04-01"
 		}
 	],
-	"professional references":[
+	"professional_references":[
 		{
 			"title":"Elle Waters",
 			"link":"https://www.linkedin.com/in/nethermind",
