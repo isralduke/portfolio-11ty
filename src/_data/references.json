@@ -12,6 +12,18 @@
 		"image":""
 	},
 	{
+		"title":"Glynnis Ritchie",
+		"link":"https://www.linkedin.com/in/glynnisritchie",
+		"description":"UX / UI Designer",
+		"image":""
+	},
+	{
+		"title":"Kristina Truong",
+		"link":"https://www.linkedin.com/in/haotaku",
+		"description":"Mentored UX / UI Designer",
+		"image":""
+	},
+	{
 		"title":"Dr. James Davis",
 		"link":"https://www.linkedin.com/in/jdavisphd",
 		"description":"Freelance client",
@@ -20,7 +32,7 @@
 	{
 		"title":"James Alt",
 		"link":"https://www.linkedin.com/in/altjames",
-		"description":"Supervisor",
+		"description":"Director of Engineering",
 		"image":""
 	},
 	{
@@ -32,13 +44,7 @@
 	{
 		"title":"Mike Cole",
 		"link":"https://www.linkedin.com/in/mike-cole-lsu",
-		"description":"Software Engineer Co-Worker",
-		"image":""
-	},
-	{
-		"title":"Glynnis Ritchie",
-		"link":"https://www.linkedin.com/in/glynnisritchie",
-		"description":"Supervisor",
+		"description":"Software Engineer",
 		"image":""
 	},
 	{

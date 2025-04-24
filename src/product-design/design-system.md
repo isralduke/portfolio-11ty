@@ -21,7 +21,7 @@ designFile : https://www.figma.com/community/file/1080971993134221445
 
 sections:
   - name: Project Goal
-    content: 'Create and maintain a design system to enable developers and designers to reuse proven user experience patterns within an ecosystem of organizations. It’s named [Pelican Design System](https://pelican.ots.la.gov) and is being actively designed and developed for official web aplications for the state of Louisiana.'
+    content: 'Create and maintain a design system to enable developers and designers to reuse proven user experience patterns within an ecosystem of organizations. It’s named <a href="https://pelican.ots.la.gov">Pelican Design System</a> and is being actively designed and developed for official web aplications for the state of Louisiana.'
   - name: Target Audience
     content: 'The primary users for this design system are senior developers, mid-level developers, junior developers, and user experience designers. Secondary users are the business analysts and product owners. Tertiary users are stakeholders who decide to adopt the design system for their products.'
     imageAlts:
@@ -40,7 +40,7 @@ sections:
       - 'Sources, ideas, and features we wanted to implement in the design system.'
       - 'Feedback from developers about features they wanted in the design system.'
   - name: Conclusion
-    content: 'The [Pelican Design System](https://pelican.ots.la.gov) is currently at version 1. Version 2 is close to release. Pelican 3 is actually in the early research and ideation stage to build it from scratch instead of basing it upon Bootstrap.'
+    content: 'The <a href="https://pelican.ots.la.gov">Pelican Design System</a> is currently at version 2. Pelican 3 is actually in the early research and ideation stage to build it from scratch instead of basing it upon Bootstrap.'
 
 ---
 
