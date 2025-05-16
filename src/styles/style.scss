@@ -767,6 +767,19 @@ footer {
 	margin-bottom: 1rem;
 }
 
+.multi-columns {
+	margin-top: 1rem;
+	li {
+		margin-bottom: .5rem;
+	}
+	@media screen and (min-width: 1024px) {
+		columns: 2;
+	}
+	@media screen and (min-width: 1366px) {
+		columns: 3;
+	}
+}
+
 .skip {
 	display: block;
 	color: var(--id-color-white);

@@ -1,9 +1,21 @@
 [
 	{
+		"title":"Practical Accessibility",
+		"date":"2025-01-07",
+		"link":"https://www.dropbox.com/scl/fi/nuczlr5phcd6zjzsh9sdj/isral-Duke-2.pdf?rlkey=3kf91o54otjm65h0in9s8z0ru&dl=0",
+		"description":"Certified by Sara Soueidan"
+	},
+	{
 		"title":"DHS Trusted Tester Certification",
 		"date":"2024-10-28",
 		"link":"https://www.dropbox.com/scl/fi/tp8qy3ttg5k9frqbcdqcs/Isral-Duke.pdf?rlkey=urzvjljzngxeamcpr2wbrpv6z&dl=0",
 		"description":"Certified by Department of Homeland Security"
+	},
+	{
+		"title":"Smart Interface Design Patterns",
+		"date":"2024-05-31",
+		"link":"https://badge.smart-interface-design-patterns.com/isral-duke/",
+		"description":"Certified by Smashing Magazine"
 	},
 	{
 		"title":"Designers Accessibility Curriculum",
@@ -22,12 +34,6 @@
 		"date":"2021-11-24",
 		"link":"https://www.coursera.org/account/accomplishments/professional-cert/YD2XXQJSTD8V?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof",
 		"description":"Certified by Google via Coursera"
-	},
-	{
-		"title":"Smart Interface Design Patterns",
-		"date":"2024-05-31",
-		"link":"https://badge.smart-interface-design-patterns.com/isral-duke/",
-		"description":"Certified by Smashing Magazine"
 	},
 	{
 		"title":"Interaction Design",

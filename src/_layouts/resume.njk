@@ -20,7 +20,7 @@ heroClass : hero-page
 <div class="content">
 	<div class="grid-item">
 		<h2 id="references">References</h2>
-		<ul aria-labelledby="references" class="bullet-list">
+		<ul class="multi-columns" aria-labelledby="references" class="bullet-list">
 			{% for item in references %}
 			<li>
 				<a href="{{ item.link }}" class="prominent-link">{{ item.title }}</a> {{ item.description }}
