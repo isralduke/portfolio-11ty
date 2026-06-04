@@ -40,12 +40,16 @@
 	{% endfor %}
 </ul>
 
+
 <h2 class="h2">References</h2>
-<ul class="multi-columns">
+<div class="multi-columns">
 	{% for item in references %}
-	<li><a href="{{ item.link }}">{{ item.title }}</a>, {{ item.description }}</li>
+	YO
+	<div class="card-references">
+		<a href="{{ item.link }}">{{ item.title }}</a>, {{ item.description }}
+	</div>
 	{% endfor %}
-</ul>
+</div>
 
 
 <h2 >Experience</h2>

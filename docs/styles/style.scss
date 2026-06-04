@@ -294,7 +294,7 @@ main {
 			}
 		}
 		&:has(.prominent-link) {
-			line-height: 1;
+			line-height: 1.45;
 		}
 	}
 	ul.bullet-list {
@@ -769,15 +769,26 @@ footer {
 
 .multi-columns {
 	margin-top: 1rem;
-	li {
-		margin-bottom: .5rem;
+	display: flex;
+	flex-wrap: wrap;
+	gap: calc( var(--id-spacing-default) * .5 );
+}
+.card-references {
+	padding: var(--id-spacing-default);
+	background-color: white;
+	flex: 1 1 100%;
+	img {
+		width: 25%;
+		max-width: 8rem;
+		margin: 0 1rem 0 0;
+		float: left;
 	}
-	@media screen and (min-width: 1024px) {
-		columns: 2;
+	p {
+		line-height: 1.25;
 	}
-	@media screen and (min-width: 1366px) {
-		columns: 3;
-	}
+	@media screen and (min-width: 992px) {
+		flex: 1 0 calc(33% - var(--id-spacing-default));
+	}	
 }
 
 .skip {

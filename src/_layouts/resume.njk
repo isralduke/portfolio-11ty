@@ -20,13 +20,15 @@ heroClass : hero-page
 <div class="content">
 	<div class="grid-item">
 		<h2 id="references">References</h2>
-		<ul class="multi-columns" aria-labelledby="references" class="bullet-list">
+		<div class="multi-columns" aria-labelledby="references" class="bullet-list" role="list">
 			{% for item in references %}
-			<li>
-				<a href="{{ item.link }}" class="prominent-link">{{ item.title }}</a> {{ item.description }}
-			</li>
+			<div class="card-references" role="listitem">
+				<img src="{{ item.image }}" alt="{{ item.name}} profile photo from LinkedIn.">
+				<p><a href="{{ item.link }}">{{ item.name }}</a></p>
+				<p>{{ item.title }} at {{ item.employer }}.</p>
+			</div>
 			{% endfor %}
-		</ul>
+		</div>
 	</div>
 </div>
 
