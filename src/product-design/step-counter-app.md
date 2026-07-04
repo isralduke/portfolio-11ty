@@ -24,6 +24,9 @@ sections:
     content: 'Create a way for people to quickly see their step count on their Apple Watch face as a complication.'
   - name: Target Audience
     content: 'The user for Duffy is health-conscious. They’re probably best described as lay persons of the fitness world because calories and kCals aren’t how they measure their daily fitness goals. They use Fitness and Health apps in iOS.'
+    images:
+      - '/images/product-design/step-counter-app/target-audience-1.jpg'
+      - '/images/product-design/step-counter-app/target-audience-2.jpg'
     imageAlts:
       - 'Persona card for Bruce who just wants simplicity in task completion.'
       - 'Persona card for Tonya who wants to keep track of her walking during the day.'
@@ -31,11 +34,17 @@ sections:
     content: 'I casually talked with a few iOS Fitness and Health apps users. This is a personal project so I didn’t use the full research process I use in other projects. The iOS Fitness and Health apps require many taps to see the step count. The metric and graphs are useful but they just want a way to see their steps on the Apple Watch faces. The key challenges are keeping the feature set simple enough to fit into native platform constraints. We also wanted to keep tight conceptual integrity because the smallest Apple Watch screen is only 340 by 272 pixels.'
   - name: Initial Design Concepts & Wireframes
     content: 'Sketches start in collaborative meetings between the developer and me. As I draw potential interfaces the developer immediately offers feedback on the level of effort and feasibility.'
+    images:
+      - '/images/product-design/step-counter-app/initial-design-concepts-and-wireframes-1.jpg'
+      - '/images/product-design/step-counter-app/initial-design-concepts-and-wireframes-2.jpg'
     imageAlts: 
       - 'Handsketches for ideations on how much to show in the watch app.'
       - 'Handsketches for ideations on the iOS piece of the app.'
   - name: Usability Testing
     content: 'I asked the iOS Fitness and Health apps users to review the initial sketches to get their initial impressions. Even though I skipped much of the usual research steps and artefacts I used affinity groups to communicate usability themes with the developer.'
+    images:
+      - '/images/product-design/step-counter-app/usability-testing-1.jpg'
+      - '/images/product-design/step-counter-app/usability-testing-2.jpg'
     imageAlts: 
       - 'Usability cues taken from talking to people about their experience using the iOS Health app.'
       - 'Usability insights taken from questions from representative users.'

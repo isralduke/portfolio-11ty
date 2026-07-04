@@ -24,13 +24,23 @@ sections:
     content: 'Create a brand new mobile experience for the gallery. Visitors can buy tickets, learn about upcoming gallery events, and plan their next visit.'
   - name: Target Audience
     content: The target audience is two groups of people. The first group is made of retired, senior visitors who often rely on transportation services to go to the gallery. The second group is young professionals who want to plan evening and weekend outings at the gallery.
+    images:
+      - ‘/images/product-design/art-gallery-app/target-audience-1.jpg’
+      - ‘/images/product-design/art-gallery-app/target-audience-2.jpg’
+      - ‘/images/product-design/art-gallery-app/target-audience-3.jpg’
+      - ‘/images/product-design/art-gallery-app/target-audience-4.jpg’
     imageAlts:
-      - 'Persona card for Dotty who represents users who are older and use the app to plan their visits rather than consume art in the app.'
-      - 'Persona card for Bao who represents users who are younger and use the app to buy tickets for themselves and others.'
-      - 'Storyboard created to understand Dotty’s day.'
-      - 'Storyboard created to understand Bao’s day.'
+      - ‘Persona card for Dotty who represents users who are older and use the app to plan their visits rather than consume art in the app.’
+      - ‘Persona card for Bao who represents users who are younger and use the app to buy tickets for themselves and others.’
+      - ‘Storyboard created to understand Dotty’s day.’
+      - ‘Storyboard created to understand Bao’s day.’
   - name: Research & Key Challenges
     content: 'I used an <a href="https://docs.google.com/spreadsheets/d/1ZGKmeZwhySw5s2tmV382cn9GItDQZUIeuVlgsDFsruw/edit?usp=sharing">online survey to determine the content</a> people expect in an art gallery app and which art galleries came to mind for what I should consider. Participants were chosen from people who normally visit art galleries and art museums. I conducted in-person and remote interviews. The key challenges in the process was arranging for the in-person usability studies for the seniors who make up the first segment of the target audience. Segment two was comfortable with video interviews.'
+    images:
+      - '/images/product-design/art-gallery-app/research-and-key-challenges-1.jpg'
+      - '/images/product-design/art-gallery-app/research-and-key-challenges-2.jpg'
+      - '/images/product-design/art-gallery-app/research-and-key-challenges-3.jpg'
+      - '/images/product-design/art-gallery-app/research-and-key-challenges-4.jpg'
     imageAlts: 
       - 'Preview of the virtual survey used to gather feature and content expectations.'
       - 'Preview of the competitive audit performed on art gallery sites and apps.'
@@ -39,11 +49,17 @@ sections:
       
   - name: Initial Design Concepts & Wireframes
     content: 'After thinking about the research I started creating hand-drawn wireframes using the <a href="https://designsprintkit.withgoogle.com/methodology/phase3-sketch/crazy-8s">Crazy 8s method</a>. After selecting the most promising ideas, I created wireframes in Figma. The best ideas from initial design concepts were translated into digital wireframes.'
+    images:
+      - '/images/product-design/art-gallery-app/initial-design-concepts-and-wireframes-1.jpg'
+      - '/images/product-design/art-gallery-app/initial-design-concepts-and-wireframes-2.jpg'
     imageAlts: 
       - 'Crazy eight marker sketches for various user flows.'
       - 'Digital wireframes created from the best concepts from the crazy eight ideations.'
   - name: Usability Testing
     content: 'Participants reviewed the digital wireframes and answered questions about navigation, expectations, and preferences. Their feedback became usability testing data and recorded in a spreadsheet for each participant. Those responses became affinity groups. The usability work informed the final design.'
+    images:
+      - '/images/product-design/art-gallery-app/usability-testing-1.jpg'
+      - '/images/product-design/art-gallery-app/usability-testing-2.jpg'
     imageAlts: 
       - 'Usability issues and insights gathered from testers one and two while using the wireframe prototype.'
       - 'Usability successes gathered from testers while using the wireframe prototype.'

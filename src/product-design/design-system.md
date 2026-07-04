@@ -24,6 +24,9 @@ sections:
     content: 'Create and maintain a design system to enable developers and designers to reuse proven user experience patterns within an ecosystem of organizations. It’s named <a href="https://pelican.ots.la.gov">Pelican Design System</a> and is being actively designed and developed for official web aplications for the state of Louisiana.'
   - name: Target Audience
     content: 'The primary users for this design system are senior developers, mid-level developers, junior developers, and user experience designers. Secondary users are the business analysts and product owners. Tertiary users are stakeholders who decide to adopt the design system for their products.'
+    images:
+      - '/images/product-design/design-system/target-audience-1.jpg'
+      - '/images/product-design/design-system/target-audience-2.jpg'
     imageAlts:
       - 'Persona card for Lalana who represents designers who will use the design system in Figma and during client and business analyst meetings.'
       - 'Persona card for Umang who represents developers who will use the design system in code and during user acceptance testing.'
@@ -31,11 +34,17 @@ sections:
     content: 'The design system’s original research was performed by taking a user interface inventory of two vast web applications which were being modernized. But, research never stops. The design system is continually applied to unknown web applications which were not updates for many years. As these obscure web applications are discovered new components are added to the design system if it can be used in more than one place. Many stakeholders were unaware of the value of a unified user experience across official products so convincing them of its value is an ongoing effort. Performing an inventory across a myriad of official web applications is a monumental task for which the design system has to flexible to accomodate unknown use cases.'
   - name: Initial Design Concepts & Wireframes
     content: 'Original concepts were created as wireframes between design team members. We chose final concepts from those which the whole team agreed could be most easily “sold” to external stakeholders. Wireframes were shared with business analysts and developers as they will have the most exposure to the design system outside of the design team.'
+    images:
+      - '/images/product-design/design-system/initial-design-concepts-and-wireframes-1.jpg'
+      - '/images/product-design/design-system/initial-design-concepts-and-wireframes-2.jpg'
     imageAlts: 
       - 'Layout idea for the home page in the design system.'
       - 'Layout idea for the area page in the design system.'
   - name: Usability Testing
     content: 'Usability testing started out by gathering successful design systems as inspirations. We choose design systems for  which we could easily benefit from its creator’s “halo effect” to prove parallel values. We also used wireframes to create imaginary, but feasible interface scenarios to show how the system would provide quicker turn-arounds and reusable benefits.'
+    images:
+      - '/images/product-design/design-system/usability-testing-1.jpg'
+      - '/images/product-design/design-system/usability-testing-2.jpg'
     imageAlts: 
       - 'Sources, ideas, and features we wanted to implement in the design system.'
       - 'Feedback from developers about features they wanted in the design system.'

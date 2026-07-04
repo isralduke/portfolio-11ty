@@ -24,6 +24,9 @@ sections:
     content: 'Create a mobile app for people attending [SQL Saturday Baton Rouge, LA](https://sqlsaturday.com/2022-08-06-sqlsaturday1026/), an annual developer-focused conference. Allow them to bookmark sessions and browse by session metadata.'
   - name: Target Audience
     content: 'Developers, database administrators, and other information technology workers such as designers, projects managers, and business analysts.'
+    images:
+      - '/images/product-design/event-guide-app/target-audience-1.jpg'
+      - '/images/product-design/event-guide-app/target-audience-2.jpg'
     imageAlts:
       - 'Persona card for William who represents back end developers and users who care about the data model of the app.'
       - 'Persona card for Gwenly who represents designers and the information organization within the app.'
@@ -31,12 +34,19 @@ sections:
     content: 'Research was conducted using past years’ attendees’ feedback surveys. Features were generated from insights gathered from the surveys. The app is designed to be easily developed using Xamarin and many pre-defined layouts within Xamarin. Using pre-defined layouts enabled us to produce the app more quickly for both iOS and Android phones.'
   - name: Initial Design Concepts & Wireframes
     content: 'The initial design concepts were sketched on the fly in one of the initial planning meetings for the event. Using an ad hoc competitive analysis of other event guide apps, the event advisory board generated the app parameters.'
+    images:
+      - '/images/product-design/event-guide-app/initial-design-concepts-and-wireframes-1.jpg'
+      - '/images/product-design/event-guide-app/initial-design-concepts-and-wireframes-2.jpg'
+      - '/images/product-design/event-guide-app/initial-design-concepts-and-wireframes-3.jpg'
     imageAlts: 
       - 'Digital hand sketch of the home screen and bookmarked sessions screen.'
       - 'Digital hand sketch of the session details screen and the session categories screen.'
       - 'Digital hand sketch of the speaker details screen.'
   - name: Usability Testing
     content: 'Usability was taken from the limitations and the considerations discussed by the executive. These items were influenced by the timeline and technical constraints of the project.'
+    images:
+      - '/images/product-design/event-guide-app/usability-testing-1.jpg'
+      - '/images/product-design/event-guide-app/usability-testing-2.jpg'
     imageAlts: 
       - 'Feature constraints captured from an executive team member.'
       - 'Technical constraints captured from several executive team members.'

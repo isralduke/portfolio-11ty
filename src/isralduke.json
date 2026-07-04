@@ -201,5 +201,640 @@
 			"link":"https://www.linkedin.com/in/myrnaarroyo",
 			"description":"Freelance client"
 		}
+	],
+	"product_design":[
+		{
+			"title":"Art Gallery App",
+			"date":"2021-11-20",
+			"excerpt":"Art gallery app helps visitors plan trips, see current artwork collections, and buy tickets for themselves and loved ones.",
+			"slug":"art-gallery-app",
+			"url":"/product-design/art-gallery-app/",
+			"stats":[
+				{"label":"Type","value":"Personal"},
+				{"label":"Platform","value":"iOS"},
+				{"label":"Status","value":"Proposed"}
+			],
+			"roles":["User Researcher","UX & UI Designer","Visual Designer"],
+			"tryitLink":"https://www.figma.com/proto/Hh5HjU7yPB3WbHwYxFKIDj/Art-Gallery-Tour?page-id=138%3A932&node-id=138%3A940&viewport=241%2C48%2C0.11&scaling=scale-down&",
+			"designFile":"https://www.figma.com/file/Hh5HjU7yPB3WbHwYxFKIDj/gallerWeMe-art-gallery?node-id=138%3A932",
+			"sections":[
+				{
+					"name":"Project Goal",
+					"content":"Create a brand new mobile experience for the gallery. Visitors can buy tickets, learn about upcoming gallery events, and plan their next visit."
+				},
+				{
+					"name":"Target Audience",
+					"content":"The target audience is two groups of people. The first group is made of retired, senior visitors who often rely on transportation services to go to the gallery. The second group is young professionals who want to plan evening and weekend outings at the gallery.",
+					"images":[
+						"/images/product-design/art-gallery-app/target-audience-1.jpg",
+						"/images/product-design/art-gallery-app/target-audience-2.jpg",
+						"/images/product-design/art-gallery-app/target-audience-3.jpg",
+						"/images/product-design/art-gallery-app/target-audience-4.jpg"
+					],
+					"imageAlts":[
+						"Persona card for Dotty who represents users who are older and use the app to plan their visits rather than consume art in the app.",
+						"Persona card for Bao who represents users who are younger and use the app to buy tickets for themselves and others.",
+						"Storyboard created to understand Dotty's day.",
+						"Storyboard created to understand Bao's day."
+					]
+				},
+				{
+					"name":"Research & Key Challenges",
+					"content":"I used an online survey to determine the content people expect in an art gallery app. Participants were chosen from people who normally visit art galleries and art museums. I conducted in-person and remote interviews. The key challenge was arranging in-person usability studies for the senior segment of the target audience.",
+					"images":[
+						"/images/product-design/art-gallery-app/research-and-key-challenges-1.jpg",
+						"/images/product-design/art-gallery-app/research-and-key-challenges-2.jpg",
+						"/images/product-design/art-gallery-app/research-and-key-challenges-3.jpg",
+						"/images/product-design/art-gallery-app/research-and-key-challenges-4.jpg"
+					],
+					"imageAlts":[
+						"Preview of the virtual survey used to gather feature and content expectations.",
+						"Preview of the competitive audit performed on art gallery sites and apps.",
+						"User journey map for Persona 2.",
+						"Preview of the responses from the virtual survey."
+					]
+				},
+				{
+					"name":"Initial Design Concepts & Wireframes",
+					"content":"After thinking about the research I started creating hand-drawn wireframes using the Crazy 8s method. After selecting the most promising ideas, I created wireframes in Figma. The best ideas from initial design concepts were translated into digital wireframes.",
+					"images":[
+						"/images/product-design/art-gallery-app/initial-design-concepts-and-wireframes-1.jpg",
+						"/images/product-design/art-gallery-app/initial-design-concepts-and-wireframes-2.jpg"
+					],
+					"imageAlts":[
+						"Crazy eight marker sketches for various user flows.",
+						"Digital wireframes created from the best concepts from the crazy eight ideations."
+					]
+				},
+				{
+					"name":"Usability Testing",
+					"content":"Participants reviewed the digital wireframes and answered questions about navigation, expectations, and preferences. Their feedback became usability testing data recorded in a spreadsheet for each participant. Those responses became affinity groups. The usability work informed the final design.",
+					"images":[
+						"/images/product-design/art-gallery-app/usability-testing-1.jpg",
+						"/images/product-design/art-gallery-app/usability-testing-2.jpg"
+					],
+					"imageAlts":[
+						"Usability issues and insights gathered from testers one and two while using the wireframe prototype.",
+						"Usability successes gathered from testers while using the wireframe prototype."
+					]
+				},
+				{
+					"name":"Conclusion",
+					"content":"The art gallery mobile app's design is fun, richly-hued with saturated colors, and provokes curiosity by using bold visual design choices. Other art gallery apps I reviewed were a little stiff and elite so I chose saturated, exuberant colors in the visual design. However, I was more restrained in the ticket purchase screens."
+				}
+			]
+		},
+		{
+			"title":"Budget App",
+			"date":"2021-11-22",
+			"excerpt":"Budgeting app helps people who are new to budgeting create a budget and think along with their budget as they spend.",
+			"slug":"budget-app",
+			"url":"/product-design/budget-app/",
+			"stats":[
+				{"label":"Type","value":"Personal"},
+				{"label":"Platform","value":"iOS"},
+				{"label":"Status","value":"Proposed"}
+			],
+			"roles":["User Researcher","UX Designer","UI Designer"],
+			"tryitLink":"https://www.figma.com/proto/he8ruRik6mfojjhDm53qgv/Budget-Buddy?node-id=135%3A1593&scaling=scale-down&page-id=115%3A1649&starting-point-node-id=135%3A1592",
+			"designFile":"https://www.figma.com/file/he8ruRik6mfojjhDm53qgv/Budget-Buddy?node-id=115%3A1649",
+			"sections":[
+				{
+					"name":"Project Goal",
+					"content":"Create a brand new budget mobile app to help people create and stick to a budget. The app will put all aspects of their budgets just a few taps away."
+				},
+				{
+					"name":"Target Audience",
+					"content":"The primary audience is young adults and young professionals who have never used a budget before. The secondary audience is young adults who have tried budget apps but found them too complex.",
+					"images":[
+						"/images/product-design/budget-app/target-audience-1.jpg",
+						"/images/product-design/budget-app/target-audience-2.jpg"
+					],
+					"imageAlts":[
+						"Persona card for John who represents users who often start but quit using budget apps.",
+						"Persona card for Lucy who represents users who like budget apps but want simpler offerings."
+					]
+				},
+				{
+					"name":"Research & Key Challenges",
+					"content":"I used Google Docs questionnaires and remote interviews for a wide range of ages. The key challenges were to limit the features to just those which will educate first-time budgeters about budget concepts. The participants said that budget apps they tried were too complex so I kept the feature set limited.",
+					"images":[
+						"/images/product-design/budget-app/research-and-key-challenges-1.jpg",
+						"/images/product-design/budget-app/research-and-key-challenges-2.jpg",
+						"/images/product-design/budget-app/research-and-key-challenges-3.jpg",
+						"/images/product-design/budget-app/research-and-key-challenges-4.jpg"
+					],
+					"imageAlts":[
+						"Competitive audit synopsis showing a preview of the spreadsheet with audit data.",
+						"Interview transcript snippet showing some sample questions asked of John.",
+						"Insight identification data distilled into meaningful directions.",
+						"Preview of the U X research study."
+					]
+				},
+				{
+					"name":"Initial Design Concepts & Wireframes",
+					"content":"First I drew many hand sketches to capture my initial design ideas using the Crazy 8s method. The best ideas from my initial design concepts were translated into digital wireframes in Figma.",
+					"images":[
+						"/images/product-design/budget-app/initial-design-concepts-and-wireframes-1.jpg",
+						"/images/product-design/budget-app/initial-design-concepts-and-wireframes-2.jpg"
+					],
+					"imageAlts":[
+						"Crazy eight marker sketches for various screens.",
+						"Digital wireframes created from the best concepts from the crazy eight ideations."
+					]
+				},
+				{
+					"name":"Usability Testing",
+					"content":"Participants reviewed the digital wireframes and answered questions about navigation and budget concepts. Their feedback was recorded in a spreadsheet for each participant. The responses were transformed into affinity groups to find themes.",
+					"images":[
+						"/images/product-design/budget-app/usability-testing-1.jpg",
+						"/images/product-design/budget-app/usability-testing-2.jpg"
+					],
+					"imageAlts":[
+						"Usability issues and insights gathered from tester one during wireframe prototype use.",
+						"Usability issues and insights gathered from tester two during wireframe prototype use."
+					]
+				},
+				{
+					"name":"Conclusion",
+					"content":"The budget app design is neutral. I decided not to make it fun or serious because the apps tried by my participants fell into one or the other style and it didn't help them. The app has light and dark modes which are warm and approachable."
+				}
+			]
+		},
+		{
+			"title":"Design System",
+			"date":"2021-11-24",
+			"excerpt":"Design System allows team members to access a single source of truth and quickly produce value.",
+			"slug":"design-system",
+			"url":"/product-design/design-system/",
+			"stats":[
+				{"label":"Type","value":"Employer"},
+				{"label":"Platform","value":"Web"},
+				{"label":"Status","value":"Published"}
+			],
+			"roles":["User Researcher","UI Designer","Frontend Designer","Visual Designer"],
+			"tryitLink":"https://pelican.ots.la.gov",
+			"designFile":"https://www.figma.com/community/file/1080971993134221445",
+			"sections":[
+				{
+					"name":"Project Goal",
+					"content":"Create and maintain a design system to enable developers and designers to reuse proven user experience patterns within an ecosystem of organizations. Named Pelican Design System, it is being actively designed and developed for official web applications for the state of Louisiana."
+				},
+				{
+					"name":"Target Audience",
+					"content":"The primary users are senior, mid-level, and junior developers, and user experience designers. Secondary users are business analysts and product owners. Tertiary users are stakeholders who decide to adopt the design system for their products.",
+					"images":[
+						"/images/product-design/design-system/target-audience-1.jpg",
+						"/images/product-design/design-system/target-audience-2.jpg"
+					],
+					"imageAlts":[
+						"Persona card for Lalana who represents designers who will use the design system in Figma and during client and business analyst meetings.",
+						"Persona card for Umang who represents developers who will use the design system in code and during user acceptance testing."
+					]
+				},
+				{
+					"name":"Research & Key Challenges",
+					"content":"The design system's original research was performed by taking a user interface inventory of two vast web applications being modernized. Research never stops — the design system is continually applied to newly discovered web applications. Performing an inventory across a myriad of official web applications is a monumental task requiring flexibility to accommodate unknown use cases."
+				},
+				{
+					"name":"Initial Design Concepts & Wireframes",
+					"content":"Original concepts were created as wireframes between design team members. We chose final concepts from those which the whole team agreed could be most easily sold to external stakeholders. Wireframes were shared with business analysts and developers who have the most exposure to the design system outside of the design team.",
+					"images":[
+						"/images/product-design/design-system/initial-design-concepts-and-wireframes-1.jpg",
+						"/images/product-design/design-system/initial-design-concepts-and-wireframes-2.jpg"
+					],
+					"imageAlts":[
+						"Layout idea for the home page in the design system.",
+						"Layout idea for the area page in the design system."
+					]
+				},
+				{
+					"name":"Usability Testing",
+					"content":"Usability testing started out by gathering successful design systems as inspirations. We chose design systems whose creator's halo effect would help prove parallel values. We also used wireframes to create imaginary but feasible interface scenarios to show how the system would provide quicker turn-arounds and reusable benefits.",
+					"images":[
+						"/images/product-design/design-system/usability-testing-1.jpg",
+						"/images/product-design/design-system/usability-testing-2.jpg"
+					],
+					"imageAlts":[
+						"Sources, ideas, and features we wanted to implement in the design system.",
+						"Feedback from developers about features they wanted in the design system."
+					]
+				},
+				{
+					"name":"Conclusion",
+					"content":"The Pelican Design System is currently at version 2. Pelican 3 is in the early research and ideation stage to build it from scratch instead of basing it upon Bootstrap."
+				}
+			]
+		},
+		{
+			"title":"Event Guide App",
+			"date":"2021-11-27",
+			"excerpt":"Mobile app provides conference attendees quick access to relevant presentation details and schedule information.",
+			"slug":"event-guide-app",
+			"url":"/product-design/event-guide-app/",
+			"stats":[
+				{"label":"Type","value":"Personal"},
+				{"label":"Platform","value":"Xamarin"},
+				{"label":"Status","value":"Proposed"}
+			],
+			"roles":["UX Designer","UI Designer"],
+			"tryitLink":"https://www.figma.com/proto/4EtTiMKTB2q2TOmenmbnJM/SQL-Sat-Guidebook?page-id=0%3A1&node-id=4%3A1383&viewport=241%2C48%2C0.25&scaling=scale-down&starting-point-node-id=0%3A76",
+			"designFile":"https://www.figma.com/file/4EtTiMKTB2q2TOmenmbnJM/?node-id=0%3A1",
+			"sections":[
+				{
+					"name":"Project Goal",
+					"content":"Create a mobile app for people attending SQL Saturday Baton Rouge, LA, an annual developer-focused conference. Allow them to bookmark sessions and browse by session metadata."
+				},
+				{
+					"name":"Target Audience",
+					"content":"Developers, database administrators, and other information technology workers such as designers, project managers, and business analysts.",
+					"images":[
+						"/images/product-design/event-guide-app/target-audience-1.jpg",
+						"/images/product-design/event-guide-app/target-audience-2.jpg"
+					],
+					"imageAlts":[
+						"Persona card for William who represents back end developers and users who care about the data model of the app.",
+						"Persona card for Gwenly who represents designers and the information organization within the app."
+					]
+				},
+				{
+					"name":"Research & Key Challenges",
+					"content":"Research was conducted using past years' attendees' feedback surveys. Features were generated from insights gathered from the surveys. The app is designed to be easily developed using Xamarin and many pre-defined layouts, enabling us to produce the app more quickly for both iOS and Android."
+				},
+				{
+					"name":"Initial Design Concepts & Wireframes",
+					"content":"The initial design concepts were sketched on the fly in one of the initial planning meetings for the event. Using an ad hoc competitive analysis of other event guide apps, the event advisory board generated the app parameters.",
+					"images":[
+						"/images/product-design/event-guide-app/initial-design-concepts-and-wireframes-1.jpg",
+						"/images/product-design/event-guide-app/initial-design-concepts-and-wireframes-2.jpg",
+						"/images/product-design/event-guide-app/initial-design-concepts-and-wireframes-3.jpg"
+					],
+					"imageAlts":[
+						"Digital hand sketch of the home screen and bookmarked sessions screen.",
+						"Digital hand sketch of the session details screen and the session categories screen.",
+						"Digital hand sketch of the speaker details screen."
+					]
+				},
+				{
+					"name":"Usability Testing",
+					"content":"Usability was taken from the limitations and considerations discussed by the executive team. These items were influenced by the timeline and technical constraints of the project.",
+					"images":[
+						"/images/product-design/event-guide-app/usability-testing-1.jpg",
+						"/images/product-design/event-guide-app/usability-testing-2.jpg"
+					],
+					"imageAlts":[
+						"Feature constraints captured from an executive team member.",
+						"Technical constraints captured from several executive team members."
+					]
+				},
+				{
+					"name":"Conclusion",
+					"content":"As dark modes are all the rage among developer IDEs, I designed the app with dark mode only. For the next year I will add a light mode to the app. The annual event is including more management types, so the additional choice will be timely."
+				}
+			]
+		},
+		{
+			"title":"Food Truck Site",
+			"date":"2021-11-28",
+			"excerpt":"A responsive website for a food truck allows visitors to find its daily location and pay ahead.",
+			"slug":"food-truck-site",
+			"url":"/product-design/food-truck-site/",
+			"stats":[
+				{"label":"Type","value":"Personal"},
+				{"label":"Platform","value":"Web"},
+				{"label":"Status","value":"Proposed"}
+			],
+			"roles":["User Researcher","UX Designer","Visual Designer"],
+			"tryitLink":"https://www.figma.com/proto/pPlHakn8QYDpx2taE25BGE/Street-Food-Vendor?page-id=418%3A151920&node-id=67%3A1184&viewport=241%2C48%2C0.5&scaling=scale-down&starting-point-node-id=67%3A1184",
+			"designFile":"https://www.figma.com/file/pPlHakn8QYDpx2taE25BGE/Food-Truck-site?type=design&node-id=41%3A1058&mode=design&t=lENFzMMkgVywG79A-1",
+			"sections":[
+				{
+					"name":"Project Goal",
+					"content":"Create a responsive website so customers know when the food truck is in their area and can place their order ahead of time."
+				},
+				{
+					"name":"Target Audience",
+					"content":"BzzTruck's audience is primarily onsite employees and workers in the cities where it has a presence. These are mostly office workers in a variety of sectors.",
+					"images":[
+						"/images/product-design/food-truck-site/target-audience-1.jpg",
+						"/images/product-design/food-truck-site/target-audience-2.jpg"
+					],
+					"imageAlts":[
+						"Persona card for Ricky, who represents older food truck site users and users who are pressed for time.",
+						"Persona card for Tina, who represents younger food truck site users and users who want a daily food experience."
+					]
+				},
+				{
+					"name":"Research & Key Challenges",
+					"content":"During remote interviews I uncovered popular food trucks in the regions where the participants lived. These participants also gave me information in the usability studies remotely, via teleconferencing and screen sharing, to create user journeys. The key challenge was to condense the client's expectations and market-standard features into a simple website.",
+					"images":[
+						"/images/product-design/food-truck-site/research-and-key-challenges-1.jpg",
+						"/images/product-design/food-truck-site/research-and-key-challenges-2.jpg",
+						"/images/product-design/food-truck-site/research-and-key-challenges-3.jpg",
+						"/images/product-design/food-truck-site/research-and-key-challenges-4.jpg"
+					],
+					"imageAlts":[
+						"User journey map for Ricky.",
+						"User journey map for Tina.",
+						"Empathy map for Ricky.",
+						"Empathy map for Tina."
+					]
+				},
+				{
+					"name":"Initial Design Concepts & Wireframes",
+					"content":"The wireframes were created alongside the users' input. Their interviews became the basis for decisions made in the digital wireframes.",
+					"images":[
+						"/images/product-design/food-truck-site/initial-design-concepts-and-wireframes-1.jpg",
+						"/images/product-design/food-truck-site/initial-design-concepts-and-wireframes-2.jpg"
+					],
+					"imageAlts":[
+						"Digital wireframes for the iPhone size screens for home, food details, payment, and shopping cart screens.",
+						"Digital wireframes for the iPad size screens for the home and contact screens."
+					]
+				},
+				{
+					"name":"Usability Testing",
+					"content":"Usability testing data was recorded in a spreadsheet for each of the participants. The responses were transformed into affinity groups to find themes.",
+					"images":[
+						"/images/product-design/food-truck-site/usability-testing-1.jpg",
+						"/images/product-design/food-truck-site/usability-testing-2.jpg"
+					],
+					"imageAlts":[
+						"Usability issues recorded when tester 1 reviewed the wireframe prototype.",
+						"Usability issues recorded when tester 2 reviewed the wireframe prototype."
+					]
+				},
+				{
+					"name":"Conclusion",
+					"content":"Depending on BzzTruck's business success, a mobile application will be designed which will feature notifications in conjunction with order ahead and proximity sensing."
+				}
+			]
+		},
+		{
+			"title":"Karaoke App",
+			"date":"2021-11-29",
+			"excerpt":"iOS application allows patrons to create and participate in ad hoc karaoke competitions.",
+			"slug":"karaoke-app",
+			"url":"/product-design/karaoke-app/",
+			"stats":[
+				{"label":"Type","value":"Contest Entrant"},
+				{"label":"Platform","value":"iOS"},
+				{"label":"Status","value":"Concept"}
+			],
+			"roles":["UI Designer","Star Performer"],
+			"tryitLink":"https://www.figma.com/proto/tPBiKe1NLVwLuJcD0875Ko/Karaoke-Competition?page-id=0%3A1&node-id=1%3A2&viewport=241%2C48%2C0.25&scaling=scale-down&starting-point-node-id=1%3A2",
+			"designFile":"https://www.figma.com/file/tPBiKe1NLVwLuJcD0875Ko/Karaoke-Competition?node-id=0%3A1",
+			"sections":[
+				{
+					"name":"Project Goal",
+					"content":"My team had to plan and design an app which met specified contest theme criteria in three hours. The contest theme was Let's Do It Again so we decided to submit an app for karaoke duets."
+				},
+				{
+					"name":"Target Audience",
+					"content":"The audience for the karaoke competition app, called Let's Duet Again, are bar patrons who want to compete as teams of two against other patrons. It's not uncommon for these users to experience temporary challenges, such as decreased cognitive capacities.",
+					"images":[
+						"/images/product-design/karaoke-app/target-audience-1.jpg",
+						"/images/product-design/karaoke-app/target-audience-2.jpg"
+					],
+					"imageAlts":[
+						"Persona card for Karina, representing younger karaoke competitors who use the karaoke competition app.",
+						"Persona card for Blake, representing older karaoke competitors who use the karaoke competition app."
+					]
+				},
+				{
+					"name":"Research & Key Challenges",
+					"content":"No research was done for this app. We had three hours to concept an app, design it, and present it. Given our time constraints, we used Lean UX and Genius Design while keeping user-centric principles in mind. The app doesn't require logins or accounts and uses local wifi and bluetooth to communicate with other users."
+				},
+				{
+					"name":"Initial Design Concepts & Wireframes",
+					"content":"Hand sketches were created after ad hoc audience interviews. Wireframes were skipped due to the contest time limit.",
+					"images":[
+						"/images/product-design/karaoke-app/initial-design-concepts-and-wireframes-1.jpg",
+						"/images/product-design/karaoke-app/initial-design-concepts-and-wireframes-2.jpg"
+					],
+					"imageAlts":[
+						"Hand sketches for home screen, team name submission screen, and music genre selection screen.",
+						"Hand sketches for song selection and winner screen. The sketch for audience voting has been crossed out."
+					]
+				},
+				{
+					"name":"Usability Testing",
+					"content":"Ad hoc interviews with audience members were carried out to determine potential problems users might encounter. The app's disposable nature precludes the need for logins or saved user information, resulting in an easier experience for patrons with less than their full cognitive capacity.",
+					"images":[
+						"/images/product-design/karaoke-app/usability-testing-1.jpg",
+						"/images/product-design/karaoke-app/usability-testing-2.jpg"
+					],
+					"imageAlts":[
+						"Potential usability problems brainstormed with audience members.",
+						"Action directives we derived from brainstorming with audience members."
+					]
+				},
+				{
+					"name":"Conclusion",
+					"content":"The team, The Pun-o-matics, won 1st Place People's Choice and 2nd Place Professionals' Choice awards at Adobe Creative Jam, New Orleans. The app isn't actually built but I'd love to collaborate with interested parties in actually building it.",
+					"images":[
+						"/images/product-design/karaoke-app/conclusion.jpg"
+					],
+					"imageAlts":[
+						"Karaoke competition app Adobe Creative Jam awards, won by Michael Alford and isral Duke."
+					]
+				}
+			]
+		},
+		{
+			"title":"Medical Diagnosis App",
+			"date":"2021-11-26",
+			"excerpt":"Web application allows licensed medical personnel to remotely diagnose patients.",
+			"slug":"medical-diagnosis-app",
+			"url":"/product-design/medical-diagnosis-app/",
+			"stats":[
+				{"label":"Type","value":"Client"},
+				{"label":"Platform","value":"Web"},
+				{"label":"Status","value":"Published"}
+			],
+			"roles":["UI Designer"],
+			"tryitLink":"https://www.figma.com/proto/3eZwSoXFfOuMdku5Vi9tfC/Telemedicine-Design?page-id=5%3A11973&node-id=0%3A122&viewport=241%2C48%2C0.12&scaling=scale-down&starting-point-node-id=0%3A122",
+			"designFile":"https://www.figma.com/file/3eZwSoXFfOuMdku5Vi9tfC/Telemedicine-Design?node-id=5%3A11973",
+			"sections":[
+				{
+					"name":"Project Goal",
+					"content":"Create a web app for qualified medical personnel to diagnose a telemedicine patient in 20 minutes or less. This covers the web application used by the healthcare professionals, not the mobile app used by the patients."
+				},
+				{
+					"name":"Target Audience",
+					"content":"The user for this web application is an educated, trained, and licensed nurse practitioner — the highest rank of nurse, legally sanctioned for diagnosing patients and writing limited prescriptions.",
+					"images":[
+						"/images/product-design/medical-diagnosis-app/target-audience-1.jpg",
+						"/images/product-design/medical-diagnosis-app/target-audience-2.jpg"
+					],
+					"imageAlts":[
+						"Persona card for Nancy who represents the nurse practitioners who use the web app process and diagnose patients.",
+						"Persona card for William who represents users of the mobile app to be treated and older users."
+					]
+				},
+				{
+					"name":"Research & Key Challenges",
+					"content":"Research inputs were provided by SMEs such as representative nurse practitioners and the CEO in direct, face-to-face communication. This web application needs to fit and work on small laptops to ensure maximum hardware compatibility. Controls are designed to be large enough for easy, non-precise clicking. Color choices are limited to reserve high-intensity colors for important status or patient-related info."
+				},
+				{
+					"name":"Initial Design Concepts & Wireframes",
+					"content":"The wireframes were collaboratively designed with the CIO and CEO, using their backgrounds in medicine and informatics, to guide the placement of widget regions. We iteratively arranged the regions until the executive team was satisfied.",
+					"images":[
+						"/images/product-design/medical-diagnosis-app/initial-design-concepts-and-wireframes-1.jpg",
+						"/images/product-design/medical-diagnosis-app/initial-design-concepts-and-wireframes-2.jpg"
+					],
+					"imageAlts":[
+						"Original digital wireframe of widget areas for the financials screen.",
+						"Original digital wireframe of the widget areas for the messages screen."
+					]
+				},
+				{
+					"name":"Usability Testing",
+					"content":"Usability testing data was recorded in a spreadsheet for each of the participants. The responses were transformed into affinity groups to find themes.",
+					"images":[
+						"/images/product-design/medical-diagnosis-app/usability-testing-1.jpg",
+						"/images/product-design/medical-diagnosis-app/usability-testing-2.jpg"
+					],
+					"imageAlts":[
+						"Incentivizing feature requests from medically-trained subject matter experts.",
+						"Constraint feature requests from medically-trained and administrative subject matter experts."
+					]
+				},
+				{
+					"name":"Conclusion",
+					"content":"Relief Telemed hoped the users, nurse practitioners, would be able to interact with one patient every twenty minutes. The actual rate turned out to be approximately one patient every 13 minutes."
+				}
+			]
+		},
+		{
+			"title":"Sketch Note App",
+			"date":"2021-11-25",
+			"excerpt":"Sketch note app allows users to create quick sticky notes on their phones.",
+			"slug":"sketch-note-app",
+			"url":"/product-design/sketch-note-app/",
+			"stats":[
+				{"label":"Type","value":"Personal"},
+				{"label":"Platform","value":"iOS"},
+				{"label":"Status","value":"Published"}
+			],
+			"roles":["User Researcher","UX Designer","UI Designer"],
+			"tryitLink":"https://www.figma.com/proto/9QpaowpepugdTBfLypuW3i/Squiddle?page-id=0%3A1&node-id=3%3A6&viewport=241%2C48%2C0.34&scaling=scale-down&starting-point-node-id=6%3A338",
+			"designFile":"https://www.figma.com/file/9QpaowpepugdTBfLypuW3i/Squiddle?node-id=0%3A1",
+			"sections":[
+				{
+					"name":"Project Goal",
+					"content":"The goal was to design a note-taking app which appeals to casual note takers."
+				},
+				{
+					"name":"Target Audience",
+					"content":"The target audience for the sketch note app is someone who likes to use their finger to draw quick sketch notes. They're not interested in a structured note. The act of scribbling a note is a natural, more organic experience than a text-editing experience.",
+					"images":[
+						"/images/product-design/sketch-note-app/target-audience-1.jpg",
+						"/images/product-design/sketch-note-app/target-audience-2.jpg"
+					],
+					"imageAlts":[
+						"Persona card for Lora who represents users who want to take a few moments longer to create visual notes.",
+						"Persona card for Simone who represents users who don't have much time to create visual notes."
+					]
+				},
+				{
+					"name":"Research & Key Challenges",
+					"content":"Research was performed by interviewing people who liked using real life sticky notes. The key challenge was repeatedly resisting our own efforts at gold plating."
+				},
+				{
+					"name":"Initial Design Concepts & Wireframes",
+					"content":"We started with real pencil and paper to immerse ourselves in the organic feel we wanted to preserve for the user. Squares are the shape of sticky notes and simple shapes, so we decided to stick to simple shapes for the user interface and icons as well.",
+					"images":[
+						"/images/product-design/sketch-note-app/initial-design-concepts-and-wireframes-1.jpg",
+						"/images/product-design/sketch-note-app/initial-design-concepts-and-wireframes-2.jpg"
+					],
+					"imageAlts":[
+						"Hand sketch showing original thoughts for the home, note, tag, and search screens.",
+						"Hand sketch showing original thinking for the pen, eraser, note, and text option screens."
+					]
+				},
+				{
+					"name":"Usability Testing",
+					"content":"We asked friends and family to look at Sketch mockups, sized for their phones, to get their feedback. We took that feedback to inform further iterative work on the app.",
+					"images":[
+						"/images/product-design/sketch-note-app/usability-testing-1.jpg",
+						"/images/product-design/sketch-note-app/usability-testing-2.jpg"
+					],
+					"imageAlts":[
+						"Questions from wireframe prototype tester number one.",
+						"Questions from wireframe prototype tester number two."
+					]
+				},
+				{
+					"name":"Conclusion",
+					"content":"While the first version of the app is in the App Store, we are currently working to make the second version more robust and friendly."
+				}
+			]
+		},
+		{
+			"title":"Step Counter App",
+			"date":"2021-11-21",
+			"excerpt":"A watchOS and iOS step counter app which gives users a glanceable view of their steps as a watch face complication with an accompanying iOS app.",
+			"slug":"step-counter-app",
+			"url":"/product-design/step-counter-app/",
+			"stats":[
+				{"label":"Type","value":"Personal"},
+				{"label":"Platform","value":"iOS"},
+				{"label":"Status","value":"Published"}
+			],
+			"roles":["User Researcher","UI Designer"],
+			"tryitLink":"https://apps.apple.com/us/app/duffy-steps-complication/id1207581673",
+			"designFile":"https://www.figma.com/file/Qx7rW9DLGHgGCmEcFkFwL0/Duffy?node-id=67%3A254",
+			"sections":[
+				{
+					"name":"Project Goal",
+					"content":"Create a way for people to quickly see their step count on their Apple Watch face as a complication."
+				},
+				{
+					"name":"Target Audience",
+					"content":"The user for Duffy is health-conscious. They're probably best described as lay persons of the fitness world because calories and kCals aren't how they measure their daily fitness goals. They use Fitness and Health apps in iOS.",
+					"images":[
+						"/images/product-design/step-counter-app/target-audience-1.jpg",
+						"/images/product-design/step-counter-app/target-audience-2.jpg"
+					],
+					"imageAlts":[
+						"Persona card for Bruce who just wants simplicity in task completion.",
+						"Persona card for Tonya who wants to keep track of her walking during the day."
+					]
+				},
+				{
+					"name":"Research & Key Challenges",
+					"content":"I casually talked with a few iOS Fitness and Health apps users. This is a personal project so I didn't use the full research process I use in other projects. The iOS Fitness and Health apps require many taps to see the step count. The key challenges are keeping the feature set simple enough to fit into native platform constraints while keeping tight conceptual integrity."
+				},
+				{
+					"name":"Initial Design Concepts & Wireframes",
+					"content":"Sketches start in collaborative meetings between the developer and me. As I draw potential interfaces the developer immediately offers feedback on the level of effort and feasibility.",
+					"images":[
+						"/images/product-design/step-counter-app/initial-design-concepts-and-wireframes-1.jpg",
+						"/images/product-design/step-counter-app/initial-design-concepts-and-wireframes-2.jpg"
+					],
+					"imageAlts":[
+						"Handsketches for ideations on how much to show in the watch app.",
+						"Handsketches for ideations on the iOS piece of the app."
+					]
+				},
+				{
+					"name":"Usability Testing",
+					"content":"I asked the iOS Fitness and Health apps users to review the initial sketches to get their initial impressions. Even though I skipped much of the usual research steps and artefacts I used affinity groups to communicate usability themes with the developer.",
+					"images":[
+						"/images/product-design/step-counter-app/usability-testing-1.jpg",
+						"/images/product-design/step-counter-app/usability-testing-2.jpg"
+					],
+					"imageAlts":[
+						"Usability cues taken from talking to people about their experience using the iOS Health app.",
+						"Usability insights taken from questions from representative users."
+					]
+				},
+				{
+					"name":"Conclusion",
+					"content":"It's a free app and you can get Duffy at the App Store for your Apple Watch and iPhone. We are currently working on a WatchOS 10 version and an iOS 17 version."
+				}
+			]
+		}
 	]
 }

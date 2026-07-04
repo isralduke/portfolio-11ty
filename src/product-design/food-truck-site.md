@@ -24,11 +24,19 @@ sections:
     content: 'Create a responsive website so customers know when the food truck is in their area and place their order ahead of time.'
   - name: Target Audience
     content: 'BzzTruck’s audience is primarily onsite employees and workers in the cities where it has a presence. These are mostly office workers in a variety of sectors.'
+    images:
+      - '/images/product-design/food-truck-site/target-audience-1.jpg'
+      - '/images/product-design/food-truck-site/target-audience-2.jpg'
     imageAlts:
       - 'Persona card for Ricky, who represents older food truck site users and users who are pressed for time.'
       - 'Persona card for Tina, who represents younger food truck site users and users who want a daily food experience.'
   - name: Research & Key Challenges
     content: 'During remote interviews I uncovered popular food trucks in the regions where the participants lived. These participants also gave me information in the usability studies remotely, via teleconferencing and screen sharing, to create user journeys. The key challenge was to condense the client’s expectations and market-standard features into a simple website.'
+    images:
+      - '/images/product-design/food-truck-site/research-and-key-challenges-1.jpg'
+      - '/images/product-design/food-truck-site/research-and-key-challenges-2.jpg'
+      - '/images/product-design/food-truck-site/research-and-key-challenges-3.jpg'
+      - '/images/product-design/food-truck-site/research-and-key-challenges-4.jpg'
     imageAlts: 
       - 'User journey map for Ricky.'
       - 'User journey map for Tina.'
@@ -36,11 +44,17 @@ sections:
       - 'Empathy map for Tina.'
   - name: Initial Design Concepts & Wireframes
     content: 'The wireframes were created alongside the users’ input. Their interviews became the basis for decisions made in the digital wireframes.'
+    images:
+      - '/images/product-design/food-truck-site/initial-design-concepts-and-wireframes-1.jpg'
+      - '/images/product-design/food-truck-site/initial-design-concepts-and-wireframes-2.jpg'
     imageAlts: 
       - 'Digital wireframes for the iPhone size screens for home, food details, payment, and shopping cart screens.'
       - 'Digital wireframes for the iPad size screens for the home and contact screens.'
   - name: Usability Testing
     content: 'Usability testing data was recorded in a spreadsheet for each of the participants. The responses were transformed into affinity groups to find themes.'
+    images:
+      - '/images/product-design/food-truck-site/usability-testing-1.jpg'
+      - '/images/product-design/food-truck-site/usability-testing-2.jpg'
     imageAlts: 
       - 'Usability issues recorded when tester 1 reviewed the wireframe prototype.'
       - 'Usability issues recorded when tester 2 reviewed the wireframe prototype.'

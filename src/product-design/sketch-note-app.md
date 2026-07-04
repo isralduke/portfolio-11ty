@@ -25,18 +25,27 @@ sections:
     content: 'The goal was to design a note-taking app which appeals to casual note takers.'
   - name: Target Audience
     content: 'The target audience for the sketch note app is someone who likes to use their finger to draw quick sketch notes. They’re not interested in a structured note. The act of scribbling a note is a natural, more organic experience than a text-editing experience.'
+    images:
+      - ‘/images/product-design/sketch-note-app/target-audience-1.jpg’
+      - ‘/images/product-design/sketch-note-app/target-audience-2.jpg’
     imageAlts:
-      - 'Persona card for Lora who represents users who want to take a few moments longer to create visual notes.'
-      - 'Persona card for Simone who represents users who don’t have much time to create visual notes.'
+      - ‘Persona card for Lora who represents users who want to take a few moments longer to create visual notes.’
+      - ‘Persona card for Simone who represents users who don’t have much time to create visual notes.’
   - name: Research & Key Challenges
     content: 'Research was performed by interviewing people who liked using real life sticky notes. The key challenge was repeatedly resisting our own efforts at “gold plating”.'
   - name: Initial Design Concepts & Wireframes
     content: 'We started with real pencil and paper to immerse ourselves in the organic feel we wanted to preserve for the user. Squares are the shape of sticky notes and squares are simple, basic shapes, so we decided to stick to simple shapes for the user interface and icons as well.'
+    images:
+      - '/images/product-design/sketch-note-app/initial-design-concepts-and-wireframes-1.jpg'
+      - '/images/product-design/sketch-note-app/initial-design-concepts-and-wireframes-2.jpg'
     imageAlts: 
       - 'Hand sketch showing original thoughts for the home, note, tag, and search screens.'
       - 'Hand sketch showing original thinking for the pen, eraser, note, and text option screens.'
   - name: Usability Testing
     content: 'We asked friends and family to look at Sketch mockups, sized for their phones, to get their feedback. We took that feedback to inform further iterative work on the app.'
+    images:
+      - '/images/product-design/sketch-note-app/usability-testing-1.jpg'
+      - '/images/product-design/sketch-note-app/usability-testing-2.jpg'
     imageAlts: 
       - 'Questions from wireframe prototype tester number one.'
       - 'Questions from wireframe prototype tester number two.'
